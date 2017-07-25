@@ -108,9 +108,9 @@ gov_colonial_government = {
 
 noble_republic = {
 	rank = {
-		1 = PRINCIPALITY
-		2 = GRAND_PRINCIPALITY
-		3 = GREAT_PRINCIPALITY
+		1 = PRINCEDOM
+		2 = GRAND_PRINCEDOM
+		3 = GREAT_PRINCEDOM
 	}
 	
 	ruler_male = {
@@ -241,6 +241,30 @@ gov_daimyo = {
 	
 	trigger = {
 		government = daimyo
+	}
+}
+
+gov_indep_daimyo = {
+	rank = {
+		1 = INDEP_DAIMYO
+		2 = GRAND_INDEP_DAIMYO
+		3 = GREAT_INDEP_DAIMYO
+	}
+	
+	ruler_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+	}
+	
+	trigger = {
+		government = indep_daimyo
 	}
 }
 

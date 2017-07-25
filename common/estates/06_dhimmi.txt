@@ -21,6 +21,7 @@ estate_dhimmi = {
 		NOT = { government = revolutionary_republic }
 		NOT = { government = native_council }
 		NOT = { government = siberian_native_council }
+		NOT = { government = veche_republic }
 		is_nomad = no
 		is_colonial_nation = no
 		NOT = { government = celestial_empire }
@@ -365,7 +366,7 @@ estate_dhimmi = {
 						}	
 					}
 				}
-				add_manpower = 0.1
+				add_yearly_manpower = 1
 			}
 			if = {
 				limit = {
@@ -380,7 +381,7 @@ estate_dhimmi = {
 						}	
 					}
 				}
-				add_manpower = 0.15
+				add_yearly_manpower = 1.5
 			}
 			if = {
 				limit = {
@@ -395,7 +396,7 @@ estate_dhimmi = {
 						}	
 					}
 				}
-				add_manpower = 0.2
+				add_yearly_manpower = 2
 			}
 			if = {
 				limit = {
@@ -404,7 +405,7 @@ estate_dhimmi = {
 						influence = 100
 					}
 				}
-				add_manpower = 0.25
+				add_yearly_manpower = 2.5
 			}
 			add_estate_loyalty = {
 				estate = estate_dhimmi

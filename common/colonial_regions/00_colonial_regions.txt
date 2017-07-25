@@ -645,6 +645,7 @@ colonial_california = {
 		name = "COLONIAL_CALIFORNIA_California"
 	}
 	names = {
+		trigger = { owns = 2481 } # Klamath
 		name = "COLONIAL_CALIFORNIA_Oregon"
 	}
 	names = {
@@ -723,12 +724,24 @@ colonial_mexico = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 	names = {
+		trigger = {
+			any_owned_province = { 
+				OR = {
+					area = yucatan_area
+					area = east_yucatan_area
+				}
+			}
+		}
 		name = "COLONIAL_MEXICO_Yucatan"
 	}
 	names = {
+		trigger = { owns = 841 } # Guatemala
 		name = "COLONIAL_MEXICO_Guatemala"
 	}
 	names = {
+		trigger = {
+			owns = 885 # Teyas
+		}
 		name = "COLONIAL_MEXICO_Texas"
 	}
 	names = {
@@ -825,9 +838,14 @@ colonial_the_carribean = {
 	}
 	names = {
 		trigger = {
-			owns = 484 # Havana
-			owns = 485 # Moron
-			owns = 486 # Guantanamo
+			OR = {
+				owns = 484 # Havana
+				owns = 485 # Moron
+				owns = 486 # Guantanamo
+				owns = 2656 # Camaguey
+				owns = 2655 # Bayamo
+				owns = 2654 # Baracoa
+			}
 		}
 		name = "COLONIAL_THE_CARRIBEAN_Cuba"
 	}
@@ -1050,9 +1068,23 @@ colonial_la_plata = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 	names = {
+		trigger = {
+			any_owned_province = { 
+				area = paraguay_area
+			}
+		}
 		name = "COLONIAL_LA_PLATA_Root_Culture_GetName_Paraguay"
 	}
 	names = {
+		trigger = { # Amélioration la Pléiade
+			any_owned_province = { 
+				OR = {
+					area = southern_chile_area
+					area = central_chile_area
+					area = northern_chile_area 
+				}
+			}
+		}
 		name = "COLONIAL_LA_PLATA_Root_Culture_GetName_Chile"
 	}
 	names = {

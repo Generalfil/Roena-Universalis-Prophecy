@@ -1,7 +1,5 @@
 english_civil_war = {
 	potential = {
-		is_year = 1600
-		NOT = { is_year = 1700 }
 		OR = {
 			AND = {
 				tag = ENG
@@ -11,7 +9,7 @@ english_civil_war = {
 		}
 		NOT = { has_country_flag = eng_civil_war_happened }
 		government = english_monarchy
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		is_lesser_in_union = no
 		british_isles_region = {
 			owned_by = ROOT
@@ -21,6 +19,7 @@ english_civil_war = {
 	
 	
 	can_start = {
+		current_age = age_of_absolutism
 		has_any_disaster = no
 		OR = {
 			NOT = { stability = 1 }

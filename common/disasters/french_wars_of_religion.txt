@@ -2,7 +2,6 @@ french_wars_of_religion = {
 	potential = {
 		tag = FRA
 		religion_group = christian
-		NOT = { is_year = 1600 }
 		NOT = { has_country_flag = had_religious_turmoil } 
 		NOT = { has_country_flag = FRA_wars_of_religion_ended } 
 		OR = {
@@ -10,16 +9,17 @@ french_wars_of_religion = {
 			religion = protestant
 			religion = reformed
 		}
-		OR = {
-			is_religion_enabled = protestant
-			is_religion_enabled = reformed
-		}
 		is_force_converted = no
 	}
 
 	
 	
 	can_start = {
+		current_age = age_of_reformation
+		OR = {
+			is_religion_enabled = protestant
+			is_religion_enabled = reformed
+		}
 		has_any_disaster = no
 		NOT = { religious_unity = 0.75 }
 		NOT = { full_idea_group = humanist_ideas }

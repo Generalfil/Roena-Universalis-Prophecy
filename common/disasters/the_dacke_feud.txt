@@ -2,14 +2,16 @@ the_dacke_feud = {
 	potential = {
 		tag = SWE
 		normal_or_historical_nations = yes
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		uses_doom = no
 		NOT = { has_country_flag = had_the_dacke_feud }
 		any_owned_province = {
 			OR = {
 				area = norrland_area
 				area = svealand_area
+				area = ostra_svealand_area
 				area = gotaland_area
+				area = vastra_gotaland_area
 				area = skaneland_area
 			}
 		}

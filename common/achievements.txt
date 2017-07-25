@@ -6,7 +6,7 @@ achievement_for_the_glory = {
 	id = 1
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -24,7 +24,7 @@ achievement_grand_army = {
 	id = 2
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -40,7 +40,7 @@ achievement_grand_navy = {
 	id = 3
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -56,7 +56,7 @@ achievement_defender_of_the_faith = {
 	id = 4
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -72,7 +72,7 @@ achievement_until_death_do_us_apart = {
 	id = 5
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -88,7 +88,7 @@ achievement_that_is_mine = {
 	id = 6
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -106,7 +106,7 @@ achievement_victorious = {
 	id = 7
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -130,7 +130,7 @@ achievement_emperors_new_clothes = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -147,7 +147,7 @@ achievement_down_under = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -166,7 +166,7 @@ achievement_isnt_this_the_way_to_india = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -189,7 +189,7 @@ achievement_azur_seme_de_lis_or = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -208,7 +208,7 @@ achievement_not_so_sad_a_state = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -225,14 +225,14 @@ achievement_not_so_sad_a_state = {
 			owned_by = POR
 			is_colony = yes
 		}
-	}	
+	}
 }
 
 achievement_seriously = {
 	id = 13
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -250,7 +250,7 @@ achievement_its_all_about_the_money = {
 	id = 14
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -265,7 +265,7 @@ achievement_respected = {
 	id = 15
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -282,7 +282,7 @@ achievement_true_catholic = {
 	id = 16
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -303,7 +303,7 @@ achievement_truly_divine_ruler = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -327,7 +327,7 @@ achievement_grand_coalition = {
 	id = 51
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -348,7 +348,7 @@ achievement_italian_ambition = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -368,7 +368,7 @@ achievement_cold_war = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -387,7 +387,7 @@ achievement_royal_authority = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -406,7 +406,7 @@ achievement_viva_la_revolucion = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -425,7 +425,7 @@ achievement_brothers_in_arms = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -444,7 +444,7 @@ achievement_no_pirates_in_my_carribean = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -454,7 +454,7 @@ achievement_no_pirates_in_my_carribean = {
 	happened = {
 		carribeans_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 	}
 }
@@ -464,7 +464,7 @@ achievement_master_of_india = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -507,7 +507,7 @@ achievement_sweden_is_not_overpowered = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -559,7 +559,7 @@ achievement_my_armies_are_invincible = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -575,7 +575,7 @@ achievement_this_navy_can_take_it_all = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -591,7 +591,7 @@ achievement_winged_hussars = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -620,7 +620,7 @@ achievement_the_pen_is_mightier_than_the_sword = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		tag = HAB
@@ -629,7 +629,7 @@ achievement_the_pen_is_mightier_than_the_sword = {
 	
 	happened = {
 		tag = HAB
-		num_of_unions = 3
+		personal_union = 3
 	}
 }
 
@@ -638,7 +638,7 @@ achievement_traditional_player = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -655,7 +655,7 @@ achievement_its_all_about_luck = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -674,7 +674,7 @@ achievement_all_belongs_to_mother_russia = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -691,7 +691,7 @@ achievement_at_every_continent = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -725,7 +725,7 @@ achievement_spain_is_the_emperor = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -750,7 +750,7 @@ achievement_an_early_reich = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -770,7 +770,7 @@ achievement_poland_can_into_space = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -789,7 +789,7 @@ achievement_world_discoverer = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -807,7 +807,7 @@ achievement_the_chrysanthemum_throne = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -834,7 +834,7 @@ achievement_trade_hegemon = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -860,7 +860,7 @@ achievement_basileus = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -923,7 +923,7 @@ achievement_agressive_expander = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -939,7 +939,7 @@ achievement_kaiser_not_just_in_name = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -959,7 +959,7 @@ achievement_norwegian_wood = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -970,7 +970,7 @@ achievement_norwegian_wood = {
 		NOT = {
 			any_province = {
 				trade_goods = naval_supplies
-				NOT = { country_or_vassal_holds = NOR }
+				NOT = { country_or_non_sovereign_subject_holds = NOR }
 			}
 		}
 	}
@@ -981,7 +981,7 @@ achievement_african_power = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1009,7 +1009,7 @@ achievement_no_trail_of_tears = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1070,7 +1070,17 @@ achievement_no_trail_of_tears = {
 			owned_by = CHE
 			is_core = CHE
 		}
+		south_carolina_area = {
+			type = all
+			owned_by = CHE
+			is_core = CHE
+		}
 		appalachia_area = {
+			type = all
+			owned_by = CHE
+			is_core = CHE
+		}
+		south_appalachia_area = {
 			type = all
 			owned_by = CHE
 			is_core = CHE
@@ -1091,7 +1101,7 @@ achievement_one_night_in_paris = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1112,7 +1122,7 @@ achievement_definitely_the_sultan_of_rum = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1131,7 +1141,7 @@ achievement_market_control = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1147,7 +1157,7 @@ achievement_ruina_imperii = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1164,7 +1174,7 @@ achievement_luck_of_the_irish = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1199,7 +1209,7 @@ achievement_world_conqueror = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1212,7 +1222,10 @@ achievement_world_conqueror = {
 				NOT = {
 					OR = {
 						tag = ROOT
-						is_subject_of = ROOT
+						AND = {
+							is_subject_of = ROOT
+							NOT = { is_subject_of_type = tributary_state }
+						}
 					}
 				}
 				exists = yes
@@ -1226,7 +1239,7 @@ achievement_the_three_mountains = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1238,11 +1251,14 @@ achievement_the_three_mountains = {
 		NOT = {
 			any_country = {
 				NOT = {
-					OR = {
-						tag = RYU
-						is_subject_of = RYU
-					}
-				}
+                    OR = {
+                        tag = RYU
+                        AND = {
+                            is_subject_of = RYU
+                            NOT = { is_subject_of_type = tributary_state }
+                        }
+                    }
+                }
 				exists = yes
 			}
 		}
@@ -1254,7 +1270,7 @@ achievement_jihad = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1277,7 +1293,7 @@ achievement_sunset_invasion = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1305,7 +1321,7 @@ achievement_just_a_little_patience = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1322,7 +1338,7 @@ achievement_turning_the_tide = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1347,15 +1363,15 @@ achievement_double_the_love = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		NOT = { num_of_unions = 1 }
+		NOT = { personal_union = 1 }
 	}
 	
 	happened = {
-		num_of_unions = 2
+		personal_union = 2
 	}
 }
 
@@ -1365,7 +1381,7 @@ achievement_liberty_or_death = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1776.7.4
@@ -1387,7 +1403,7 @@ achievement_nobody_wants_to_die = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1410,7 +1426,7 @@ achievement_in_the_name_of_the_father = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1431,7 +1447,7 @@ achievement_the_rising_sun = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1455,7 +1471,7 @@ achievement_the_five_colonies = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1474,7 +1490,7 @@ achievement_the_five_colonies = {
 	}
 	
 	happened = {
-		num_of_colonial_subjects = 5
+		colony = 5
 	}
 }
 
@@ -1484,7 +1500,7 @@ achievement_the_re_reconquista = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1507,7 +1523,7 @@ achievement_turn_the_table = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1536,7 +1552,7 @@ achievement_the_great_khan = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1549,37 +1565,37 @@ achievement_the_great_khan = {
 	happened = {
 		russia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		ural_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		crimea_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		#China Super Region:
 		south_china_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		xinan_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		north_china_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		#Persia Super Region:
 		persia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		khorasan_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 	}
 }
@@ -1590,7 +1606,7 @@ achievement_four_for_trade = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1611,7 +1627,7 @@ achievement_the_grand_armada = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1629,7 +1645,7 @@ achievement_je_maintiendrai = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1648,7 +1664,7 @@ achievement_a_protected_market = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1665,7 +1681,7 @@ achievement_queen_of_mercury = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1685,7 +1701,7 @@ achievement_a_pile_of_gold = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1702,7 +1718,7 @@ achievement_sons_of_carthage = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1737,7 +1753,7 @@ achievement_the_princess_is_in_this_castle = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1760,7 +1776,7 @@ achievement_electable = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1788,7 +1804,7 @@ achievement_vasa_or_wettin = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1824,7 +1840,7 @@ achievement_sinaasappel = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1841,7 +1857,7 @@ achievement_sinaasappel = {
 	happened = {
 		has_switched_nation = no
 		is_orangists_in_power = yes
-		republican_tradition = 0.99
+		republican_tradition = 99
 		
 		OR = {
 			south_china_region = {
@@ -1869,7 +1885,7 @@ achievement_one_king_to_rule = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1878,7 +1894,7 @@ achievement_one_king_to_rule = {
 
 	happened = {
 		has_switched_nation = no
-		government = absolute_monarchy
+		government = administrative_monarchy
 	}
 }
 
@@ -1888,7 +1904,7 @@ achievement_venetian_sea = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1920,7 +1936,7 @@ achievement_iron_price = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1962,7 +1978,7 @@ achievement_total_control = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -1986,7 +2002,7 @@ achievement_center_of_attention = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2011,7 +2027,7 @@ achievement_this_revolution_was_crushed = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2040,7 +2056,7 @@ achievement_a_manchurian_candidate = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2062,7 +2078,7 @@ achievement_land_of_eastern_jade = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2096,7 +2112,7 @@ achievement_thats_a_silk_road = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2108,7 +2124,7 @@ achievement_thats_a_silk_road = {
 			NOT = {
 				any_province = {
 					trade_goods = silk
-					NOT = { country_or_vassal_holds = ROOT }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				}
 			}
 		}
@@ -2121,7 +2137,7 @@ achievement_my_true_friend = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2141,7 +2157,7 @@ achievement_marshy_march = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2166,7 +2182,7 @@ achievement_shahanshah = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2185,7 +2201,7 @@ achievement_die_please_die = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2212,7 +2228,7 @@ achievement_holy_trinity = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2246,7 +2262,7 @@ achievement_switzerlake = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2269,7 +2285,7 @@ achievement_king_of_jerusalem = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2290,7 +2306,7 @@ achievement_krabater = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2313,7 +2329,7 @@ achievement_lion_of_the_north = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2339,7 +2355,7 @@ achievement_guaranteer_of_peace = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2364,7 +2380,7 @@ achievement_servitor_of_jagannath = {
 	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2376,7 +2392,7 @@ achievement_servitor_of_jagannath = {
 		NOT = {
 			any_province = {
 				trade_goods = tropical_wood
-				NOT = { country_or_vassal_holds = ROOT }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			}
 		}
 	
@@ -2389,7 +2405,7 @@ achievement_bengal_tiger = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2410,7 +2426,7 @@ achievement_prester_john = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2432,7 +2448,7 @@ achievement_auld_alliance = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2452,7 +2468,7 @@ achievement_gothic_invasion = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2478,7 +2494,7 @@ achievement_kow_tow = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2512,7 +2528,7 @@ achievement_barbarossa = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2530,7 +2546,7 @@ achievement_georgia_on_my_mind = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2539,24 +2555,24 @@ achievement_georgia_on_my_mind = {
 
 	happened = {
 		#Original Georgia
-		owns_or_vassal_of = 2196	# Guria
-		owns_or_vassal_of = 2203	# Kakheti
-		owns_or_vassal_of = 2204	# Samtshke
-		owns_or_vassal_of = 422 	# Imereti
-		owns_or_vassal_of = 423 	# Kartli
-		owns_or_vassal_of = 462 	# Mingrelia
+		owns_or_non_sovereign_subject_of = 2196	# Guria
+		owns_or_non_sovereign_subject_of = 2203	# Kakheti
+		owns_or_non_sovereign_subject_of = 2204	# Samtshke
+		owns_or_non_sovereign_subject_of = 422 	# Imereti
+		owns_or_non_sovereign_subject_of = 423 	# Kartli
+		owns_or_non_sovereign_subject_of = 462 	# Mingrelia
 	
 		# American Georgia
-		owns_or_vassal_of = 929
-		owns_or_vassal_of = 930
-		owns_or_vassal_of = 2537
-		owns_or_vassal_of = 2538
-		owns_or_vassal_of = 2539
-		owns_or_vassal_of = 2540
+		owns_or_non_sovereign_subject_of = 929
+		owns_or_non_sovereign_subject_of = 930
+		owns_or_non_sovereign_subject_of = 2537
+		owns_or_non_sovereign_subject_of = 2538
+		owns_or_non_sovereign_subject_of = 2539
+		owns_or_non_sovereign_subject_of = 2540
 	
 	
 		# South Georgia
-		owns_or_vassal_of = 2025
+		owns_or_non_sovereign_subject_of = 2025
 		
 	}
 }
@@ -2567,7 +2583,7 @@ achievement_albania_or_iberia = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2578,11 +2594,11 @@ achievement_albania_or_iberia = {
 		has_switched_nation = no
 		iberia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		caucasia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 	}
 }
@@ -2593,7 +2609,7 @@ achievement_spice_must_flow = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2615,7 +2631,7 @@ achievement_raja_of_the_rajput_reich = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2626,11 +2642,11 @@ achievement_raja_of_the_rajput_reich = {
 		has_switched_nation = no
 		north_german_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}	
 		south_german_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}	
 	}
 }
@@ -2641,7 +2657,7 @@ achievement_sun_never_sets_on_the_indian_empire = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2666,10 +2682,10 @@ achievement_sun_never_sets_on_the_indian_empire = {
 			tag = HIN
 			tag = BHA
 		}
-		owns_or_vassal_of = 236 # London
-		owns_or_vassal_of = 1177 # Cape
-		owns_or_vassal_of = 667 # Hongkong (in Canton)
-		owns_or_vassal_of = 2585 # Ottawa (in Kichesipi)
+		owns_or_non_sovereign_subject_of = 236 # London
+		owns_or_non_sovereign_subject_of = 1177 # Cape
+		owns_or_non_sovereign_subject_of = 667 # Hongkong (in Canton)
+		owns_or_non_sovereign_subject_of = 2585 # Ottawa (in Kichesipi)
 		
 	}
 }
@@ -2680,7 +2696,7 @@ achievement_over_a_thousand = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2697,7 +2713,7 @@ achievement_draculas_revenge = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2706,10 +2722,10 @@ achievement_draculas_revenge = {
 
 	happened = {
 		tag = RMN
-		
+		has_switched_nation = no
 		balkan_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}			
 	}
 }
@@ -2725,7 +2741,7 @@ achievement_arabian_coffee = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2750,7 +2766,7 @@ achievement_even_better_than_piet_heyn = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2776,7 +2792,7 @@ achievement_a_sun_god = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2784,6 +2800,7 @@ achievement_a_sun_god = {
 	}
 
 	happened = {
+		tag = INC
 		has_switched_nation = no
 		has_institution = feudalism
 		has_institution = renaissance
@@ -2792,7 +2809,6 @@ achievement_a_sun_god = {
 		has_institution = global_trade
 		has_institution = manufactories
 		has_institution = enlightenment
-		tag = INC
 		
 		south_america = {
 			type = all
@@ -2816,7 +2832,7 @@ achievement_on_the_edge_of_madness = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2846,7 +2862,7 @@ achievement_magellans_voyage = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2871,7 +2887,7 @@ achievement_imperio_espanol = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2889,19 +2905,19 @@ achievement_imperio_espanol = {
 		has_switched_nation = no
 		tag = SPA
 		852 = { #Mexico
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 			owner_is_colonial_nation = yes
 		}
 		835 = { #Panama
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 			owner_is_colonial_nation = yes
 		}
 		484 = { #Havana
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 			owner_is_colonial_nation = yes
 		}
 		808 = {	#Cuzco
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 			owner_is_colonial_nation = yes
 		}				
 	}
@@ -2912,7 +2928,7 @@ achievement_blockader = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2928,7 +2944,7 @@ achievement_this_is_persia = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2984,7 +3000,7 @@ achievement_kirishitan_japan = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -2992,7 +3008,7 @@ achievement_kirishitan_japan = {
 	}
 
 	happened = {
-		has_switched_nation = no
+		tag = JAP
 		religion_group = christian
 		japan_region = {
 			type = all
@@ -3008,7 +3024,7 @@ achievement_hessian_mercenaries = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3034,7 +3050,7 @@ achievement_baltic_crusader = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3077,7 +3093,7 @@ achievement_neither_holy_nor_german = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3109,7 +3125,7 @@ achievement_colonial_management = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3148,7 +3164,7 @@ achievement_voting_streak = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3168,7 +3184,7 @@ achievement_industrial_evolution = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11	
@@ -3183,31 +3199,31 @@ achievement_industrial_evolution = {
 	}	
 
 	happened = {
-		has_switched_nation = no	
+		has_switched_nation = no
 		tag = GBR
 		northern_england_area = {
 			type = all
 			development = 25
 			owned_by = ROOT
-			is_core = ROOT			
+			is_core = ROOT
 		}
 		mercia_area = {
 			type = all
 			development = 25
 			owned_by = ROOT
-			is_core = ROOT			
+			is_core = ROOT
 		}
 		east_anglia_area = {
 			type = all
 			development = 25
 			owned_by = ROOT
-			is_core = ROOT			
+			is_core = ROOT
 		}
 		wessex_area = {
 			type = all
 			development = 25
 			owned_by = ROOT
-			is_core = ROOT			
+			is_core = ROOT
 		}
 	}
 }
@@ -3217,7 +3233,7 @@ achievement_city_of_cities = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3240,7 +3256,7 @@ achievement_one_family_to_rule_them_all = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3269,7 +3285,7 @@ achievement_this_is_my_faith = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3290,7 +3306,7 @@ achievement_bleed_them_dry = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3306,7 +3322,7 @@ achievement_subsidize_my_love = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3329,7 +3345,7 @@ achievement_take_that_habsburgs = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3367,7 +3383,7 @@ achievement_white_elephant = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3395,7 +3411,7 @@ achievement_buddhists_strike_back = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3444,7 +3460,7 @@ achievement_better_than_napoleon = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3465,7 +3481,7 @@ achievement_big_blue_blob = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3491,15 +3507,15 @@ achievement_full_house = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
 	}
 
 	happened = {
-		num_of_marches = 2
-		num_of_vassals = 3
+		march = 2
+		vassal = 3
 	}
 }
 
@@ -3508,7 +3524,7 @@ achievement_black_jack = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3530,7 +3546,7 @@ achievement_a_decent_reserve = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3546,7 +3562,7 @@ achievement_six_nations = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3566,7 +3582,7 @@ achievement_the_bohemians = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3587,7 +3603,7 @@ achievement_komenoi_empire = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3606,7 +3622,7 @@ achievement_lucky_lucca = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3625,7 +3641,7 @@ achievement_fine_goosestep = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3654,7 +3670,7 @@ achievement_meissner_porcelain = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3667,7 +3683,7 @@ achievement_meissner_porcelain = {
 		NOT = {
 			any_province = {
 				trade_goods = chinaware
-				NOT = { country_or_vassal_holds = SAX }
+				NOT = { country_or_non_sovereign_subject_holds = SAX }
 			}
 		}
 	}
@@ -3679,7 +3695,7 @@ achievement_all_your_trade_are_belong_to_us = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3706,7 +3722,7 @@ achievement_grand_duchy = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3724,7 +3740,7 @@ achievement_rags_and_riches = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3750,7 +3766,7 @@ achievement_strait_talk = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3769,7 +3785,7 @@ achievement_academical = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3793,7 +3809,7 @@ achievement_one_faith = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3815,7 +3831,7 @@ achievement_dar_al_islam = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3837,7 +3853,7 @@ achievement_the_uncommonwealth = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3855,7 +3871,7 @@ achievement_the_burgundian_inheritance = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3880,7 +3896,7 @@ achievement_the_third_way = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3906,7 +3922,7 @@ achievement_back_to_the_piast = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3927,7 +3943,7 @@ achievement_great_perm = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -3939,35 +3955,35 @@ achievement_great_perm = {
 		tag = PRM
 		russia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}		
 		ural_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}		
 		scandinavia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		west_siberia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		east_siberia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		cascadia_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}			
 		hudson_bay_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}	
 		canada_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}			
 	}
 }
@@ -3977,7 +3993,7 @@ achievement_lazarus = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4000,7 +4016,7 @@ achievement_frozen_assets = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4024,7 +4040,7 @@ achievement_tatarstan = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4054,7 +4070,7 @@ achievement_terra_mariana = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4077,7 +4093,7 @@ achievement_blood_for_the_sky_god = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4098,7 +4114,7 @@ achievement_pyramid_of_skulls = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4124,7 +4140,7 @@ achievement_trustworthy = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4140,7 +4156,7 @@ achievement_the_continuation_of_diplomacy = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4163,7 +4179,7 @@ achievement_factionalism = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4184,7 +4200,7 @@ achievement_from_humble_origins = {
 	possible = {
 		is_playing_custom_nation = yes
 		NOT = { num_of_custom_nations = 2 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4203,7 +4219,7 @@ achievement_ideas_guy = {
 	possible = {
 		is_playing_custom_nation = yes
 		NOT = { num_of_custom_nations = 2 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4223,7 +4239,7 @@ achievement_for_odin = {
 	possible = {
 		is_playing_custom_nation = yes
 		NOT = { num_of_custom_nations = 2 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4256,7 +4272,7 @@ achievement_rekindling_the_flames = {
 	possible = {
 		is_playing_custom_nation = yes
 		NOT = { num_of_custom_nations = 2 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4278,7 +4294,7 @@ achievement_first_come_first_serve = {
 	possible = {
 		is_playing_custom_nation = yes
 		NOT = { num_of_custom_nations = 2 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4321,13 +4337,20 @@ achievement_mare_nostrum = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
 		NOT = { tag = PAP }
 	}
 
+	visible = {
+		OR = {
+			religion_group = christian
+			religion_group = pagan
+		}
+	}
+	
 	happened = {
 		tag = ROM
 		owns = 1751
@@ -4475,7 +4498,7 @@ achievement_kuban_cigars = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4483,7 +4506,7 @@ achievement_kuban_cigars = {
 	}
 
 	happened = {
-		owns_or_vassal_of = 484 # Havana
+		owns_or_non_sovereign_subject_of = 484 # Havana
 		OR = {
 			production_leader = { trade_goods = tobacco }
 			any_subject_country = {
@@ -4498,7 +4521,7 @@ achievement_kushite_restoration = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4508,7 +4531,7 @@ achievement_kushite_restoration = {
 	happened = {
 		egypt_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 	}
 }
@@ -4518,7 +4541,7 @@ achievement_fezzan_corridors = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4558,7 +4581,7 @@ achievement_victorian_three = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4581,7 +4604,7 @@ achievement_animal_kingdom = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4591,7 +4614,7 @@ achievement_animal_kingdom = {
 	happened = {
 		bengal_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 			religion = animism
 		}
 	}
@@ -4602,7 +4625,7 @@ achievement_golden_horn = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4612,7 +4635,7 @@ achievement_golden_horn = {
 	happened = {
 		horn_of_africa_region = {
 			type = all
-			country_or_vassal_holds = ROOT
+			country_or_non_sovereign_subject_holds = ROOT
 		}
 		gold_income = 10
 	}
@@ -4623,7 +4646,7 @@ achievement_kinslayer = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4650,7 +4673,7 @@ achievement_choson_one = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4661,7 +4684,7 @@ achievement_choson_one = {
 		NOT = {
 			any_province = {
 				religion_group = eastern
-				NOT = { country_or_vassal_holds = KOR }
+				NOT = { country_or_non_sovereign_subject_holds = KOR }
 			}
 		}
 	}
@@ -4672,7 +4695,7 @@ achievement_sailor_mon = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4688,7 +4711,7 @@ achievement_networking = {
 	id = 181
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4711,10 +4734,14 @@ achievement_the_white_company = {
 	id = 182
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
+	}
+	
+	visible = {
+		has_dlc = "Mare Nostrum"
 	}
 
 	happened = {
@@ -4730,11 +4757,13 @@ achievement_time_bandit = {
 	id = 183
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
 	}
+	
+	
 
 	happened = {
 		custom_trigger_tooltip = {
@@ -4750,7 +4779,7 @@ achievement_with_a_little_help = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4773,7 +4802,7 @@ achievement_just_resting_in_my_account = {
 	id = 185
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4794,7 +4823,7 @@ achievement_cities_of_cibola = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4814,7 +4843,7 @@ achievement_turkish_delight = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4828,6 +4857,9 @@ achievement_turkish_delight = {
 					owned_by = CND
 					owner = {
 						is_subject_of = CND
+						NOT = {
+							is_subject_of_type = tributary_state
+						}
 					}
 				}
 				trade_goods = sugar
@@ -4842,7 +4874,7 @@ achievement_baa_baa_black_sheep = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4858,7 +4890,7 @@ achievement_fanatic_collectivist = {
 	id = 189
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4873,22 +4905,24 @@ achievement_fanatic_collectivist = {
 		is_institution_enabled = enlightenment
 		custom_trigger_tooltip = {
 			tooltip = achievement_fanatic_collectivist_tooltip
-			any_owned_province = { has_province_modifier = birthplace_of_the_renaissance }
-			any_owned_province = { has_province_modifier = birthplace_of_the_new_world }
-			any_owned_province = { has_province_modifier = birthplace_of_printing_press }
-			any_owned_province = { has_province_modifier = birthplace_of_global_trade }
-			any_owned_province = { has_province_modifier = birthplace_of_manufactories }
-			any_owned_province = { has_province_modifier = birthplace_of_enlightenment }
+			any_owned_province = { is_institution_origin = renaissance }
+			any_owned_province = { is_institution_origin  = new_world_i }
+			any_owned_province = { is_institution_origin  = printing_press }
+			any_owned_province = { is_institution_origin  = global_trade }
+			any_owned_province = { is_institution_origin  = manufactories }
+			any_owned_province = { is_institution_origin  = enlightenment }
 		}
 	}
 }
+
+
 
 achievement_core_fu = {
 	id = 190
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4908,7 +4942,7 @@ achievement_rozwi_empire = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4917,6 +4951,10 @@ achievement_rozwi_empire = {
 
 	happened = {
 		zimbabwe_area = {
+			type = all
+			owned_by = ROOT
+		}
+		butua_area = {
 			type = all
 			owned_by = ROOT
 		}
@@ -4933,7 +4971,7 @@ achievement_sudanese_expedition = {
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		tag = MOR
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4956,7 +4994,7 @@ achievement_a_tale_of_two_families = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -4987,7 +5025,7 @@ achievement_abu_bakr_IIs_ambition = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5015,7 +5053,7 @@ achievement_consulate_of_the_sea = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5025,12 +5063,15 @@ achievement_consulate_of_the_sea = {
 	happened = {
 		owns = 101 #Genoa
 		owns = 112 #Venice
+		owns = 121 #Naples
+		owns = 148 #Thesaloniki
 		owns = 151 #Constantinople
 		owns = 137 #Ragusa
 		owns = 220 #Valencia
 		owns = 317 #Bursa
 		owns = 336 #Tlemcen
 		owns = 341 #Tunis
+		owns = 354 #Tripoli
 		owns = 358 #Alexandria
 	}
 }
@@ -5039,7 +5080,7 @@ achievement_we_bled_for_this = {
 	id = 196
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5062,7 +5103,7 @@ achievement_pick_your_poison = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5089,7 +5130,7 @@ achievement_not_just_pizza = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5112,7 +5153,7 @@ achievement_all_that_is_thine_shall_be_mine = {
 	id = 199
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5135,7 +5176,7 @@ achievement_a_blessed_nation = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5143,6 +5184,7 @@ achievement_a_blessed_nation = {
 	
 	visible = {
 		has_dlc = "Rights of Man"
+		religion = coptic
 	}
 
 	happened = {
@@ -5156,7 +5198,7 @@ achievement_queen_of_conquest = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5180,7 +5222,7 @@ achievement_aaa_credit = {
 	id = 202
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
@@ -5204,7 +5246,7 @@ achievement_hoarder = {
 
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		religion = shamanism
@@ -5224,7 +5266,7 @@ achievement_gentle_persuasion = {
 	id = 204
 	
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 	}
@@ -5245,7 +5287,7 @@ achievement_combined_arms = {
 	id = 205
 
 	possible = {
-		normal_or_historical_nations = yes	
+		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 	}
@@ -5257,5 +5299,634 @@ achievement_combined_arms = {
 	happened = {
 		num_of_admirals_with_traits = 1
 		num_of_generals_with_traits = 1
+	}
+}
+
+# Mandate of Heaven below
+
+
+achievement_turtles_all_the_way_down = {
+	id = 206
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = KOR
+	}
+	
+	happened = {
+		has_global_modifier_value = {
+			which = ship_durability
+			value = 0.35
+			extra_shortcut = yes
+		}
+	}
+}
+
+achievement_the_navigator = {
+	id = 207
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = POR
+	}
+	
+	happened = {
+		NOT = { is_year = 1500 }
+		any_owned_province = { continent = africa }
+		any_owned_province = { superregion = india_superregion }
+		any_owned_province = { superregion = east_indies_superregion }
+	}
+}
+
+achievement_gold_rush = {
+	id = 208
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		government = steppe_horde
+		culture_group = tartar
+	}
+	
+	happened = {
+		NOT = { is_year = 1500 }
+		tag = GLH
+	}
+}
+
+achievement_graze_my_horse_here_and_here = {
+	id = 209
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		government = steppe_horde
+	}
+	
+	happened = {
+		government = steppe_horde
+		grain = 200
+	}
+}
+
+achievement_rise_of_the_white_sheep = {
+	id = 210
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = AKK
+	}
+	
+	happened = {
+		NOT = { is_year = 1478 }
+		NOT = { exists = QAR }
+		owns = 416 #Tabriz
+	}
+}
+
+achievement_where_the_heart_is = {
+	id = 211
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = DAH
+	}
+	
+	happened = {
+		NOT = { is_year = 1500 }
+		niger_region = {
+			OR = {
+				owner = {
+					religion = shamanism
+				}
+				is_empty = yes
+			}
+			type = all
+		}
+		sahel_region = {
+			OR = {
+				owner = {
+					religion = shamanism
+				}
+				is_empty = yes
+			}
+			type = all
+		}
+	}
+}
+
+achievement_disciples_of_enlightenment = {
+	id = 212
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = DAI
+	}
+	
+	happened = {
+		NOT = { is_year = 1500 }
+		custom_trigger_tooltip = {
+			tooltip = atleast_10_mahayana_tooltip
+			calc_true_if = {
+				all_country = {
+					religion = mahayana
+				}
+				amount = 10
+			}
+		}
+	}
+}
+
+achievement_first_toungoo_empire = {
+	id = 213
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = TAU
+	}
+	
+	happened = {
+		NOT = { is_year = 1500 }
+		tag = TAU
+		NOT = {
+			any_province = {
+				culture_group = burman
+				NOT = { owned_by = TAU }
+			}
+		}
+	}
+}
+
+achievement_made_in_japan = {
+	id = 214
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		culture_group = japanese_g
+	}
+	
+	happened = {
+		NOT = { is_year = 1655 }
+		tag = JAP
+		has_institution = manufactories
+	}
+}
+
+achievement_three_trivial_tributaries = {
+	id = 215
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		OR = {
+			religion_group = eastern
+			government = steppe_horde
+		}
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+	}
+	
+	happened = {
+		calc_true_if = {
+			all_subject_country = {
+				is_subject_of_type = tributary_state
+				OR ={
+					government = tribal
+					government = native_council #Not tribal but localized as Tribe
+					government = siberian_native_council #Not Tribal but localized as Tribe
+				}
+			}
+			amount = 3
+		}
+	}
+}
+
+achievement_qing_of_china = {
+	id = 216
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+		primary_culture = manchu
+	}
+	
+	happened = {
+		tag = QNG
+		is_emperor_of_china = yes
+	}
+}
+
+achievement_carthago_delenda_est = {
+	id = 217
+
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		culture_group = latin
+	}
+	
+	happened = {
+		culture_group = latin
+		tunisia_area = {
+			devastation = 100
+			type = all
+		}
+	}
+}
+
+achievement_live_long_and_prosper = {
+	id = 218
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	
+	happened = {
+			custom_trigger_tooltip = {
+				tooltip = achievement_live_long_and_prosper_tooltip
+				calc_true_if = {
+					all_states = {
+						is_prosperous = yes
+					}
+					amount = 30
+				}
+			}
+			ruler_age = 70
+
+	}
+}
+
+
+achievement_tear_down_this_wall = {
+	id = 219
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = achievement_tear_down_this_wall_tooltip
+			has_country_flag = have_berlin_wall
+		}
+
+	}
+}
+
+achievement_golden_empire = {
+	id = 220
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	
+	happened = {
+		in_golden_age = yes
+		government_rank = 3
+	}
+}
+achievement_cherrypicking = {
+	id = 221
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		culture_group = japanese_g
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+	}
+	
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = achievement_cherrypicking_tooltip
+			has_country_flag = cherry_picker
+		}
+	}
+}
+achievement_banners_need_a_saga = {
+	id = 222
+	possible = {	
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		primary_culture = manchu
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+	}
+	
+	happened = {
+		num_of_banners = 100
+	}
+}
+achievement_sweet_harmony = {
+	id = 223
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	
+	visible = {
+		has_dlc = "Mandate of Heaven"
+		religion = confucianism
+	}
+	
+	happened = {
+		religion = confucianism
+		num_of_harmonized = 7
+	}
+}
+achievement_sakoku_law = {
+	id = 224
+	possible = {
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		religion = shinto
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = achievement_sakoku_law_tooltip
+			check_variable = { which = isolationism_achievement_counter value = 6 }
+		}
+	}
+}
+achievement_absolutely = {
+	id = 225
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		absolutism = 100
+	}
+}
+
+#Third Rome Achievements:
+
+achievement_dovmonts_own = {
+	id = 226
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		NOT = { num_of_custom_nations = 1 }
+		start_date = 1444.11.11
+		tag = PSK
+	}
+	visible = {
+		has_dlc = "Third Rome"
+	}
+	happened = {
+		num_of_streltsy = 100
+	}
+}
+
+achievement_redecorating = {
+	id = 227
+	possible = {
+		normal_province_values = yes
+		normal_or_historical_nations = yes
+		ironman = yes
+		NOT = { num_of_custom_nations = 1 }
+		start_date = 1444.11.11
+		religion = orthodox
+	}
+	visible = {
+		has_dlc = "Third Rome"
+	}
+	happened = {
+		owns_core_province = 118
+		118 = {
+			has_state_patriach = yes
+		}
+	}
+}
+
+achievement_breaking_the_yoke = {
+	id = 228
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		NOT = { num_of_custom_nations = 1 }
+		start_date = 1444.11.11
+		tag = RYA
+	}
+	happened = {
+		owns = 284 #Crimea
+		owns = 303 #Saratov
+		owns = 1082 #Kazan
+		is_subject = no
+	}
+}
+
+achievement_back_in_control = {
+	id = 229
+	possible = {
+		normal_province_values = yes
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	visible = {
+		culture_group = altaic
+	}
+	happened = {
+		tag = YUA
+		china_superregion = {
+			owned_by = ROOT
+			type = all
+		}
+	}
+}
+
+achievement_mass_production = {
+	id = 230
+	possible = {
+		normal_province_values = yes
+		NOT = { num_of_custom_nations = 1 }
+		ironman = yes
+		start_date = 1444.11.11
+		tag = OKA
+	}
+	happened = {
+		wharf = 1
+		weapons = 1
+		textile = 1
+		plantations = 1
+		tradecompany = 1
+	}
+}
+
+achievement_relentless_push_east = {
+	id = 231
+	possible = {
+		normal_province_values = yes
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		ironman = yes
+		start_date = 1444.11.11
+		culture_group = east_slavic
+	}
+	happened = {
+		NOT = { is_year = 1601 }
+		east_siberia_region = {
+			type = all
+			OR = {
+				has_port = no
+				owned_by = ROOT
+			}
+		}
+	}
+}
+
+achievement_laughingstock = {
+	id = 232
+	possible = {
+		normal_province_values = yes
+		NOT = { num_of_custom_nations = 1 }
+		normal_or_historical_nations = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		owns = 1983 #Lolland
+		owns = 2470 #Haha
+		owns = 4073 #Hehe
+	}
+}
+
+achievement_lessons_of_hemmingstedt = {
+	id = 233
+	possible = {
+		normal_province_values = yes
+		NOT = { num_of_custom_nations = 1 }
+		ironman = yes
+		start_date = 1444.11.11
+		tag = DTT
+	}
+	happened = {
+		NOT = { exists = DAN }
+		owns = 12
+		owns = 97
+	}
+}
+
+achievement_its_all_greek_to_me = {
+	id = 234
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	visible = {
+		primary_culture = greek
+	}
+	happened = {
+		tag = GRE
+		owns_core_province = 138 #Zeta
+		owns_core_province = 504 #Thatta
+		owns_core_province = 578 #Roh
+		owns_core_province = 4104 #Lamba
+	}
+}
+
+achievement_52_garhs = {
+	id = 235
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = GHR
+	}
+	happened = {
+		NOT = { num_of_loans = 1 }
+		calc_true_if = {
+			all_owned_province = {
+				fort_level = 2
+			}
+			amount = 52
+		}
 	}
 }

@@ -1,12 +1,15 @@
 ########################################
 # Celestial Empire Factions
 ########################################
+# Cleared and replaced by Empire of China 
+# at start of game if MoH DLC is active.
+
 temples =
 {
 	#Allows to fight wars.
 	monarch_power = MIL
 	always = yes
-	
+
 	modifier = 
 	{
 		manpower_recovery_speed = 0.1
@@ -42,7 +45,6 @@ bureaucrats =
 		discipline = -0.05
 	}
 }
-
 
 
 ########################################
@@ -125,7 +127,7 @@ rr_royalists =
 		diplomatic_reputation = 1
 		state_maintenance_modifier = -0.25
 		reduced_liberty_desire = 20
-		republican_tradition = -0.005
+		republican_tradition = -0.5
 		
 	}
 }

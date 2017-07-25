@@ -78,7 +78,7 @@ technology = {
 	# Tech 6
 	year = 1479
 	
-	shipyard = yes
+	dock = yes	
 	may_steal_maps = yes
 
 }
@@ -96,8 +96,8 @@ technology  = {
 	# Tech 8
 	year = 1505
 	
-	dock = yes	
 	num_accepted_cultures = 1
+	shipyard = yes
 
 	trade_range				=	10
 	naval_morale			=	0.2
@@ -222,7 +222,7 @@ technology = {
 	naval_maintenance		= 	0.1	
 	range					=	50
 	
-	grand_shipyard = yes 
+	drydock = yes 
 	
 	
 	enable = wargalleon
@@ -281,7 +281,7 @@ technology = {
 	year = 1715
 	
 	
-	drydock = yes 
+	grand_shipyard = yes 
 
 	
 	trade_efficiency 		= 	0.05

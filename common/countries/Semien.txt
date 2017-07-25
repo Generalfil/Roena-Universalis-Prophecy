@@ -32,7 +32,7 @@ historical_units = {
 
 monarch_names = {
 	"Pinchas #0" = 20
-	"Gideon #0" = 60
+	"Gideon #4" = 60
 	"Salômôn #5" = 40
 	"Joram #0" = 40
 	"Radi #0"= 40

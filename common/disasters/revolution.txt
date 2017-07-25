@@ -3,19 +3,20 @@ revolution = {
 		NOT = { has_country_flag = had_revolution }
 		NOT = { tag = PAP }
 		NOT = { tag = FRA }
-		is_subject = no
+		NOT = { government = celestial_empire }
+		is_free_or_tributary_trigger = yes
 		uses_doom = no
 		capital_scope = { continent = europe }
 		num_of_cities = 30
 		NOT = { revolution_target_exists = yes }
-		is_year = 1700		
+		current_age = age_of_revolutions
 	}
 	
 	
 	can_start = {
+		current_age = age_of_revolutions
 		has_any_disaster = no
 		NOT = { stability =	0 }
-		is_year = 1750
 	}
 	
 	can_stop = { 
@@ -41,9 +42,17 @@ revolution = {
 			NOT = { num_of_loans = 25 }
 		}	
 		modifier = {
+			factor = 0.5
+			absolutism = 70
+		}
+		modifier = {
+			factor = 1
+			absolutism = 80
+		}
+		modifier = {
 			factor = 1
 			num_of_loans = 25
-		}	
+		}
 		modifier = {
 			factor = 2
 			is_bankrupt = yes

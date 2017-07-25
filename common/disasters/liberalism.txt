@@ -4,8 +4,8 @@ aspiration_for_liberty = {
 		NOT = { current_size_of_parliament = 1 }
 		uses_doom = no
 		num_of_cities = 5
-		is_year = 1650
-		is_subject = no
+		current_age = age_of_revolutions
+		is_free_or_tributary_trigger = yes
 	}
 
 	
@@ -13,7 +13,7 @@ aspiration_for_liberty = {
 	can_start = {
 		has_any_disaster = no
 		has_institution = enlightenment
-		NOT = { stability = 0 }
+		NOT = { stability = 1 }
 		NOT = { has_country_modifier = liberal_constitution }
 	}
 	
@@ -27,24 +27,22 @@ aspiration_for_liberty = {
 	
 	progress = {
 		modifier = {
-			factor = 0.5
-			government = absolute_monarchy
-		}
-		modifier = {
-			factor = 0.5
-			government = enlightened_despotism
-		}
-		modifier = {
-			factor = 0.5
-			government = bureaucratic_despotism
-		}
-		modifier = {
-			factor = 0.5
-			government = republican_dictatorship
-		}
-		modifier = {
 			factor = 1
 			is_bankrupt = yes
+		} 
+		modifier = {
+			factor = 0.5
+			absolutism = 25
+			NOT = { absolutism = 50 }
+		} 
+		modifier = {
+			factor = 1.0
+			absolutism = 50
+			NOT = { absolutism = 75 }
+		} 
+		modifier = {
+			factor = 2.0
+			absolutism = 75
 		} 
 		modifier = {
 			factor = 1
@@ -59,7 +57,7 @@ aspiration_for_liberty = {
 		OR = {
 			current_size_of_parliament = 1
 			AND = {
-				stability = 1
+				stability = 3
 				NOT = { num_of_rebel_controlled_provinces = 1 }
 			}
 		}
@@ -67,7 +65,7 @@ aspiration_for_liberty = {
 	
 
 	modifier = {
-		global_unrest = 7
+		global_unrest = 10
 		legitimacy = -3
 	}	
 	

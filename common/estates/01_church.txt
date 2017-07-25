@@ -47,11 +47,15 @@ estate_church =
 	# If true, country will get estate
 	trigger = {
 		NOT = { government = merchant_republic }
+		NOT = { government = veche_republic }
 		NOT = { government = trading_city }
 		NOT = { government = siberian_native_council }
 		NOT = { government = native_council }
-		NOT = { government = celestial_empire }
 		NOT = { government = revolutionary_republic }
+		OR = {
+			NOT = { government = celestial_empire }
+			has_dlc = "Mandate of Heaven"
+		}
 		OR = {
 			NOT = { tag = USA }
 			government = theocracy
@@ -183,6 +187,13 @@ estate_church =
 		}
 		influence = -40
 	}
+	influence_modifier = {
+		desc = EST_VAL_CELESTIAL_EMPIRE
+		trigger = {
+			government = celestial_empire
+		}		
+		influence = -10
+	}
 	
 	# Loyalty modifiers
 	loyalty_modifier = {
@@ -279,6 +290,15 @@ estate_church =
 		desc = estate_brahmins
 		trigger = {
 			religion = hinduism
+		}
+	}
+	custom_name = {
+		desc = estate_gentry
+		trigger = {
+			OR = {
+				government = celestial_empire
+				culture_group = east_asian
+			}
 		}
 	}
 	custom_name = {
@@ -465,7 +485,7 @@ estate_church =
 		effect = {
 			add_prestige = -5
 			add_legitimacy = -5
-			add_republican_tradition = -0.03
+			add_republican_tradition = -3
 			add_devotion = -3
 			add_piety = 0.05
 			if = {

@@ -94,17 +94,13 @@ leader_names = {
 }
 
 ship_names = {
-	Roland
-	Tagenbare
-	Geelbeen
-	"Johann Dove"
-	Honorius
-	Willehad
-	Jever
-	"Bremer Stolz"
-	"Wappen von Bremen"
-	"Bremer Schlüssel"
-	Weserwelle
+	"Adler von Lübeck" "Admiralität von Hamburg" "Arche Noah" "Brunte Kuh" "Der Große Adler" "Engel Gabriel" "Fliegender Hirsch" "Füchslein" "Gelber Löve"
+	"Goldener Löwe" "Grafschaft Mark" "Grüner Drache" "Herzogtum Cleve" "Jesus von Lübeck" "Jonge Tobias" "König David" "Leopoldus Primus" "Lisa von Lübeck"
+	"Lybischer Trotz" "Lübscher Adler" "Maria Catharina" "Nordischer Löwe" "Peter und Paul" "Peter von Danzig" "Prinz Ludwig" "Prophet Daniel" "Ritter Sankt Georg"
+	"Roter Hirsch" "Sankt Laurens" "Sankt Peter" "Schwarzer Rabe" "Sieben Provinzien" "Stad Emden" "Vogel Greif" "Wapen von Bremen" "Wapen von Hamburg"
+	"Wappen von Bremen" "Wappen von Cleve" "Weißer Löwe" "Wilhelmina Margaretta" "Zwei Brüder" Afrikaner Anna Bersteinfänger Bracke Clementia Colonia Derffinger
+	Dorothea Engel Feuerblase Fortuna Friede Fuchs Gabriel Hoffning Johannesburg Kurprinz Makarele Meermann Meerweib Mercurius Morian Pax Pierelepomp Roland Rommelpot
+	Rosenfelde Salamander Seemoewe Seeritter Syrig Wasserhund Windhund Wolkensäule
 }
 
 army_names = {

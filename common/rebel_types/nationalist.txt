@@ -1,5 +1,5 @@
 ######################################################################
-# Nationalist rebels. Freedom!!!
+# Separatist rebels. Freedom!!!
 ######################################################################
 nationalist_rebels = {
 
@@ -47,6 +47,11 @@ nationalist_rebels = {
 				OR = {
 					NOT = { government = celestial_empire }
 					has_country_modifier = the_mandate_of_heaven
+					AND = {
+						government = celestial_empire
+						has_dlc = "Mandate of Heaven"
+						imperial_mandate = 80
+					}
 				}
 			}
 			tolerance_to_this = 0			
@@ -62,7 +67,13 @@ nationalist_rebels = {
 			owner = {
 				culture_group = ROOT
 				government = celestial_empire
-				has_country_modifier = the_mandate_of_heaven
+				OR = {
+					has_country_modifier = the_mandate_of_heaven
+					AND = {
+						has_dlc = "Mandate of Heaven"
+						imperial_mandate = 80
+					}
+				}
 			}
 		}
 		modifier = {
@@ -70,12 +81,23 @@ nationalist_rebels = {
 			owner = {
 				NOT = { primary_culture = ROOT }
 				government = celestial_empire
-				has_country_modifier = the_mandate_of_heaven_lost
+				OR = {
+					has_country_modifier = the_mandate_of_heaven_lost
+					has_country_modifier = lost_mandate_of_heaven
+					AND = {
+						has_dlc = "Mandate of Heaven"
+						NOT = { imperial_mandate = 50 } 
+					}
+				}
 			}
-		}		
+		}
 		modifier = {
 			factor = 10
 			nationalism = 1
+		}
+		modifier = {
+			factor = 15
+			has_province_modifier = court_and_country_hardline_vs_separatists
 		}
 	 	modifier = {
 			factor = 0.001
@@ -123,6 +145,19 @@ nationalist_rebels = {
 			owner = {
 				accepted_culture = ROOT
 				NOT = { has_country_modifier = the_mandate_of_heaven_lost }
+				OR = {
+					NOT = { has_dlc = "Mandate of Heaven" }
+					AND = {
+						has_dlc = "Mandate of Heaven"
+						NOT = { has_country_modifier = lost_mandate_of_heaven }
+						NOT = { government = celestial_empire }
+					}
+					AND = {
+						has_dlc = "Mandate of Heaven"
+						government = celestial_empire
+						imperial_mandate = 80
+					}
+				}
 			}
 		}
 		modifier = {
@@ -233,7 +268,7 @@ nationalist_rebels = {
 				}
 				add_core = REB
 			}
-			release_vassal = REB
+			create_vassal = REB
 		}		
 	}
 }

@@ -3,15 +3,15 @@ war_of_the_roses = {
 		tag = ENG
 		normal_or_historical_nations = yes
 		government = monarchy
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		uses_doom = no
-		NOT = { is_year = 1500 }
 		NOT = { has_country_flag = had_war_of_the_roses  }
 	}
 
 
 
 	can_start = {
+		current_age = age_of_discovery
 		has_any_disaster = no
 		has_heir = no
 		has_regency = no
@@ -37,7 +37,11 @@ war_of_the_roses = {
 		}
 		modifier = {
 			factor = 3
-			has_ruler_modifier = low_fertility
+			is_year = 1455
+			OR = {
+				has_ruler_modifier = low_fertility
+				ruler_has_personality = infertile_personality
+			}
 		}
 		modifier = {
 			factor = 0.5

@@ -64,8 +64,6 @@
 # form_coalition
 # request_to_join_federation
 # invite_to_federation
-# protectorateaction
-# ask_for_protection_action
 # support_heir
 # break_marriage
 # designate_march
@@ -182,29 +180,8 @@ abandon_union_action = {
 	}
 }
 
-protectorateaction = {
-	condition = {
-		tooltip = HORDENOPROTECTORATE
-		potential = {
-		}
-		allow = {
-			FROM = {
-				is_nomad = no
-			}
-		}
-	}
-}
 
-ask_for_protection_action = {
-	condition = {
-		tooltip = HORDENOPROTECTORATE
-		potential = {
-		}
-		allow = {
-			is_nomad = no
-		}
-	}
-}
+
 
 form_coalition = {
 	condition = {

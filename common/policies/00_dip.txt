@@ -430,23 +430,23 @@ restrictions_for_colonies = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_colonial_subjects = 1 }
+			NOT = { colony = 1 }
 		}
 		modifier = {
 			factor = 1.25
-			num_of_colonial_subjects = 2
+			colony = 2
 		}
 		modifier = {
 			factor = 1.25
-			num_of_colonial_subjects = 3
+			colony = 3
 		}			
 		modifier = {
 			factor = 1.25
-			num_of_colonial_subjects = 4
+			colony = 4
 		}
 		modifier = {
 			factor = 1.25
-			num_of_colonial_subjects = 5
+			colony = 5
 		}
 		modifier = {
 			factor = 0
@@ -1194,23 +1194,23 @@ taxation_with_representation = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_colonial_subjects = 1 }
+			NOT = { colony = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 2
+			colony = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 3
+			colony = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 4
+			colony = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 5
+			colony = 5
 		}		
 	}
 }
@@ -1233,7 +1233,7 @@ multilingual_diplomats = {
 	}	
 	
 	num_accepted_cultures = 1
-	relations_decay_of_me = 0.2
+	improve_relation_modifier = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -1520,23 +1520,23 @@ the_integrated_administration_act = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_vassals = 1 }
+			NOT = { vassal = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 3
+			vassal = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 5
+			vassal = 5
 		}			
 	}
 }
@@ -1600,7 +1600,7 @@ full_sovereignty_act = {
 			factor = 0
 			AND = {
 				NOT = { average_effective_unrest = 1 }
-				NOT = { num_of_vassals = 1 }
+				NOT = { vassal = 1 }
 			}
 		}
 		modifier = {

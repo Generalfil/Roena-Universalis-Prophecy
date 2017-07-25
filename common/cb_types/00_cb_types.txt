@@ -163,8 +163,9 @@ cb_trade_war_triggered = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -184,8 +185,9 @@ cb_trade_conflict = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
 		po_form_personal_union
+		po_become_tributary_state
+		po_transfer_vassals
 	}
 }
 
@@ -208,8 +210,9 @@ cb_trade_league_conflict = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -284,7 +287,7 @@ cb_independence_war = {
 	independence = yes
 
 	prerequisites = {
-		is_subject = yes
+		is_subject_other_than_tributary_trigger = yes
 		is_subject_of = FROM
 		NOT = { is_colonial_nation_of = FROM }
 		OR = {
@@ -316,7 +319,7 @@ cb_nationalist = {
 
 	prerequisites = {
 		dip_tech = 23
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		culture_group_claim = FROM
 		is_revolution_target = no
 	}
@@ -333,7 +336,7 @@ cb_imperial = {
 			dip_tech = 23
 			invasion_nation = yes
 		}
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		is_revolution_target = no
 	}
 
@@ -610,8 +613,9 @@ cb_trade_war = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -635,8 +639,9 @@ cb_trade_league_dispute = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -694,70 +699,6 @@ cb_super_badboy = {
 	war_goal = superiority_punitive
 }
 
-# War on "primitives" (annexable religion)
-cb_primitives = {
-	valid_for_subject = no
-
-	prerequisites = {
-		OR = {
-			cb_on_primitives = yes
-			AND = {
-				is_colonial_nation = yes
-				is_neighbor_of = FROM
-			}
-		}
-		NOT = { has_country_modifier = the_proclamation_of_year_timer } # Used from event
-		FROM = {
-			primitives = yes
-			OR = {
-				is_subject = no
-				AND = {
-					is_subject = yes
-					overlord = { primitives = yes }
-				}
-			}
-		}
-		is_revolution_target = no
-	}
-
-	war_goal = superiority_primitives
-}
-
-cb_overseas = {
-	valid_for_subject = no
-
-	prerequisites = {
-		cb_on_overseas = yes
-		OR = {
-			technology_group = western
-			technology_group = eastern
-			technology_group = ottoman
-		}
-
-		FROM = {
-			primitives = no
-			is_subject = no
-			capital_scope = {
-				OR = {
-					continent = asia
-					continent = africa
-				}
-			}
-			OR = {
-				technology_group = indian
-				technology_group = sub_saharan
-				technology_group = east_african
-				technology_group = central_african
-				technology_group = chinese
-				technology_group = nomad_group
-			}
-		}
-		is_subject = no
-		is_revolution_target = no
-	}
-
-	war_goal = superiority_overseas
-}
 
 # Claim Throne
 cb_claim_throne = {
@@ -883,9 +824,8 @@ cb_crush_the_revolution = {
 		}
 		revolution_target_exists = yes
 		is_revolution_target = no
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		OR = {
-			government = absolute_monarchy
 			government = enlightened_despotism
 			government = despotic_monarchy
 			government = feudal_monarchy
@@ -959,7 +899,7 @@ cb_flower_wars = {
 	prerequisites = {
 		has_dlc = "El Dorado"
 		religion = nahuatl
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		is_religion_reformed = no
 		FROM = {
 			NOT = { is_subject_of = ROOT }
@@ -977,7 +917,7 @@ cb_maya_expansion = {
 	prerequisites = {
 		has_dlc = "El Dorado"
 		religion = mesoamerican_religion
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		is_religion_reformed = no
 		FROM = {
 			NOT = { is_subject_of = ROOT }
@@ -986,7 +926,7 @@ cb_maya_expansion = {
 		is_neighbor_of = FROM
 	}
 
-	war_goal = take_capital_imperial
+	war_goal = take_capital_mayan
 }
 
 # Rival Humiliate CB
@@ -1005,13 +945,13 @@ cb_humiliate_rotw = {
 	attacker_disabled_po = {
 		po_annex
 		po_demand_provinces
-		po_revoke_cores
 		po_release_vassals
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 
 	war_goal = humiliate_rotw
@@ -1022,16 +962,29 @@ cb_chinese_unification = {
 	valid_for_subject = no
 
 	prerequisites = {
-		culture_group = east_asian #Chinese
-		is_subject = no
-		OR = {	#Manchus won't get this unless they unify
-			tag = MCH
-			tag = QNG
-			NOT = { primary_culture = manchu }
+		is_free_or_tributary_trigger = yes
+		OR = {
+			AND = {
+				has_dlc = "Mandate of Heaven"
+				is_emperor_of_china = yes
+			}
+			AND = {
+				NOT = { has_dlc = "Mandate of Heaven" }
+				culture_group = east_asian #Chinese
+				OR = {	#Manchus won't get this unless they unify
+					tag = MCH
+					tag = QNG
+					NOT = { primary_culture = manchu }
+				}
+			}
 		}
+		
 		FROM = { #Applies against other powers in China unless they have the Mandate of Heaven
 			NOT = { is_subject_of = ROOT }
-			culture_group = east_asian #Chinese
+			OR = {
+				has_dlc = "Mandate of Heaven"
+				culture_group = east_asian #Chinese
+			}
 			any_owned_province = {
 				OR = {
 					region = north_china_region
@@ -1047,6 +1000,23 @@ cb_chinese_unification = {
 	war_goal = superiority_chinese_unification
 }
 
+# Take the Mandate of Heaven
+cb_take_mandate = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Mandate of Heaven"
+		is_subject = no
+		is_neighbor_of = FROM
+		FROM = { is_emperor_of_china = yes }
+		OR = {
+			religion_group = pagan
+			religion_group = eastern
+		}
+	}
+
+	war_goal = take_capital_take_mandate
+}
 
 # Force migration
 cb_force_migration = {
@@ -1056,10 +1026,10 @@ cb_force_migration = {
 	prerequisites = {
 		has_dlc = "The Cossacks"
 		is_neighbor_of = FROM
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		FROM = {
 			can_migrate = yes
-			is_subject = no
+			is_free_or_tributary_trigger = yes
 		}
 	}
 	war_goal = force_migration
@@ -1073,4 +1043,18 @@ cb_forced_break_alliance = {
 	months = 120
 	
 	war_goal = superiority_insult
+}
+
+cb_force_tributary = {
+
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Mandate of Heaven"
+		is_emperor_of_china = yes
+		FROM = { is_subject = no }
+		is_neighbor_of = FROM
+	}
+	
+	war_goal = take_capital_force_tributary
 }

@@ -99,7 +99,6 @@
 261 = "Halic"
 262 = "Krakov"
 264 = "Vratislav"
-265 = "Morava"
 266 = "Praha"
 268 = "Moldávie"
 269 = "Podlesí"

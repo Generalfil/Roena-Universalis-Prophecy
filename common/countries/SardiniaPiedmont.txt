@@ -90,19 +90,9 @@ leader_names = {
 }
 
 ship_names = { 
-	"Alfonso il Benigno" Alghero Asinara Assemini
-	Campidano Capoterra Caprera "Carbonia-Iglesias" Cagliari Cedrino Coghinas
-	"Dolomiti di Oliena"
-	"Eleanor Arborea"
-	Flumendosa
-	"Giacomo II" "Giovanni il Galantuomo" "Giudice Ugone"
-	"lago di Baratz"
-	"Martino l'Umano" "Medio Campidano" Monserrato "Monte Albo" "Monte Rasu" "Monti di Limbara" "Monti di Alà" 
-	Nuoro 
-	Ogliastra "Olbia-Tempio" Oristano Orosei
-	"Porto Torres" "Punta La Marmora"
-	Quartucciu
-	Sant'Antioco "Santa Gilla" Sant'Elena "San Michele" "San Pietro" Sassari S.Domenico S.Maria "S.Saturnino" Selargiu Sestu Sinnai Sorso
-	Tavolara Tirso
+	Aguila Alceste Aurora Azzardoso "Beata Margherita" "Bella Genovese" Beroldo Capitana Carlo Felice Carloforte Colombo
+	"Commerce di Genova" Cristina Daino Diana Eridano Euridice Falco Generoso "Haute Combe" "Maria Teresa" Neireide Patrona
+	Prima Regina Rondinella "San Carlo" "San Michele" "San Vittore" "San Vittorio" "Santa Anna" "Santa Barbara" "Santa Teresa"
+	Staffetta Tirsi Tritone Veloce Vigilante "Vittorio Emanuele" Zeffiro
 }
 

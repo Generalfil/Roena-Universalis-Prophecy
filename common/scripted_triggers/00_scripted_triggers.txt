@@ -36,6 +36,30 @@ has_dip_advisor = {
 	}
 }
 
+is_subject_other_than_tributary_trigger = { #Ie Tags that cannot conduct independent diplomacy
+	is_subject = yes
+	NOT = { is_subject_of_type = tributary_state }
+}
+
+is_free_or_tributary_trigger = { #I.e. Tags that can conduct independent diplomacy
+	OR = {
+		is_subject = no
+		is_subject_of_type = tributary_state
+	}
+}
+
+
+# Third Rome Triggers
+has_russian_government_interaction = {
+	has_dlc = "Third Rome"
+	OR = {
+		government = tsardom
+		government = principality
+		government = veche_republic
+	}
+}
+
+
 #RIGHTS OF MAN TRIGGERS
 
 #Ruler personality triggers
@@ -57,7 +81,7 @@ ruler_has_good_adm_personality = {
 	}
 }
 
-ruler_has_good_dip_personality {
+ruler_has_good_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
 		ruler_has_personality = careful_personality
@@ -101,7 +125,7 @@ ruler_has_bad_adm_personality = {
 ruler_has_bad_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
-		ruler_has_personality = indulgent_personality
+		ruler_has_personality = drunkard_personality
 		ruler_has_personality = babbling_buffoon_personality
 		ruler_has_personality = cruel_personality
 		ruler_has_personality = naive_personality
@@ -112,9 +136,9 @@ ruler_has_bad_dip_personality = {
 
 ruler_has_bad_mil_personality = {
 	has_dlc = "Rights of Man" 
-	OR = {
-		ruler_has_personality = craven_personality
-	}
+	#OR = {
+	ruler_has_personality = craven_personality
+	#}
 }
 
 #Heir personality triggers
@@ -136,7 +160,7 @@ heir_has_good_adm_personality = {
 	}
 }
 
-heir_has_good_dip_personality {
+heir_has_good_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
 		heir_has_personality = careful_personality
@@ -181,7 +205,7 @@ heir_has_bad_adm_personality = {
 heir_has_bad_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
-		heir_has_personality = indulgent_personality
+		heir_has_personality = drunkard_personality
 		heir_has_personality = babbling_buffoon_personality
 		heir_has_personality = cruel_personality
 		heir_has_personality = naive_personality
@@ -192,9 +216,9 @@ heir_has_bad_dip_personality = {
 
 heir_has_bad_mil_personality = {
 	has_dlc = "Rights of Man" 
-	OR = {
-		heir_has_personality = craven_personality
-	}
+	#OR = {
+	heir_has_personality = craven_personality
+	#}
 }
 
 #Queen personality triggers
@@ -216,7 +240,7 @@ consort_has_good_adm_personality = {
 	}
 }
 
-consort_has_good_dip_personality {
+consort_has_good_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
 		consort_has_personality = careful_personality
@@ -261,7 +285,7 @@ consort_has_bad_adm_personality = {
 consort_has_bad_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
-		consort_has_personality = indulgent_personality
+		consort_has_personality = drunkard_personality
 		consort_has_personality = babbling_buffoon_personality
 		consort_has_personality = cruel_personality
 		consort_has_personality = naive_personality
@@ -272,10 +296,8 @@ consort_has_bad_dip_personality = {
 
 consort_has_bad_mil_personality = {
 	has_dlc = "Rights of Man" 
-	OR = {
-		consort_has_personality = craven_personality
-	}
+	#OR = {
+	consort_has_personality = craven_personality
+	#}
 }
-
-
 

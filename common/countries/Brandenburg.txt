@@ -109,12 +109,16 @@ leader_names = {
 }
 
 ship_names = {
-	Neumark Prignitz Uckermark Mittelmark Altmark
-	Sternberg "Friedrich I" "Friedrich II" "Ludwig I"
-	"Ludwig II" "Otto V" Wenzel Sigismund "Jobst von Mähren"
-	"Albrecht der Bär" "Otto I" "Otto II" "Albrecht II"
-	"Johann I" "Otto III" "Albrecht III" "Otto IV"
-	"Heinrich I" Waldemar "Heinrich II"
+	"Brandenburgischer Dragoner" "Charlotte Louise" "Churfürst von Brandenburg" "Churfürtstlische Liebjagd" "Churprinz von Brandenburg" "Clevesche Lindenbaum"
+	"Die Sieben Provinzien" "Fliegender Drache" "Friedrich Carl" "Friedrich Wilhelm zu Pferde" "Friedrich Wilhelm" "Goldener Löve" "Grafschaft Mark" "Große Jacht"
+	"Grüner Drache" "Herzogtum Cleve" "Kastell Spandau" "Kronprinz van Preußen" "König von Preußen" "König von Spanien" "König Wilhelm" "Littauer Bauer" "Maria Catharina"
+	"Markgraf von Brandenburg" "Nordischer Löve" "Preußischer Adler" "Princess Maria" "Prinz Adalbert" "Prinz Ludwig" "Prinz Philipp" "Prinz von Preußen" "Prinz Wilhelm"
+	"Prinzess Maria" "Rother Löve" "Sankt Johannes der Täufer" "Sankt Josef" "Sankt Peter" "Schloss Oranienburg" "Stad Emden" "Vogel Greif" "Wappen von Brandenburg"
+	"Wappen von Cleve" "Wilhelmine Margrethe" Afrikaner Amazone Arminius Barbarossa Basilisk Berlin Bersteinfänger Bielefeld Blitz Britannia Bulle Camaeleon Churprinz
+	Clementia Cleve Comet Cyclop Danzig Delphin Derffinger Dorothea Drache Eichhorn Falke Fortuna Frauenlob Frede Fuchs Gazelle Gefion Grille Grossfriedrichburg Habicht
+	Hansa Hay Hela Hertha Hyäne Jupiter Kronprinz Leopard Makarele Maria Mars Merkur Meteor Mohrian Morian Mummelpot Musquito Natter Neptun Niobe Pallas Pax Pfeil
+	Pierlepomp Post Potsdam Prosperpina Rommelpot Rosenfelde Rover Salamander Schwalbe Seeritter Spandau Sperber Stralsund Thetis Tiger Undine Vineta Wasserhund Wespe
+	Wolkensäule
 }
 
 army_names = {

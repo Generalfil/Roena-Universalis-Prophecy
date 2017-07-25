@@ -1,8 +1,8 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6;12;sea;1258;3008;1633;3000;1630;Skåne-Sjaelland
 12;14;sea;1258;2980;1631;2975;1631;Sjaelland-Fyn
-14;15;sea;1258;2965;1635;2963;1641;Fyn-Jylland
-13;14;sea;1258;2954;1623;2962;1627;Slesvig-Fyn
+14;4142;sea;1258;2965;1635;2963;1641;Fyn-Aarhus
+14;4149;sea;1258;-1;-1;-1;-1;Fyn-Kolding
 14;1983;sea;1258;2975;1618;2978;1619;Fyn-Lolland
 12;1983;sea;1258;2983;1619;2986;1626;Sjaelland-Lolland
 123;124;sea;1307;3050;1286;3045;1284;Calabria-Messina
@@ -18,8 +18,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4110;369;sea;1282;2757;1705;2757;1710;Sutherland-Orkney
 97;100;sea;1269;2890;1581;2886;1576;Holland-Friesland
 1017;1818;sea;1390;4853;1213;4848;1208;Suo-Chikuzen
-1014;1819;sea;1390;4860;1202;4872;1202;Bungo-Tosa
-1819;1825;sea;1390;4881;1219;4880;1214;Aki-Tosa
+1014;4186;sea;1390;4860;1202;4872;1202;Bungo-Iyo
+4186;1825;sea;1390;4881;1219;4880;1214;Aki-Iyo
 2159;666;sea;1370;-1;-1;-1;-1;Jiangmen-Hainan
 36;35;sea;1926;3171;1709;3165;1709;Estland-Ösel
 35;39;sea;1256;3157;1684;3158;1694;Ösel-Kurland
@@ -34,15 +34,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1050;1033;sea;1379;5014;1562;5017;1564;Deren-Sakhalin
 1215;387;sea;1329;3482;849;3484;853;Tajura-Mocha
 112;1774;sea;1308;2996;1430;2994;1434;Venice-Treviso
-54;1775;sea;1268;2945;1599;2943;1597;Stade-Holstein
+54;4141;sea;1268;2945;1599;2943;1597;Stade-Dithmarschen
 1820;1021;sea;1391;4912;1219;4919;1223;Awa-Settsu
-4131;1847;sea;1387;4999;1357;5005;1351;Shiribeshi-Mutsu
-1032;1852;sea;1440;5099;1408;5073;1386;Kurils-Tokachi
+4131;4193;sea;1387;4999;1357;5005;1351;Oshima-Mutsu
+1032;1852;sea;4225;5099;1408;5073;1386;Kurils-Tokachi
 1199;1201;sea;1448;-1;-1;-1;-1;Bagamoyo-Zanzibar
 1247;127;sea;1298;-1;-1;-1;-1;Corsica-Sardinia
 394;396;sea;1335;3589;1076;3592;1074;Al Hasa-Bahrain
 395;396;sea;1335;3596;1071;3601;1071;Qatar-Bahrain
-627;631;sea;1354;4591;518;4594;518;Blambangan-Bali
 653;2700;sea;1398;4726;791;4732;786;Lanao-Panay
 654;2699;sea;1397;4746;849;4743;850;Visayas-Bikol
 648;649;sea;1400;4801;670;4803;667;Halmahera-Ternate
@@ -64,7 +63,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 500;499;sea;1522;-1;-1;-1;-1;St Vincent-St Lucia
 499;498;sea;1523;-1;-1;-1;-1;St Lucia-Martinique
 498;497;sea;1523;-1;-1;-1;-1;Martinique-Dominica
-497;496;sea;1523;-1;-1;-1;-1;Dominica-Guadalupe
 496;495;sea;1523;-1;-1;-1;-1;Guadalupe-Antigua
 495;494;sea;1523;-1;-1;-1;-1;Antigua-St Kits
 628;2692;sea;1355;-1;-1;-1;-1;Surabaya-Madura
@@ -76,6 +74,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 654;2700;sea;1397;4740;827;4735;822;Visayas-Panay
 654;2702;sea;1402;4764;825;4767;814;Visayas-Butuan
 2700;656;sea;1397;4708;838;4702;846;Panay-Manila
+655;656;sea;1395;-1;-1;-1;-1;Palawan-Manila
 646;647;sea;1401;-1;-1;-1;-1;Ambom-Ceram
 2678;622;sea;1361;4446;618;4443;617;Banka-Palembang
 2686;597;sea;1361;4434;664;4430;666;Bintan-Johor
@@ -88,6 +87,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 398;2999;sea;1334;3686;1080;3684;1084;Qawasim-Hormuz
 146;3003;sea;1319;3174;1294;3175;1294;Athens - Euboea
 3003;164;sea;1319;3190;1287;3191;1286;Euboea - Cyclades
-31;4113;lake;1884;3232;1827;3235;1835;Savolax - Rovaniemi
+31;4152;lake;4139;3232;1827;3235;1835;Savolax - Kuusamo
 1751;226;sea;1293;-1;-1;-1;-1;Ceuta-Gibraltar
 -1;-1;;-1;-1;-1;-1;-1;-1;

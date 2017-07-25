@@ -58,6 +58,7 @@
 1972 = "Glazov"
 1963 = "Troitsko-Pechersk"
 1970 = "Perovsk"
+1971 = "Tsaritsyn"
 1974 = "Cherson"
 2125 = "Przhevalsk"
 2126 = "Naryn"

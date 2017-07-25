@@ -1,6 +1,7 @@
 internal_conflicts = {
 	potential = {
 		num_of_cities = 10
+		is_free_or_tributary_trigger = yes
 		uses_doom = no
 		NOT = {
 			has_country_flag = had_internal_conflicts

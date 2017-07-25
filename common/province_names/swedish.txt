@@ -12,3 +12,5 @@
 962 = "Nya Elfsborg"
 
 4123 = "Birkaland"
+4141 = "Ditmarsken"
+4152 = "Kajanaland"

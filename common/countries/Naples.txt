@@ -96,23 +96,14 @@ leader_names = {
 }
 
 ship_names = {
-	Albizi  Arcetri Arezzo
-	Bellosguardo Bisenzio
-	Careggi "Corso Donati" "Cosimo de' Medici"
-	"Dante Alighieri" "Dino Compagni"
-	Fiesole "Filippo Brunelleschi" Firenze "fiume Arno"
-	"fiume Greve" "Francesco Petrarca"
-	Galluzzo "Giano della Bella" Giotto
-	Impruneta
-	Medici Mugnone
-	Orsanmichele
-	Pistoia Prato
-	Ripoli
-	"San Frediano" "San Giovanni Battista" "San Lorenzo"
-	"San Marco" "Santa Maria del Fiore" "Santa Trinita"
-	Scandicci Settignano "Sesto Fiorentino"
-	Terzolle
-	"Vieri de Cerchi"
+	Achille Amalia Archimede Aretusa Aurora Brava Capitana Capri Caracciolo Carolana Cerere Cingana Constanza Cristina Determinada Etna Fama Fiamma Flora
+	Fortuna Galantuomo Galatea Gioacchino Gioia Gru Guiscardo Gusmana Idra Intrepido Invidia Lampreda Leonessa Letiza "Lucien Charles" Luna Lupa Marchesa
+	Margherita Mendoza Minerva Monarca Ocasion Padrona "Padrone di Davide Imperiale" Pallade Partenope Piemontese "Piramide con Cane" Pugliese Pylades Regina
+	"Regina Isabella" Roma Ruggiero Sagittaria Samnita "San Antonio" "San Carlo" "San Ferdinando" "San Filippo" "San Gabriele" "San Genaro" "San Gioacchino"
+	"San Giorgio" "San Giovanni" "San Giuseppe" "San Guilian" "San Jacopo" "San Leopoldo" "San Luigi" "San Luigi Gonzaga" "San Michele" "San Nicola" "San Pasquale"
+	"Santa Amalia" "Santa Barbara" "Santa Caterina" "Santa Chiara" "Santa Dorotea" "Santa Elisabetta" "Santa Lucia" "Santa Teresa" "Sant'Andrea" "Sant'Angelo"
+	"Santissima Concezione" Sibilla Sicilia Simplon Sirena Sparviero Speranza Stabia Stromboli Tancredi Taranto Terana Turca Urania Venere Vesuvio Vittoria Volpe
+	Vulcano
 }
 
 army_names = {

@@ -372,6 +372,21 @@ DEC = {
 }
 
 #Al - Andalus
-AND = {
+ADU = {
+	always = no
+}
+
+# Golden Horde
+GLH = {
+	always = no
+}
+
+# Japan
+JAP = {
+	always = no
+}
+
+# Yuan
+YUA = {
 	always = no
 }

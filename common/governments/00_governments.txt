@@ -29,21 +29,24 @@ despotic_monarchy = {
 	}
 	ai_importance = 1
 	
-	max_states = 5
+	max_states = 1
 
 	rank = {
 		1 = {
 			global_unrest = -1	
 			unjustified_demands = -0.1
+			max_absolutism = 5
 		}
 		2 = {
 			global_unrest = -1
 			unjustified_demands = -0.1		
+			max_absolutism = 5
 		}
 		3 = {
 			global_unrest = -1
 			unjustified_demands = -0.1		
 			global_autonomy = -0.025
+			max_absolutism = 5
 		}
 	}
 }
@@ -78,7 +81,7 @@ feudal_monarchy = {
 	
 	#bonus
 
-	max_states = 5
+	max_states = 2
 
 	rank = {
 		1 = {
@@ -129,7 +132,7 @@ administrative_monarchy = {
 
 	#bonus
 	
-	max_states = 5
+	max_states = 3
 	
 	rank = {
 		1 = {
@@ -149,55 +152,7 @@ administrative_monarchy = {
 	}
 }
 
-absolute_monarchy = {
-	monarchy = yes
-	
-	color = { 179 100 100 }
-	
-	valid_for_new_country = yes
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { 
-				government = despotic_monarchy 
-				government = feudal_monarchy
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				has_idea_group = economic_ideas
-				has_idea_group = trade_ideas
-			}
-		}
-	}
-	ai_importance = 4
-	
-	#bonus
-	
-	max_states = 5
 
-	
-	rank = {
-		1 = {
-			discipline = 0.05
-			global_unrest = -1
-			global_autonomy = -0.05
-		}
-		2 = {
-			discipline = 0.05
-			global_unrest = -1
-			global_autonomy = -0.075	
-		}
-		3 = {	
-			discipline = 0.05
-			global_unrest = -1
-			global_autonomy = -0.10	
-		}
-	}
-}
 
 constitutional_monarchy = {
 	monarchy = yes
@@ -219,7 +174,7 @@ constitutional_monarchy = {
 
 	#bonus
 	
-	max_states = 5
+	max_states = 3
 
 	
 	rank = {
@@ -227,16 +182,20 @@ constitutional_monarchy = {
 			years_of_nationalism = -5
 			legitimacy = 1
 			global_autonomy = -0.05
+			max_absolutism = -30
+
 		}
 		2 = {
 			years_of_nationalism = -5
 			legitimacy = 1
 			global_autonomy = -0.075
+			max_absolutism = -30
 		}
 		3 = {	
 			years_of_nationalism = -5
 			legitimacy = 1
 			global_autonomy = -0.10
+			max_absolutism = -30
 		}
 	}
 }
@@ -250,16 +209,12 @@ enlightened_despotism = {
 
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { government = absolute_monarchy }
-		}
 	}
 	ai_importance = 5
 
 	#bonus
 	
-	max_states = 5
+	max_states = 3
 
 
 	rank = {
@@ -267,16 +222,19 @@ enlightened_despotism = {
 			num_accepted_cultures = 1
 			global_manpower_modifier = 0.1
 			global_autonomy = -0.05
+			max_absolutism = 10
 		}
 		2 = {
 			num_accepted_cultures = 2
 			global_manpower_modifier = 0.1
 			global_autonomy = -0.075
+			max_absolutism = 10
 		}
 		3 = {	
 			num_accepted_cultures = 3
 			global_manpower_modifier = 0.1
 			global_autonomy = -0.10
+			max_absolutism = 10
 		}
 	}
 }
@@ -293,7 +251,7 @@ revolutionary_empire = {
 	}
 
 
-	max_states = 5
+	max_states = 3
 
 
 	rank = {
@@ -339,22 +297,25 @@ merchant_republic = {
 		factor = 0	
 	}
 	
-	max_states = 5
+	max_states = 1
 
 	
 	rank = {
 		1 = {
 			merchants = 1
 			caravan_power = 0.33	
+			max_absolutism = -50
 		}
 		2 = {
 			merchants = 1
 			caravan_power = 0.33	
+			max_absolutism = -50
 		}
 		3 = {	
 			merchants = 1
 			caravan_power = 0.33
 			global_autonomy = -0.025
+			max_absolutism = -50
 		}
 	}
 }
@@ -379,22 +340,25 @@ oligarchic_republic = {
 	ai_importance = 1
 
 	#bonus
-	max_states = 5
+	max_states = 2
 	
 	rank = {
 		1 = {
 			global_tax_modifier = 0.05
 			stability_cost_modifier = -0.05
+			max_absolutism = -50
 		}
 		2 = {
 			global_tax_modifier = 0.05
 			stability_cost_modifier = -0.05	
 			global_autonomy = -0.025
+			max_absolutism = -50
 		}
 		3 = {
 			global_tax_modifier = 0.05
 			stability_cost_modifier = -0.05
 			global_autonomy = -0.05
+			max_absolutism = -50
 		}
 	}
 }
@@ -412,21 +376,24 @@ noble_republic = {
 		factor = 0
 	}
 	ai_importance = 1
-	max_states = 5
+	max_states = 2
 
 
 	rank = {
 		1 = {
 			tolerance_heretic = 1
 			land_morale = 0.1
+			max_absolutism = -40
 		}
 		2 = {
 			tolerance_heretic = 1
 			land_morale = 0.1
+			max_absolutism = -40
 		}
 		3 = {	
 			tolerance_heretic = 1
 			land_morale = 0.1
+			max_absolutism = -40
 		}
 	}
 }
@@ -464,23 +431,26 @@ administrative_republic = {
 	ai_importance = 2
 
 	#bonus
-	max_states = 5
+	max_states = 3
 
 	rank = {
 		1 = {
 			years_of_nationalism = -5
 			production_efficiency = 0.1
 			global_autonomy = -0.025
+			max_absolutism = -30
 		}
 		2 = {
 			years_of_nationalism = -5
 			production_efficiency = 0.1
 			global_autonomy = -0.05	
+			max_absolutism = -30
 		}
 		3 = {	
 			years_of_nationalism = -5
 			production_efficiency = 0.1
 			global_autonomy = -0.075
+			max_absolutism = -30
 		}
 	}
 }
@@ -521,7 +491,7 @@ republican_dictatorship = {
 	}
 
 
-	max_states = 5
+	max_states = 3
 
 	rank = {
 		1 = {
@@ -579,7 +549,7 @@ constitutional_republic = {
 
 	#bonus
 
-	max_states = 5
+	max_states = 3
 
 
 	rank = {
@@ -587,16 +557,19 @@ constitutional_republic = {
 			production_efficiency = 0.1
 			trade_efficiency = 0.1
 			global_autonomy = -0.05
+			max_absolutism = -30
 		}
 		2 = {
 			production_efficiency = 0.1
 			trade_efficiency = 0.1
 			global_autonomy = -0.075
+			max_absolutism = -30
 		}
 		3 = {
 			production_efficiency = 0.1
 			trade_efficiency = 0.1
 			global_autonomy = -0.10
+			max_absolutism = -30
 		}
 	}
 }
@@ -615,7 +588,7 @@ bureaucratic_despotism = {
 		factor = 0
 	}
 
-	max_states = 5
+	max_states = 3
 	
 	rank = {
 		1 = {
@@ -649,7 +622,7 @@ revolutionary_republic = {
 		factor = 0
 	}
 	
-	max_states = 5
+	max_states = 3
 	
 	faction = rr_jacobins
 	faction = rr_royalists
@@ -692,7 +665,7 @@ theocratic_government = {
 	has_devotion = yes
 	rulers_can_be_generals = no
 	
-	max_states = 5
+	max_states = 2
 
 	
 	rank = {
@@ -732,7 +705,7 @@ monastic_order_government = {
 	
 	has_devotion = yes
 	
-	max_states = 5
+	max_states = 1
 	
 	rank = {
 		1 = {
@@ -747,6 +720,7 @@ papal_government = {
 	religion = yes
 	papacy = yes
 	
+	allow_force_tributary = no
 	
 	color = { 230 195 195 }
 	
@@ -760,7 +734,7 @@ papal_government = {
 	rulers_can_be_generals = no
 	has_devotion = yes
 	
-	max_states = 5
+	max_states = 1
 	
 	ai_will_do = {
 		factor = 0
@@ -810,18 +784,24 @@ steppe_horde = {
 			land_forcelimit_modifier = 0.1
 			loot_amount = 0.50
 			global_institution_spread = -0.15
+			reinforce_cost_modifier = -0.5
+			cav_to_inf_ratio = 0.25
 		}
 		2 = {
 			global_manpower_modifier = 0.2
 			land_forcelimit_modifier = 0.2	
 			loot_amount = 0.50
 			global_institution_spread = -0.15
+			reinforce_cost_modifier = -0.5
+			cav_to_inf_ratio = 0.25
 		}
 		3 = {
 			global_manpower_modifier = 0.3
 			land_forcelimit_modifier = 0.3
 			loot_amount = 0.50
 			global_institution_spread = -0.15
+			reinforce_cost_modifier = -0.5
+			cav_to_inf_ratio = 0.25
 		}
 	}
 }
@@ -1079,23 +1059,26 @@ english_monarchy = {
 
 	has_parliament = yes
 	
-	max_states = 5
+	max_states = 1
 	
 	rank = {
 		1 = {
 			legitimacy = 0.5
 			global_unrest = -1
-			global_autonomy = -0.025		
+			global_autonomy = -0.025	
+			max_absolutism = -30	
 		}
 		2 = {
 			legitimacy = 0.5
 			global_unrest = -1
 			global_autonomy = -0.05		
+			max_absolutism = -30
 		}
 		3 = {	
 			legitimacy = 0.5
 			global_unrest = -1
 			global_autonomy = -0.075			
+			max_absolutism = -30
 		}
 	}
 }
@@ -1121,22 +1104,25 @@ elective_monarchy = {
 	
 	is_elective = yes
 	
-	max_states = 5
+	max_states = 2
 	
 	rank = {
 		1 = {
 			vassal_income = 0.25
 			global_unrest = -1
+			max_absolutism = -30
 		}
 		2 = {
 			vassal_income = 0.25
 			global_unrest = -1
 			global_autonomy = -0.025		
+			max_absolutism = -30
 		}
 		3 = {	
 			vassal_income = 0.25
 			global_unrest = -1
 			global_autonomy = -0.05
+			max_absolutism = -30
 		}
 	}
 }
@@ -1170,6 +1156,7 @@ imperial_city = {
 		1 = {
 			trade_efficiency = 0.1
 			development_cost = -0.1
+			max_absolutism = -20
 		}
 	}
 	fixed_rank = 1
@@ -1210,6 +1197,7 @@ trading_city = {
 		1 = {
 			trade_efficiency = 0.1
 			caravan_power = 0.33	
+			max_absolutism = -20
 		}
 	}
 }
@@ -1231,22 +1219,25 @@ ambrosian_republic = {
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10	
-	max_states = 5
+	max_states = 2
 
 	rank = {
 		1 = {
 			global_tax_modifier = 0.10
 			land_morale = 0.05
+			max_absolutism = -30
 		}
 		2 = {
 			global_tax_modifier = 0.10
 			land_morale = 0.05
 			global_autonomy = -0.025	
+			max_absolutism = -30
 		}
 		3 = {	
 			global_tax_modifier = 0.10
 			land_morale = 0.05
 			global_autonomy = -0.05	
+			max_absolutism = -30
 		}
 	}
 }
@@ -1269,7 +1260,7 @@ dutch_republic = {
 	
 	dutch_mechanics = yes
 	
-	max_states = 5
+	max_states = 2
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -1282,16 +1273,19 @@ dutch_republic = {
 			heavy_ship_power = 0.10
 			trade_efficiency = 0.10
 			global_autonomy = -0.025
+			max_absolutism = -30
 		}
 		2 = {
 			heavy_ship_power = 0.10
 			trade_efficiency = 0.10
 			global_autonomy = -0.05	
+			max_absolutism = -30
 		}
 		3 = {	
 			heavy_ship_power = 0.10
 			trade_efficiency = 0.10
 			global_autonomy = -0.075
+			max_absolutism = -30
 		}
 	}
 }
@@ -1300,9 +1294,14 @@ dutch_republic = {
 celestial_empire = {
 	monarchy = yes
 	
+	maintain_dynasty = yes
+	
 	color = { 210 30 30 }
 	
 	unique_government = yes
+	has_meritocracy = yes
+	
+	allow_force_tributary = no
 
 	valid_for_new_country = no
 	allow_convert = no
@@ -1321,11 +1320,7 @@ celestial_empire = {
 	faction = temples
 	faction = enuchs
 	faction = bureaucrats
-	
-	min_autonomy = 50
-	
-	max_states = 8
-	
+
 	rank = {
 		3 = {
 			prestige = 0.5
@@ -1352,21 +1347,24 @@ ottoman_government = {
 		religion_group = muslim
 	}	
 	
-	max_states = 8
+	max_states = 5
 	
 	rank = {
 		1 = {
 			unjustified_demands = -0.1
 			legitimacy = 0.25
+			max_absolutism = 5
 		}
 		2 = {
 			unjustified_demands = -0.1
 			legitimacy = 0.5
+			max_absolutism = 5
 		}
 		3 = {	
 			unjustified_demands = -0.1
 			legitimacy = 0.5
 			global_autonomy = -0.05
+			max_absolutism = 5
 		}
 	}
 }
@@ -1382,12 +1380,12 @@ prussian_monarchy = {
 	allow_convert = no
 	
 	valid_for_nation_designer = yes
-	nation_designer_cost = 50
+	nation_designer_cost = 100
 
-	militarised_society = yes	
-	
+	militarised_society = yes
+
 	#bonus
-	max_states = 5
+	max_states = 2
 
 	
 	rank = {
@@ -1395,16 +1393,22 @@ prussian_monarchy = {
 			war_exhaustion = -0.02
 			global_unrest = -2
 			global_autonomy = -0.05
+			max_absolutism = 10
+			monarch_military_power = 3
 		}
 		2 = {
 			war_exhaustion = -0.02
 			global_unrest = -2
 			global_autonomy = -0.075	
+			max_absolutism = 10
+			monarch_military_power = 3
 		}
 		3 = {	
 			war_exhaustion = -0.02
 			global_unrest = -2
 			global_autonomy = -0.10	
+			max_absolutism = 10
+			monarch_military_power = 3
 		}
 	}
 }
@@ -1427,7 +1431,7 @@ iqta = {
 		religion_group = muslim
 	}	
 	
-	max_states = 5
+	max_states = 2
 	
 	rank = {
 		1 = {
@@ -1488,6 +1492,8 @@ shogunate = {
 	valid_for_new_country = no
 	allow_convert = no
 	
+	maintain_dynasty = yes
+	
 	allow_vassal_war = yes
 	allow_vassal_alliance = yes
 	
@@ -1497,17 +1503,57 @@ shogunate = {
 		culture_group = japanese_g
 		technology_group = chinese
 		capital_scope = { region = japan_region }
-	}	
+		owns = 1020
+	}
 	
-	max_states = 5
+	max_states = 2
 	
 	rank = {
 		2 = {
-			diplomatic_upkeep = 4
+			diplomats = 1
+			envoy_travel_time = -0.25
+			max_absolutism = 5
 		}
 	}
 	fixed_rank = 2
 }
+
+indep_daimyo = {
+	monarchy = yes
+	
+	color = { 220 170 110 }
+	
+	unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+	maintain_dynasty = yes
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		culture_group = japanese_g
+		technology_group = chinese
+		capital_scope = { region = japan_region }
+	}	
+	
+	rank = {
+		1 = {
+			land_morale = 0.025
+			infantry_power = 0.025
+		}
+		2 = {
+			land_morale = 0.05
+			infantry_power = 0.05
+		}
+		3 = {
+			land_morale = 0.10
+			infantry_power = 0.10	
+		}
+	}
+}
+
 
 # Colonial Nations
 colonial_government = {
@@ -1525,7 +1571,7 @@ colonial_government = {
 	republican_name = yes
 	royal_marriage = no
 	
-	max_states = 5
+	max_states = 2
 	
 	ai_will_do = {
 		factor = 0
@@ -1539,4 +1585,164 @@ colonial_government = {
 		}
 	}
 	fixed_rank = 1
+}
+
+peasants_republic = {
+	republic = yes
+	
+	color = { 65 155 220 }
+	
+	valid_for_new_country = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	
+	duration = 5
+	
+	republican_name = yes
+	royal_marriage = no
+	
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 2
+
+	#bonus
+
+	max_states = 1
+
+
+	rank = {
+		1 = {
+			production_efficiency = 0.1
+			land_morale = 0.05
+			global_autonomy = -0.025
+			max_absolutism = -50
+		}
+		2 = {
+			production_efficiency = 0.1
+			land_morale = 0.05
+			global_autonomy = -0.05
+			max_absolutism = -50
+		}
+		3 = {
+			production_efficiency = 0.1
+			land_morale = 0.05
+			global_autonomy = -0.075
+			max_absolutism = -50
+		}
+	}
+}
+
+# Unique Russian Governments
+
+veche_republic = {
+	republic = yes
+	
+	color = { 60 120 180 }
+	
+	unique_government = yes
+	
+	duration = 4
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+	republican_name = yes
+	royal_marriage = no
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40	
+	
+	nation_designer_trigger = {
+		culture_group = east_slavic
+	}
+	
+	max_states = 3
+	
+	rank = {
+		1 = {
+			merchants = 1
+		}
+	}
+	fixed_rank = 1
+	
+	has_russian_abilities = yes
+	
+	boost_income = yes
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+
+	faction = mr_aristocrats
+	faction = mr_traders
+	faction = mr_guilds		
+
+	ai_will_do = {
+		factor = 0	
+	}
+}
+
+principality = {
+	monarchy = yes
+	
+	color = { 140 50 50 }
+	
+	unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+		
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	nation_designer_trigger = {
+		culture_group = east_slavic
+	}
+	
+	max_states = 3
+	
+	rank = {
+		1 = {
+			global_unrest = -1
+			global_tax_modifier = 0.05
+		}
+	}
+	fixed_rank = 1
+	
+	has_russian_abilities = yes
+
+}
+
+
+tsardom = {
+	monarchy = yes
+	
+	color = { 140 50 50 }
+	
+	unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+		
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	nation_designer_trigger = {
+		culture_group = east_slavic
+	}	
+	
+	max_states = 10
+	
+	rank = {
+		3 = {
+			global_manpower_modifier = 0.20
+			yearly_absolutism = 0.1
+			global_autonomy = -0.05
+		}
+	}
+	fixed_rank = 3
+	
+	has_russian_abilities = yes
+	claim_states = yes
+
+
 }

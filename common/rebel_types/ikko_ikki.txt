@@ -132,6 +132,7 @@ ikko_ikki_rebels = {
 						government = steppe_horde
 						government = celestial_empire
 						government = iqta
+						government = indep_daimyo
 						government = daimyo
 						government = shogunate
 						government = colonial_government

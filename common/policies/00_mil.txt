@@ -30,7 +30,7 @@ privy_council_establishment_act = {
 }
 
 the_mercenary_registration_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 
 	potential = {
@@ -792,7 +792,7 @@ the_licensing_of_the_press_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	relations_decay_of_me = 0.2
+	improve_relation_modifier = 0.2
 	ae_impact = -0.1
 	
 	ai_will_do = {
@@ -821,7 +821,7 @@ the_tenures_abolition_act = {
 	}
 
 	legitimacy = 1
-	republican_tradition = 0.004
+	republican_tradition = 0.4
 	devotion = 1
 	horde_unity = 1
 		
@@ -998,7 +998,7 @@ zealous_captains = {
 		full_idea_group = religious_ideas
 	}	
 	
-	recover_navy_morale_speed = 0.05
+	sunk_ship_morale_hit_recieved = -0.10
 	leader_naval_shock = 1
 	
 	ai_will_do = {
@@ -1038,23 +1038,23 @@ autonomous_estates = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_vassals = 1 }
+			NOT = { vassal = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 3
+			vassal = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 5
+			vassal = 5
 		}	
 	}
 }
@@ -1194,23 +1194,23 @@ unified_army_command = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_vassals = 1 }
+			NOT = { vassal = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 3
+			vassal = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 5
+			vassal = 5
 		}	
 	}
 }

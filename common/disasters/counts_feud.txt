@@ -3,14 +3,14 @@ counts_feud = {
 		tag = DAN
 		government = monarchy
 		normal_or_historical_nations = yes
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		uses_doom = no
-		NOT = { is_year = 1600 }
 		NOT = { has_country_flag = had_counts_feud  }
 	}
 
 
 	can_start = {
+		current_age = age_of_reformation
 		has_any_disaster = no
 		is_religion_enabled = protestant
 		NOT = { religious_unity = 0.9 }	

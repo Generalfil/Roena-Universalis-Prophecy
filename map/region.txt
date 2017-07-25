@@ -40,6 +40,10 @@ scandinavia_region = {
 		western_norway
 		bothnia_area
 		subarctic_islands_area
+		laponia_area
+		vastra_gotaland_area
+		ostra_svealand_area
+		iceland_area
 	}
 }
 
@@ -93,11 +97,7 @@ north_german_region = {
 		weser_area
 		holstein_area
 		mecklenburg_area
-
-
-
-
-
+		braunschweig_area
 	}
 }
 
@@ -119,7 +119,6 @@ south_german_region = {
 		upper_rhineland_area
 		romandie_area
 		palatinate_area
-
 	}
 }
 
@@ -134,7 +133,13 @@ russia_region = {
 		karelia_area
 		ryazan_area
 		tambov_area
-
+		north_karelia
+		tver_area
+		yaroslavl_area
+		vladimir_area
+		oka_area
+		arkhangelsk_area
+		vologda_area
 	}
 }
 
@@ -148,7 +153,8 @@ ural_region = {
 		saratov_area
 		kama_area
 		bashkiria_area
-		
+		samara_area
+		volga_area
 	}
 }
 
@@ -166,6 +172,7 @@ iberia_region = {
 		alentejo_area
 		beieras_area
 		macaronesia_area
+		basque_country
 	}
 }
 
@@ -193,6 +200,8 @@ baltic_region = {
 		curonia_area
 		west_prussia_area
 		east_prussia_area
+		pomerelia_area
+		samogitia_area
 	}
 }
 
@@ -216,7 +225,7 @@ ruthenia_region = {
 		podolia_volhynia_area
 		pripyat_area
 		smolensk_area
-
+		minsk_area
 	}
 }
 
@@ -237,12 +246,14 @@ balkan_region = {
 		east_adriatic_coast_area
 		bosnia_area
 		serbia_area
+		rascia_area
 		bulgaria_area
 		macedonia_area
 		northern_greece_area
 		morea_area
 		western_aegean_area
 		thrace_area
+		albania_area
 	}
 }
 
@@ -252,6 +263,7 @@ carpathia_region = {
 		alfold_area
 		slovakia_area
 		transylvania_area
+		southern_transylvania_area
 		wallachia_area
 		moldavia_area
 	}
@@ -273,14 +285,19 @@ maghreb_region = {
 	areas = {
 		fezzan_area
 		tunisia_area
+		djerba_area
 		kabylia_area
 		algiers_area
+		hautes_plaines_area
 		north_saharan_area
 		tafilalt_area
 		sus_area
 		marrekesh_area
-		fez_area
+		ouled_nail_area
+		#fez_area
 		northern_morocco_area
+		southern_morocco_area
+		western_morocco_area
 		tripolitania_area
 	}
 }
@@ -307,7 +324,8 @@ anatolia_region = {
 		erzurum_area
 		north_kurdistan_area
 		dulkadir_area
-		eastern_aegean_area
+		eastern_mediterrenean_islands_area
+		
 	}
 }
 
@@ -321,6 +339,8 @@ persia_region = {
 		azerbaijan_area
 		isfahan_area
 		kerman_area
+		persian_gulf_coast
+		tabriz_area
 	}
 }
 
@@ -345,26 +365,33 @@ caucasia_region = {
 		shirvan_area
 		armenia_area
 		dagestan_area
+		odishi_area
 	}
 }
 
 arabia_region = {
 	areas = {
+		tabuk_area
 		hejaz_area
 		najd_area
 		bahrain_area
 		oman_area
+		pirate_coast_area
+		dhofar_area
 		hadramut_area
 		yemen_area
+		ad_dahna_area
+		sarat_area
 	}
 }
 
 niger_region = {
 	areas = {
-
 		adamawa_plateau_area
 		lower_niger_area
 		hausa_area
+		katsina_area
+		zazzau_area
 		upper_volta_area
 		atacora_oueme_area
 		lower_volta_area
@@ -372,19 +399,20 @@ niger_region = {
 		massina_area
 		manding_area
 		tekrur_area
+		jenne_area
 	}
 }
 
 guinea_region = {
 	areas = {
-
+		benin_area
 		cap_verde_area
 		guinea_coast_area
 		gulf_of_guinea_area
 		futa_jallon_area
 		west_africa_coast_area
-
-
+		jolof_area
+		sao_tome_area
 	}
 }
 
@@ -400,7 +428,7 @@ sahel_region = {
 		dendi_area
 		baghena_area
 		niger_bend_area
-		
+		east_azbin_area
 	}
 }
 
@@ -413,11 +441,16 @@ horn_of_africa_region = {
 		tigray_area
 		somaliland_area
 		ogaden_area
-		hadiya_area
 		majarteen_area
 		mogadishu_area
 		red_sea_coast_area
 		upper_nubia_area
+		sennar_area
+		dongola_area
+		hadiya_area
+		damot_area
+		aussa_area
+		shewa_area
 	}
 }
 
@@ -437,6 +470,8 @@ east_africa_region = {
 		southern_madagascar
 		uticulo_makuana_area
 		jubba_area
+		shire_area
+		mombasa_area
 	}
 }
 
@@ -452,6 +487,8 @@ central_africa_region = {
 		buzinza_area
 		uganda_area
 		rwanda_area
+		chokwe_area
+		bunyoro_area
 	}
 }
 
@@ -477,6 +514,12 @@ central_asia_region = {
 		ferghana_area
 		jetysuu_area
 		arys_area
+		lower_yik_area
+		syr_darya_area
+		kashgaria_area
+		tarim_basin_area
+		shanshan_area
+		kyzylkum_area
 	}
 }
 
@@ -486,7 +529,8 @@ south_africa_region = {
 		cape_of_good_hope_area
 		zimbabwe_area
 		quelimane_area
-		
+		butua_area
+		limpopo_area
 	}
 }
 
@@ -498,16 +542,19 @@ west_siberia_region = {
 		tunguska_area
 		irkutsk_area
 		ishim_area
+		kara_area
 	}
 }
 
 east_siberia_region = {
 	areas = {
 		yakutia_area
+		sakha_area
 		okhotsk_area
 		magadan_area
 		kamchatka_area
 		buryatia_area
+		kolyma_area
 	}
 }
 
@@ -517,44 +564,45 @@ mongolia_region = {
 		inner_mongolia_area
 		ordos_area
 		zungaria_area
+		north_zungaria
 		altai_sayan_area
-		
+		eastern_mongolia
+		central_mongolia_area
+		uliastai_area
+		turpan_kumul_area
+		tannu_uriankhai_area
 	}
 }
 
 manchuria_region = {
 	areas = {
 		heilongjiang_area
+		east_heilongjiang_area
 		jilin_area
+		central_jilin_area
 		ilan_hala_area
 		liaoning_area
-		north_korea_area
-		central_korea_area
+		ningguta_area
+		central_heilongjiang_area
+	}
+}
+
+korea_region = {
+	areas = {
+		pyongan_area
+		hamgyeong_area
+		western_korea_area
+		eastern_korea_area
 		south_korea_area
-		
 	}
 }
 
 tibet_region = {
 	areas = {
 		utsang_area
+		tsang_area
 		amdo_area
 		kham_area
-		tarim_basin_area
-		
-	}
-}
-
-bengal_region = {
-	areas = {
-		west_bengal_area
-		north_bengal_area
-		east_bengal_area
-		naga_hills_area
-		jharkhand_area
-		orissa_area
-		garjat_area
-		assam_area
 	}
 }
 
@@ -572,6 +620,19 @@ hindusthan_region = {
 		lahore_area
 		multan_area
 		kashmir_area
+	}
+}
+
+bengal_region = {
+	areas = {
+		west_bengal_area
+		north_bengal_area
+		east_bengal_area
+		naga_hills_area
+		jharkhand_area
+		orissa_area
+		garjat_area
+		assam_area
 	}
 }
 
@@ -621,6 +682,8 @@ burma_region = {
 		upper_burma_area
 		lower_burma_area
 		shan_hill_area
+		karenni_area
+		arakan_area
 	}
 }
 
@@ -629,11 +692,15 @@ japan_region = {
 		hokkaido_area
 		hokuriku_area
 		kanto_area
+		eastern_kanto_area
 		kyushu_area
 		chubu_area
 		kinai_area
 		thohoku_area
 		saigoku_area
+		sanindo_area
+		shikoku_area
+		northern_kyushu
 	}
 }
 
@@ -643,6 +710,8 @@ australia_region = {
 		northern_australia_area
 		eastern_australia_area
 		southern_australia_area
+		top_end_area
+		murray_river_area
 	}
 }
 
@@ -650,13 +719,16 @@ australia_region = {
 south_china_region = {
 	areas = {
 		guangdong_area
+		west_guangdong_area
 		fujian_area
 		jiangxi_area
 		huguang_area
 		zhejiang_area
-		anhui_area
-		jiangsu_area
+		south_anhui_area
 		taiwan_area
+		south_jiangsu_area
+		hunan_area
+		guangxi_area
 	}
 }
 
@@ -664,8 +736,9 @@ xinan_region = {
 	areas = {
 		sichuan_area
 		yun_gui_area
-		guangxi_area
-		
+		chuannan_area
+		yun_gui_borderland_area
+		chuanbei_area
 	}
 }
 
@@ -673,11 +746,16 @@ north_china_region = {
 	
 	areas = {
 		hebei_area
+		south_hebei_area
 		shandong_area
 		henan_area
 		shanxi_area
 		gansu_area
 		shaanxi_area
+		north_henan_area
+		west_gansu_area
+		jiangsu_area
+		anhui_area
 	}
 }
 
@@ -688,7 +766,6 @@ brazil_region = {
 		minas_gerais_area
 		goias_area
 		mato_grosso_area
-		guapore_area
 		sao_paolo_area
 		rio_de_janeiro_area
 		bahia_area
@@ -697,11 +774,20 @@ brazil_region = {
 		maranhao_area
 		grao_para_area
 		amazon_area
+		diamantina_area
+		pontal_area
+		ofaie_area
+		piaui_area
+		amapa_area
+		guapore_area
+		ceara_area
+		west_sao_paolo_area
 	}
 }
 
 la_plata_region = {
 	areas = {
+		nehuenken_area
 		patagonia_area
 		cuyo_area
 		southern_pampas_area
@@ -710,7 +796,9 @@ la_plata_region = {
 		south_atlantic_islands_area
 		southern_chile_area
 		central_chile_area
-
+		misiones_area
+		patagonian_andes
+		bahia_blanca_area
 	}
 }
 
@@ -719,6 +807,7 @@ colombia_region = {
 	areas = {
 		upper_guyana_area
 		guyana_area
+		suriname_area
 		venezuela_area
 		eastern_llanos
 		western_llanos
@@ -726,6 +815,7 @@ colombia_region = {
 		bogota_area
 		popayan_area
 		panama_area
+		maracaibo_area
 	}
 }
 
@@ -738,6 +828,8 @@ peru_region = {
 		huanuco_area
 		antisuyu_area
 		quito_area
+		iquitos_area
+		peruan_coast
 	}
 }
 
@@ -749,7 +841,9 @@ upper_peru_region = {
 		chaco_area
 		paraguay_area
 		northern_chile_area
-		
+		potosi_area
+		jujuy_area
+		moxos_area
 	}
 }
 
@@ -761,8 +855,10 @@ malaya_region = {	#Western Indonesia Malaya.
 		indian_ocean_islands_area
 		tenasserim_area
 		malaya_area
-
-
+		north_tenasserim_area
+		malacca_area
+		batak_area
+		minangkabau_area
 	}
 }
 
@@ -773,8 +869,13 @@ moluccas_region = {
 		sulawesi_area
 		luzon_area
 		great_moluccas_area
+		mindanao_area
 		papua_area
-
+		vogelkop_area
+		timor_area
+		south_sulawesi_area
+		ceram_area
+		spice_islands_area
 	}
 }
 
@@ -789,7 +890,7 @@ indonesia_region = { #Eastern Indonesian/Malayan Islands.
 		central_java_area
 		west_java_area
 		lesser_sunda_islands_area
-
+		indonesian_islands_area
 	}
 }
 
@@ -798,10 +899,12 @@ oceanea_region = {
 	areas = {
 		polynesia_area
 		micronesia_area
+		west_micronesia_area
 		melanesia_area
 		te_ika_a_maui_area
 		te_waipounamu_area
-		
+		northern_polynesia_area
+		eastern_polynesia_area
 	}
 }
 
@@ -816,6 +919,7 @@ indo_china_region = {
 		mekong_area
 		champa_area
 		khorat_area
+		red_river_delta_area
 	}
 }
 
@@ -832,6 +936,7 @@ canada_region = {
 		laurentian_area
 		huronia_area
 		upper_ontario_area
+		greenland_area
 	}
 }
 
@@ -840,7 +945,9 @@ great_lakes_region = {
 		ohio_country_area
 		illinois_country_area
 		michigan_area
+		miami_river_area
 		lake_superior_area 
+		wisconsin_area
 	}
 }
 
@@ -852,7 +959,10 @@ northeast_america_region = {
 		hudson_valley_area
 		delaware_valley_area
 		iroquoisia_area
+		south_iroquoisia_area
 		susquehanna_area
+		maine_area
+		maryland_area
 	}
 }
 
@@ -864,6 +974,9 @@ southeast_america_region =  {
 		american_georgia_area 
 		florida_area
 		carolinas_area
+		south_carolina_area
+		upper_american_georgia_area
+		north_florida_area
 	}
 }
 
@@ -871,23 +984,27 @@ mississippi_region = {
 	areas = {
 		lower_louisiana_area
 		west_florida_area
-		ozarks_area
 		upper_louisiana_area
 		alabama_area
 		kentucky_area
 		appalachia_area
+		south_appalachia_area
 		mississippi_area
+		choctaw_area
+		mississippi_plain_area
 	}
 }
 
 great_plains_region = {
 	areas = {
+		central_plains_area
 		lower_plains_area
 		high_plains_area
+		ozarks_area
 		dakota_area
+		south_dakota_area
 		upper_missouri_area
 		badlands_area
-		llano_estacado_area
 	}
 }
 
@@ -911,6 +1028,8 @@ cascadia_region = {
 		interior_plateau_area
 		hecate_strait_area
 		alaska_area
+		straits_of_georgia_area
+		east_alaska_area
 	}
 }
 
@@ -922,11 +1041,14 @@ hudson_bay_region = {
 		saskatchewan_area
 		prairies_area
 		athabasca_area
+		inner_ontario_area
+		assiniboia_area
 	}
 }
 
 mexico_region = {
 	areas = {
+		coastal_prarie_area
 		eastern_mexico_area
 		mexico_area
 		michoacan_area
@@ -939,6 +1061,7 @@ mexico_region = {
 		sonora_y_sinaloa_area
 		jalisco_area
 		gran_chichimeca_area
+		llano_estacado_area
 	}
 }
 
@@ -948,6 +1071,7 @@ central_america_region = {
 		honduras_area
 		nicaragua_area
 		yucatan_area
+		east_yucatan_area
 		chiapas_area
 	}
 }
@@ -955,10 +1079,12 @@ central_america_region = {
 carribeans_region = {
 	areas = {
 		cuba_area
+		east_cuba_area
 		hispaniola_area
 		greater_antilles_area
 		leeward_islands_area
 		windward_islands_area
+		lucayan_area
 	}
 }
 

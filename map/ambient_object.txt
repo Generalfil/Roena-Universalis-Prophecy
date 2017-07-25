@@ -2302,7 +2302,7 @@ type={
 		name="mount_fuji"
 		hidden_on_start=no
 		position={
-			4968.500 2.280 1242.900 
+			4971.000 -1.100 1247.000 
 		}
 		rotation={
 			0.000 -110.000 0.000 
@@ -2411,8 +2411,8 @@ type={
 	scale=0.260000
 	time_duration=300.000000
 	object={
-		name="hagia_sophia"
-		hidden_on_start=no
+		name="hagia_sophia_minarets"
+		hidden_on_start=yes
 		position={
 			3241.000 0.150 1344.000 
 		}
@@ -2558,7 +2558,7 @@ type={
 		name="forbidden_city"
 		hidden_on_start=no
 		position={
-			4648.300 -0.020 1332.800 
+			4641.000 -0.020 1321.000 
 		}
 		rotation={
 			0.000 -30.000 0.000 

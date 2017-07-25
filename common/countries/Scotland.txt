@@ -103,22 +103,26 @@ monarch_names = {
 }
 
 ship_names = {
-	Advantage "Ann of Anstruther"
-	Bonaventure Bruce
-	Charles "Christian of Boness" Christopher Cuckoo
+	"Alexander Gaily" "Ann of Anstruther" "Ann of Caledonia" Annandale Anthony
+	Bonaventure Bosse
+	Caledonia "Christian of Bo'ness" Christopher Colomb Continent
+	David "Dogarvine of Londonderry" Dolphin "Duke of Hamilton" "Dumbarton Castle"
+	Eagle "Effenying Castle" Elizabeth Endeavour
 	Flower Fortune
-	"Good Fortune" Green-tree
-	"Great Michael"
-	James Janet "Jenny Pirwin"
-	"King's Caravel"
-	"Lamb of Leith" Lesley Lion
-	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Moon Morton
-	Pelican "Prince Rupert" "Providence of Dundee"
-	"Rainbow of Dundee" Rothes
-	Salamander "St. Salvator"
-	Thistle
-	Unicorn
-	Venture
-	Wemyss
-	"Yellow Caravel"
+	"Good Fortune" "Great Lyon" "Great Spaniard" "Great Unicorn" Greentree
+	Hope "Hope of Bo'ness" "Hopeful Beginning"
+	Instauration
+	James "James of Anstruther" Janet "Jennet Purwyn"
+	"King's Carvel"
+	"Lamb of Glasgow" "Lamb of Leith" Lesley "Little Unicorn" Lyon
+	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Michael Moriset Morton
+	"Olive Branch"
+	Pelican Phoenix "Prince Rupert" "Providence of Dundee" "Providence of Kirkcaldy"
+	Rainbow "Reid Lyon" "Rising Sun" Rothes "Royal Mary" "Royal William"
+	"Saint Andrew" Salamander Society Speedwell "Speedy Return"
+	Thistle Towaich Treasurer
+	Unicorn Union
+	Venture "Phoenix of Glasgow"
+	Wemyss "William and George" "William and Mary"
+	"Yellow Carvel" "Phoenix of Glasgow"
 }

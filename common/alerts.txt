@@ -300,6 +300,10 @@ alerts = {
 	alert_no_fetishist_cult = {
 		category = MEDIUM
 	}
+
+	alert_high_naval_attrition = {
+		category = HIGH
+	}
 	
 	alert_can_embrace = {
 		category = MEDIUM
@@ -307,5 +311,21 @@ alerts = {
 	
 	alert_can_intervene_in_war = {
 		category = MEDIUM
+	}
+
+	alert_age_ending_soon = {
+		category = MEDIUM
+	}
+
+	alert_age_can_spend_splendor = {
+		category = LOW
+	}
+
+	alert_can_enact_decree = {
+		category = LOW
+	}
+
+	alert_can_use_russian_ability = {
+		category = LOW
 	}
 }

@@ -2,16 +2,17 @@ french_revolution = {
 	potential = {
 		NOT = { has_country_flag = had_revolution }
 		tag = FRA
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		uses_doom = no
-		num_of_cities = 30
 		NOT = { revolution_target_exists = yes }
 		government = monarchy
-		is_year = 1700
+		NOT = { government = celestial_empire }
 	}
 	
 	
 	can_start = {
+		current_age = age_of_revolutions
+		num_of_cities = 30
 		has_any_disaster = no
 		OR = {
 			NOT = { stability =	0 }
@@ -20,7 +21,6 @@ french_revolution = {
 			war_exhaustion = 10
 			NOT = { prestige = 0 }
 		}
-		is_year = 1750
 	}
 	
 	can_stop = {

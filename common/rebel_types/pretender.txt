@@ -56,7 +56,16 @@ pretender_rebels = {
 		modifier = {
 			factor = 0
 			is_overseas = yes
-		}		
+		}
+		modifier = {
+			factor = 0.05
+			owner = {
+				OR = {
+					has_country_modifier = the_mandate_of_heaven_lost
+					has_country_modifier = lost_mandate_of_heaven
+				}
+			}
+		}
 		modifier = {
 			factor = 2
 			owner = {
@@ -100,7 +109,7 @@ pretender_rebels = {
 			factor = 5.0
 			owner = {
 				government = republic
-				NOT = { republican_tradition = 0.40 }
+				NOT = { republican_tradition = 40 }
 			}
 		}	
 		modifier = {
@@ -282,6 +291,7 @@ pretender_rebels = {
 						government = steppe_horde
 						government = celestial_empire
 						government = iqta
+						government = indep_daimyo
 						government = daimyo
 						government = shogunate
 						government = colonial_government
@@ -309,6 +319,11 @@ pretender_rebels = {
 			limit = { has_disaster = civil_war }
 			end_disaster = civil_war
 			clr_country_flag = civilwar_on_capital
+		}
+		if = {
+			limit = { has_disaster = internal_conflicts }
+			country_event = { id = internal_conflicts.8 }
+			end_disaster = internal_conflicts
 		}
 		if = {
 			limit = { has_disaster = castilian_civil_war }

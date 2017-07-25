@@ -16,13 +16,18 @@ east_indies_superregion = {
 	indo_china_region
 }
 
+oceania_superregion = {
+	oceanea_region
+	australia_region
+}
+
 china_superregion = {
 	north_china_region
 	xinan_region
 	south_china_region
 }
 
-europe_superregion = {
+europe_superregion = { #Western Europe
 	france_region
 	iberia_region
 	italy_region
@@ -31,6 +36,31 @@ europe_superregion = {
 	north_german_region
 	scandinavia_region
 	low_countries_region
+}
+
+eastern_europe_superregion = {
+	poland_region
+	baltic_region
+	russia_region
+	ruthenia_region
+	carpathia_region
+	balkan_region
+	crimea_region
+	ural_region
+}
+
+tartary_superregion = {
+	east_siberia_region
+	west_siberia_region
+	manchuria_region
+	mongolia_region
+	central_asia_region
+	tibet_region
+}
+
+far_east_superregion = {
+	korea_region
+	japan_region
 }
 
 africa_superregion = {
@@ -69,6 +99,7 @@ north_america_superregion = {
 central_america_superregion = {
 	central_america_region
 	mexico_region
+	carribeans_region
 }
 
 near_east_superregion = {

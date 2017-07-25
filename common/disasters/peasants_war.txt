@@ -1,5 +1,6 @@
 peasant_war = {
 	potential = {
+	
 		OR = {
 			government = monarchy
 			government = theocracy
@@ -7,13 +8,15 @@ peasant_war = {
 		NOT = { government = celestial_empire }
 		NOT = { government = steppe_horde }		
 		uses_doom = no
+		is_free_or_tributary_trigger = yes
 		num_of_cities = 5
 		NOT = { has_country_flag = had_peasant_war }
-		NOT = { is_year = 1600 }
+		current_age = age_of_discovery
 	}
 	
 	
 	can_start = {
+		current_age = age_of_discovery
 		is_at_war = no
 		has_any_disaster = no
 		NOT = { manpower_percentage = 0.25 }

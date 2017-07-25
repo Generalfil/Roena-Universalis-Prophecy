@@ -20,13 +20,17 @@ estate_burghers =
 	# If true, country will get estate
 	trigger = {	
 		NOT = { government = merchant_republic }
+		NOT = { government = veche_republic }
 		NOT = { government = trading_city }
 		NOT = { government = revolutionary_republic }
 		NOT = { government = native_council }
 		NOT = { government = siberian_native_council }
+		OR = {
+			NOT = { government = celestial_empire }
+			has_dlc = "Mandate of Heaven"
+		}
 		is_nomad = no
 		is_colonial_nation = no
-		NOT = { government = celestial_empire }
 	}
 	
 	# If true, province can be granted to estate
@@ -47,6 +51,7 @@ estate_burghers =
 	autonomy_does_not_affect = province_trade_power_modifier
 	autonomy_does_not_affect = naval_forcelimit
 	autonomy_does_not_affect = local_sailors_modifier
+	autonomy_does_not_affect = local_sailors
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
@@ -153,6 +158,7 @@ estate_burghers =
 			capital_scope = {
 				OR = {
 					area = central_swahili_coast_area
+					area = mombasa_area
 					area = mozambique_area
 					area = northern_swahili_coast_area
 					area = mogadishu_area
@@ -191,6 +197,13 @@ estate_burghers =
 		influence = 10
 	}
 	influence_modifier = {
+		desc = EST_VAL_CELESTIAL_EMPIRE
+		trigger = {
+			government = celestial_empire
+		}		
+		influence = -10
+	}
+	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
 			OR = {
@@ -224,6 +237,12 @@ estate_burghers =
 		desc = estate_bourgeoisie
 		trigger = {
 			culture_group = french
+		}
+	}
+	custom_name = {
+		desc = estate_shangbang
+		trigger = {
+			culture_group = east_asian
 		}
 	}
 	custom_name = {
@@ -273,7 +292,7 @@ estate_burghers =
 			num_of_cities = 10
 		}	
 		value = 5		
-	}		
+	}
 
 	# Special interactions
 	interaction = {

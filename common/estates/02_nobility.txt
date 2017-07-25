@@ -28,14 +28,19 @@ estate_nobles =
 	# If true, country will get estate
 	trigger = {	
 		NOT = { government = merchant_republic }
+		NOT = { government = veche_republic }
 		NOT = { government = native_council }
 		NOT = { government = trading_city }
 		NOT = { government = siberian_native_council }
 		NOT = { government = revolutionary_republic }
 		NOT = { government = revolutionary_empire }
+		NOT = { government = peasants_republic }
+		OR = {
+			NOT = { government = celestial_empire }
+			has_dlc = "Mandate of Heaven"
+		}
 		is_nomad = no
 		is_colonial_nation = no
-		NOT = { government = celestial_empire }
 		OR = {
 			NOT = { has_dlc = "Common Sense" }
 			AND = {
@@ -98,6 +103,20 @@ estate_nobles =
 			NOT = { government = feudal_monarchy }
 		}		
 		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_BLACK_ARMY
+		trigger = {
+			has_country_modifier = hun_black_army
+		}		
+		influence = -10
+	}
+	influence_modifier = {
+		desc = EST_VAL_CELESTIAL_EMPIRE
+		trigger = {
+			government = celestial_empire
+		}		
+		influence = -10
 	}
 	
 	# Influence modifiers from Events:
@@ -237,6 +256,12 @@ estate_nobles =
 		}
 	}
 	custom_name = {
+		desc = estate_qinwang
+		trigger = {
+			government = celestial_empire
+		}
+	}
+	custom_name = {
 		desc = estate_mansabdars
 		trigger = {
 			tag = MUG
@@ -265,6 +290,12 @@ estate_nobles =
 		desc = estate_planters
 		trigger = {
 			tag = USA
+		}
+	}
+	custom_name = {
+		desc = estate_bushi
+		trigger = {
+			culture_group = japanese_g
 		}
 	}
 
@@ -594,7 +625,7 @@ estate_nobles =
 						}	
 					}
 				}
-				add_manpower = 0.1
+				add_yearly_manpower = 1
 			}
 			if = {
 				limit = {
@@ -609,7 +640,7 @@ estate_nobles =
 						}	
 					}
 				}
-				add_manpower = 0.15
+				add_yearly_manpower = 1.5
 			}
 			if = {
 				limit = {
@@ -624,7 +655,7 @@ estate_nobles =
 						}	
 					}
 				}
-				add_manpower = 0.2
+				add_yearly_manpower = 2
 			}
 			if = {
 				limit = {
@@ -633,7 +664,7 @@ estate_nobles =
 						influence = 100
 					}
 				}
-				add_manpower = 0.25
+				add_yearly_manpower = 2.5
 			}	
 			add_estate_loyalty = {
 				estate = estate_nobles

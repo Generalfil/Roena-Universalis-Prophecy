@@ -124,7 +124,7 @@ formalized_measures = {
 	}	
 
 	global_tax_modifier = 0.10
-	republican_tradition = 0.002
+	republican_tradition = 0.2
 
 	ai_will_do = {
 		factor = 1
@@ -726,23 +726,23 @@ vassal_taxation_policy = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_vassals = 1 }
+			NOT = { vassal = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 3
+			vassal = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 5
+			vassal = 5
 		}	
 	}
 }
@@ -769,23 +769,23 @@ the_stamp_act = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_colonial_subjects = 1 }
+			NOT = { colony = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 2
+			colony = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 3
+			colony = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 4
+			colony = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 5
+			colony = 5
 		}		
 	}
 }
@@ -1184,23 +1184,23 @@ vassal_obligations_act = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_vassals = 1 }
+			NOT = { vassal = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 3
+			vassal = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 5
+			vassal = 5
 		}			
 	}
 }
@@ -1253,23 +1253,23 @@ vassal_integration_act = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_vassals = 1 }
+			NOT = { vassal = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 3
+			vassal = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 5
+			vassal = 5
 		}			
 	}
 	
@@ -1299,23 +1299,23 @@ overseas_dominions = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_vassals = 1 }
+			NOT = { vassal = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 3
+			vassal = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 5
+			vassal = 5
 		}			
 	}
 }
@@ -1567,23 +1567,23 @@ supply_convoys = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { num_of_colonial_subjects = 1 }
+			NOT = { colony = 1 }
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 2
+			colony = 2
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 3
+			colony = 3
 		}			
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 4
+			colony = 4
 		}
 		modifier = {
 			factor = 1.5
-			num_of_colonial_subjects = 5
+			colony = 5
 		}	
 	}
 }
