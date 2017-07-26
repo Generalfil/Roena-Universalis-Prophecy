@@ -1,37 +1,37 @@
 province;red;green;blue;x;x
-1;128;34;64;Stockholm;x
-2;0;36;128;Östergötland;x
-3;128;38;192;Småland;x
-4;0;40;255;Bergslagen;x
-5;128;42;0;Värmland;x
-6;0;44;64;Skåne;x
-7;129;46;128;Västergötland;x
-8;1;48;192;Dalaskogen;x
-9;129;50;255;Hälsingland;x
-10;1;52;0;Jämtland;x
-11;129;54;64;Västerbotten;x
-12;1;56;128;Sjælland;x
-13;129;58;192;Slesvig;x
-14;2;60;255;Fyn;x
-15;130;62;0;Midtjylland;x
-16;2;64;64;Bohuslän;x
-17;130;66;128;Akershus;x
-18;2;68;192;Umeå;x
-19;130;70;255;Österbotten;x
-20;2;72;0;Trøndelag;x
-21;131;74;64;Hålogaland;x
-22;3;76;128;Oplandene;x
-23;131;78;192;Bergenshus;x
-24;3;80;255;Stavanger;x
-25;131;82;0;Gotland;x
-26;3;84;64;Halland;x
-27;131;86;128;Finland;x
+1;128;34;64;Isswyn;x
+2;0;36;128;Tse' Helwi;x
+3;128;38;192;Tidherlan;x
+4;0;40;255;Hunvilan;x
+5;128;42;0;Cyne Islands;x
+6;0;44;64;Pawic;x
+7;129;46;128;Lyem;x
+8;1;48;192;Tse' Osia;x
+9;129;50;255;Vor Casow;x
+10;1;52;0;Asheng;x
+11;129;54;64;Elbryc Islands;x
+12;1;56;128;Tso' Ochyrst;x
+13;129;58;192;Vor' Limor;x
+14;2;60;255;Rarycg;x
+15;130;62;0;Vor Gahlea;x
+16;2;64;64;Tso' Anwic;x
+17;130;66;128;Ladun;x
+18;2;68;192;Caham;x
+19;130;70;255;Bileah;x
+20;2;72;0;Tso' Piwic;x
+21;131;74;64;Mahryst;x
+22;3;76;128;Vor' Swamor;x
+23;131;78;192;Uhryn Archipelago;x
+24;3;80;255;Taburn;x
+25;131;82;0;Salhyrst;x
+26;3;84;64;Bavic Tor;x
+27;131;86;128;Tso' Hamoor;x
 28;4;88;192;Nyland;x
 29;132;90;255;Tavastland;x
-30;4;92;0;Viborg;x
-31;132;94;64;Savolax;x
-32;4;96;128;Kexholm;x
-33;132;98;192;Neva;x
+30;4;92;0;Sistow;x
+31;132;94;64;Cacewin;x
+32;4;96;128;Tso' Calor;x
+33;132;98;192;Addwyr;x
 34;4;100;255;Ingermanland;x
 35;133;102;0;Ösel;x
 36;5;104;64;Estland;x
@@ -2750,7 +2750,7 @@ province;red;green;blue;x;x
 2749;37;208;234;Tikhvin;x
 2750;234;227;107;Plovdiv;x
 2751;68;230;179;Cuenca;x
-2752;3;196;128;Romsdal;x
+2752;3;196;128;Vor' Ban;x
 2753;188;67;67;Narbonne;x
 2754;231;35;179;La Mancha;x
 2755;68;8;179;Soria;x
@@ -4143,7 +4143,7 @@ province;red;green;blue;x;x
 4142;198;219;57;Aarhus;x
 4143;127;186;98;Smålenene;x
 4144;222;69;44;Bratsberg;x
-4145;201;191;169;Agdesiden;x
+4145;201;191;169;Mhen Nar;x
 4146;225;223;19;Jotenheimen;x
 4147;74;217;74;Rostov;x
 4148;222;151;200;Luki;x

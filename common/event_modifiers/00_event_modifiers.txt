@@ -1,4 +1,4 @@
-##################################################################################################
+﻿##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
 
@@ -1773,6 +1773,11 @@ river_estuary_modifier = {
 }
 
 neva_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+iss_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
