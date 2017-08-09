@@ -1,10 +1,10 @@
 #Lothia
 ISS	= "countries/Isswyn.txt"
-SLM = "countries/Solemyr.txt" 
-NAS = "countries/Nasra.txt"
-VRS = "countries/Vor’Ros.txt"
-VKA = "countries/Vor’Kirsa.txt"
-AHK = "countries/Arhkant.txt"
+#SLM = "countries/Solemyr.txt" 
+#NAS = "countries/Nasra.txt"
+#VRS = "countries/Vor’Ros.txt"
+#VKA = "countries/Vor’Kirsa.txt"
+#AHK = "countries/Arhkant.txt"
 
 
 # Special countries..

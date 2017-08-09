@@ -4,6 +4,48 @@
 # Effects are fully scriptable here.
 
 
+#Test of "tribalism" flag
+
+tribalism_test1 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_1
+	}
+
+	trade_efficiency = 0.05
+}
+
+tribalism_test2 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_2
+	}
+
+	trade_efficiency = 0.5
+}
+
+tribalism_test3 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_3
+	}
+
+	trade_efficiency = 0.95
+}
+
+
+
+
+
 ###########################################
 # Discovery of the East Indian trade route.
 ###########################################
