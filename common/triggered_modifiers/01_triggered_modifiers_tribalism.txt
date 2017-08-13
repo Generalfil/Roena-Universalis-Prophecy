@@ -1,0 +1,112 @@
+#Tribalism for the Lothian peninsula 
+
+#Urbanized
+tribalism_urbanized = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_urban
+	}
+	global_manpower_modifier = -0.3
+	global_unrest = -2
+	discipline = 0.1
+	global_tax_modifier = 0.2
+}
+
+
+#Level 1
+tribalism_1 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_1
+	}
+
+	trade_efficiency = 0.05
+}
+
+#Level 2
+tribalism_2 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_2
+	}
+
+	trade_efficiency = 0.5
+}
+
+#Level 3
+tribalism_3 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_3
+	}
+
+	trade_efficiency = 0.95
+}
+
+#Level 4
+tribalism_4 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_4
+	}
+
+	trade_efficiency = 0.05
+}
+
+#Level 5
+tribalism_5 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_5
+	}
+
+	trade_efficiency = 0.5
+}
+
+#Level 6
+tribalism_6 = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_6
+	}
+
+	trade_efficiency = 0.95
+}
+
+#Tribal Nation
+tribalism_tribenation = {
+	potential = {
+		tag = ISS
+	}
+
+	trigger = {
+		has_country_flag = tribal_tribe
+	}
+	global_manpower_modifier = 0.4
+	infantry_power = 0.1
+	discipline = -0.1
+	global_tax_modifier = -0.2
+	
+}
+
