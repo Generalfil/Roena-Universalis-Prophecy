@@ -1,0 +1,1 @@
+﻿replace_path = "history/provinces/18-18.txt"
