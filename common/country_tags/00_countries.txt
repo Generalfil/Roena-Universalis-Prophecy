@@ -1,11 +1,29 @@
-#Lothia
-ISS	= "countries/Isswyn.txt"
+#Lothia Majors
+ISS = "countries/Isswyn.txt"
 SLM = "countries/Solemyr.txt" 
 NAS = "countries/Nasra.txt"
 VRS = "countries/VorRos.txt"
 VKA = "countries/VorKirsa.txt"
 AHK = "countries/Arhkant.txt"
+ARH = "countries/Arhna.txt"
+HAA = "countries/Haanyr.txt"
 
+#Lothia Minors
+AAM = "countries/AamasBan.txt"
+AGR = "countries/Agraan.txt"
+CER = "countries/Ceryll.txt"
+EEG = "countries/VorEegan.txt"
+ERS = "countries/ErsemGor.txt"
+GAN = "countries/VorGanarr.txt"
+HRR = "countries/Harragor.txt"
+HII = "countries/VorHiirl.txt"
+IIL = "countries/AldIilm.txt"
+LYE = "countries/Lyem.txt"
+MAA = "countries/VorMaalnag.txt"
+MLN = "countries/Malnn.txt"
+OSI = "countries/Osiia.txt"
+SII = "countries/Siiray.txt"
+VES = "countries/Vesvor.txt"
 
 # Special countries..
 REB = "countries/Rebels.txt"

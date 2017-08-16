@@ -1,8 +1,8 @@
 #
 
-add_core = ISS
-owner = ISS
-controller = ISS
+add_core = OSI
+owner = OSI
+controller = OSI
 culture = swedish
 religion = catholic
 hre = no
