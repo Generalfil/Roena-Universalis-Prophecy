@@ -8174,6 +8174,7 @@ lothian = { #Nordic
 		}
 	}
 	arhkan = {
+	
 		primary = AKH
 		male_names = {
 			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv 
@@ -8199,6 +8200,7 @@ lothian = { #Nordic
 			Kaise Saiva
 		}
 
+	}
 	solemyran = {
 		primary = SLM
 		male_names = {
