@@ -3,7 +3,7 @@ primary_culture = scottish
 add_accepted_culture = highland_scottish
 religion = catholic
 technology_group = western
-capital = 248 # Edinburgh
+capital = 61
 
 
 1390.1.1 = {

@@ -1746,3 +1746,56 @@ tsardom = {
 
 
 }
+
+######################################################################################
+#New
+######################################################################################
+
+lothian_republic = {
+	republic = yes
+
+	valid_for_new_country = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40	
+	
+	color = { 40 130 200 }
+	
+	duration = 4
+
+	republican_name = yes
+	royal_marriage = no
+	
+	boost_income = yes
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+	
+	faction = mr_nobles
+	faction = mr_traders
+	faction = mr_guilds		
+
+	ai_will_do = {
+		factor = 0	
+	}
+	
+	max_states = 1
+
+	
+	rank = {
+		1 = {
+			merchants = 1
+			caravan_power = 0.33	
+			max_absolutism = -50
+		}
+		2 = {
+			merchants = 1
+			caravan_power = 0.33	
+			max_absolutism = -50
+		}
+		3 = {	
+			merchants = 1
+			caravan_power = 0.33
+			global_autonomy = -0.025
+			max_absolutism = -50
+		}
+	}
+}

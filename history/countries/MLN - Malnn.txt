@@ -3,8 +3,7 @@ primary_culture = scottish
 add_accepted_culture = highland_scottish
 religion = catholic
 technology_group = western
-capital = 2 # Edinburgh
-
+capital = 8
 
 1390.1.1 = {
 	monarch = {
