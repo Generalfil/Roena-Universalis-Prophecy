@@ -1,69 +1,205 @@
-namespace = tribalism
+namespace = tribalism_event
+
 
 country_event{
 	
-	id = tribalism_event_namespace.1
+	id = tribalism_event.99
 	
-	title = "my_mod_event_1_title"
-	desc = "my_mod_event_1_desc"	
-	picture = GOOD_WITH_MONARCH_eventPicture
+	fire_only_once = yes
 	
-	fire_only_once = yes 
+	title = "tribalism_event_start_title"
+	desc = "tribalism_event_start_desc"	
 	
 	trigger = {
-		tag = ISS	
+		culture_group = lothian	
 	}	
-	
 	option = {
-		name = "Nibba"
-		clr_country_flag = tribal_2
-		set_country_flag = tribal_1
-
+		name = "tribalism_event_start"
+		set_country_flag = tribal_3
 	}
 }
 
-
+#ToUrbanizedOr1
 country_event{
 	
-	id = tribalism_event_namespace.2
+	id = tribalism_event.0
 	
-	title = "my_mod_event_2_title"
-	desc = "my_mod_event_2_desc"	
+	title = "tribalism_event_urban_title"
+	desc = "tribalism_event_urban_desc"	
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
-	fire_only_once = yes 
-	
 	trigger = {
-		tag = ISS
-	
+		culture_group = lothian
+		has_country_flag = tribal_1
+		
+		had_country_flag = {
+			flag = tribal_1
+			days = 30
+		}	
 	}	
 	
 	option = {
-		name = "Nibba2"
+		name = "tribalism_event_urban_up"
+		clr_country_flag = tribal_1
+		set_country_flag = tribal_urban
+	}
+	option = {
+		name = "tribalism_event_1_down"
 		clr_country_flag = tribal_1
 		set_country_flag = tribal_2
 	}
 }
 
-
+#ToTribal_1Or3
 country_event{
 	
-	id = tribalism_event_namespace.3
+	id = tribalism_event.1
 	
-	title = "my_mod_event_3_title"
-	desc = "my_mod_event_3_desc"	
+	title = "tribalism_event_title"
+	desc = "tribalism_event_desc"	
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
-	fire_only_once = yes 
-	
 	trigger = {
-		tag = ISS
-	
+		culture_group = lothian
+		has_country_flag = tribal_2
+		
+		had_country_flag = {
+			flag = tribal_2
+			days = 30
+		}	
 	}	
 	
 	option = {
-		name = "Nibba3"
+		name = "tribalism_event_1_up"
+		clr_country_flag = tribal_2
+		set_country_flag = tribal_1
+	}
+	option = {
+		name = "tribalism_event_1_down"
 		clr_country_flag = tribal_2
 		set_country_flag = tribal_3
+	}
+}
+#ToTribal_2Or4
+country_event{
+	
+	id = tribalism_event.2
+	
+	title = "tribalism_event_title"
+	desc = "tribalism_event_desc"	
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		culture_group = lothian
+		has_country_flag = tribal_3
+		
+		had_country_flag = {
+			flag = tribal_3
+			days = 30
+		}	
+	}	
+	
+	option = {
+		name = "tribalism_event_1_up"
+		clr_country_flag = tribal_3
+		set_country_flag = tribal_2
+	}
+	option = {
+		name = "tribalism_event_1_down"
+		clr_country_flag = tribal_3
+		set_country_flag = tribal_4
+	}
+}
+
+#ToTribal_3Or5
+country_event{
+	
+	id = tribalism_event.3
+	
+	title = "tribalism_event_title"
+	desc = "tribalism_event_desc"	
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		culture_group = lothian
+		has_country_flag = tribal_4
+		
+		had_country_flag = {
+			flag = tribal_4
+			days = 30
+		}	
+	}	
+	
+	option = {
+		name = "tribalism_event_1_up"
+		clr_country_flag = tribal_4
+		set_country_flag = tribal_3
+	}
+	option = {
+		name = "tribalism_event_1_down"
+		clr_country_flag = tribal_4
+		set_country_flag = tribal_5
+	}
+}
+
+#ToTribal_4Or6
+country_event{
+	
+	id = tribalism_event.4
+	
+	title = "tribalism_event_title"
+	desc = "tribalism_event_desc"	
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		culture_group = lothian
+		has_country_flag = tribal_5
+		
+		had_country_flag = {
+			flag = tribal_5
+			days = 30
+		}	
+	}	
+	
+	option = {
+		name = "tribalism_event_1_up"
+		clr_country_flag = tribal_5
+		set_country_flag = tribal_4
+	}
+	option = {
+		name = "tribalism_event_1_down"
+		clr_country_flag = tribal_5
+		set_country_flag = tribal_6
+	}
+}
+
+#ToTribal_5OrTribe
+country_event{
+	
+	id = tribalism_event.5
+	
+	title = "tribalism_event_title"
+	desc = "tribalism_event_desc"	
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		culture_group = lothian
+		has_country_flag = tribal_6
+		
+		had_country_flag = {
+			flag = tribal_6
+			days = 30
+		}	
+	}	
+	
+	option = {
+		name = "tribalism_event_1_up"
+		clr_country_flag = tribal_6
+		set_country_flag = tribal_5
+	}
+	option = {
+		name = "tribalism_event_1_down"
+		clr_country_flag = tribal_6
+		set_country_flag = tribal_tribe
 	}
 }
