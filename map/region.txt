@@ -8,6 +8,41 @@ random_new_world_region = {
 # EUROPE                               #
 ########################################
 
+western_lothia_region = {
+	areas = {
+		lower_issia_area
+		upper_issia_area
+		issian_coast_area
+		harragor_coast_area
+		agraan_area		
+	}
+}
+
+southern_lothia_region = {
+	areas = {
+		south_nasra_area
+		north_nasra_area
+		west_haanyr_area
+		east_haanyr_area
+		aamas_area
+		siiray_area		
+	}
+}
+
+eastern_lothia_region = {
+	areas = {		
+		south_tseon_area
+		north_tseon_area
+		maalnag_area
+		west_rosmark_area
+		east_rosmark_area
+		upper_kirelor_area
+		lower_kirelor_area
+		greater_ghirena_area
+		solemyr_area
+	}
+}
+
 france_region = {
 	areas = {
 		brittany_area

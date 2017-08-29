@@ -2,7 +2,7 @@ government = feudal_monarchy
 primary_culture = virran
 religion = catholic
 technology_group = western
-capital = 248 # Edinburgh
+capital = 49
 
 
 1390.1.1 = {
