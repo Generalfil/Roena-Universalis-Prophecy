@@ -9121,21 +9121,3 @@ tutorial_negative_modifier = {
 
 
 hints_timer = { }
-
-###
-#NEW
-###
-
-valley_of_the_elder_trees = {
-	prestige = 1
-}
-
-school_at_aamas_ban = {
-	global_institution_spread = 0.05
-	picture = "estuary_icon"
-}
-
-WHAT_IS_HYPE_MAY_NEVER_DIE = {
-	land_morale = 999
-	picture = "manpower_icon"
-}
