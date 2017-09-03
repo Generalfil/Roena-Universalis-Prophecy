@@ -6,11 +6,11 @@ controller = ISS
 culture = issian
 religion = catholic
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 5 
+base_production = 5
 trade_goods = grain
-base_manpower = 1
-capital = "empty"
+base_manpower = 7
+capital = "Tso' Iss"
 is_city = yes
 
 

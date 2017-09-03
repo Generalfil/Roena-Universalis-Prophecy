@@ -3,14 +3,14 @@
 add_core = VRS
 owner = VRS
 controller = VRS
-culture = swedish
+culture = virran
 religion = catholic
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 3 
+base_production = 3
 trade_goods = grain
-base_manpower = 1
-capital = "empty"
+base_manpower = 2
+capital = "Ilwan Gor"
 is_city = yes
 
 
@@ -20,9 +20,3 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-add_permanent_province_modifier = {
-	name = VRS_estuary_modifier
-	duration = -1
-}
-

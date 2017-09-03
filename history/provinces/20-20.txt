@@ -3,14 +3,14 @@
 add_core = NAS
 owner = NAS
 controller = NAS
-culture = swedish
+culture = agraanan
 religion = catholic
 hre = no
-base_tax = 1 
-base_production = 1
-trade_goods = grain
-base_manpower = 1
-capital = "empty"
+base_tax = 2 
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 2
+capital = "Imel Gor"
 is_city = yes
 
 
@@ -20,9 +20,4 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-add_permanent_province_modifier = {
-	name = NAS_estuary_modifier
-	duration = -1
-}
 
