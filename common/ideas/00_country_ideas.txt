@@ -9786,3 +9786,42 @@ EST_ideas = {
 		global_unrest = -1
 	}
 }
+
+################################NEW
+
+ARH_ideas = {
+	start = {
+		sailor_maintenance_modifer = -0.1
+		ship_durability = 0.05
+	}
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	trigger = {
+		tag = ARH
+	}
+	free = yes
+	
+	arh_1 = {
+		global_manpower_modifier = 0.15
+	}
+	arh_2 = {
+		naval_forcelimit_modifier = 0.25
+		sailors_recovery_speed = 0.05
+	}
+	arh_3 = {
+		fort_maintenance_modifier = -0.2
+	}
+	arh_4 = {
+		technology_cost = -0.05
+	}
+	arh_5 = {
+		merchants = 1
+	}
+	ath_6 = {
+		prestige = 1
+	}
+	arh_7 = {
+		global_unrest = -1
+	}
+}

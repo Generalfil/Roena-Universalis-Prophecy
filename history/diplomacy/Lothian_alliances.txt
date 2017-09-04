@@ -1,0 +1,55 @@
+vassal = {
+	first = VRS
+	second = ERS
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
+
+vassal = {
+	first = VRS
+	second = GAN
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
+
+alliance = {
+	first = AGR
+	second = LYE
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
+
+alliance = {
+	first = AGR
+	second = HRR
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
+
+alliance = {
+	first = LYE
+	second = HRR
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
+
+alliance = {
+	first = SII
+	second = AAM
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
+
+alliance = {
+	first = SII
+	second = IIL
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
+
+alliance = {
+	first = AAM
+	second = IIL
+	start_date = 1464.1.1
+	end_date = 1586.2.11
+}
