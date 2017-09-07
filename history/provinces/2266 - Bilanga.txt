@@ -1,15 +1,1 @@
-# No previous file for Bilanga
-
-owner = MSI
-controller = MSI
-add_core = MSI
-is_city = yes
-culture = mossi 
-religion = shamanism #Fetishism
-capital = "Bilanga"
-trade_goods = grain
-hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
-discovered_by = sub_saharan
+replace_path = "history/provinces/2266.txt"

@@ -1,4 +1,1 @@
-discovered_by = north_american
-1778.1.1 = {
-	discovered_by = GBR
-}
+replace_path = "history/provinces/1812.txt"

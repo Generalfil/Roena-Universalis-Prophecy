@@ -1,3 +1,1 @@
-discovered_by = south_american
-
-1593.1.1 = { discovered_by = SPA }
+replace_path = "history/provinces/2936.txt"

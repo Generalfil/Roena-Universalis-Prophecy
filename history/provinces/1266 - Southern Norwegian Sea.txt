@@ -1,8 +1,1 @@
-
-
-
-
-discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-
+replace_path = "history/provinces/1266.txt"

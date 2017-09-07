@@ -1,1 +1,1 @@
-1516.1.23 = { discovered_by = SPA }
+replace_path = "history/provinces/1589.txt"

@@ -1,2 +1,1 @@
-discovered_by = western
-discovered_by = eastern
+replace_path = "history/provinces/1265.txt"

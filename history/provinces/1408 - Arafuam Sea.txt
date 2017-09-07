@@ -1,9 +1,1 @@
-discovered_by = MKS
-discovered_by = TER
-discovered_by = TID
-
-
-
-
-1511.1.1 = { discovered_by = POR }
-
+replace_path = "history/provinces/1408.txt"

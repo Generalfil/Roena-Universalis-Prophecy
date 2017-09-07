@@ -1,7 +1,1 @@
-discovered_by = chinese
-discovered_by = nomad_group
-
-
-
-
-1595.1.1 = { discovered_by = SPA }
+replace_path = "history/provinces/1897.txt"

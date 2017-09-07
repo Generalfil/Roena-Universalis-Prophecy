@@ -1,1 +1,1 @@
-discovered_by = north_american
+replace_path = "history/provinces/1808.txt"

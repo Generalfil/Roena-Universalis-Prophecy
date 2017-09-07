@@ -1,1 +1,1 @@
-1528.1.1 = { discovered_by = SPA }
+replace_path = "history/provinces/1700.txt"

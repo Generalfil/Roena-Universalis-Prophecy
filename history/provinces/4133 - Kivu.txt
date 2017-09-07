@@ -1,4 +1,1 @@
-#4133 - Lake Kivu
-
-
-discovered_by = central_african
+replace_path = "history/provinces/4133.txt"

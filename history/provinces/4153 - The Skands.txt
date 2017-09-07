@@ -1,4 +1,1 @@
-#Mountains splitting Norway from Sweden.
-
-discovered_by = eastern
-discovered_by = western
+replace_path = "history/provinces/4153.txt"

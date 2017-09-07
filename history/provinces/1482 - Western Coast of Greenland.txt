@@ -1,1 +1,1 @@
-1501.1.1 = { discovered_by = POR } # Gaspar Corte-Real
+replace_path = "history/provinces/1482.txt"

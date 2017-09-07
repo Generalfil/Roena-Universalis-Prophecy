@@ -1,1 +1,1 @@
-1643.1.1 = { discovered_by = NED }
+replace_path = "history/provinces/1723.txt"

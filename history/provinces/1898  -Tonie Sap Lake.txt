@@ -1,7 +1,1 @@
-discovered_by = chinese
-discovered_by = indian
-
-
-
-
-1535.1.1 = { discovered_by = POR }
+replace_path = "history/provinces/1898.txt"

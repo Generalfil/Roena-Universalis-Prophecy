@@ -1,4 +1,1 @@
-#4134 - Lake Rutanzige / Edward
-
-
-discovered_by = central_african
+replace_path = "history/provinces/4134.txt"

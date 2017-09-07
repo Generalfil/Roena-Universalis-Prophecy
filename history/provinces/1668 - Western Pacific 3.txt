@@ -1,1 +1,1 @@
-1647.1.1 = { discovered_by = RUS }
+replace_path = "history/provinces/1668.txt"

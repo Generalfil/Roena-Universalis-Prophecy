@@ -1,2 +1,1 @@
-#1782 - Central Siberia
-
+replace_path = "history/provinces/1782.txt"

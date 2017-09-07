@@ -1,1 +1,1 @@
-discovered_by = sub_saharan
+replace_path = "history/provinces/1648.txt"

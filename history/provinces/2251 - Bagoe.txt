@@ -1,2 +1,1 @@
-# Bagoe - Wasteland province
-discovered_by = sub_saharan
+replace_path = "history/provinces/2251.txt"

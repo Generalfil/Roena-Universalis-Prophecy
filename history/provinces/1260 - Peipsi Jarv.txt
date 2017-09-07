@@ -1,7 +1,1 @@
-discovered_by = western
-discovered_by = eastern
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
+replace_path = "history/provinces/1260.txt"
