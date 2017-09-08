@@ -46,6 +46,11 @@ URA = "countries/Uramor.txt"
 VAH = "countries/VorAhnsera.txt"
 VUL = "countries/VulgeinNor.txt"
 
+#North Gryphna Majors
+GRY = "countries/Gryphna.txt"
+ALM = "countries/Arlem.txt"
+GRN = "countries/Gerron.txt"
+
 
 # Special countries..
 REB = "countries/Rebels.txt"

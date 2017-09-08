@@ -420,4 +420,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/WOUNDED_SOLDIERS_eventPicture.dds"
 		allwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "ARHNA_eventPicture"
+		texturefile = "gfx/event_pictures_EUROPEAN/ARHNA_eventPicture.dds"
+		allwaystransparent = yes
+	}
 }

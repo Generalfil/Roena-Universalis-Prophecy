@@ -1,0 +1,32 @@
+# Arhna Start
+namespace = flavor_arh.1
+
+country_event = {
+	id = flavor_arh.1
+	title = "flavor_arh.EVTNAME1"
+	desc = "flavor_arh.EVTDESC1"
+	picture = ARHNA_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ARH
+		is_year = 1464
+		NOT = { is_year = 1465 }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {		# Confirm 
+		name = "flavor_arh.EVTOPTA1"
+		ai_chance = { factor = 100 }
+		add_stability_or_adm_power = yes
+		add_legitimacy = 25
+		add_prestige = 25
+		add_manpower = 10
+	}
+	
+}
