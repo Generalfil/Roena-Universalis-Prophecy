@@ -1,0 +1,71 @@
+#
+# National focus, fired every 5 year
+#
+
+country_event{
+	
+	id = national_event.0
+	
+	title = "national_focus_title"
+	desc = "national_focus_desc"	
+	picture = LIBERUM_VETO_eventPicture
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {	
+		tag = ANY 
+		is_year = 1464
+		OR = {
+			had_country_flag = {
+				flag = national_focus_manpower
+				days = 30
+			}
+			had_country_flag = {
+				flag = national_focus_discipline
+				days = 30
+			}	
+			had_country_flag = {
+				flag = national_focus_money
+				days = 30
+			}	
+			had_country_flag = {
+				flag = national_focus_forcelimit
+				days = 30
+			}	
+		}			
+	}
+
+	immediate = {
+		clr_country_flag = national_focus_forcelimit
+		clr_country_flag = national_focus_discipline
+		clr_country_flag = national_focus_manpower
+		clr_country_flag = national_focus_money
+	}
+	
+	option = {
+		name = "national_focus_manpower_option"
+		set_country_flag = national_focus_manpower
+		global_manpower_modifier = 0.25
+	}
+	option = {
+		name = "national_focus_discipline_option"
+		set_country_flag = national_focus_discipline
+		discipline = 0.05
+	}
+	option = {
+		name = "national_focus_money_option"
+		set_country_flag = national_focus_money
+		global_tax_modifier = 0.15
+	}
+	option = {
+		name = "national_focus_forcelimit_option"
+		set_country_flag = national_focus_forcelimit
+		land_forcelimit_modifier = 0.2
+	}
+}
+
+
+	
+	
