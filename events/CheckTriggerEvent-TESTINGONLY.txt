@@ -1,0 +1,39 @@
+namespace = testevent
+country_event{
+	
+	id = testevent.0
+	
+	title = "test"
+	desc = "test"	
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		is_year = 1464
+		NOT {has_country_flag = focus_year_1}
+		OR = {
+			is_year = 1465
+			AND = {
+				had_country_flag = {
+					flag = national_focus_manpower
+					days = 365
+				}
+				had_country_flag = {
+					flag = national_focus_discipline
+					days = 365
+				}	
+				had_country_flag = {
+					flag = national_focus_money
+					days = 365
+				}	
+				had_country_flag = {
+					flag = national_focus_forcelimit
+					days = 365
+				}
+			}	
+		}	
+	}	
+	
+	option = {
+		name = "tribalism_event_urban_up"
+	}
+}

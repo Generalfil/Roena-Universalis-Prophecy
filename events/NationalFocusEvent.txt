@@ -1,7 +1,7 @@
 #
 # National focus, fired every 5 year
 #
-
+namespace = national_event
 country_event{
 	
 	id = national_event.0
@@ -10,32 +10,7 @@ country_event{
 	desc = "national_focus_desc"	
 	picture = LIBERUM_VETO_eventPicture
 	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	trigger = {	
-		tag = ANY 
-		is_year = 1464
-		OR = {
-			had_country_flag = {
-				flag = national_focus_manpower
-				days = 30
-			}
-			had_country_flag = {
-				flag = national_focus_discipline
-				days = 30
-			}	
-			had_country_flag = {
-				flag = national_focus_money
-				days = 30
-			}	
-			had_country_flag = {
-				flag = national_focus_forcelimit
-				days = 30
-			}	
-		}			
-	}
+	is_triggered_only = yes
 
 	immediate = {
 		clr_country_flag = national_focus_forcelimit
@@ -47,7 +22,7 @@ country_event{
 	option = {
 		name = "national_focus_manpower_option"
 		set_country_flag = national_focus_manpower
-		global_manpower_modifier = 0.25
+		add_country_modifier = {name = "mod_national_focus_manpower" duration = 365}
 	}
 	option = {
 		name = "national_focus_discipline_option"

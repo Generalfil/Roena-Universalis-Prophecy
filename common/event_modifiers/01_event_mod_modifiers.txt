@@ -1,0 +1,3 @@
+mod_national_focus_manpower = {
+	global_manpower_modifier = 0.25
+}
