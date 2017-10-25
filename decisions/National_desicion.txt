@@ -1,31 +1,8 @@
 country_decisions = {
 	national_focus_desicison= {
 		potential = {
-			OR ={
-				is_year = 1464
-				NOT {has_country_flag = focus_year_1}
-				OR = {
-					is_year = 1465
-					OR = {
-						had_country_flag = {
-							flag = national_focus_manpower
-							days = 365
-						}
-						had_country_flag = {
-							flag = national_focus_discipline
-							days = 365
-						}	
-						had_country_flag = {
-							flag = national_focus_money
-							days = 365
-						}	
-						had_country_flag = {
-							flag = national_focus_forcelimit
-							days = 365
-						}
-					}	
-				}
-			}			
+			is_year = 1464
+			NOT {has_country_flag = focus_year_1}			
 		}
 		allow = {
 		
@@ -33,10 +10,44 @@ country_decisions = {
 		effect = {
 			country_event = national_event.0
 			#add_country_modifier = { name = "RecruitingPolicyCooldown" duration = 365 }
-			set_country_flag = focus_year_1
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 50
 		}
 	}
+	
+	continue_national_focus_desicison= {
+		potential = {
+			is_year = 1465
+			has_country_flag = focus_year_1
+			OR = {
+				had_country_flag = {
+					flag = national_focus_manpower
+					days = 365
+				}
+				had_country_flag = {
+					flag = national_focus_discipline
+					days = 365
+				}	
+				had_country_flag = {
+					flag = national_focus_money
+					days = 365
+				}	
+				had_country_flag = {
+					flag = national_focus_forcelimit
+					days = 365
+				}
+			}		
+		}
+		allow = {
+		
+		}
+		effect = {
+			country_event = national_event.0
+			#add_country_modifier = { name = "RecruitingPolicyCooldown" duration = 365 }
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}	
 }

@@ -1,8 +1,9 @@
 #
 # National focus, fired every 5 year
 #
-namespace = national_event
-country_event{
+##namespace = national_event
+
+country_event = {
 	
 	id = national_event.0
 	
@@ -17,6 +18,7 @@ country_event{
 		clr_country_flag = national_focus_discipline
 		clr_country_flag = national_focus_manpower
 		clr_country_flag = national_focus_money
+		set_country_flag = focus_year_1
 	}
 	
 	option = {
