@@ -18,29 +18,36 @@ country_event = {
 		clr_country_flag = national_focus_discipline
 		clr_country_flag = national_focus_manpower
 		clr_country_flag = national_focus_money
+		clr_country_flag = national_focus_country
 		set_country_flag = focus_year_1
 	}
 	
 	option = {
 		name = "national_focus_manpower_option"
 		set_country_flag = national_focus_manpower
-		add_country_modifier = {name = "mod_national_focus_manpower" duration = 365}
+		add_country_modifier = {name = "mod_national_focus_manpower" duration = 1825}
 	}
 	option = {
 		name = "national_focus_discipline_option"
 		set_country_flag = national_focus_discipline
-		discipline = 0.05
+		add_country_modifier = {name = "mod_national_focus_discipline" duration = 1825}
 	}
 	option = {
 		name = "national_focus_money_option"
 		set_country_flag = national_focus_money
-		global_tax_modifier = 0.15
+		add_country_modifier = {name = "mod_national_focus_money" duration = 1825}
 	}
 	option = {
 		name = "national_focus_forcelimit_option"
 		set_country_flag = national_focus_forcelimit
-		land_forcelimit_modifier = 0.2
+		add_country_modifier = {name = "mod_national_focus_forcelimit" duration = 1825}
 	}
+	option = {
+		name = "national_focus_country_option"
+		set_country_flag = national_focus_country
+		add_country_modifier = {name = "mod_national_focus_country" duration = 1825}
+	}
+	
 }
 
 

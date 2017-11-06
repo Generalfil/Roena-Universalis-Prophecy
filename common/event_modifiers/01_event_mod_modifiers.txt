@@ -1,3 +1,16 @@
 mod_national_focus_manpower = {
 	global_manpower_modifier = 0.25
 }
+mod_national_focus_money = {
+	global_tax_modifier = 0.2
+}
+mod_national_focus_discipline = {
+	discipline = 0.05
+}
+mod_national_focus_forcelimit = {
+	land_forcelimit_modifier = 0.2
+}
+mod_national_focus_country = {
+	prestige = 0.5
+	legitimacy = 0.25
+}
