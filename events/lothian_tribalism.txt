@@ -5,18 +5,24 @@ country_event{
 	
 	id = tribalism_event.99
 	
-	fire_only_once = yes
-	
 	title = "tribalism_event_start_title"
 	desc = "tribalism_event_start_desc"	
 	
 	trigger = {
 		culture_group = lothian	
+		is_year = 1464
+		NOT = { has_country_flag = tribal_started }
 	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
 	option = {
 		name = "tribalism_event_start"
 		ai_chance = { factor = 100 }
 		set_country_flag = tribal_3
+		set_country_flag = tribal_started
 	}
 }
 
