@@ -7,6 +7,8 @@ VKA = "countries/VorKirsa.txt"
 #AHK = "countries/Arhkant.txt"
 ARH = "countries/Arhna.txt"
 HAA = "countries/Haanyr.txt"
+NLO = "countries/NewLothia.txt"
+LOH = "countries/LothianHorde.txt"
 
 #Lothia Minors
 AAM = "countries/AamasBan.txt"
