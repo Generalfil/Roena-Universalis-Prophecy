@@ -15,6 +15,7 @@ country_event{
 	}	
 	option = {
 		name = "tribalism_event_start"
+		ai_chance = { factor = 100 }
 		set_country_flag = tribal_3
 	}
 }
@@ -40,11 +41,13 @@ country_event{
 	
 	option = {
 		name = "tribalism_event_urban_up"
+		ai_chance = { factor = 90 }
 		clr_country_flag = tribal_1
 		set_country_flag = tribal_urban
 	}
 	option = {
-		name = "tribalism_event_1_down"
+		name = "tribalism_event_urban_down"
+		ai_chance = { factor = 10 }
 		clr_country_flag = tribal_1
 		set_country_flag = tribal_2
 	}
@@ -71,11 +74,13 @@ country_event{
 	
 	option = {
 		name = "tribalism_event_1_up"
+		ai_chance = { factor = 75 }
 		clr_country_flag = tribal_2
 		set_country_flag = tribal_1
 	}
 	option = {
 		name = "tribalism_event_1_down"
+		ai_chance = { factor = 25 }
 		clr_country_flag = tribal_2
 		set_country_flag = tribal_3
 	}
@@ -100,12 +105,14 @@ country_event{
 	}	
 	
 	option = {
-		name = "tribalism_event_1_up"
+		name = "tribalism_event_2_up"
+		ai_chance = { factor = 50 }
 		clr_country_flag = tribal_3
 		set_country_flag = tribal_2
 	}
 	option = {
-		name = "tribalism_event_1_down"
+		name = "tribalism_event_2_down"
+		ai_chance = { factor = 50 }
 		clr_country_flag = tribal_3
 		set_country_flag = tribal_4
 	}
@@ -131,12 +138,14 @@ country_event{
 	}	
 	
 	option = {
-		name = "tribalism_event_1_up"
+		name = "tribalism_event_3_up"
+		ai_chance = { factor = 50 }
 		clr_country_flag = tribal_4
 		set_country_flag = tribal_3
 	}
 	option = {
-		name = "tribalism_event_1_down"
+		name = "tribalism_event_3_down"
+		ai_chance = { factor = 50 }
 		clr_country_flag = tribal_4
 		set_country_flag = tribal_5
 	}
@@ -162,12 +171,14 @@ country_event{
 	}	
 	
 	option = {
-		name = "tribalism_event_1_up"
+		name = "tribalism_event_4_up"
+		ai_chance = { factor = 25 }
 		clr_country_flag = tribal_5
 		set_country_flag = tribal_4
 	}
 	option = {
-		name = "tribalism_event_1_down"
+		name = "tribalism_event_4_down"
+		ai_chance = { factor = 75 }
 		clr_country_flag = tribal_5
 		set_country_flag = tribal_6
 	}
@@ -178,8 +189,8 @@ country_event{
 	
 	id = tribalism_event.5
 	
-	title = "tribalism_event_title"
-	desc = "tribalism_event_desc"	
+	title = "tribalism_event_tribe_title"
+	desc = "tribalism_event_tribe_desc"	
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
@@ -193,12 +204,14 @@ country_event{
 	}	
 	
 	option = {
-		name = "tribalism_event_1_up"
+		name = "tribalism_event_tribe_up"
+		ai_chance = { factor = 10 }
 		clr_country_flag = tribal_6
 		set_country_flag = tribal_5
 	}
 	option = {
-		name = "tribalism_event_1_down"
+		name = "tribalism_event_tribe_down"
+		ai_chance = { factor = 90 }
 		clr_country_flag = tribal_6
 		set_country_flag = tribal_tribe
 	}
