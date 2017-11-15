@@ -4,6 +4,7 @@
 tribalism_urbanized = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_1
 	}
 
 	trigger = {
@@ -20,6 +21,7 @@ tribalism_urbanized = {
 tribalism_1 = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_2
 	}
 
 	trigger = {
@@ -36,6 +38,8 @@ tribalism_1 = {
 tribalism_2 = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_1
+		has_country_flag = tribal_3
 	}
 
 	trigger = {
@@ -52,6 +56,8 @@ tribalism_2 = {
 tribalism_3 = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_2
+		has_country_flag = tribal_4
 	}
 
 	trigger = {
@@ -67,6 +73,8 @@ tribalism_3 = {
 tribalism_4 = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_3
+		has_country_flag = tribal_5
 	}
 
 	trigger = {
@@ -82,6 +90,8 @@ tribalism_4 = {
 tribalism_5 = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_4
+		has_country_flag = tribal_6
 	}
 
 	trigger = {
@@ -98,6 +108,7 @@ tribalism_5 = {
 tribalism_6 = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_5
 	}
 
 	trigger = {
@@ -115,6 +126,7 @@ tribalism_6 = {
 tribalism_tribenation = {
 	potential = {
 		culture_group = lothian
+		has_country_flag = tribal_6
 	}
 
 	trigger = {
