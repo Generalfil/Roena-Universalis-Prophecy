@@ -2,7 +2,10 @@ entity = {
 	name = "cavalry_saber"
 	pdxmesh = "cavalry_saber"
 }
-
+entity = {
+	name = "cavalry_saber_2"
+	pdxmesh = "cavalry_saber_2"
+}
 entity = {
 	name = "african_spear"
 	pdxmesh = "african_spear"

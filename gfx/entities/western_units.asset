@@ -11,6 +11,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -24,6 +29,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -37,6 +47,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -50,6 +65,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -63,6 +83,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -76,6 +101,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -89,6 +119,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -102,6 +137,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -115,6 +155,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -128,6 +173,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -141,6 +191,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -154,6 +209,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -167,6 +227,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -180,6 +245,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -193,6 +263,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "western_halbard" 
@@ -231,6 +306,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -239,11 +319,16 @@ entity = {
 
 entity = {
 	name = "SWE_INFANTRY_2"
-	pdxmesh = "SWE_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -252,11 +337,16 @@ entity = {
 
 entity = {
 	name = "DAN_INFANTRY_2"
-	pdxmesh = "DAN_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -265,11 +355,16 @@ entity = {
 
 entity = {
 	name = "ENG_INFANTRY_2"
-	pdxmesh = "ENG_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -278,11 +373,16 @@ entity = {
 
 entity = {
 	name = "SPA_INFANTRY_2"
-	pdxmesh = "SPA_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -291,11 +391,16 @@ entity = {
 
 entity = {
 	name = "HOL_INFANTRY_2"
-	pdxmesh = "HOL_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -304,11 +409,16 @@ entity = {
 	
 entity = {
 	name = "HAB_INFANTRY_2"
-	pdxmesh = "HAB_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -317,11 +427,16 @@ entity = {
 	
 entity = {
 	name = "FRA_INFANTRY_2"
-	pdxmesh = "FRA_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -330,11 +445,16 @@ entity = {
 	
 entity = {
 	name = "POR_INFANTRY_2"
-	pdxmesh = "POR_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -343,11 +463,16 @@ entity = {
 	
 entity = {
 	name = "PRU_INFANTRY_2"
-	pdxmesh = "PRU_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -356,11 +481,16 @@ entity = {
 	
 entity = {
 	name = "VEN_INFANTRY_2"
-	pdxmesh = "VEN_INFANTRY_2"
+	pdxmesh = "western_generic_02_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket" 
@@ -382,6 +512,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -390,11 +525,16 @@ entity = {
 
 entity = {
 	name = "DAN_INFANTRY_3"
-	pdxmesh = "DAN_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -403,11 +543,16 @@ entity = {
 
 entity = {
 	name = "ENG_INFANTRY_3"
-	pdxmesh = "ENG_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -416,11 +561,16 @@ entity = {
 	
 entity = {
 	name = "SPA_INFANTRY_3"
-	pdxmesh = "SPA_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -429,11 +579,16 @@ entity = {
 	
 entity = {
 	name = "HOL_INFANTRY_3"
-	pdxmesh = "HOL_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -442,11 +597,16 @@ entity = {
 	
 entity = {
 	name = "HAB_INFANTRY_3"
-	pdxmesh = "HAB_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -455,11 +615,16 @@ entity = {
 	
 entity = {
 	name = "FRA_INFANTRY_3"
-	pdxmesh = "FRA_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -468,11 +633,16 @@ entity = {
 	
 entity = {
 	name = "POR_INFANTRY_3"
-	pdxmesh = "POR_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -481,11 +651,16 @@ entity = {
 	
 entity = {
 	name = "PRU_INFANTRY_3"
-	pdxmesh = "PRU_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -494,11 +669,16 @@ entity = {
 	
 entity = {
 	name = "SWE_INFANTRY_3"
-	pdxmesh = "SWE_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -507,11 +687,16 @@ entity = {
 
 entity = {
 	name = "VEN_INFANTRY_3"
-	pdxmesh = "VEN_INFANTRY_3"
+	pdxmesh = "western_generic_03_type1"
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -530,9 +715,14 @@ entity = {
 	name = "westerngfx_INFANTRY_4"
 	pdxmesh = "western_generic_04_type1"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -543,9 +733,14 @@ entity = {
 	name = "DAN_INFANTRY_4"
 	pdxmesh = "DAN_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -556,9 +751,14 @@ entity = {
 	name = "ENG_INFANTRY_4"
 	pdxmesh = "ENG_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -569,9 +769,14 @@ entity = {
 	name = "GBR_INFANTRY_4"
 	pdxmesh = "GBR_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -582,9 +787,14 @@ entity = {
 	name = "SPA_INFANTRY_4"
 	pdxmesh = "SPA_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -595,9 +805,14 @@ entity = {
 	name = "HOL_INFANTRY_4"
 	pdxmesh = "HOL_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -608,9 +823,14 @@ entity = {
 	name = "HAB_INFANTRY_4"
 	pdxmesh = "HAB_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -621,9 +841,14 @@ entity = {
 	name = "FRA_INFANTRY_4"
 	pdxmesh = "FRA_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -635,9 +860,14 @@ entity = {
 	name = "USA_INFANTRY_4"
 	pdxmesh = "USA_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -648,9 +878,14 @@ entity = {
 	name = "POR_INFANTRY_4"
 	pdxmesh = "POR_INFANTRY_4_mesh"
 
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
+	state = { name = "idle" 				animation = "idle" }
+	state = { name = "walk" 				animation = "walk" }
+	state = { name = "attack"				animation = "attack" }
+	state = { name = "retreat"				animation = "retreat" }
+	#state = { name = "death"				animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -664,6 +899,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -677,6 +917,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -690,6 +935,11 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	#state = { name = "death"		animation = "death" }
+	#state = { name = "extra_state_1"		animation = "extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "extra_state_3" }
 
 	attach = { 
 		Left_hand_node = "western_musket_2" 
@@ -712,8 +962,13 @@ entity = {
 	pdxmesh = "cavalry_horse"
 
 	state = { name = "idle" 		animation = "horse_idle" }
+	#state = { name = "death" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "retreat" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
+	#state = { name = "extra_state_1"		animation = "horse_extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "horse_extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "horse_extra_state_3" }
 
 	attach = {
 		name = "rider"
@@ -728,6 +983,11 @@ entity = {
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
+	state = { name = "retreat"		animation = "horse_retreat" }
+	#state = { name = "death"		animation = "horse_death" }
+	#state = { name = "extra_state_1"		animation = "horse_extra_state_1" }
+	#state = { name = "extra_state_2"		animation = "horse_extra_state_2" }
+	#state = { name = "extra_state_3"		animation = "horse_extra_state_3" }
 
 	attach = { 
 		Right_hand_node = "cavalry_saber" 
@@ -1107,7 +1367,7 @@ entity = {
 entity = {
 	clone = "westerngfx_CAVALRY_1_rider"
 	name = "FRA_CAVALRY_1_rider"
-	pdxmesh = "western_generic_01_type6"
+	pdxmesh = "western_generic_01_type5"
 }
 
 entity = { 
@@ -1637,7 +1897,9 @@ entity = {
 
 	state = { name = "attack"		animation = "artillery_attack" 	event = { time = 0.0	node = "cannon_muzzle"	particle = "artillery_cannon" }	}
 	state = { name = "idle" 		animation = "artillery_idle" }
+	#state = { name = "death" 		animation = "artillery_idle" }
 	state = { name = "walk" 		animation = "artillery_moving" }
+	state = { name = "retreat" 		animation = "artillery_moving" }
 	
 }
 
@@ -1662,7 +1924,9 @@ entity = {
 
 	state = { name = "attack"		animation = "artillery_base_attack" }
 	state = { name = "idle" 		animation = "artillery_base_idle" }
+	#state = { name = "death" 		animation = "artillery_base_idle" }
 	state = { name = "walk" 		animation = "artillery_base_moving" }
+	state = { name = "retreat" 		animation = "artillery_base_moving" }
 	
 	attach = { 
 		name = "gunman"
@@ -1920,7 +2184,7 @@ entity = {
 	name = "LEI_ARTILLERY_1" 
 	attach = {
 		name = "gunman"
-		infantry_node = "SCO_INFANTRY_1" 
+		infantry_node = "LEI_INFANTRY_1" 
 		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
 	}
 }
@@ -1930,7 +2194,7 @@ entity = {
 	name = "MNS_ARTILLERY_1" 
 	attach = {
 		name = "gunman"
-		infantry_node = "SCO_INFANTRY_1" 
+		infantry_node = "LEI_INFANTRY_1" 
 		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
 	}
 }
@@ -1940,7 +2204,7 @@ entity = {
 	name = "CNN_ARTILLERY_1" 
 	attach = {
 		name = "gunman"
-		infantry_node = "SCO_INFANTRY_1" 
+		infantry_node = "LEI_INFANTRY_1" 
 		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
 	}
 }
@@ -1950,7 +2214,7 @@ entity = {
 	name = "TYR_ARTILLERY_1" 
 	attach = {
 		name = "gunman"
-		infantry_node = "SCO_INFANTRY_1" 
+		infantry_node = "LEI_INFANTRY_1" 
 		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
 	}
 }
