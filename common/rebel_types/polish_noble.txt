@@ -118,8 +118,30 @@ polish_noble_rebels = {
 			}
 			add_local_autonomy = 25
 		}	
-		add_legitimacy = -50	
-		change_government = elective_monarchy
-		
+		add_legitimacy = -50
+		if = {
+			limit = {
+				NOT = {
+					government = papal_government
+					government = steppe_horde
+					government = celestial_empire
+					government = iqta
+					government = indep_daimyo
+					government = principality
+					government = daimyo
+					government = shogunate
+					government = colonial_government
+					government = siberian_native_council
+					government = native_council
+					government = elective_monarchy
+					government = english_monarchy
+					government = ottoman_government
+					government = tribal_federation
+					government = feudal_theocracy
+					government = mamluk_government
+				}
+			}
+			change_government = elective_monarchy
+		}
 	}
 }

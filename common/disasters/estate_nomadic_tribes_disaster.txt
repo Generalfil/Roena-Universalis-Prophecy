@@ -18,11 +18,14 @@ estate_nomadic_tribes_disaster = {
 	}
 	
 	can_stop = {
-		NOT = {
-			estate_influence = {
-				estate = estate_nomadic_tribes
-				influence = 80
-			}		
+		OR = {
+			has_any_disaster = yes
+			NOT = {
+				estate_influence = {
+					estate = estate_nomadic_tribes
+					influence = 80
+				}		
+			}
 		}
 	}
 	

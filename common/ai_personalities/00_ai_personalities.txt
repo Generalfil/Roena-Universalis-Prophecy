@@ -318,7 +318,23 @@ ai_militarist = {
 			factor = 100
 			religion = nahuatl
 			is_religion_reformed = no
-		}	
+		}
+		modifier = {
+			factor = 0.5
+			num_of_loans = 1
+		}
+		modifier = {
+			factor = 0.5
+			num_of_loans = 3
+		}
+		modifier = {
+			factor = 0.5
+			num_of_loans = 5
+		}
+		modifier = {
+			factor = 0.5
+			num_of_loans = 7
+		}
 	}
 	icon = 4
 }
@@ -377,6 +393,14 @@ ai_colonialist = {
 		modifier = {
 			factor = 3
 			tag = POR
+		}
+		modifier = {
+			factor = 2
+			tag = CAS
+		}
+		modifier = {
+			factor = 2
+			tag = SPA
 		}
 		modifier = {
 			factor = 0.5

@@ -6,6 +6,8 @@ aspiration_for_liberty = {
 		num_of_cities = 5
 		current_age = age_of_revolutions
 		is_free_or_tributary_trigger = yes
+		NOT = { government = revolutionary_republic }
+		NOT = { government = revolutionary_empire }
 	}
 
 	
@@ -67,7 +69,7 @@ aspiration_for_liberty = {
 	modifier = {
 		global_unrest = 10
 		legitimacy = -3
-	}	
+	}
 	
 	
 	on_start = aspiration_for_liberty.1

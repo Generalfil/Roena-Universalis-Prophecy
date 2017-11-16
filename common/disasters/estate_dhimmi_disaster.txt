@@ -25,11 +25,14 @@ estate_dhimmi_disaster = {
 	}
 	
 	can_stop = {
-		NOT = {
-			estate_influence = {
-				estate = estate_dhimmi
-				influence = 80
-			}		
+		OR = {
+			has_any_disaster = yes
+			NOT = {
+				estate_influence = {
+					estate = estate_dhimmi
+					influence = 80
+				}		
+			}
 		}
 	}
 	
