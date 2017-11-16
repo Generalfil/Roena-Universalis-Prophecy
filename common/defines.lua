@@ -1487,7 +1487,7 @@ NGraphics = {
 	MILD_WINTER_VALUE = 90,
 	NORMAL_WINTER_VALUE = 145,
 	SEVERE_WINTER_VALUE = 255,
-	BORDER_WIDTH = 1.5,
+	BORDER_WIDTH = 0.5,
 	TRADE_GOODS_ROTATE_SPEED = 0.2,					-- Higher values gives a faster speed
 	TRADE_GOODS_SPEED = 0.02,						-- Higher values gives a faster speed
 	LAND_UNIT_MOVEMENT_SPEED = 12,
@@ -1635,18 +1635,18 @@ NMacroBuildColors = {
 },
 
 NFrontend = {
-	CAMERA_LOOKAT_X = 2958.0, 						-- Rotation point in main menu
+	CAMERA_LOOKAT_X = 1920.0, 						-- Rotation point in main menu
 	CAMERA_LOOKAT_Y = 0.0,
-	CAMERA_LOOKAT_Z = 1519.0,
+	CAMERA_LOOKAT_Z = 1200.0,
 	CAMERA_LOOKAT_SETTINGS_X = 2958.0, 				-- Rotation point in settings
 	CAMERA_LOOKAT_SETTINGS_Y = 0.0,					-- Y is height
 	CAMERA_LOOKAT_SETTINGS_Z = 1519.0,
-	CAMERA_START_X = 2958.0,						-- Initial position in main menu
-	CAMERA_START_Y = 800,							-- Y is height
+	CAMERA_START_X = 1000.0,						-- Initial position in main menu
+	CAMERA_START_Y = 900,							-- Y is height
 	CAMERA_START_Z = 1400.0,
-	CAMERA_END_X = 2958.0,							-- Move to position in main menu
-	CAMERA_END_Y = 900.0,
-	CAMERA_END_Z = 1400.0,
+	CAMERA_END_X = 1920.0,							-- Move to position in main menu
+	CAMERA_END_Y = 1000.0,
+	CAMERA_END_Z = 900.0,
 	CAMERA_MIN_DIST_FOR_ROTATE = 800.0, 			-- Controlls when rotation starts. When camera is close enought it starts
 	CAMERA_MIN_HEIGHT = 50.0,						-- Minimum camera height
 	CAMERA_MAX_HEIGHT = 3000.0,						-- Maximum camera height
@@ -1662,12 +1662,12 @@ NFrontend = {
 	
 	CAMERA_SPEED_IN_MENUS = 0.1,
 	
-	FRONTEND_POS_X = 2958.0,
-	FRONTEND_POS_Y = 900.0,
-	FRONTEND_POS_Z = 1500.0,
-	FRONTEND_LOOK_X = 2958.0,
+	FRONTEND_POS_X = 1920.0,
+	FRONTEND_POS_Y = 1000.0,
+	FRONTEND_POS_Z = 900.0,
+	FRONTEND_LOOK_X = 1920.0,
 	FRONTEND_LOOK_Y = 0.0,
-	FRONTEND_LOOK_Z = 1519.0,
+	FRONTEND_LOOK_Z = 1200.0,
 	
 	SETTINGS_POS_X = 2958.0,
 	SETTINGS_POS_Y = 551.0,
