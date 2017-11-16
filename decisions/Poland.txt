@@ -21,7 +21,9 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = relocated_capital_warsawa
-			set_capital = 257
+			257 = {
+				move_capital_effect = yes
+			}
 			add_prestige = 20
 			257 = {
 			 	add_base_tax = 1 

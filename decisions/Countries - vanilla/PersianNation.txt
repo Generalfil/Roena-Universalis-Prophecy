@@ -14,15 +14,18 @@ country_decisions = {
 				NOT = { exists = PER }
 			}
 			NOT = { tag = MUG }
+			NOT = { tag = TIM }
 			NOT = { tag = PER }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = PAP }
 			NOT = { tag = TUR }
 			NOT = { tag = BYZ }
+			NOT = { tag = ARB }
 			OR = {
 				culture_group = iranian
 				primary_culture = azerbaijani
+				tag = AKK
 			}
 			is_colonial_nation = no
 			OR = {
@@ -39,13 +42,20 @@ country_decisions = {
 			is_at_war = no
 			is_tribal = no
 			NOT = { exists = PER }
-			owns_core_province = 2218		# Shiraz
 			owns_core_province = 414		# Hamadan
-			owns_core_province = 416		# Tabriz	
-			owns_core_province = 426		# Mazandaran
 			owns_core_province = 429		# Isfahan
-			owns_core_province = 2215		# Qazvin
 			owns_core_province = 433		# Yazd
+			owns_core_province = 2213		# Qom
+			owns_core_province = 2215		# Qazvin
+			OR = {
+				owns_core_province = 426		# Amol
+				owns_core_province = 2218		# Shiraz
+			}
+			OR = {
+				owns_core_province = 416		# Tabriz
+				owns_core_province = 432		# Kerman
+				owns_core_province = 2221		# Mashhad
+			}
 		}
 		effect = {
 			change_tag = PER
@@ -62,13 +72,14 @@ country_decisions = {
 					set_in_empire = no
 				}
 			}
-			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
+			set_government_and_rank = {
+				government = feudal_theocracy
+				rank = 3
 			}
 			persia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = PER
 			}
@@ -77,14 +88,11 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 25
-			
-			change_primary_culture = persian
 			if = {
 				limit = {
-					technology_group = nomad_group
+					NOT = { primary_culture = persian }
 				}
-				change_technology_group = muslim
-				change_unit_type = muslim
+				change_primary_culture = persian
 			}
 			set_country_flag = formed_persia_flag
 			if = {
@@ -95,6 +103,7 @@ country_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
+		ai_importance = 400
 	}
 	
 }

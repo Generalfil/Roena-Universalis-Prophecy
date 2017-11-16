@@ -68,6 +68,9 @@ country_decisions = {
 			}
 		}
 		effect = {
+			225 = {	#Cordoba
+				move_capital_effect = yes
+			}
 			change_tag = ADU
 			if = {
 				limit = {

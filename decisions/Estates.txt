@@ -5,11 +5,14 @@ country_decisions = {
 			OR = {
 				government = noble_republic
 				has_country_flag = noble_estate_in_power
-				has_country_flag = umera_dominance_ottoman_government
-				has_country_flag = junker_dominance_prussian_monarchy
-				has_country_flag = gentry_dominance
-				has_country_flag = bushi_power_japan
-				has_country_flag = boyar_dominance
+				has_country_modifier = noble_power_elective_monarchy
+				has_country_modifier = umera_dominance_ottoman_government
+				has_country_modifier = junker_dominance_prussian_monarchy
+				has_country_modifier = gentry_dominance
+				has_country_modifier = bushi_power_japan
+				has_country_modifier = boyar_dominance
+				has_country_modifier = mamluk_amir_dominance
+				has_country_modifier = amir_dominance
 			}
 		}
 		allow = {
@@ -32,41 +35,59 @@ country_decisions = {
 				}
 				change_government = despotic_monarchy
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = noble_power_elective_monarchy
 				}
 				remove_country_modifier = noble_power_elective_monarchy
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = junker_dominance_prussian_monarchy
 				}
 				remove_country_modifier = junker_dominance_prussian_monarchy
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = umera_dominance_ottoman_government
 				}
 				remove_country_modifier = umera_dominance_ottoman_government
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = gentry_dominance
 				}
 				remove_country_modifier = gentry_dominance
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = bushi_power_japan
 				}
 				remove_country_modifier = bushi_power_japan
 			}
-			if = {
+			else_if = {
 				limit = {
 					has_country_modifier = boyar_dominance
 				}
 				remove_country_modifier = boyar_dominance
+			}
+			else_if = {
+				limit = {
+					has_country_modifier = mamluk_amir_dominance
+				}
+				remove_country_modifier = mamluk_amir_dominance
+			}
+			else_if = {
+				limit = {
+					has_country_modifier = mamluk_amir_dominance
+				}
+				remove_country_modifier = mamluk_amir_dominance
+			}
+			else_if = {
+				limit = {
+					has_country_modifier = amir_dominance
+				}
+				remove_country_modifier = amir_dominance
 			}
 			clr_country_flag = noble_estate_in_power
 		}

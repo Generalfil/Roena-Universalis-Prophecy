@@ -33,7 +33,9 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = bukharan_nation
-			
+			442 = {
+				move_capital_effect = yes
+			}
 			change_tag = BUK
 			if = {
 				limit = {
@@ -55,7 +57,6 @@ country_decisions = {
 				set_government_rank = 2
 			}
 			add_prestige = 25
-			set_capital = 442
 			if = {
 				limit = {
 					NOT = { has_global_flag = bukhara_formed }

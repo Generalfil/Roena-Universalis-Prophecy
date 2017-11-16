@@ -15,7 +15,9 @@ country_decisions = {
 			owns = 118 # Rome
 		}
 		effect = {
-			set_capital = 118 # Rome
+			118 = {
+				move_capital_effect = yes
+			}
 			add_core = 118 # Rome
 		}
 		ai_will_do = {

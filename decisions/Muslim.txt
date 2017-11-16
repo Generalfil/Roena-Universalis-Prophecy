@@ -67,7 +67,7 @@ country_decisions = {
 			change_religion = sunni
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 	
@@ -90,7 +90,7 @@ country_decisions = {
 			change_religion = shiite		
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 

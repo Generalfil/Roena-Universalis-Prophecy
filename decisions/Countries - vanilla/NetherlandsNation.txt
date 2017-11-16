@@ -63,7 +63,9 @@ country_decisions = {
 	  				tag = BUR
 	  			}
 	  			change_primary_culture = dutch
-	  			set_capital = 97
+				97 = {
+					move_capital_effect = yes
+				}
 			}
 			if = {
 				limit = {
