@@ -328,4 +328,28 @@ alerts = {
 	alert_can_use_russian_ability = {
 		category = LOW
 	}
+	
+	alert_can_use_iqta_ability = {
+		category = LOW
+	}
+	
+	alert_can_use_malmluk_ability = {
+		category = LOW
+	}
+	
+	alert_can_use_feudal_theocracy_ability = {
+		category = LOW
+	}
+	
+	alert_can_use_tribal_federation_ability = {
+		category = LOW
+	}
+
+	alert_can_use_trade_policy = {
+		category = LOW
+	}
+
+	alert_can_invite_scholar = {
+		category = LOW
+	}
 }

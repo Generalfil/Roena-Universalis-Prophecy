@@ -551,6 +551,8 @@ achievement_sweden_is_not_overpowered = {
 		owns_core_province = 2994
 		owns_core_province = 2995
 		owns_core_province = 2996
+		owns_core_province = 4113
+		owns_core_province = 4165
 	}
 }
 
@@ -869,52 +871,59 @@ achievement_basileus = {
 	
 	happened = {
 		tag = BYZ
-		AND = {
-			owns_core_province = 142
-			owns_core_province = 143
-			owns_core_province = 144
-			owns_core_province = 145
-			owns_core_province = 146
-			owns_core_province = 147
-			owns_core_province = 148
-			owns_core_province = 149
-			owns_core_province = 150
-			owns_core_province = 151
-			owns_core_province = 159
-			owns_core_province = 163
-			owns_core_province = 164
-			owns_core_province = 285
-			owns_core_province = 316
-			owns_core_province = 317
-			owns_core_province = 318
-			owns_core_province = 319
-			owns_core_province = 320
-			owns_core_province = 321
-			owns_core_province = 322
-			owns_core_province = 323
-			owns_core_province = 324
-			owns_core_province = 325
-			owns_core_province = 326
-			owns_core_province = 328
-			owns_core_province = 329
-			owns_core_province = 330
-			owns_core_province = 1764
-			owns_core_province = 1773
-			owns_core_province = 1765
-			owns_core_province = 1846
-			owns_core_province = 1848
-			owns_core_province = 1853
-			owns_core_province = 2750
-			owns_core_province = 2296
-			owns_core_province = 2297
-			owns_core_province = 2299
-			owns_core_province = 2300
-			owns_core_province = 2304
-			owns_core_province = 2348
-			owns_core_province = 2410
-			owns_core_province = 3001
-			owns_core_province = 3003
-		}
+		owns_core_province = 142
+		owns_core_province = 143
+		owns_core_province = 144
+		owns_core_province = 145
+		owns_core_province = 146
+		owns_core_province = 147
+		owns_core_province = 148
+		owns_core_province = 149
+		owns_core_province = 150
+		owns_core_province = 151
+		owns_core_province = 159
+		owns_core_province = 163
+		owns_core_province = 164
+		owns_core_province = 285
+		owns_core_province = 316
+		owns_core_province = 317
+		owns_core_province = 318
+		owns_core_province = 319
+		owns_core_province = 320
+		owns_core_province = 321
+		owns_core_province = 322
+		owns_core_province = 323
+		owns_core_province = 324
+		owns_core_province = 325
+		owns_core_province = 326
+		owns_core_province = 328
+		owns_core_province = 329
+		owns_core_province = 330
+		owns_core_province = 1764
+		owns_core_province = 1773
+		owns_core_province = 1765
+		owns_core_province = 1846
+		owns_core_province = 1848
+		owns_core_province = 1853
+		owns_core_province = 2301
+		owns_core_province = 2750
+		owns_core_province = 2296
+		owns_core_province = 2297
+		owns_core_province = 2299
+		owns_core_province = 2300
+		owns_core_province = 2304
+		owns_core_province = 2348
+		owns_core_province = 2410
+		owns_core_province = 3001
+		owns_core_province = 3003
+		owns_core_province = 4307
+		owns_core_province = 4308
+		owns_core_province = 4309
+		owns_core_province = 4311
+		owns_core_province = 4312
+		owns_core_province = 4313
+		owns_core_province = 4315
+		owns_core_province = 4315
 	}
 }
 
@@ -1729,21 +1738,26 @@ achievement_sons_of_carthage = {
 		owns_core_province = 124
 		owns_core_province = 125
 		owns_core_province = 127
-		owns_core_province = 1247
+		owns_core_province = 221
+		owns_core_province = 222
+		owns_core_province = 223
+		owns_core_province = 224
+		owns_core_province = 226
 		owns_core_province = 341
 		owns_core_province = 333
-		owns_core_province = 1882
 		owns_core_province = 339
 		owns_core_province = 338
 		owns_core_province = 337
 		owns_core_province = 336
-		owns_core_province = 224
+		owns_core_province = 1247
 		owns_core_province = 1749
-		owns_core_province = 226
-		owns_core_province = 223
-		owns_core_province = 222
-		owns_core_province = 221
 		owns_core_province = 1750
+		owns_core_province = 1882
+		owns_core_province = 2455
+		owns_core_province = 2461
+		owns_core_province = 2473
+		owns_core_province = 2982
+		owns_core_province = 2986
 	}
 }
 
@@ -2186,7 +2200,7 @@ achievement_shahanshah = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = TAB
+		tag = ARL
 	}
 
 	happened = {
@@ -2977,11 +2991,6 @@ achievement_this_is_persia = {
 			is_core = PER
 		}
 		macedonia_area = {
-			type = all
-			owned_by = PER
-			is_core = PER
-		}
-		western_aegean_area = {
 			type = all
 			owned_by = PER
 			is_core = PER
@@ -4353,143 +4362,139 @@ achievement_mare_nostrum = {
 	
 	happened = {
 		tag = ROM
-		owns = 1751
-		owns = 335
-		owns = 2465
-		owns = 336
-		owns = 337
-		owns = 2461
-		owns = 338
-		owns = 339
-		owns = 1882
-		owns = 2455
-		owns = 341
-		owns = 341
-		owns = 2473
-		owns = 2453
-		owns = 353
-		owns = 2452
-		owns = 354
-		owns = 2451
-		owns = 355
-		owns = 356
-		owns = 357
-		owns = 2326
-		owns = 2325
-		owns = 358
-		owns = 362
-		owns = 363
-		owns = 364
-		owns = 1854
-		owns = 1855
-		owns = 378
-		owns = 2313
-		owns = 327
-		owns = 2302
-		owns = 2298
-		owns = 319
-		owns = 318
-		owns = 2296
-		owns = 317
-		owns = 316
-		owns = 2299
-		owns = 325
-		owns = 328
-		owns = 2304
-		owns = 330
-		owns = 2196
-		owns = 462
-		owns = 1856
-		owns = 2195
-		owns = 2447
-		owns = 287
-		owns = 286
-		owns = 2412
-		owns = 1974
-		owns = 284
-		owns = 285
-		owns = 2410
-		owns = 2406
-		owns = 282
-		owns = 1756
-		owns = 159
-		owns = 1764
-		owns = 151
-		owns = 149
-		owns = 148
-		owns = 147
-		owns = 146
-		owns = 1773
-		owns = 145
-		owns = 144
-		owns = 143
-		owns = 138
-		owns = 137
-		owns = 136
-		owns = 1826
-		owns = 130
-		owns = 1769
-		owns = 111
-		owns = 1774
+		owns = 101
+		owns = 102
 		owns = 108
+		owns = 111
+		owns = 112
 		owns = 113
 		owns = 114
-		owns = 2977
+		owns = 115
+		owns = 117
+		owns = 118
 		owns = 119
 		owns = 120
-		owns = 2985
-		owns = 1933
+		owns = 121
 		owns = 122
-		owns = 1934
-		owns = 2984
-		owns = 2984
 		owns = 123
-
-		# Sicily
 		owns = 124
 		owns = 125
-		owns = 2982
-
-		owns = 2983
-		owns = 121
-		owns = 118
-		owns = 117
-		owns = 115
-		owns = 2980
-		owns = 101
-		owns = 2992
-		owns = 102
-		owns = 2991
-		owns = 201
-		owns = 200
-		owns = 2753
+		owns = 126
+		owns = 127
+		owns = 130
+		owns = 136
+		owns = 137
+		owns = 138
+		owns = 142
+		owns = 143
+		owns = 144
+		owns = 145
+		owns = 146
+		owns = 147
+		owns = 148
+		owns = 149
+		owns = 151
+		owns = 159
+		owns = 163
+		owns = 164
 		owns = 197
+		owns = 200
+		owns = 201
 		owns = 212
 		owns = 213
-		owns = 2988
 		owns = 220
-		owns = 1750
 		owns = 221
 		owns = 222
 		owns = 222
 		owns = 223
 		owns = 226
-
-		# Islands
-		owns = 333
-		owns = 1247
-		owns = 127
-		owns = 2986
-		owns = 126
-		owns = 2954
-		owns = 112
-		owns = 142
-		owns = 163
-		owns = 321
+		owns = 282
+		owns = 284
+		owns = 285
+		owns = 286
+		owns = 287
+		owns = 316
+		owns = 317
+		owns = 318
+		owns = 319
 		owns = 320
-		owns = 164
-		owns = 3003
+		owns = 321
+		owns = 325
+		owns = 327
+		owns = 328
+		owns = 330
+		owns = 333
+		owns = 335
+		owns = 336
+		owns = 337
+		owns = 338
+		owns = 339
+		owns = 341
+		owns = 341
+		owns = 353
+		owns = 354
+		owns = 355
+		owns = 356
+		owns = 357
+		owns = 358
+		owns = 362
+		owns = 363
+		owns = 364
+		owns = 378
+		owns = 462
+		owns = 1247
+		owns = 1750
+		owns = 1751
+		owns = 1756
+		owns = 1764
+		owns = 1769
+		owns = 1773
+		owns = 1774
+		owns = 1826
+		owns = 1854
+		owns = 1855
+		owns = 1856
+		owns = 1882
+		owns = 1933
+		owns = 1934
+		owns = 1974
+		owns = 2195
+		owns = 2196
+		owns = 2296
+		owns = 2298
+		owns = 2299
+		owns = 2302
+		owns = 2304
+		owns = 2313
+		owns = 2325
+		owns = 2326
 		owns = 2348
+		owns = 2406
+		owns = 2410
+		owns = 2412
+		owns = 2447
+		owns = 2451
+		owns = 2452
+		owns = 2453
+		owns = 2455
+		owns = 2461
+		owns = 2465
+		owns = 2473
+		owns = 2753
+		owns = 2954
+		owns = 2977
+		owns = 2980
+		owns = 2982
+		owns = 2983
+		owns = 2984
+		owns = 2984
+		owns = 2985
+		owns = 2986
+		owns = 2988
+		owns = 2991
+		owns = 2992
+		owns = 3003
+		owns = 4316
 	}
 }
 
@@ -5379,7 +5384,16 @@ achievement_graze_my_horse_here_and_here = {
 	
 	happened = {
 		government = steppe_horde
-		grain = 200
+		calc_true_if = {
+			all_province = {
+				owned_by = ROOT
+				OR = {
+					trade_goods = grain
+					trade_goods = livestock
+				}
+			}
+			amount = 200
+		}
 	}
 }
 
@@ -5813,7 +5827,10 @@ achievement_back_in_control = {
 	happened = {
 		tag = YUA
 		china_superregion = {
-			owned_by = ROOT
+			OR = {
+				owned_by = ROOT
+				is_empty = yes
+			}
 			type = all
 		}
 	}
@@ -5834,6 +5851,8 @@ achievement_mass_production = {
 		textile = 1
 		plantations = 1
 		tradecompany = 1
+		mills = 1
+		farm_estate = 1
 	}
 }
 
@@ -5927,6 +5946,501 @@ achievement_52_garhs = {
 				fort_level = 2
 			}
 			amount = 52
+		}
+	}
+}
+
+
+achievement_bunte_kuh = {
+	id = 236
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = HAM
+	}
+	happened = {
+		trading_bonus = {
+			trade_goods = livestock
+			value = yes
+		}
+		trading_bonus = {
+			trade_goods = gems
+			value = yes
+		}
+	}
+}
+
+achievement_good_king_rene = {
+	id = 237
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = PRO
+	}
+	happened = {
+		tag = KOJ
+	}
+}
+
+achievement_saladins_legacy = {
+	id = 238
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = HSN
+	}
+	happened = {
+		egypt_region = {
+			type = all
+			owned_by = ROOT
+		}
+		mashriq_region = {
+			type = all
+			owned_by = ROOT
+		}
+		aleppo_area = {
+			type = all
+			owned_by = ROOT
+		}
+		tabuk_area = {
+			type = all
+			owned_by = ROOT
+		}
+		medina_area = {
+			type = all
+			owned_by = ROOT
+		}
+		mecca_area = {
+			type = all
+			owned_by = ROOT
+		}
+		asir_area = {
+			type = all
+			owned_by = ROOT
+		}
+		tihama_al_yemen_area = {
+			type = all
+			owned_by = ROOT
+		}
+		upper_yemen_area = {
+			type = all
+			owned_by = ROOT
+		}
+		yemen_area = {
+			type = all
+			owned_by = ROOT
+		}
+		hadramut_area = {
+			type = all
+			owned_by = ROOT
+		}
+		north_kurdistan_area = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+}
+
+achievement_avar_khaganate = {
+	id = 239
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = AVR
+	}
+	happened = {
+		government_rank = 3
+		alfold_area = {
+			type = all
+			owned_by = AVR
+		}
+		transdanubia_area = {
+			type = all
+			owned_by = AVR
+		}
+		slovakia_area = {
+			type = all
+			owned_by = AVR
+		}
+		transylvania_area = {
+			type = all
+			owned_by = AVR
+		}
+		southern_transylvania_area = {
+			type = all
+			owned_by = AVR
+		}
+	}
+}
+
+
+achievement_protect_the_secret = {
+	id = 240
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		is_random_new_world = no
+	}
+	visible = {
+		primary_culture = yemeni_culture
+	}
+	happened = {
+		is_year = 1700
+		tag = YEM
+		custom_trigger_tooltip = {
+			tooltip = all_coffee_owned_by_you
+			NOT = {
+				any_country = {
+					capital_scope = { continent = europe }
+					any_owned_province = {
+						trade_goods = coffee
+						OR = {
+							continent = asia
+							continent = africa
+							continent = oceania
+							continent = asia
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+achievement_great_moravia = {
+	id = 241
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	visible = {
+		any_owned_province = {
+			OR = {
+				is_core = SLO
+				is_core = MVA
+			}
+		}
+	}
+	happened = {
+		owns_core_province = 60 # Lausitz
+		owns_core_province = 134 # Wien 
+		owns_core_province = 135 # Sopron
+		owns_core_province = 153 # Pest
+		owns_core_province = 154 # Hont
+		owns_core_province = 162 # Zemplen
+		owns_core_province = 262 # Krakow
+		owns_core_province = 263 # Ratibor
+		owns_core_province = 264 # Breslau
+		owns_core_province = 265 # Brno
+		owns_core_province = 266 # Prague
+		owns_core_province = 267 # Plsen
+		owns_core_province = 1318 # Spis
+		owns_core_province = 1763 # Niederlausitz
+		owns_core_province = 1770 # Ostmarch
+		owns_core_province = 1771 # Erz
+		owns_core_province = 1772 # Pozsony
+		owns_core_province = 1864 # Somogy
+		owns_core_province = 2960 # Sadecki
+		owns_core_province = 2966 # Glogau
+		owns_core_province = 2967 # Eger
+		owns_core_province = 2968 # Budejovice
+		owns_core_province = 2970 # Hradecko
+		owns_core_province = 4126 # Bacs
+		owns_core_province = 4236 # Trencin
+		owns_core_province = 4237 # Olomouc
+		owns_core_province = 4238 # Liegnitz
+		owns_core_province = 4240 # Fejer
+	}
+}
+
+achievement_a_heros_welcome = {
+	id = 242
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = KAR
+	}
+	happened = {
+		tag = RUM
+	}
+}
+
+achievement_david_the_builder = {
+	id = 243
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = IME
+	}
+	happened = {
+		tag = GEO
+		custom_trigger_tooltip = {
+			tooltip = achievement_david_the_builder_tooltip
+			NOT = {
+				any_owned_province = {
+					num_free_building_slots = 1
+				}
+			}
+		}
+	}
+}
+
+achievement_voltaires_nightmare = {
+	id = 244
+	possible = {
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 2 }
+		NOT = { nation_designer_points = 202 }
+	}
+	happened = {
+		calc_true_if = {
+			all_country = {
+				is_part_of_hre = yes
+			}
+			amount = 75
+		}
+	}
+}
+
+achievement_pandya_empire = {
+	id = 245
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = MAD
+	}
+	happened = {
+		coromandel_region = {
+			type = all
+			owned_by = ROOT
+		}
+		kerala_area = {
+			type = all
+			owned_by = ROOT
+		}
+		mysore_area = {
+			type = all
+			owned_by = ROOT
+		}
+		rayalaseema_area = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+}
+
+achievement_prince_of_egypt = {
+	id = 246
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		tag = LAN
+	}
+	happened = {
+		tag = EGY
+	}
+}
+
+achievement_around_the_world_in_eighty_years = {
+	id = 247
+	possible = {
+		is_playing_custom_nation = yes
+		NOT = { num_of_custom_nations = 2 }
+		normal_or_historical_nations = yes
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		is_random_new_world = no
+		NOT = { nation_designer_points = 402 }
+		capital_scope = {
+			region = british_isles_region
+		}
+	}
+	happened = {
+		NOT = { is_date = 1524.11.11 }
+		owns = 965 #New York
+		owns = 869 #San Francisco
+		owns = 2315 #Suez
+		owns = 529 #Bombay
+		owns = 561 #Calcutta
+		owns = 667 #Hong Kong
+		owns = 1028 #Yokoshima
+	}
+}
+
+achievement_hard_bargaining = {
+	id = 248
+	visible = {
+		has_dlc = "Cradle of Civilization"
+		religion_group = muslim
+	}
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		is_defender_of_faith = yes
+		custom_trigger_tooltip = {
+			tooltip = propagated_in_five_moluccan_provinces
+			check_variable = { which = religion_propagated_in_moluccas value = 5 }
+		}
+		
+	}
+}
+
+achievement_early_modern_warfare = {
+	id = 249
+	visible = {
+		has_dlc = "Cradle of Civilization"
+	}
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		num_of_regiments_at_full_drill = 100
+	}
+}
+
+achievement_sworn_fealty = {
+	id = 250
+	visible = {
+		has_dlc = "Cradle of Civilization"
+	}
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		culture_group = turko_semitic
+		NOT = { primary_culture = turkish }
+		government = tribal_federation
+		
+	}
+	happened = {
+		tag = ARB
+		tribal_allegiance = 100
+	}
+}
+
+achievement_parisian_pasha = {
+	id = 251
+	visible = {
+		government = ottoman_government
+		has_dlc = "Cradle of Civilization"
+	}
+	possible = {
+		NOT = { num_of_custom_nations = 1 }
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		183 = {
+			has_pasha = yes
+		}
+	}
+}
+
+achievement_multiculturalism = {
+	id = 252
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 2 }
+		NOT = { nation_designer_points = 202 }
+	}
+	happened = {
+		num_of_different_religions_in_court = 4
+		num_of_different_cultures_in_court = 4
+	}
+}
+
+achievement_narcissism = {
+	id = 253
+	visible = {
+		has_dlc = "Cradle of Civilization"
+	}
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		any_army = {
+			general_with_steam_name = yes
+		}
+		custom_trigger_tooltip = {
+			tooltip = general_with_steam_name_won_battle_tt
+			has_country_flag = general_with_steam_name_won_battle
+		}
+	}
+}
+
+
+achievement_levant_turnabout = {
+	id = 254
+	visible = {
+		has_dlc = "Cradle of Civilization"
+	}
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+		NOT = { num_of_custom_nations = 1 }
+		tag = MAM
+	}
+	happened = {
+		army_professionalism = 1
+		NOT = { exists = TUR }
+		owns_core_province = 149 #Edirne
+		owns_core_province = 151 #Constantinople 
+		owns_core_province = 317 #Hudavendigar
+		owns_core_province = 326 #Ankara
+	}
+}
+
+achievement_cowardly_tactics = {
+	id = 255
+	visible = {
+		has_dlc = "Cradle of Civilization"
+	}
+	possible = {
+		normal_province_values = yes
+		ironman = yes
+		start_date = 1444.11.11
+	}
+	happened = {
+		any_owned_province = {
+			has_terrain = mountain
+			has_supply_depot = ROOT
+			controlled_by = ROOT
+			trade_goods = livestock
+			fort_level = 2
 		}
 	}
 }

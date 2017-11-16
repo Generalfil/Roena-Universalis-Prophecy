@@ -18,11 +18,14 @@ estate_nobility_disaster = {
 	}
 	
 	can_stop = {
-		NOT = {
-			estate_influence = {
-				estate = estate_nobles
-				influence = 80
-			}		
+		OR = {
+			has_any_disaster = yes
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 80
+				}		
+			}
 		}
 	}
 	

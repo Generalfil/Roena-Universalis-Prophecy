@@ -18,11 +18,14 @@ estate_burghers_disaster = {
 	}
 	
 	can_stop = {
-		NOT = {
-			estate_influence = {
-				estate = estate_burghers
-				influence = 80
-			}		
+		OR = {
+			has_any_disaster = yes
+			NOT = {
+				estate_influence = {
+					estate = estate_burghers
+					influence = 80
+				}		
+			}
 		}
 	}
 	

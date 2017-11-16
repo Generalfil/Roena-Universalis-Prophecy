@@ -69,6 +69,7 @@
 1008 = "Rivière Rouge"
 1010 = "Dauphin"
 1011 = "Pasquia"
+1101 = "Chagos"
 1813 = "La Corne"
 2007 = "Les Cedres"
 2010 = "Coneticout"

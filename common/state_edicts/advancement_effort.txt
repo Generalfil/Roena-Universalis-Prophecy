@@ -16,26 +16,18 @@ edict_advancement_effort = {
 	
 	ai_will_do = {
 		# has to be around at least 10 to be picked (depends on maintainance cost and general economy)
-		factor = 100
+		factor = 50
 		modifier = {
 			factor = 0
 			all_province_in_state = {
-				OR = {
-					current_institution = 95
-					NOT = {
-						current_institution = 1
-					}
-				}
+				NOT = { current_institution_growth = 0.5 }
 			}
 		}
 		modifier = {
 			factor = 3
 			all_province_in_state = {
 				AND = {
-					current_institution = 1
-					NOT = {
-						current_institution = 95
-					}
+					current_institution_growth = 0.5
 				}
 			}
 		}

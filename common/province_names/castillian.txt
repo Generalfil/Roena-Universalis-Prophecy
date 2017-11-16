@@ -156,6 +156,7 @@
 864 = "Chihuahua"
 865 = "Baja California"
 866 = "Loreto"
+1101 = "Aceite"
 2614 = "Nuevo Leon"
 2616 = "Cucurpe"
 2618 = "Santa Barbara"
@@ -173,6 +174,7 @@
 2662 = "Comayagua"
 2667 = "Laredo"
 2668 = "Rio Bravo"
+
 
 #USA
 868 = "Los Angeles"
