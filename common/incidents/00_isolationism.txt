@@ -46,7 +46,6 @@ incident_nanban = {
 		if = {
 			limit = {
 				normal_or_historical_nations = yes
-				is_playing_custom_nation = no
 			}
 			custom_trigger_tooltip = {
 				tooltip = japan_has_encountered_the_west_tooltip
@@ -55,15 +54,12 @@ incident_nanban = {
 		}
 		if = {
 			limit = {
-				OR = {
-					normal_or_historical_nations = no
-					is_playing_custom_nation = yes
-				}
+				normal_or_historical_nations = no
 			}
 			custom_trigger_tooltip = {
 				tooltip = encountered_other_continent_tooltip
 				any_known_country = {
-					NOT = { same_continent = ROOT }
+					same_continent = no
 				}
 			}
 		}

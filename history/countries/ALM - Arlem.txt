@@ -2,7 +2,7 @@ government = feudal_monarchy
 primary_culture = issian
 religion = catholic
 technology_group = western
-capital = 283
+capital = 280
 
 
 1390.1.1 = {

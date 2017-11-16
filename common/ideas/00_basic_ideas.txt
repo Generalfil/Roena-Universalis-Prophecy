@@ -510,7 +510,9 @@ exploration_ideas = {
 			NOT = { 
 				any_owned_province = { 
 					is_in_capital_area = yes
-					has_empty_adjacent_province = yes
+					any_owned_province = {
+						has_empty_adjacent_province = yes
+					}
 				} 
 			}
 		}
@@ -520,7 +522,9 @@ exploration_ideas = {
 			NOT = { 
 				any_owned_province = { 
 					is_in_capital_area = yes
-					has_empty_adjacent_province = yes
+					any_owned_province = {
+						has_empty_adjacent_province = yes
+					}
 				}
 			}
 		}

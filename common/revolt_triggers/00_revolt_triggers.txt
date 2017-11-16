@@ -42,15 +42,6 @@ BYZ = {
 	}
 }
 
-# Persia
-PER = {
-	OR = {
-		is_core = PER
-		is_permanent_claim = PER
-		is_claim = PER
-	}
-}
-
 # Spain
 SPA = {
 	OR = {
@@ -397,10 +388,5 @@ JAP = {
 
 # Yuan
 YUA = {
-	always = no
-}
-
-# Sultanate of Rum
-RUM = {
 	always = no
 }

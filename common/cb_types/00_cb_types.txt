@@ -156,6 +156,7 @@ cb_trade_war_triggered = {
 	war_goal = superiority_trade
 
 	attacker_disabled_po = {
+		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -177,6 +178,7 @@ cb_trade_conflict = {
 	war_goal = blockade_ports
 
 	attacker_disabled_po = {
+		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -201,6 +203,7 @@ cb_trade_league_conflict = {
 	war_goal = blockade_ports
 
 	attacker_disabled_po = {
+		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -370,7 +373,7 @@ cb_independent_daimyo_annex = {
 			vassal_of = FROM
 			junior_union_with = FROM
 		}
-		government = indep_daimyo
+		government = daimyo
 		from = { government = shogunate }
 		is_revolution_target = no
 	}
@@ -427,7 +430,6 @@ cb_revolutionary = {
 			government = dutch_republic
 			government = celestial_empire
 			government = iqta
-			government = mamluk_government
 			government = daimyo
 			government = shogunate
 			government = colonial_government
@@ -440,7 +442,6 @@ cb_revolutionary = {
 				government = dutch_republic
 				government = celestial_empire
 				government = iqta
-				government = mamluk_government
 				government = daimyo
 				government = shogunate
 				government = colonial_government
@@ -605,6 +606,7 @@ cb_trade_war = {
 	war_goal = superiority_trade_mutual
 
 	attacker_disabled_po = {
+		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -630,6 +632,7 @@ cb_trade_league_dispute = {
 	war_goal = superiority_trade_mutual
 
 	attacker_disabled_po = {
+		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -940,6 +943,7 @@ cb_humiliate_rotw = {
 	}
 
 	attacker_disabled_po = {
+		po_annex
 		po_demand_provinces
 		po_release_vassals
 		po_release_annexed

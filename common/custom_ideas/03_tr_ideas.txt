@@ -7,9 +7,5 @@ tr_idea_dip_modifiers = {
 		chance = {
 			factor = 0
 		}
-
-		enabled = {
-			has_dlc = "Third Rome"
-		}
 	}
 }

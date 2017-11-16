@@ -13,7 +13,7 @@
 266 = "Prága"
 1318 = "Szepes"
 1765 = "Szeredoc"
-1768 = "Szlavónia"
+1767 = "Szlavónia"
 1863 = "Grác"
 1952 = "Máramaros"
 2746 = "Bodony"

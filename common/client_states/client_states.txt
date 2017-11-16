@@ -1,13 +1,12 @@
 westphalia = 
 {
-	region = north_german_region
+	area = westphalia_area
 	
 	name = {
 		name = "KINGDOM_OF_WESTPHALIA"
 		trigger = {
-			area = westphalia_area
-			from = {
-				government = monarchy
+		from = {
+			government = monarchy
 			}
 		}
 	}
@@ -15,7 +14,6 @@ westphalia =
 	name = {
 		name = "REPUBLIC_OF_WESTPHALIA"
 		trigger = {
-			area = westphalia_area
 			from = {
 				government = republic
 			}
@@ -25,21 +23,18 @@ westphalia =
 
 two_sicilies = 
 {
-	region = italy_region
+	OR = {
+		area = naples_area
+		area = calabria_area
+		area = apulia_area
+		area = sicily_area
+	}
 	
 	name = {
 		name = "KINGDOM_OF_NAPLES"
 		trigger = {
-			OR = {
-				area = naples_area
-				area = calabria_area
-				area = apulia_area
-				area = sicily_area
-			}
-		
-		
-			from = {
-				government = monarchy
+		from = {
+			government = monarchy
 			}
 		}
 	}
@@ -47,17 +42,12 @@ two_sicilies =
 	name = {
 		name = "REPUBLICS_OF_NAPLES"
 		trigger = {
-			OR = {
-				area = naples_area
-				area = calabria_area
-				area = apulia_area
-				area = sicily_area
-			}
-			from = {
-				government = republic
+		from = {
+			government = republic
 			}
 		}
 	}
+	
 }
 
 italy = 

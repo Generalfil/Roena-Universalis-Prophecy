@@ -7,7 +7,6 @@ country_event{
 	
 	title = "tribalism_event_start_title"
 	desc = "tribalism_event_start_desc"	
-	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
 		culture_group = lothian	
