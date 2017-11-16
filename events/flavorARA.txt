@@ -48,7 +48,7 @@ country_event = {
 	
 	trigger = {
 		tag = ARA
-		has_ruler_modifier = ara_consulate_sea
+		has_country_modifier = ara_consulate_sea
 		NOT = { has_country_modifier = ara_book_consulate_sea }
 	}
 	
@@ -59,7 +59,8 @@ country_event = {
 	option = {
 		name = "flavor_ara.EVTOPTA2"
 		add_years_of_income = -0.5
-		add_country_modifier = { 
+		remove_country_modifier = ara_consulate_sea
+		add_country_modifier = {
 			name = ara_book_consulate_sea
 			duration = -1
 		}
@@ -99,6 +100,7 @@ country_event = {
 		define_advisor = {
 			type = artist
 			name = "Antonio Beccadelli"
+			culture = sicilian
 			skill = 2
 			discount = yes
 		}

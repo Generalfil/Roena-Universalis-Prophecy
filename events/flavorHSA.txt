@@ -34,6 +34,7 @@ country_event = {
 		define_advisor = {
 			type = trader
 			name = "Georg Giese"
+			culture = prussian
 			discount = yes
 			skill = 3
 			location = 43
@@ -100,7 +101,8 @@ country_event = {
 	
 	trigger = {
 		tag = HSA
-		NOT = { stability = 1 }
+		government = merchant_republic
+		republican_tradition = 90
 		NOT = { has_ruler_modifier = hsa_trade_reform }
 		NOT = { has_ruler_modifier = hsa_economic_reform }
 		NOT = { has_ruler_modifier = hsa_military_reform }
@@ -160,6 +162,7 @@ country_event = {
 		define_advisor = {
 			type = trader
 			name = "Heinrich Sudermann"
+			culture = hessian
 			discount = yes
 			skill = 3
 		}

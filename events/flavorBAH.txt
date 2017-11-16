@@ -81,8 +81,9 @@ country_event = {
 	option = {
 		name = flavor_bah.2.b #Let us make more use of the local expertise.
 		ai_chance = { factor = 0 }
-		add_stability = -2
-		add_piety = -0.25
+		add_stability = -1
+		add_piety = -0.1
+		
 	}
 }
 
@@ -118,6 +119,8 @@ country_event = {
 		define_advisor = {
 			type = trader
 			name = "Mahmud Gawan"
+			culture = persian
+			religion = shiite
 			skill = 3
 			discount = yes
 		}

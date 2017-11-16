@@ -228,7 +228,7 @@ country_event = {
 		832 = {
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 3
+				size = 2
 				leader = "Quemuenchatocha Hunza"
 			}
 		}

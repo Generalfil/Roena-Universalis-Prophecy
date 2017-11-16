@@ -16,7 +16,7 @@ country_event = {
 	
 	trigger = {
 		tag = OMA
-		government = monarchy
+		government = feudal_theocracy
 		dynasty = "Nabhan"
 	}
 	
@@ -35,12 +35,12 @@ country_event = {
 			}			
 		}
 		add_piety = 0.30
-		add_legitimacy = -20
+		add_legitimacy = 15
 	}
 	option = {
 		name = flavor_oma.1.b
 		add_piety = -0.30
-		add_legitimacy = 20
+		add_legitimacy = -10
 		ai_chance = {
 			factor = 1
 			modifier = {

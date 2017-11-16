@@ -266,15 +266,10 @@ country_event = {
 	
 	option = { #Reform
 		name = "flavor_per.EVTOPTA1"
-		add_adm_power = 25
-		add_mil_power = 25
-		add_dip_power = 25
-		if = {
-			limit = {
-				government = iqta
-			}
-			change_government = administrative_monarchy
-		}
+		add_piety = 0.25
+		add_adm_power = 50
+		add_mil_power = 50
+		add_dip_power = 50
 	}
 }
 
@@ -427,6 +422,7 @@ country_event = {
 	
 	trigger = {
 		tag = PER
+		NOT = { primary_culture = afghani }
 		NOT = { exists = AFG }
 		any_owned_province = { culture = afghani }
 	}
@@ -437,11 +433,16 @@ country_event = {
 	
 	option = { #Curses!
 		name = "flavor_per.EVTOPTA6"
-		every_owned_province = {
+		random_owned_province = {
 			limit = { culture = afghani }
-			add_province_modifier = {
-				name = add_unrest_10_modifier
-				duration = 1825
+			area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = add_unrest_10_modifier
+					duration = 1825
+				}
 			}
 		}
 	}
@@ -565,10 +566,12 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		NOT = { exists = PER }
+		NOT = { tag = MSY }
 		is_year = 1445
 		NOT = { is_year = 1455 }
-		owns = 412 #Khuzestan
+		any_owned_province = {
+			is_core = MSY
+		}
 	}
 
 	mean_time_to_happen = {
@@ -577,7 +580,11 @@ country_event = {
 	
 	option = { #
 		name = flavor_per.10.a
-		412 = {
+		every_province = {
+			limit = {
+				is_core = MSY
+				NOT = { owned_by = MSY }
+			}
 			add_province_modifier = {
 				name = "per_mushashaiya"
 				duration = 3650
@@ -597,10 +604,17 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		NOT = { exists = PER }
+		NOT = { tag = ARL }
 		is_year = 1455
 		NOT = { is_year = 1465 }
-		owns = 424 #Ardabil
+		OR = {
+			any_neighbor_country = {
+					tag = ARL
+			}
+			any_owned_province = {
+				is_core = ARL
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -609,14 +623,27 @@ country_event = {
 	
 	option = { #
 		name = flavor_per.11.a
-		424 = {
+		every_province = {
+			limit = {
+				OR = {
+					AND = {
+						is_core = ARL
+						NOT = { owned_by = ARL }
+					}
+					AND = {
+						religion = shiite
+						any_neighbor_province = {
+							owned_by = ARL
+						}
+					}
+				}
+			}
 			add_province_modifier = {
 				name = "per_safawiya"
 				duration = 3650
 			}
 		}
 	}
-	
 }
 
 #Qizilbash Tribesmen Assemble

@@ -50,6 +50,7 @@ country_event = {
 		is_year = 1455
 		NOT = { is_year = 1490 }
 		owns = 514
+		num_of_cities = 3
 	}
 	
 	mean_time_to_happen = {
@@ -66,6 +67,8 @@ country_event = {
 				define_ruler = {
 					name = "Jodha"
 					dynasty = "Rathore"
+					culture = rajput
+					religion = hinduism
 					claim = 100
 					DIP = 2
 					MIL = 4
@@ -192,6 +195,8 @@ country_event = {
 		define_ruler = {
 			name = "Udai Singh"
 			dynasty = "Sisodiya"
+			religion = hinduism
+			culture = rajput
 		}
 		random_owned_province = {
 			limit = { is_capital = no }
@@ -208,6 +213,8 @@ country_event = {
 		define_ruler = {
 			name = "Raimal"
 			dynasty = "Sisodiya"
+			culture = rajput
+			religion = hinduism
 		}
 		random_owned_province = {
 			limit = { is_capital = no }

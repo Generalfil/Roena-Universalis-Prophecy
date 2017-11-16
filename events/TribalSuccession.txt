@@ -10,7 +10,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		government = steppe_horde
+		OR = {
+			government = steppe_horde
+			government = tribal_federation
+		}
+		NOT = { has_country_flag = no_new_succession_crisis_if_pretender_rebels }
 		num_of_cities = 4
 		OR = {
 			NOT = { legitimacy_or_horde_unity = 50 }
@@ -77,9 +81,10 @@ country_event = {
 		trigger = {
 			has_regency = yes
 		}
-		kill_heir = yes
 		define_ruler = {
+			dynasty = ROOT #Uncles, or other relatives were by far the most likely coup-makers
 		}
+		kill_heir = yes
 		add_horde_unity = -25
 	}
 }
@@ -92,7 +97,10 @@ country_event = {
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
-		government = steppe_horde
+		OR = {
+			government = steppe_horde
+			government = tribal_federation
+		}
 		has_ruler_modifier = tribal_succession_crisis
 		NOT = {
 			has_spawned_rebels = pretender_rebels

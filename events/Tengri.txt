@@ -1043,6 +1043,7 @@ country_event = {
 			DIP = 3		
 			ADM = 3
 			MIL = 2
+			religion = sunni
 		}
 	}
 	
@@ -1730,7 +1731,7 @@ country_event = {
 	}
 	
 	option = {
-		name = tengri_events.33.a #
+		name = tengri_events.34.a #
 		add_years_of_income = -0.5
 		add_country_modifier = {
 			name = "tengri_confucian_administrators"
@@ -1738,7 +1739,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = tengri_events.33.b #
+		name = tengri_events.34.b #
 		add_prestige = 5
 	}
 }
@@ -1833,6 +1834,8 @@ country_event = {
 		has_dlc = "The Cossacks"
 		religion = tengri_pagan_reformed
 		secondary_religion = shinto
+		NOT = { has_country_modifier = "tengri_japanese_swordsmithing" }
+		NOT = { has_country_modifier = "tengri_bow_and_arrow_defended" }
 		any_owned_province = {
 			trade_goods = iron
 		}
@@ -2392,11 +2395,13 @@ country_event = {
 		add_meritocracy_effect = yes
 		define_advisor = {
 			type = master_of_mint
+			religion = jewish
 			skill = 2
 			discount = yes
 		}
 		define_advisor = {
 			type = treasurer
+			religion = jewish
 			skill = 3
 			discount = yes
 		}
@@ -2794,6 +2799,7 @@ country_event = {
 		add_meritocracy_effect = yes
 		define_advisor = {
 			type = trader
+			religion = sunni
 			skill = 2
 			discount = yes
 		}

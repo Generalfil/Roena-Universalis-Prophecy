@@ -16,6 +16,8 @@ country_event = {
 		owns = 86		# Münster
 	}
 	
+	fire_only_once = yes
+	
 	mean_time_to_happen = {
 	
 		months = 180

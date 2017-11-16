@@ -107,10 +107,6 @@ country_event = {
 	}
 }
 
-
-
-
-
 # The Engelbrekt Rebellion
 country_event = {
 	id = flavor_swe.3217
@@ -343,6 +339,7 @@ country_event = {
 		define_advisor = {
 			type = spymaster
 			name = "Jöran Persson"
+			culture = swedish
 			location = 4
 			discount = yes
 			skill = 2
@@ -379,6 +376,7 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "Per Brahe den äldre"
+			culture = swedish
 			discount = yes
 			location = 1
 			skill = 3
@@ -460,6 +458,7 @@ country_event = {
 	option = {		# Regional Conscription
 		name = "flavor_swe.EVTOPTA3228"
 		ai_chance = { factor = 80 }
+		add_army_professionalism = 0.05
 		add_country_modifier = {
 			name = swedish_military_reforms
 			duration = -1
@@ -468,6 +467,7 @@ country_event = {
 	option = {		# Mercenary Core
 		name = "flavor_swe.EVTOPTB3228"
 		ai_chance = { factor = 5 }
+		add_army_professionalism = 0.05
 		add_country_modifier = {
 			name = swedish_mercenary_core
 			duration = -1
@@ -475,6 +475,7 @@ country_event = {
 	option = {		# Naval Expansion
 		name = "flavor_swe.EVTOPTC3228"
 		ai_chance = { factor = 15 }
+		add_army_professionalism = 0.05
 		add_country_modifier = {
 			name = swedish_naval_reforms
 			duration = -1
@@ -544,6 +545,7 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "Per Brahe den yngre"
+			culture = swedish
 			location = 1
 			discount = yes
 			skill = 3
@@ -582,6 +584,7 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "Magnus Gabriel De la Gardie"
+			culture = swedish
 			discount = yes
 			location = 36
 			skill = 2
@@ -1055,6 +1058,7 @@ country_event = {
 	option = {		# Reform the army.
 		name = "flavor_swe.EVTOPTA3244"
 		ai_chance = { factor = 90 }
+		add_army_professionalism = 0.05
 		add_country_modifier = {
 			name = the_great_army_reorganization
 			duration = -1
@@ -1175,25 +1179,34 @@ country_event = {
 	mean_time_to_happen = {
 		months = 12
 	}
-
-	immediate = {
-		set_country_flag = SWE_anjala_league
-	}
 	
 	option = {		# Negotiate with the Traitors
 		name = "flavor_swe.EVTOPTA3259"
-		ai_chance = { factor = 75 }
+		ai_chance = { factor = 25 }
 		add_stability_or_adm_power = yes
-		add_country_modifier = {
-			name = traitorous_officers
-			duration = 3650
+		every_owned_province = {
+			limit = {
+				NOT = { is_core = FIN }
+				OR = {
+					area = finland_area
+					area = bothnia_area
+				}
+			}
+			add_province_modifier = {
+				name = traitorous_officers
+				duration = 3650
+			}
+			add_core = FIN
 		}
 	}
 	option = {		# Assasinate the Leaders
 		name = "flavor_swe.EVTOPTB3259"
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 75 }
 		kill_leader = {
 			type = random
+		}
+		RUS = {
+			country_event = { id = flavor_rus.31 }
 		}
 	}
 }
@@ -1375,7 +1388,7 @@ country_event = {
 		8 = {
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 3
+				size = 2
 			}
 		}
 	}
@@ -1879,7 +1892,7 @@ country_event = {
 		months = 1
 	}
 	option = {		# Hats
-		name = "flavor_swe.EVTOPTA3258"
+		name = "flavor_swe.EVTOPTB3258"
 		clr_country_flag = swedish_caps
 		set_country_flag = swedish_hats
 		FRA = { 
@@ -1898,7 +1911,7 @@ country_event = {
 		add_dip_power = 100
 	}
 	option = {		# Caps
-		name = "flavor_swe.EVTOPTB3258"
+		name = "flavor_swe.EVTOPTA3258"
 		clr_country_flag = swedish_caps
 		set_country_flag = swedish_hats
 		RUS = { 

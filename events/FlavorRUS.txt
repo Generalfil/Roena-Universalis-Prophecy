@@ -488,13 +488,33 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_patriarch_authority = -0.5
-
+		add_patriarch_authority = -0.25
 		every_province = {
 			limit = {
-				is_core = BYZ
+				OR = {
+					is_core = BYZ
+					province_id = 148 #Salonica (Mount Athos)
+					province_id = 151 #Constantinople
+				}
 			}
 			add_claim = ROOT
+		}
+	}
+	option = {		# No we need Constantinople to lead the True Faith
+		name = "flavor_rus.EVTOPTC3415"
+		ai_chance = {
+			factor = 0
+		}
+		add_patriarch_authority = -0.5
+		every_province = {
+			limit = {
+				OR = {
+					is_core = BYZ
+					province_id = 148 #Salonica (Mount Athos)
+					province_id = 151 #Constantinople
+				}
+			}
+			add_permanent_claim = ROOT
 		}
 	}
 }
@@ -818,17 +838,18 @@ country_event = {
 	
 	
 	option = {		# The reforms are necessary
-		name = "flavor_rus.EVTOPTA1006"
+		name = "flavor_rus.EVTOPTA1007"
 		ai_chance = {
 			factor = 100
 		}
+		add_army_professionalism = 0.05
 		add_ruler_modifier = {
 			name = western_reforms
 			duration = -1
 		}
 	}
 	option = {		# Avoid outside influence
-		name = "flavor_rus.EVTOPTB1006"
+		name = "flavor_rus.EVTOPTB1007"
 		ai_chance = { factor = 0 }
 		add_stability_or_adm_power = yes
 	}
@@ -878,7 +899,7 @@ country_event = {
 	}
 
 	option = {		# Crush the rebellion
-		name = "flavor_rus.EVTOPTA1006"
+		name = "flavor_rus.EVTOPTA1008"
 		ai_chance = { factor = 100 }
 		add_stability = -1
 		random_owned_province = {
@@ -903,7 +924,7 @@ country_event = {
 		}
 	}
 	option = {		# Revert some reforms
-		name = "flavor_rus.EVTOPTB1006"
+		name = "flavor_rus.EVTOPTB1008"
 		ai_chance = { factor = 0 }
 		remove_country_modifier = western_reforms
 		add_country_modifier = {
@@ -1615,7 +1636,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 3
+				size = 2
 			}
 		}
 	}
@@ -1813,19 +1834,7 @@ country_event = {
 	desc = "flavor_rus.EVTDESC3439"
 	picture = DIPLOMACY_eventPicture
 
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = RUS
-		war_with = SWE
-		SWE = { has_country_flag = SWE_anjala_league }
-
-	}
-
-	mean_time_to_happen = {
-		months = 12
-	}
+	is_triggered_only = yes #From flavor_swe.3259
 
 	option = {		# Give them our support
 		name = "flavor_rus.EVTOPTA3439"
@@ -1995,7 +2004,7 @@ country_event = {
 				capital_scope = {
 					continent = europe
 				}
-				tech_difference = 15
+				tech_difference = 5
 				has_opinion = { who = ROOT value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
@@ -2213,7 +2222,7 @@ country_event = {
 				capital_scope = {
 					continent = europe
 				}
-				tech_difference = 15
+				tech_difference = 5
 				has_opinion = { who = RUS value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
@@ -2248,7 +2257,7 @@ country_event = {
 			capital_scope = {
 				continent = europe
 			}
-			tech_difference = 15
+			tech_difference = 5
 			has_opinion = { who = RUS value = 50 }
 			NOT = { is_rival = ROOT }
 			NOT = { is_enemy = ROOT }
@@ -2266,7 +2275,7 @@ country_event = {
 				capital_scope = {
 					continent = europe
 				}
-				tech_difference = 15
+				tech_difference = 5
 				has_opinion = { who = RUS value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
@@ -2403,7 +2412,7 @@ country_event = {
 			capital_scope = {
 				continent = europe
 			}
-			tech_difference = 15
+			tech_difference = 5
 			has_opinion = { who = ROOT value = 50 }
 			NOT = { is_rival = ROOT }
 			NOT = { is_enemy = ROOT }

@@ -19,9 +19,9 @@ country_event = {
 	trigger = {
 		tag = TIB
 		OR = {
-			NOT = { dip = 2 }
-			NOT = { mil = 2 }
-			NOT = { adm = 2 }
+			NOT = { dip = 3 }
+			NOT = { mil = 3 }
+			NOT = { adm = 3 }
 		}
 		NOT = { is_year = 1642 }
 		NOT = { government = theocratic_government }
@@ -40,14 +40,14 @@ country_event = {
 	option = {
 		name = "flavor_tib.EVTOPTB1"
 		ai_chance = { factor = 0 }
-		add_stability = -3
+		add_stability = -2
 		random_owned_province = {
 			limit = {
 				religion = ROOT
 			}
 			spawn_rebels = {
 				type = religious_rebels
-				size = 3
+				size = 2
 			}
 		}
 	}

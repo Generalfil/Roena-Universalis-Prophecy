@@ -30,7 +30,6 @@ country_event = {
 	option = {
 		ai_chance = { factor = 90 }
 		name = flavor_mam.1.b
-		add_piety = 0.25
 		TUR = {
 			add_opinion = {
 				who = root
@@ -70,6 +69,7 @@ country_event = {
 	}
 	option = {
 		name = flavor_mam.2.a
+		add_piety = 0.10
 		361 = { 
 			add_province_modifier = {
 				name = "public_works_of_cairo"
@@ -121,12 +121,12 @@ country_event = {
 				tooltip = flavor_mam.3.4
 			}
 		}
-		add_piety = -0.25
+		add_prestige = -10
 	}
 	option = {
 		name = flavor_mam.3.b
-		add_prestige = -100
-		add_piety = 0.25
+		ai_chance = { factor = 10 }
+		add_prestige = 10
 	}
 }
 
@@ -213,7 +213,7 @@ country_event = {
 			}		
 		}	
 		vassalize = CYP
-		add_prestige = 100
+		add_prestige = 20
 	}
 }
 
@@ -230,7 +230,6 @@ country_event = {
 		name = flavor_mam.6.a
 		add_years_of_income = 0.25
 		add_prestige = 5
-		add_piety = -0.10
 	}
 }
 
@@ -332,11 +331,11 @@ country_event = {
 		name = flavor_mam.10.a
 		ai_chance = { factor = 90 }
 		add_adm_power = -20
-		add_piety = 0.20
+		add_legitimacy = 5
 	}
 	option = {
 		name = flavor_mam.10.b
-		add_piety = -0.10
+		add_legitimacy = -5
 	}
 }
 
@@ -479,7 +478,6 @@ country_event = {
 		name = flavor_mam.14.a
 		add_years_of_income = 2.0
 		add_adm_power = -50
-		add_piety = -0.33
 		random_owned_province = {
 			anti_tax_rebels = 1
 		}
@@ -492,7 +490,6 @@ country_event = {
 	}	
 	option = {
 		name = flavor_mam.14.b
-		add_piety = 0.10
 		add_years_of_income = 0.10
 	}
 }

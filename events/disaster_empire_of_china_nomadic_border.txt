@@ -26,7 +26,18 @@ country_event = {
 country_event = {
 	id = empire_of_china_nomadic_border_events.2
 	title = "empire_of_china_nomadic_border_events.2.t"
-	desc = "empire_of_china_nomadic_border_events.2.d"
+	desc = {
+		trigger = {
+			is_emperor_of_china = yes
+		}
+		desc = "empire_of_china_nomadic_border_events.2.d"
+	}
+	desc = {
+		trigger = {
+			is_emperor_of_china = no
+		}
+		desc = "empire_of_china_nomadic_border_events.2.db"
+	}
 	picture = CHINESE_GENERAL_eventPicture
 	
 	is_triggered_only = yes
@@ -35,7 +46,15 @@ country_event = {
 
 	option = {
 		name = "empire_of_china_nomadic_border_events.2.a"
-		add_mandate = 20
-		add_stability = 2
+		if = {
+			limit = {
+				is_emperor_of_china = yes
+			}
+			add_mandate = 20
+			add_stability = 2
+		}
+		else = {
+			add_stability = -1
+		}
 	}
 }

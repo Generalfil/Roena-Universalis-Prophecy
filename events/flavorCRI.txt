@@ -505,7 +505,7 @@ country_event = {
 	
 	
 	option = {
-		name = "flavor_cri.4.a" #We have now tied our fate to theirs.
+		name = "flavor_cri.6.a"
 		ai_chance = {
 			factor = 100
 		}

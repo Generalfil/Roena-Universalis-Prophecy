@@ -29,10 +29,15 @@ country_event = {
 	
 	option = {
 		name = "flavor_vie.EVTOPTA1"
-		spawn_rebels = {
-			type = pretender_rebels
-			size = 3
-			leader = "Kitsarat"
+		random_owned_province = {
+			limit = { is_in_capital_area = yes }
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+				culture = ROOT
+				religion = ROOT
+				leader = "Kitsarat"
+			}
 		}
 	}
 	option = {

@@ -826,6 +826,7 @@ country_event = {
 			adm = 2
 			dip = 2
 			age = 18
+			religion = confucianism
 			dynasty = ROOT
 		}
 		reduce_estate_church_loyalty_effect = yes
@@ -943,6 +944,11 @@ country_event = {
 	option = {
 		name = "confucian_events.21.a"
 		change_religion = confucianism
+		set_ruler_religion = confucianism
+		if = {
+			limit = { has_heir = yes }
+			set_heir_religion = confucianism
+		}
 		add_harmonized_religion = mahayana
 	}
 	option = {

@@ -167,7 +167,7 @@ country_event = {
 	option = {
 		name = flavor_guj.5.a #What a clear sighted man!
 		add_stability_or_adm_power = yes
-		add_piety = 0.05
+		add_piety = -0.25
 	}
 }
 
@@ -270,7 +270,6 @@ country_event = {
 	option = {
 		name = flavor_guj.8.a #We must stand strong with our brothers in faith!
 		ai_chance = { factor = 9 }
-		add_piety = 0.1
 		GUJ = { country_event = { id = flavor_guj.9 } }
 		GUJ = { add_opinion = { who = TUR modifier = opinion_improved_relations } }
 		POR = { add_opinion = { who = TUR modifier = opinion_irritated } }
@@ -280,7 +279,6 @@ country_event = {
 	option = {
 		name = flavor_guj.8.b #India? We have matters to attend to much closer than that.
 		ai_chance = { factor = 1 }
-		add_piety = -0.1
 		GUJ = { country_event = { id = flavor_guj.10 } }
 		GUJ = { add_opinion = { who = TUR modifier = opinion_irritated } }
 	}
@@ -294,7 +292,6 @@ country_event = {
 	picture = SHIP_SAILING_eventPicture
 	
 	is_triggered_only = yes
-	
 	
 	option = {
 		name = flavor_guj.9.a #Ok
@@ -346,14 +343,14 @@ country_event = {
 	
 	option = { 
 		name = flavor_guj.11.a
-		add_piety = 0.15
-		add_adm_power = 10
+		add_piety = -0.15
+		add_adm_power = 25
 		add_years_of_income = -0.1
 	}
 	
 	option = { 
 		name = flavor_guj.11.b
-		add_piety = 0.15
+		add_piety = -0.10
 	}
 	
 }

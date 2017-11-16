@@ -661,6 +661,8 @@ country_event = {
 		add_prestige = -10
 		define_advisor = {
 			name = "William Adams"
+			culture = english
+			religion = protestant
 			type = trader
 			discount = yes
 			skill = 2
@@ -1680,6 +1682,7 @@ country_event = {
 					define_advisor = {
 						type = artist
 						skill = 3
+						religion = confucianism
 						discount = yes
 					}
 					clr_country_flag = confucian_advisor_artist
@@ -1688,6 +1691,7 @@ country_event = {
 					define_advisor = {
 						type = master_of_mint
 						skill = 3
+						religion = confucianism
 						discount = yes
 					}
 					clr_country_flag = confucian_advisor_mint
@@ -1695,6 +1699,7 @@ country_event = {
 				confucian_advisor_scientist = {
 					define_advisor = {
 						type = natural_scientist
+						religion = confucianism
 						skill = 3
 						discount = yes
 					}
@@ -1703,6 +1708,7 @@ country_event = {
 				confucian_advisor_philosopher = {
 					define_advisor = {
 						type = philosopher
+						religion = confucianism
 						skill = 3
 						discount = yes
 					}
@@ -1711,6 +1717,7 @@ country_event = {
 				confucian_advisor_treasurer = {
 					define_advisor = {
 						type = treasurer
+						religion = confucianism
 						skill = 3
 						discount = yes
 					}
@@ -1727,6 +1734,7 @@ country_event = {
 				confucian_advisor_artist = {
 					define_advisor = {
 						type = artist
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}
@@ -1735,6 +1743,7 @@ country_event = {
 				confucian_advisor_mint = {
 					define_advisor = {
 						type = master_of_mint
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}
@@ -1743,6 +1752,7 @@ country_event = {
 				confucian_advisor_scientist = {
 					define_advisor = {
 						type = natural_scientist
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}
@@ -1751,6 +1761,7 @@ country_event = {
 				confucian_advisor_philosopher = {
 					define_advisor = {
 						type = philosopher
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}
@@ -1759,6 +1770,7 @@ country_event = {
 				confucian_advisor_treasurer = {
 					define_advisor = {
 						type = treasurer
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}
@@ -1823,6 +1835,7 @@ country_event = {
 					define_advisor = {
 						type = artist
 						skill = 3
+						religion = confucianism
 						discount = yes
 					}
 					clr_country_flag = confucian_advisor_artist
@@ -1830,6 +1843,7 @@ country_event = {
 				confucian_advisor_mint = {
 					define_advisor = {
 						type = master_of_mint
+						religion = confucianism
 						skill = 3
 						discount = yes
 					}
@@ -1838,6 +1852,7 @@ country_event = {
 				confucian_advisor_scientist = {
 					define_advisor = {
 						type = natural_scientist
+						religion = confucianism
 						skill = 3
 						discount = yes
 					}
@@ -1846,6 +1861,7 @@ country_event = {
 				confucian_advisor_philosopher = {
 					define_advisor = {
 						type = philosopher
+						religion = confucianism
 						skill = 3
 						discount = yes
 					}
@@ -1854,6 +1870,7 @@ country_event = {
 				confucian_advisor_treasurer = {
 					define_advisor = {
 						type = treasurer
+						religion = confucianism
 						skill = 3
 						discount = yes
 					}
@@ -1871,6 +1888,7 @@ country_event = {
 					define_advisor = {
 						type = artist
 						skill = 2
+						religion = confucianism
 						discount = yes
 					}
 					clr_country_flag = confucian_advisor_artist
@@ -1878,6 +1896,7 @@ country_event = {
 				confucian_advisor_mint = {
 					define_advisor = {
 						type = master_of_mint
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}
@@ -1887,6 +1906,7 @@ country_event = {
 					define_advisor = {
 						type = natural_scientist
 						skill = 2
+						religion = confucianism
 						discount = yes
 					}
 					clr_country_flag = confucian_advisor_scientist
@@ -1894,6 +1914,7 @@ country_event = {
 				confucian_advisor_philosopher = {
 					define_advisor = {
 						type = philosopher
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}
@@ -1902,6 +1923,7 @@ country_event = {
 				confucian_advisor_treasurer = {
 					define_advisor = {
 						type = treasurer
+						religion = confucianism
 						skill = 2
 						discount = yes
 					}

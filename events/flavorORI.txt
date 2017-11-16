@@ -185,7 +185,9 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 5
+				size = 2
+				culture = oriya
+				religion = hinduism
 				leader = "Hamvira Gajapati"
 			}
 		}
@@ -219,7 +221,9 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 7
+				size = 3
+				culture = oriya
+				religion = hinduism
 				leader = "Puroshottama Gajapati"
 			}
 		}
@@ -312,7 +316,9 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 4
+				size = 3
+				culture = oriya
+				religion = hinduism
 			}
 		}
 		every_owned_province = {
@@ -450,6 +456,8 @@ country_event = {
 		define_advisor = {
 			type = theologian
 			name = "Sarala Das"
+			culture = oriya
+			religion = hinduism
 			discount = yes
 			skill = 2
 		}
@@ -484,6 +492,8 @@ country_event = {
 		define_advisor = {
 			type = theologian
 			name = "Achyutananda Das"
+			culture = oriya
+			religion = hinduism
 			discount = yes
 			skill = 3
 		}

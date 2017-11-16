@@ -454,6 +454,7 @@ country_event = {
 		define_advisor = {
 			type = philosopher
 			skill = 3
+			religion = confucianism
 			discount = yes
 		}
 		boost_bureaucrats_effect = yes
@@ -1464,6 +1465,8 @@ country_event = {
 			}
 			define_consort = {
 				country_of_origin = ROOT
+				religion = ROOT
+				culture = ROOT
 			}
 		}
 	}
@@ -1479,6 +1482,8 @@ country_event = {
 			}
 			define_consort = {
 				country_of_origin = ROOT
+				religion = ROOT
+				culture = ROOT
 			}
 		}
 	}
@@ -1494,6 +1499,8 @@ country_event = {
 			}
 			define_consort = {
 				country_of_origin = ROOT
+				culture = ROOT
+				religion = ROOT
 			}
 		}
 	}
@@ -1812,7 +1819,7 @@ country_event = {
 	
 	trigger = {
 		faction_in_power = temples
-		always = no #TODo
+		always = no #Removed
 	}
 	
 	mean_time_to_happen = {
@@ -2405,7 +2412,7 @@ country_event = {
 	picture = FORT_eventPicture
 	
 	trigger = {
-		always = no #Todo
+		always = no #Removed
 		OR = {
 			faction_in_power = temples
 			faction_in_power = bureaucrats
@@ -2985,7 +2992,7 @@ country_event = {
 	
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 300
 	}
 	
 	immediate = {
@@ -3070,7 +3077,7 @@ country_event = {
 	}
 	desc = {
 		trigger = {
-			has_dlc = "Mandate of heaven"
+			has_dlc = "Mandate of Heaven"
 		}
 		desc = china_events.56.da
 	}

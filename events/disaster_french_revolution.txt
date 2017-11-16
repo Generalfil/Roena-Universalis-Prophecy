@@ -332,6 +332,7 @@ country_event = {
 		}
 		define_ruler = {
 			name = "Napoléon I"
+			culture = sardinian #corsican
 			dynasty = "Bonaparte" 
 			adm = 6
 			dip = 5

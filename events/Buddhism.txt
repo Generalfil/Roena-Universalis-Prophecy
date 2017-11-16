@@ -310,6 +310,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
+				religion = vajrayana
 				size = 1
 			}
 		}

@@ -41,6 +41,8 @@ country_event = {
 			define_advisor = {
 				type = philosopher
 				name = "Erasmus"
+				culture = dutch
+				religion = catholic
 				discount = yes
 				skill = 3
 			}
@@ -82,6 +84,7 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				name = "Hugo Grotius"
+				culture = dutch
 				discount = yes
 				skill = 3
 				location = 97 #Holland
@@ -122,6 +125,7 @@ country_event = {
 			define_advisor = {
 				type = treasurer
 				name = "Christiaan Huygens"
+				culture = dutch
 				discount = yes
 				skill = 2
 				location = 97
@@ -162,6 +166,7 @@ country_event = {
 			define_advisor = {
 				type = navigator
 				name = "Mercator"
+				culture = flemish
 				discount = yes
 				skill = 2
 				location = 92 #Brabant
@@ -614,6 +619,7 @@ country_event = {
 		define_advisor = {
 			type = natural_scientist
 			name = "Simon Stevin"
+			culture = flemish
 			discount = yes
 			skill = 3
 			location = 97
@@ -647,6 +653,9 @@ country_event = {
 	}
 }
 
+################################################
+# Additional Flavor Events by Henrik Lohmander
+################################################
 
 # Tulip Crash
 country_event = {
@@ -715,6 +724,7 @@ country_event = {
 		add_dip_power = 100
 		add_prestige = 5
 		97 = {
+			change_trade_goods = paper
 			add_province_modifier = {
 				name = "ned_house_of_elzevir"
 				duration = -1
@@ -1440,6 +1450,8 @@ country_event = {
 			define_advisor = {
 				type = philosopher
 				name = "Baruch Spinoza"
+				religion = jewish
+				culture = portuguese #Or Dutch
 				discount = yes
 				skill = 3
 				location = 97

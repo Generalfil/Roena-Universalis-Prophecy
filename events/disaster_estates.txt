@@ -53,6 +53,18 @@ country_event = {
 				NOT = {
 					government = tsardom
 				}
+				NOT = {
+					government = mamluk_government
+				}
+				NOT = {
+					government = iqta
+				}
+				NOT = {
+					government = feudal_theocracy
+				}
+				NOT = {
+					government = tribal_federation
+				}
 			}
 			change_government = noble_republic
 		}
@@ -65,7 +77,7 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				government = prussian_monarchy
 			}
@@ -74,7 +86,7 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				government = ottoman_government
 			}
@@ -83,7 +95,7 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				OR = {
 					government = shogunate
@@ -96,7 +108,7 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				OR = {
 					government = tsardom
@@ -108,13 +120,39 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				government = celestial_empire
 			}
 			reduce_meritocracy_large_effect = yes
 			add_country_modifier = {
 				name = gentry_dominance
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					government = iqta
+					government = feudal_theocracy
+					government = tribal_federation
+				}
+			}
+			add_country_modifier = {
+				name = amir_dominance
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				government = mamluk_government
+			}
+			add_legitimacy = -10
+			define_ruler = {
+				culture = circassian
+			}
+			add_country_modifier = {
+				name = mamluk_amir_dominance
 				duration = -1
 			}
 		}

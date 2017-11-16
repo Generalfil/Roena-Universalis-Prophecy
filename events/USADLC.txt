@@ -426,7 +426,11 @@ country_event = {
 	
 	option = {
 		name = "usa_dlc.EVTOPTA11"
-		change_government = constitutional_republic
+		change_government = american_republic
+	}
+	option = {
+		name = "usa_dlc.EVTOPTB11"
+		change_government = federal_republic
 	}
 	option = {
 		name = "usa_dlc.EVTOPTC11"

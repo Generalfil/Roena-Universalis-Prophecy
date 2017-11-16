@@ -32,6 +32,7 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "Sigurd Jonsson"
+			culture = norwegian
 			discount = yes
 			skill = 2
 		}
@@ -64,6 +65,7 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "Nils Henriksson"
+			culture = norwegian
 			discount = yes
 			skill = 2
 		}
@@ -374,6 +376,8 @@ country_event = {
 			}
 			define_consort = {
 				country_of_origin = FROM
+				religion = FROM
+				culture = FROM
 			}
 		}
 		add_treasury = -100
@@ -534,6 +538,8 @@ country_event = {
 			SCO = {
 				define_consort = {
 					country_of_origin = FROM
+					culture = FROM
+					religion = FROM
 				}
 			}
 		}
@@ -1068,6 +1074,7 @@ country_event = {
 		define_advisor = {
 			type = naval_reformer
 			name = "Cort Adeler"
+			culture = norwegian
 			discount = yes
 			skill = 3
 		}

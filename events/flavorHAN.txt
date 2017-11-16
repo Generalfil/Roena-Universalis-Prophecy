@@ -17,7 +17,12 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		owns = 1758
+		OR = {
+			owns = 62 #Leipzig
+			owns = 63 #Jena
+			owns = 67 #Altdorf
+			owns = 1758 #Hannover
+		}
 		is_year = 1676
 		NOT = {	is_year = 1716 }
 		NOT = {
@@ -38,6 +43,7 @@ country_event = {
 			type = philosopher
 			skill = 3
 			name = "Gottfried Wilhelm Leibniz"
+			culture = saxon
 			discount = yes
 		}
 	}

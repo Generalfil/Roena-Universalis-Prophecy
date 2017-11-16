@@ -93,7 +93,7 @@ country_event = {
 	
 	option = {
 		name = flavor_mor.3.a #Ok
-		add_piety = 0.2
+		add_piety = -0.25
 		add_prestige = 10
 	}
 }
@@ -118,7 +118,7 @@ country_event = {
 	
 	option = {
 		name = flavor_mor.4.a #Ok
-		add_piety = 0.2
+		add_piety = -0.25
 		add_country_modifier = {
 			name = "mor_idrisid_cult_soaring"
 			duration = 3650
@@ -127,7 +127,7 @@ country_event = {
 	
 	option = {
 		name = flavor_mor.4.b #Ok
-		add_piety = -0.2
+		add_piety = 0.1
 	}
 }
 
@@ -151,7 +151,7 @@ country_event = {
 	
 	option = {
 		name = flavor_mor.5.a #A great man has passed away
-		add_piety = 0.05
+		add_piety = -0.05
 		set_country_flag = mor_death_of_yahya
 	}
 	
@@ -209,7 +209,9 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 5
+				size = 3
+				culture = berber
+				religion = sunni
 				leader = "Muhammad ibn Yahya Wattasid"
 			}
 		}
@@ -242,6 +244,7 @@ country_event = {
 		define_ruler = {
 			name = "Muhammad I"
 			dynasty = "Wattasid"
+			culture = berber
 		}
 		if = {
 			limit = {
@@ -260,7 +263,9 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 5
+				size = 3
+				religion = sunni
+				culture = berber
 				leader = "Muhammad ibn Yahya Wattasid"
 			}
 		}

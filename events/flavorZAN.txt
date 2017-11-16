@@ -32,7 +32,7 @@ country_event = {
 		ai_chance = { factor = 1 }
 		set_country_flag = zan_shirazi_islam_confirmed
 		add_legitimacy = 30
-		add_piety = -0.1
+		add_piety = -0.25
 		every_known_country = {
 			limit = {
 				num_of_ports = 1
@@ -320,7 +320,7 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				leader = "Muhammad al-Mazlum"
-				size = 3
+				size = 2
 			}
 		}
 	}

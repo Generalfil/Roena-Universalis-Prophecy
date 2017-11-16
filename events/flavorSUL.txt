@@ -35,6 +35,7 @@ province_event = {
 		651 = {
 			add_core = SUL
 			cede_province = SUL
+			change_trade_goods = gems #pearls
 		}
 		moluccas_region = {
 			limit = { is_empty = no }

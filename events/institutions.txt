@@ -21,8 +21,24 @@ country_event = {
 	id = institution_events.2
 	title = institution_events.2.t
 	desc = institution_events.2.d
-	picture = PAINTER_ARTIST_eventPicture
-
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
 	is_triggered_only = yes
 	
 
@@ -73,7 +89,22 @@ country_event = {
 	id = institution_events.200
 	title = institution_events.2.t
 	desc = institution_events.200.d
-	picture = PAINTER_ARTIST_eventPicture
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
 
 	is_triggered_only = yes
 	
@@ -97,7 +128,22 @@ country_event = {
 	id = institution_events.201
 	title = institution_events.2.t
 	desc = institution_events.201.d
-	picture = MERCHANTS_TALKING_eventPicture
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
 
 	is_triggered_only = yes
 	
@@ -254,7 +300,7 @@ country_event = {
 	trigger = {
 		always = yes			#
 	}
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}

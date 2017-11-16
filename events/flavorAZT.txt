@@ -197,6 +197,7 @@ country_event = {
 	option = {
 		name = flavor_azt.4.a #Implement the Sumptuary Laws.
 		add_adm_power = -100
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = azt_sumptuary_laws
 			duration = -1

@@ -427,22 +427,10 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		months = 600
 		modifier = {
-			factor = 0.3
+			factor = 0.5
 			has_global_flag = japan_is_closed
-		}
-		modifier = {
-			factor = 0.8
-			owner = { NOT = { innovativeness_ideas = 4 } }
-		}
-		modifier = {
-			factor = 0.8
-			owner = { NOT = { innovativeness_ideas = 3 } }
-		}
-		modifier = {
-			factor = 0.8
-			owner = { NOT = { innovativeness_ideas = 1 } }
 		}
 	}
 	
@@ -460,7 +448,10 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA9014"
-		create_revolt = 5
+		spawn_rebels = {
+			size = 1
+			type = catholic_rebels
+		}
 		change_religion = shinto
 	}
 }

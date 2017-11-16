@@ -400,6 +400,8 @@ country_event = {
 		define_advisor = {
 			type = philosopher
 			name = "Constantine Phaulkon"
+			culture = greek
+			religion = orthodox
 			skill = 2
 			discount = yes
 		}

@@ -230,7 +230,22 @@ country_event = {
 			religion = catholic
 		}
 	}
-
+	
+	immediate = {
+		hidden_effect = {
+			random_known_country = {
+				limit = {
+					has_spy_network_from = {
+						who = ROOT
+						value = 10
+					}
+					religion = catholic
+				}
+				save_event_target_as = victim_country
+			}
+		}
+	}
+	
 	mean_time_to_happen = {
 		months = 600
 	}
@@ -238,18 +253,9 @@ country_event = {
 	# 
 	option = {
 		name = "espionage_events.4.a"
-		random_known_country = {
-			limit = {
-				has_spy_network_from = {
-					who = ROOT
-					value = 10
-				}
-				religion = catholic
-			}
-			add_spy_network_from = {
-				who = ROOT
-				value = 25
-			}
+		add_spy_network_in = {
+			who = event_target:victim_country
+			value = 25
 		}
 		if = {
 			limit = {

@@ -1099,13 +1099,13 @@ country_event = {
 	trigger = {
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_grain }
-				had_country_flag = { flag = tariffs_on_grain days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = grain
 			}
+		}
+		OR = {
+			NOT = { has_country_flag = tariffs_on_grain }
+			had_country_flag = { flag = tariffs_on_grain days = 7300 }
 		}
 	}
 	
@@ -1115,10 +1115,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_grain }
-					had_country_flag = { flag = tariffs_on_grain days = 7300 }
-				}
 				grain = 3
 			}
 		}
@@ -1126,10 +1122,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_grain }
-					had_country_flag = { flag = tariffs_on_grain days = 7300 }
-				}
 				grain = 5
 			}
 		}
@@ -1137,10 +1129,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_grain }
-					had_country_flag = { flag = tariffs_on_grain days = 7300 }
-				}
 				grain = 7
 			}
 		}
@@ -1151,10 +1139,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_grain }
-					had_country_flag = { flag = tariffs_on_grain days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = grain
 				}
@@ -1163,13 +1147,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_grain
 				country_event = { id = colonial_nation.101 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_grain
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_grain
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1203,12 +1188,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_wine }
+			had_country_flag = { flag = tariffs_on_wine days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_wine }
-				had_country_flag = { flag = tariffs_on_wine days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = wine
 			}
@@ -1221,10 +1206,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wine }
-					had_country_flag = { flag = tariffs_on_wine days = 7300 }
-				}
 				wine = 3
 			}
 		}
@@ -1232,10 +1213,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wine }
-					had_country_flag = { flag = tariffs_on_wine days = 7300 }
-				}
 				wine = 5
 			}
 		}
@@ -1243,10 +1220,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wine }
-					had_country_flag = { flag = tariffs_on_wine days = 7300 }
-				}
 				wine = 7
 			}
 		}
@@ -1257,10 +1230,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wine }
-					had_country_flag = { flag = tariffs_on_wine days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = wine
 				}
@@ -1269,13 +1238,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_wine
 				country_event = { id = colonial_nation.103 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_wine
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_wine
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1310,12 +1280,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_wool }
+			had_country_flag = { flag = tariffs_on_wool days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_wool }
-				had_country_flag = { flag = tariffs_on_wool days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = wool
 			}
@@ -1328,10 +1298,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wool }
-					had_country_flag = { flag = tariffs_on_wool days = 7300 }
-				}
 				wool = 3
 			}
 		}
@@ -1339,10 +1305,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wool }
-					had_country_flag = { flag = tariffs_on_wool days = 7300 }
-				}
 				wool = 5
 			}
 		}
@@ -1350,10 +1312,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wool }
-					had_country_flag = { flag = tariffs_on_wool days = 7300 }
-				}
 				wool = 7
 			}
 		}
@@ -1364,10 +1322,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_wool }
-					had_country_flag = { flag = tariffs_on_wool days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = wool
 				}
@@ -1376,13 +1330,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_wool
 				country_event = { id = colonial_nation.105 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_wool
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_wool
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1416,12 +1371,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_cloth }
+			had_country_flag = { flag = tariffs_on_cloth days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_cloth }
-				had_country_flag = { flag = tariffs_on_cloth days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = cloth
 			}
@@ -1434,10 +1389,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cloth }
-					had_country_flag = { flag = tariffs_on_cloth days = 7300 }
-				}
 				cloth = 3
 			}
 		}
@@ -1445,10 +1396,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cloth }
-					had_country_flag = { flag = tariffs_on_cloth days = 7300 }
-				}
 				cloth = 5
 			}
 		}
@@ -1456,10 +1403,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cloth }
-					had_country_flag = { flag = tariffs_on_cloth days = 7300 }
-				}
 				cloth = 7
 			}
 		}
@@ -1470,10 +1413,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cloth }
-					had_country_flag = { flag = tariffs_on_cloth days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = cloth
 				}
@@ -1482,13 +1421,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_cloth
 				country_event = { id = colonial_nation.107 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_cloth
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_cloth
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1523,12 +1463,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_fish }
+			had_country_flag = { flag = tariffs_on_fish days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_fish }
-				had_country_flag = { flag = tariffs_on_fish days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = fish
 			}
@@ -1541,10 +1481,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fish }
-					had_country_flag = { flag = tariffs_on_fish days = 7300 }
-				}
 				fish = 3
 			}
 		}
@@ -1552,10 +1488,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fish }
-					had_country_flag = { flag = tariffs_on_fish days = 7300 }
-				}
 				fish = 5
 			}
 		}
@@ -1563,10 +1495,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fish }
-					had_country_flag = { flag = tariffs_on_fish days = 7300 }
-				}
 				fish = 7
 			}
 		}
@@ -1577,10 +1505,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fish }
-					had_country_flag = { flag = tariffs_on_fish days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = fish
 				}
@@ -1589,13 +1513,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_fish
 				country_event = { id = colonial_nation.109 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_fish
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_fish
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1630,12 +1555,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_fur }
+			had_country_flag = { flag = tariffs_on_fur days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_fur }
-				had_country_flag = { flag = tariffs_on_fur days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = fur
 			}
@@ -1648,10 +1573,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fur }
-					had_country_flag = { flag = tariffs_on_fur days = 7300 }
-				}
 				fur = 3
 			}
 		}
@@ -1659,10 +1580,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fur }
-					had_country_flag = { flag = tariffs_on_fur days = 7300 }
-				}
 				fur = 5
 			}
 		}
@@ -1670,10 +1587,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fur }
-					had_country_flag = { flag = tariffs_on_fur days = 7300 }
-				}
 				fur = 7
 			}
 		}
@@ -1684,10 +1597,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_fur }
-					had_country_flag = { flag = tariffs_on_fur days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = fur
 				}
@@ -1696,13 +1605,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_fur
 				country_event = { id = colonial_nation.111 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_fur
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_fur
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1736,12 +1646,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_salt }
+			had_country_flag = { flag = tariffs_on_salt days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_salt }
-				had_country_flag = { flag = tariffs_on_salt days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = salt
 			}
@@ -1754,10 +1664,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_salt }
-					had_country_flag = { flag = tariffs_on_salt days = 7300 }
-				}
 				salt = 3
 			}
 		}
@@ -1765,10 +1671,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_salt }
-					had_country_flag = { flag = tariffs_on_salt days = 7300 }
-				}
 				salt = 5
 			}
 		}
@@ -1776,10 +1678,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_salt }
-					had_country_flag = { flag = tariffs_on_salt days = 7300 }
-				}
 				salt = 7
 			}
 		}
@@ -1790,10 +1688,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_salt }
-					had_country_flag = { flag = tariffs_on_salt days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = salt
 				}
@@ -1802,13 +1696,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_salt
 				country_event = { id = colonial_nation.113 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_salt
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_salt
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1842,12 +1737,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_naval_supplies }
+			had_country_flag = { flag = tariffs_on_naval_supplies days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_naval_supplies }
-				had_country_flag = { flag = tariffs_on_naval_supplies days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = naval_supplies
 			}
@@ -1860,10 +1755,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_naval_supplies }
-					had_country_flag = { flag = tariffs_on_naval_supplies days = 7300 }
-				}
 				naval_supplies = 3
 			}
 		}
@@ -1871,10 +1762,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_naval_supplies }
-					had_country_flag = { flag = tariffs_on_naval_supplies days = 7300 }
-				}
 				naval_supplies = 5
 			}
 		}
@@ -1882,10 +1769,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_naval_supplies }
-					had_country_flag = { flag = tariffs_on_naval_supplies days = 7300 }
-				}
 				naval_supplies = 7
 			}
 		}
@@ -1896,10 +1779,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_naval_supplies }
-					had_country_flag = { flag = tariffs_on_naval_supplies days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = naval_supplies
 				}
@@ -1908,13 +1787,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_naval_supplies
 				country_event = { id = colonial_nation.115 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_naval_supplies
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_naval_supplies
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -1948,12 +1828,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_copper }
+			had_country_flag = { flag = tariffs_on_copper days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_copper }
-				had_country_flag = { flag = tariffs_on_copper days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = copper
 			}
@@ -1966,10 +1846,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_copper }
-					had_country_flag = { flag = tariffs_on_copper days = 7300 }
-				}
 				copper = 3
 			}
 		}
@@ -1977,10 +1853,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_copper }
-					had_country_flag = { flag = tariffs_on_copper days = 7300 }
-				}
 				copper = 5
 			}
 		}
@@ -1988,10 +1860,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_copper }
-					had_country_flag = { flag = tariffs_on_copper days = 7300 }
-				}
 				copper = 7
 			}
 		}
@@ -2002,10 +1870,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_copper }
-					had_country_flag = { flag = tariffs_on_copper days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = copper
 				}
@@ -2014,13 +1878,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_copper
 				country_event = { id = colonial_nation.117 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_copper
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_copper
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2054,12 +1919,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_iron }
+			had_country_flag = { flag = tariffs_on_iron days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_iron }
-				had_country_flag = { flag = tariffs_on_iron days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = iron
 			}
@@ -2072,10 +1937,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_iron }
-					had_country_flag = { flag = tariffs_on_iron days = 7300 }
-				}
 				iron = 3
 			}
 		}
@@ -2083,10 +1944,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_iron }
-					had_country_flag = { flag = tariffs_on_iron days = 7300 }
-				}
 				iron = 5
 			}
 		}
@@ -2094,10 +1951,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_iron }
-					had_country_flag = { flag = tariffs_on_iron days = 7300 }
-				}
 				iron = 7
 			}
 		}
@@ -2108,10 +1961,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_iron }
-					had_country_flag = { flag = tariffs_on_iron days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = iron
 				}
@@ -2120,13 +1969,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_iron
 				country_event = { id = colonial_nation.119 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_iron
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_iron
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2160,12 +2010,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_ivory }
+			had_country_flag = { flag = tariffs_on_ivory days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_ivory }
-				had_country_flag = { flag = tariffs_on_ivory days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = ivory
 			}
@@ -2178,10 +2028,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_ivory }
-					had_country_flag = { flag = tariffs_on_ivory days = 7300 }
-				}
 				ivory = 3
 			}
 		}
@@ -2189,10 +2035,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_ivory }
-					had_country_flag = { flag = tariffs_on_ivory days = 7300 }
-				}
 				ivory = 5
 			}
 		}
@@ -2200,10 +2042,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_ivory }
-					had_country_flag = { flag = tariffs_on_ivory days = 7300 }
-				}
 				ivory = 7
 			}
 		}
@@ -2214,10 +2052,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_ivory }
-					had_country_flag = { flag = tariffs_on_ivory days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = ivory
 				}
@@ -2226,13 +2060,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_ivory
 				country_event = { id = colonial_nation.121 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_ivory
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_ivory
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2266,12 +2101,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_tea }
+			had_country_flag = { flag = tariffs_on_tea days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_tea }
-				had_country_flag = { flag = tariffs_on_tea days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = tea
 			}
@@ -2284,10 +2119,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tea }
-					had_country_flag = { flag = tariffs_on_tea days = 7300 }
-				}
 				tea = 3
 			}
 		}
@@ -2295,10 +2126,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tea }
-					had_country_flag = { flag = tariffs_on_tea days = 7300 }
-				}
 				tea = 5
 			}
 		}
@@ -2306,10 +2133,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tea }
-					had_country_flag = { flag = tariffs_on_tea days = 7300 }
-				}
 				tea = 7
 			}
 		}
@@ -2320,10 +2143,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tea }
-					had_country_flag = { flag = tariffs_on_tea days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = tea
 				}
@@ -2332,13 +2151,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_tea
 				country_event = { id = colonial_nation.123 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_tea
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_tea
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2372,12 +2192,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_chinaware }
+			had_country_flag = { flag = tariffs_on_chinaware days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_chinaware }
-				had_country_flag = { flag = tariffs_on_chinaware days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = chinaware
 			}
@@ -2390,10 +2210,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_chinaware }
-					had_country_flag = { flag = tariffs_on_chinaware days = 7300 }
-				}
 				chinaware = 3
 			}
 		}
@@ -2401,10 +2217,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_chinaware }
-					had_country_flag = { flag = tariffs_on_chinaware days = 7300 }
-				}
 				chinaware = 5
 			}
 		}
@@ -2412,10 +2224,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_chinaware }
-					had_country_flag = { flag = tariffs_on_chinaware days = 7300 }
-				}
 				chinaware = 7
 			}
 		}
@@ -2426,10 +2234,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_chinaware }
-					had_country_flag = { flag = tariffs_on_chinaware days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = chinaware
 				}
@@ -2438,13 +2242,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_chinaware
 				country_event = { id = colonial_nation.125 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_chinaware
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_chinaware
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2478,12 +2283,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_spices }
+			had_country_flag = { flag = tariffs_on_spices days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_spices }
-				had_country_flag = { flag = tariffs_on_spices days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = spices
 			}
@@ -2496,10 +2301,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_spices }
-					had_country_flag = { flag = tariffs_on_spices days = 7300 }
-				}
 				spices = 3
 			}
 		}
@@ -2507,10 +2308,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_spices }
-					had_country_flag = { flag = tariffs_on_spices days = 7300 }
-				}
 				spices = 5
 			}
 		}
@@ -2518,10 +2315,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_spices }
-					had_country_flag = { flag = tariffs_on_spices days = 7300 }
-				}
 				spices = 7
 			}
 		}
@@ -2532,10 +2325,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_spices }
-					had_country_flag = { flag = tariffs_on_spices days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = spices
 				}
@@ -2544,13 +2333,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_spices
 				country_event = { id = colonial_nation.127 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_spices
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_spices
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2584,12 +2374,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_coffee }
+			had_country_flag = { flag = tariffs_on_coffee days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_coffee }
-				had_country_flag = { flag = tariffs_on_coffee days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = coffee
 			}
@@ -2602,10 +2392,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_coffee }
-					had_country_flag = { flag = tariffs_on_coffee days = 7300 }
-				}
 				coffee = 3
 			}
 		}
@@ -2613,10 +2399,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_coffee }
-					had_country_flag = { flag = tariffs_on_coffee days = 7300 }
-				}
 				coffee = 5
 			}
 		}
@@ -2624,10 +2406,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_coffee }
-					had_country_flag = { flag = tariffs_on_coffee days = 7300 }
-				}
 				coffee = 7
 			}
 		}
@@ -2638,10 +2416,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_coffee }
-					had_country_flag = { flag = tariffs_on_coffee days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = coffee
 				}
@@ -2650,13 +2424,13 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_coffee
 				country_event = { id = colonial_nation.129 days = 1 }
 			}
 		}
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_coffee
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2690,12 +2464,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_cotton }
+			had_country_flag = { flag = tariffs_on_cotton days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_cotton }
-				had_country_flag = { flag = tariffs_on_cotton days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = cotton
 			}
@@ -2708,10 +2482,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cotton }
-					had_country_flag = { flag = tariffs_on_cotton days = 7300 }
-				}
 				cotton = 3
 			}
 		}
@@ -2719,10 +2489,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cotton }
-					had_country_flag = { flag = tariffs_on_cotton days = 7300 }
-				}
 				cotton = 5
 			}
 		}
@@ -2730,10 +2496,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cotton }
-					had_country_flag = { flag = tariffs_on_cotton days = 7300 }
-				}
 				cotton = 7
 			}
 		}
@@ -2744,10 +2506,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cotton }
-					had_country_flag = { flag = tariffs_on_cotton days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = cotton
 				}
@@ -2756,13 +2514,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_cotton
 				country_event = { id = colonial_nation.131 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_cotton
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_cotton
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2796,12 +2555,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_sugar }
+			had_country_flag = { flag = tariffs_on_sugar days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_sugar }
-				had_country_flag = { flag = tariffs_on_sugar days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = sugar
 			}
@@ -2814,10 +2573,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_sugar }
-					had_country_flag = { flag = tariffs_on_sugar days = 7300 }
-				}
 				sugar = 3
 			}
 		}
@@ -2825,10 +2580,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_sugar }
-					had_country_flag = { flag = tariffs_on_sugar days = 7300 }
-				}
 				sugar = 5
 			}
 		}
@@ -2836,10 +2587,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_sugar }
-					had_country_flag = { flag = tariffs_on_sugar days = 7300 }
-				}
 				sugar = 7
 			}
 		}
@@ -2850,10 +2597,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_sugar }
-					had_country_flag = { flag = tariffs_on_sugar days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = sugar
 				}
@@ -2862,13 +2605,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_sugar
 				country_event = { id = colonial_nation.133 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_sugar
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_sugar
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -2902,12 +2646,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_tobacco }
+			had_country_flag = { flag = tariffs_on_tobacco days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_tobacco }
-				had_country_flag = { flag = tariffs_on_tobacco days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = tobacco
 			}
@@ -2920,10 +2664,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tobacco }
-					had_country_flag = { flag = tariffs_on_tobacco days = 7300 }
-				}
 				tobacco = 3
 			}
 		}
@@ -2931,10 +2671,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tobacco }
-					had_country_flag = { flag = tariffs_on_tobacco days = 7300 }
-				}
 				tobacco = 5
 			}
 		}
@@ -2942,10 +2678,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tobacco }
-					had_country_flag = { flag = tariffs_on_tobacco days = 7300 }
-				}
 				tobacco = 7
 			}
 		}
@@ -2956,10 +2688,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_tobacco }
-					had_country_flag = { flag = tariffs_on_tobacco days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = tobacco
 				}
@@ -2968,13 +2696,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_tobacco
 				country_event = { id = colonial_nation.135 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_tobacco
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_tobacco
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }
@@ -3008,12 +2737,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		OR = {
+			NOT = { has_country_flag = tariffs_on_cocoa }
+			had_country_flag = { flag = tariffs_on_cocoa days = 7300 }
+		}
 		any_subject_country = {
 			is_colonial_nation_of = ROOT
-			OR = {
-				NOT = { has_country_flag = tariffs_on_cocoa }
-				had_country_flag = { flag = tariffs_on_cocoa days = 7300 }
-			}
 			any_owned_province = {
 				trade_goods = cocoa
 			}
@@ -3026,10 +2755,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cocoa }
-					had_country_flag = { flag = tariffs_on_cocoa days = 7300 }
-				}
 				cocoa = 3
 			}
 		}
@@ -3037,10 +2762,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cocoa }
-					had_country_flag = { flag = tariffs_on_cocoa days = 7300 }
-				}
 				cocoa = 5
 			}
 		}
@@ -3048,10 +2769,6 @@ country_event = {
 			factor = 1.25
 			any_subject_country = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cocoa }
-					had_country_flag = { flag = tariffs_on_cocoa days = 7300 }
-				}
 				cocoa = 7
 			}
 		}
@@ -3062,10 +2779,6 @@ country_event = {
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT
-				OR = {
-					NOT = { has_country_flag = tariffs_on_cocoa }
-					had_country_flag = { flag = tariffs_on_cocoa days = 7300 }
-				}
 				any_owned_province = {
 					trade_goods = cocoa
 				}
@@ -3074,13 +2787,14 @@ country_event = {
 				add_tariff_value = 0.05
 			}
 			hidden_effect = {
-				set_country_flag = tariffs_on_cocoa
 				country_event = { id = colonial_nation.137 days = 1 }
 			}
 		}
+		set_country_flag = tariffs_on_cocoa
 	}
 	option = {
 		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		set_country_flag = tariffs_on_cocoa
 		random_list = {
 			33 = { add_adm_power = 10 }
 			33 = { add_dip_power = 10 }

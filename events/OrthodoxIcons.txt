@@ -283,6 +283,8 @@ country_event = {
 			type = artist
 			skill = 2
 			discount = yes
+			religion = orthodox
+			culture = event_target:benevolent_if_distant_neighbor
 		}
 	}
 	option = {

@@ -360,6 +360,7 @@ country_event = {
 		define_advisor = {
 			type = naval_reformer
 			name = "Yi Sun-sin"
+			culture = korean
 			skill = 2
 			discount = yes
 		}

@@ -126,11 +126,11 @@ country_event = {
 				primary_culture = bambara
 			}
 		}
-		add_piety = 0.5
+		add_piety = -0.5
 		random_owned_province = {
 			spawn_rebels = {
 				type = shamanism_rebels
-				size = 3
+				size = 2
 			}
 		}
 		if = {
@@ -160,7 +160,7 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = sunni_rebels
-				size = 4
+				size = 3
 			}
 		}
 		clr_country_flag = fulani_jihad_state

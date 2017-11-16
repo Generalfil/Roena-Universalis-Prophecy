@@ -561,7 +561,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 6
+					size = 3
 					leader = "Dimitri I"
 					friend = FROM
 				}
@@ -579,7 +579,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 4
+					size = 2
 					leader = "Dimitri I"
 					friend = FROM
 				}
@@ -597,7 +597,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 2
+					size = 1
 					leader = "Dimitri I"
 					friend = FROM
 				}

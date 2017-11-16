@@ -696,59 +696,59 @@ country_event = {
 		NOT = { has_ruler_modifier = tolerance_backlash }
 		OR = {
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = treasurer
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = philosopher
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = artist
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = theologian
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = master_of_mint
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = inquisitor
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = natural_scientist
 			}
 			employed_advisor = {
-				home_religion = heathen
+				religion = heathen
 				type = treasurer
 			}
 			employed_advisor = {
-				home_religion = heathen
+				religion = heathen
 				type = philosopher
 			}
 			employed_advisor = {
-				home_religion = heathen
+				religion = heathen
 				type = artist
 			}
 			employed_advisor = {
-				home_religion = heathen
+				religion = heathen
 				type = theologian
 			}
 			employed_advisor = {
-				home_religion = heathen
+				religion = heathen
 				type = master_of_mint
 			}
 			employed_advisor = {
-				home_religion = heathen
+				religion = heathen
 				type = inquisitor
 			}
 			employed_advisor = {
-				home_religion = heathen
+				religion = heathen
 				type = natural_scientist
 			}
 		}
@@ -1095,6 +1095,12 @@ country_event = {
 				20 = { set_country_flag = well_connected_trader }
 				20 = { set_country_flag = well_connected_master_recruiter }
 			}
+			random_known_country = { #From where?
+				limit = {
+					NOT = { tag = ROOT }
+				}
+				save_event_target_as = contacts_in_foreign_country
+			}
 		}
 	}
 	
@@ -1112,6 +1118,8 @@ country_event = {
 						type = statesman
 						skill = 3
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				if = {
@@ -1120,6 +1128,8 @@ country_event = {
 						type = statesman
 						skill = 2
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				clr_country_flag = well_connected_statesman
@@ -1133,6 +1143,8 @@ country_event = {
 						type = commandant
 						skill = 3
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				if = {
@@ -1141,6 +1153,8 @@ country_event = {
 						type = commandant
 						skill = 2
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				clr_country_flag = well_connected_commandant
@@ -1154,6 +1168,8 @@ country_event = {
 						type = theologian
 						skill = 3
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				if = {
@@ -1162,6 +1178,8 @@ country_event = {
 						type = theologian
 						skill = 2
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				clr_country_flag = well_connected_theologian
@@ -1175,6 +1193,8 @@ country_event = {
 						type = trader
 						skill = 3
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				if = {
@@ -1183,6 +1203,8 @@ country_event = {
 						type = trader
 						skill = 2
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				clr_country_flag = well_connected_trader
@@ -1196,6 +1218,8 @@ country_event = {
 						type = recruitmaster
 						skill = 3
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				if = {
@@ -1204,6 +1228,8 @@ country_event = {
 						type = recruitmaster
 						skill = 2
 						discount = yes
+						culture = event_target:contacts_in_foreign_country
+						religion = event_target:contacts_in_foreign_country
 					}
 				}
 				clr_country_flag = well_connected_master_recruiter
@@ -1466,7 +1492,7 @@ country_event = {
 	}
 
 	option = {
-		name = "personality_events.22.a"
+		name = "personality_events.21.a"
 		define_heir = {
 			mil = 4
 			age = 0
@@ -1474,7 +1500,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "personality_events.22.b"
+		name = "personality_events.21.b"
 		define_heir = {
 			adm = 4
 			age = 0
@@ -1999,6 +2025,16 @@ country_event = {
 					change_variable = { which = happy_subjects value = 1 }
 				}
 			}
+			random_subject_country = {
+				limit = {
+					is_colonial_nation = no
+					has_opinion = {
+						who = ROOT
+						value = 150 #Or they're not regarding you as that Benevolent
+					}
+				}
+				save_event_target_as = happy_subject
+			}
 		}
 	}
 	
@@ -2021,6 +2057,8 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				skill = 2
+				culture = event_target:happy_subject
+				religion = event_target:happy_subject
 				discount = yes
 			}
 		}
@@ -2034,6 +2072,8 @@ country_event = {
 			add_prestige = 10
 			define_advisor = {
 				type = statesman
+				culture = event_target:happy_subject
+				religion = event_target:happy_subject
 				skill = 3
 				discount = yes
 			}
@@ -2048,11 +2088,15 @@ country_event = {
 			add_prestige = 15
 			define_advisor = {
 				type = statesman
+				culture = event_target:happy_subject
+				religion = event_target:happy_subject
 				skill = 3
 				discount = yes
 			}
 			define_advisor = {
 				type = natural_scientist
+				culture = event_target:happy_subject
+				religion = event_target:happy_subject
 				skill = 2
 				discount = yes
 			}
@@ -2062,11 +2106,15 @@ country_event = {
 			add_prestige = 15
 			define_advisor = {
 				type = statesman
+				culture = event_target:happy_subject
+				religion = event_target:happy_subject
 				skill = 3
 				discount = yes
 			}
 			define_advisor = {
 				type = natural_scientist
+				culture = event_target:happy_subject
+				religion = event_target:happy_subject
 				skill = 3
 				discount = yes
 			}
@@ -2309,6 +2357,11 @@ country_event = {
 		ruler_has_personality = entrepreneur_personality
 		NOT = { ruler_has_personality = greedy_personality }
 		num_of_cities = 2
+		any_owned_province = {
+			is_in_capital_area = yes
+			is_capital = no
+			is_state = yes
+		}
 		NOT = {
 			any_owned_province = {
 				has_province_modifier = economic_development_entrepreneur
@@ -2634,7 +2687,7 @@ country_event = {
 
 	option = { # hold tournaments for two years
 		name = "personality_events.39.a"
-		
+		add_army_professionalism = 0.01
 		add_ruler_modifier = {
 			name = "hosting_tournament"
 			duration = 3650
@@ -2642,7 +2695,7 @@ country_event = {
 	}
 	option = { # drill troops for seven years
 		name = "personality_events.39.b"
-
+		add_army_professionalism = 0.01
 		add_ruler_modifier = {
 			name = "drilling_troops"
 			duration = 2555
@@ -3321,6 +3374,7 @@ country_event = {
 		ruler_has_personality = drunkard_personality
 		has_dlc = "Rights of Man"
 		any_neighbor_country = {
+			is_subject = no
 			NOT = { is_rival = ROOT }
 			NOT = { is_enemy = ROOT }
 			NOT = { junior_union_with = ROOT }
@@ -3332,6 +3386,7 @@ country_event = {
 		hidden_effect = {
 			random_neighbor_country = {
 				limit = { 
+					is_subject = no
 					NOT = { is_rival = ROOT }
 					NOT = { is_enemy = ROOT }
 					NOT = { junior_union_with = ROOT }
@@ -3340,6 +3395,7 @@ country_event = {
 			}
 			random_neighbor_country = {
 				limit = { 
+					is_subject = no
 					NOT = { is_rival = ROOT }
 					NOT = { is_enemy = ROOT }
 					NOT = { junior_union_with = ROOT }
@@ -3349,6 +3405,7 @@ country_event = {
 			}
 			random_neighbor_country = {
 				limit = { 
+					is_subject = no
 					NOT = { is_rival = ROOT }
 					NOT = { is_enemy = ROOT }
 					NOT = { junior_union_with = ROOT }

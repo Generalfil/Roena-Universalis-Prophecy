@@ -588,6 +588,8 @@ country_event = {
 				type = pretender_rebels
 				size = 1
 				use_heir_as_leader = yes
+				culture = ROOT
+				religion = ROOT
 			}
 		}
 		define_heir = {
@@ -690,6 +692,8 @@ country_event = {
 		event_target:enthronement_or_death = {
 			spawn_rebels = {
 				type = pretender_rebels
+				culture = ROOT
+				religion = ROOT
 				size = 1
 			}
 		}
@@ -1037,6 +1041,8 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
+				culture = ROOT
+				religion = ROOT
 				size = 1.5
 				use_heir_as_leader = yes
 			}
@@ -1048,6 +1054,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 1
+					culture = ROOT
+					religion = ROOT
 				}
 			}
 		}
@@ -1092,6 +1100,8 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = pretender_rebels 
+				culture = ROOT
+				religion = ROOT
 				size = 0.5
 				use_heir_as_leader = yes
 			}
@@ -1121,24 +1131,36 @@ country_event = {
 		any_neighbor_country = {
 			war_with = ROOT
 		}
+		any_owned_province = {
+			controlled_by = ROOT
+			religion = ROOT
+			any_neighbor_province = {
+				owner = {
+					war_with = ROOT
+				}
+			}
+		}
 	}
 	
 	immediate = {
 		hidden_effect = {
-			random_neighbor_country = {
-				limit = {
-					war_with = ROOT
-				}
-				save_event_target_as = enemy_neighbor_ottomans
- 			}
 			random_owned_province = {
 				limit = {
 					controlled_by = ROOT
+					religion = ROOT
 					any_neighbor_province = {
-						owned_by = event_target:enemy_neighbor_ottomans
+						owner = {
+							war_with = ROOT
+						}
 					}
 				}
 				save_event_target_as = ottoman_prince_here
+				random_neighbor_province = {
+					limit = {
+						owner = { war_with = ROOT }
+					}
+					owner = { save_event_target_as = enemy_neighbor_ottomans }
+				}
 			}
 		}
 	}
@@ -1536,6 +1558,8 @@ country_event = {
 		event_target:revolter_prince = {
 			spawn_rebels = {
 				type = pretender_rebels
+				culture = ROOT
+				religion = ROOT
 				size = 1
 			}
 		}

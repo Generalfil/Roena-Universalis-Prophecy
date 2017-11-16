@@ -37,7 +37,7 @@ country_event = {
 	}
 	option = {
 		name = "muslim_dlc.EVTOPTB1"
-		add_piety = -0.10
+		add_prestige = -5
 		hidden_effect = {
 			add_country_modifier = { 
 				name = ignored_ramadan_timer
@@ -307,6 +307,8 @@ country_event = {
 			discount = yes
 			type = artist
 			skill = 3
+			religion = sunni
+			culture = armenian
 		}
 		add_years_of_income = -0.5
 		add_ruler_modifier = { name = repaired_masjid_al_haram }
@@ -363,11 +365,11 @@ country_event = {
 	
 	option = {
 		name = "muslim_dlc.EVTOPTA8"
-		add_piety = 0.1
+		add_piety = -0.1
 	}
 	option = {
 		name = "muslim_dlc.EVTOPTB8"
-		add_piety = -0.1
+		add_piety = 0.1
 	}
 }
 
@@ -443,6 +445,7 @@ country_event = {
 				}
 			}
 		}
+		add_piety = 0.1
 		add_ruler_modifier = { name = banned_alcohol_tobacco_coffee }
 		add_adm_power = 15
 		random_owned_province = {
@@ -654,6 +657,7 @@ country_event = {
 		}
 		add_ruler_modifier = { name = banned_alcohol_tobacco_coffee }
 		add_adm_power = 25
+		add_piety = 0.10
 		if = {
 			limit = {
 				has_dlc = "The Cossacks"
@@ -783,6 +787,7 @@ country_event = {
 			factor = 33
 		}
 		add_adm_power = 25
+		add_piety = -0.1
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
@@ -843,6 +848,7 @@ country_event = {
 		define_advisor = {
 			name = "Muhammad Salih Tahtawi"
 			discount = yes
+			culture = sindhi
 			type = artist
 			skill = 3
 		}
@@ -886,6 +892,8 @@ country_event = {
 		define_advisor = {
 			name = "Mian Mir"
 			type = theologian
+			religion = sunni
+			culture = punjabi
 			discount = yes
 			skill = 2
 			location = 507
@@ -900,7 +908,7 @@ country_event = {
 	}
 	option = {
 		name = "muslim_dlc.EVTOPTC12"
-		add_piety = -0.1
+		add_prestige = 5
 	}
 }
 
@@ -983,12 +991,12 @@ country_event = {
 	
 	option = {
 		name = "muslim_dlc.EVTOPTA14"
-		add_piety = 0.1
+		add_piety = -0.15
 		add_years_of_income = -0.10
 	}
 	option = {
 		name = "muslim_dlc.EVTOPTB14"
-		add_piety = -0.1
+		add_piety = 0.15
 	}
 }
 
@@ -1025,13 +1033,13 @@ country_event = {
 	
 	option = {
 		name = "muslim_dlc.EVTOPTA15"
-		add_piety = 0.1
+		add_piety = -0.15
 		add_years_of_income = -0.10
 	}
 	
 	option = {
 		name = "muslim_dlc.EVTOPTB15"
-		add_piety = -0.1
+		add_piety = 0.15
 	}
 }
 
@@ -1099,6 +1107,7 @@ country_event = {
 		add_dip_power = 20
 		add_mil_power = 20
 		add_adm_power = 20
+		add_piety = 0.1
 		if = {
 			limit = {
 				has_dlc = "The Cossacks"
@@ -1140,6 +1149,7 @@ country_event = {
 		add_dip_power = 10
 		add_mil_power = 10
 		add_adm_power = 10
+		add_piety = -0.1
 		random_owned_province = {
 			limit = {
 				has_province_flag = sharia_flag1
@@ -1240,6 +1250,8 @@ country_event = {
 		add_years_of_income = -0.5
 		define_advisor = {
 			name = "Reza Abbasi"
+			culture = persian
+			religion = shiite
 			discount = yes
 			type = artist
 			skill = 2
@@ -1252,7 +1264,7 @@ country_event = {
 	}
 	option = {
 		name = "muslim_dlc.EVTOPTC18"
-		add_piety = 0.1
+		add_prestige = 5
 	}
 }
 
@@ -1280,10 +1292,13 @@ country_event = {
 		name = "muslim_dlc.EVTOPTA19"
 		add_years_of_income = -0.5
 		add_meritocracy_effect = yes
+		add_piety = 0.10
 		define_advisor = {
 			name = "Baha al-din al-Amili"
 			type = philosopher
 			discount = yes
+			religion = shiite
+			culture = persian
 			skill = 2
 		}
 	}
@@ -1294,7 +1309,7 @@ country_event = {
 	}
 	option = {
 		name = "muslim_dlc.EVTOPTC19"
-		add_piety = 0.1
+		add_piety = -0.1
 	}
 }
 
@@ -1561,6 +1576,8 @@ country_event = {
 		name = "muslim_dlc.EVTOPTA23"
 		define_advisor = {
 			name = "Serafeddin Sabuncuoglu"
+			religion = sunni
+			culture = turkish
 			type = natural_scientist
 			discount = yes
 			skill = 2
@@ -1603,6 +1620,7 @@ country_event = {
 		add_meritocracy_effect = yes
 		define_advisor = {
 			name = "Al-Birjandi"
+			culture = khorasani
 			type = artist
 			discount = yes
 			skill = 3
@@ -1667,7 +1685,7 @@ province_event = {
 	option = {
 		name = "muslim_dlc.EVTOPTB25"
 		owner = {
-			add_piety = 0.2
+			add_piety = -0.2
 			add_prestige = 15
 		}
 		add_unrest = 2
@@ -1706,6 +1724,7 @@ country_event = {
 	option = {
 		name = "muslim_dlc.EVTOPTA26"
 		add_ruler_modifier = { name = true_mahdi } 
+		add_piety = -0.1
 	}
 	option = {
 		name = "muslim_dlc.EVTOPTB26"

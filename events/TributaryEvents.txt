@@ -50,6 +50,9 @@ country_event = {
 				25 = { set_country_flag = overlord_inspired_institutions_spread }
 				25 = { set_country_flag = overlord_inspired_dip_rep }
 			}
+			overlord = {
+				save_event_target_as = overlord_country
+			}
 		}
 	}
 
@@ -59,9 +62,10 @@ country_event = {
 			on_trigger = has_country_flag
 			overlord_inspired_official = {
 				define_advisor = {
-						type = philosopher
-						skill = 2
-						discount = yes
+					type = philosopher
+					skill = 2
+					discount = yes
+					religion = event_target:overlord_country
 				}
 				add_estate_church_loyalty_effect = yes
 				clr_country_flag = overlord_inspired_official
@@ -71,6 +75,7 @@ country_event = {
 					type = trader
 					skill = 2
 					discount = yes
+					religion = event_target:overlord_country
 				}
 				add_estate_burghers_loyalty_effect = yes
 				clr_country_flag = overlord_inspired_trader
@@ -1031,6 +1036,10 @@ country_event = {
 					}
 				}
 			}
+			random_subject_country = {
+				limit = { is_subject_of_type = tributary_state }
+				save_event_target_as = tributary_country
+			}
 		}
 	}
 
@@ -1052,6 +1061,8 @@ country_event = {
 					type = master_of_mint
 					skill = 2
 					discount = yes
+					culture = event_target:tributary_country
+					religion = event_target:tributary_country
 				}
 				clr_country_flag = eunuch_advisor
 			}
@@ -1283,6 +1294,10 @@ country_event = {
 					}
 				}
 			}
+			random_subject_country = {
+				limit = { is_subject_of_type = tributary_state }
+				save_event_target_as = tributary_country
+			}
 		}
 	}
 
@@ -1304,6 +1319,8 @@ country_event = {
 					type = grand_captain
 					skill = 2
 					discount = yes
+					culture = event_target:tributary_country
+					religion = event_target:tributary_country
 				}
 				clr_country_flag = fortune_seekers_advisor
 			}
@@ -1356,6 +1373,9 @@ country_event = {
 					}
 				}
 			}
+			overlord = {
+				save_event_target_as = overlord_country
+			}
 		}
 	}
 
@@ -1366,6 +1386,8 @@ country_event = {
 			adventurer_officer = {
 				define_advisor = {
 					type = army_reformer
+					culture = event_target:overlord_country
+					religion = event_target:overlord_country
 					skill = 3
 					discount = yes
 				}
@@ -1379,6 +1401,8 @@ country_event = {
 				define_advisor = {
 					type = trader
 					skill = 3
+					culture = event_target:overlord_country
+					religion = event_target:overlord_country
 					discount = yes
 				}
 				clr_country_flag = adventurer_advisor
@@ -1387,6 +1411,8 @@ country_event = {
 				define_advisor = {
 					type = trader
 					skill = 3
+					culture = event_target:overlord_country
+					religion = event_target:overlord_country
 					discount = yes
 				}
 				clr_country_flag = adventurer_statesman
@@ -1614,6 +1640,7 @@ country_event = {
 
 	option = {
 		name = "tributary_events.27.a" #
+		custom_tooltip = tributary_events.27.a.tt
 		trigger_switch = {
 			on_trigger = has_country_flag
 			extra_men = {

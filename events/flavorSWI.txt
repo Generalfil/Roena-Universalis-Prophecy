@@ -1,7 +1,7 @@
 ########################################
 # Event for Switzerland
 #
-# written by Rufus Magnusson
+# written by Katya Magnusson
 ########################################
 
 namespace = flavor_swi
@@ -36,7 +36,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.8
-			owns = 1869 #ZÃ¼rich
+			owns = 1869 #Zürich
 		}
 		modifier = {
 			factor = 0.8
@@ -52,6 +52,7 @@ country_event = {
 		define_advisor = {
 		type = natural_scientist
 			name = "Paracelsus"
+			culture = swiss
 			discount = yes
 			skill = 2
 		}

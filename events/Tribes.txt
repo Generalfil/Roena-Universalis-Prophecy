@@ -47,7 +47,10 @@ country_event = {
 	picture = CIVIL_WAR_eventPicture
 	
 	trigger = {
-		government = steppe_horde
+		OR = {
+			government = steppe_horde
+			government = tribal_federation
+		}
 		is_year = 1450
 		NOT = { has_dlc = "The Cossacks" }
 		num_of_cities = 10

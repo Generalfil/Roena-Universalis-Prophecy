@@ -30,14 +30,14 @@ country_event = {
 		name = flavor_bng.1.a #Continue to patronize the Chishti Order
 		ai_chance = { factor = 50 }
 		add_legitimacy = 15
-		add_piety = 0.10
+		add_piety = -0.15
 	}
 	
 	option = {
 		name = flavor_bng.1.b #We must start to distance ourselves from the Chishti Order
 		ai_chance = { factor = 50 }
 		add_prestige = 15
-		add_piety = -0.10
+		add_piety = 0.15
 	}
 }
 
@@ -229,6 +229,8 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				size = 3
+				religion = sunni
+				culture = afghani
 				leader = "Sher Shah Suri"
 			}
 		}
@@ -240,6 +242,8 @@ country_event = {
 		define_ruler = {
 			name = "Sher Shah"
 			dynasty = "Suri" #Dynasty change gives new ruler with low legitimacy
+			culture = afghani
+			religion = sunni
 			DIP = 3
 			ADM = 4
 			MIL = 6

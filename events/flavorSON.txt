@@ -39,7 +39,7 @@ country_event = {
 		1132 = { pretender_rebels = 2	}
 	}
 	option = {
-		name = flavor_mal.1.b	
+		name = flavor_son.1.b
 		add_prestige = -5
 		add_piety = 0.50		
 	}

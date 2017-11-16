@@ -97,6 +97,7 @@ country_event = {
 	
 	option = {
 		name = "flavor_jnp.3.a"	#Ok.
+		add_piety = -15
 		add_country_modifier = {
 			name = "jnp_kabir"
 			duration = 3650
@@ -307,7 +308,7 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		add_piety = -0.05
+		add_prestige = -5
 	}
 }
 

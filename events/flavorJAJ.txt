@@ -61,6 +61,8 @@ country_event = {
 				change_primary_culture = amhara
 				define_ruler = {
 					dynasty = "Siddhi"
+					culture = amhara
+					religion = sunni
 					claim = 100
 				}
 			}

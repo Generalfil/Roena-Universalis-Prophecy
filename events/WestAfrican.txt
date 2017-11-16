@@ -18,8 +18,6 @@ country_event = {
 		OR = {
 			government = tribal_despotism
 			government = tribal_kingdom
-			government = tribal_federation
-			#government = tribal_democracy
 		}
 		NOT = { has_country_flag = sultanate_request_choice }
 		legitimacy = 90
@@ -128,14 +126,6 @@ country_event = {
 			limit = { government = tribal_kingdom }
 			change_government = feudal_monarchy
 		}
-		if = {
-			limit = { government = tribal_federation }
-			change_government = feudal_monarchy
-		}
-		#if = {
-		#	limit = { government = tribal_democracy }
-		#	change_government = oligarchic_republic
-		#}
 		if = {
 			limit = {
 				religious_unity = 0.75

@@ -611,7 +611,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 5
+				size = 3
 				leader = "Narasimha Saluva"
 			}
 		}
@@ -674,7 +674,7 @@ country_event = {
 			remove_province_modifier = tamil_grandee
 			spawn_rebels = {
 				type = nationalist_rebels
-				size = 5
+				size = 3
 				leader = "Chellappa Saluva"
 			}
 		}
