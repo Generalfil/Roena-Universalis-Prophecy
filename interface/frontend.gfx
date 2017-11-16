@@ -139,6 +139,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_CradleofCivilization"
+		texturefile = "gfx/interface/cradle_of_civilization_icon.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
 		name = "GFX_ThirdRome"
 		texturefile = "gfx/interface/third_rome_icon.dds"
 		legacy_lazy_load = no
@@ -151,7 +157,7 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_Cossacks"
+		name = "GFX_TheCossacks"
 		texturefile = "gfx/interface/the_cossacks_icon.dds"
 		legacy_lazy_load = no
 	}	

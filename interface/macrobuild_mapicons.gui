@@ -677,7 +677,7 @@ guiTypes = {
 			}
 			instantTextBoxType={
 				name = "info_right"
-				position = {x = 55 y = 4 }
+				position = {x = 55 y = 6 }
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}	
 				maxWidth = 120

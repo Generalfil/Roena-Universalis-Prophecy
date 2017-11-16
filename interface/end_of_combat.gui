@@ -795,6 +795,263 @@ guiTypes = {
 			}
 		
 	}
+	
+	
+	eu3dialogtype = {
+		name = "EndOfLandCombatCompactPopup"
+		backGround="Background"
+		position = { x=-225 y=-90 }	
+		size = { x=450 y=192 }
+		orientation="CENTER"
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_combat_result_compact_bg_area"
+		}
+		
+		iconType = {
+			name ="combat_result_compact_bg"
+			spriteType = "GFX_combat_result_bg_compact"
+			position = { x= 0 y = 0 }
+		}
+		guiButtonType = {
+			name = "Settings"	
+			quadTextureSprite ="MessageSettingsButton"
+			position = { x=439 y=146 }
+		}
+		
+		### battle name
+		instantTextBoxType = {
+				name = "Line1"
+				position = { x = 71 y = 21 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Battle of Skåne"	
+				maxWidth = 350
+				maxHeight = 24	
+				fixedsize = yes
+				format = centre
+				
+			
+			}
+
+		### Our side shields.
+		OverlappingElementsBoxType = {
+			name = "our_side_shield_list"
+			position = { x= 64 y = 55 }
+			size = { x = 280 y = 64 }
+			format = left
+			spacing = 0
+		}		
+		
+		OverlappingElementsBoxType = {
+			name = "enemy_side_shield_list"
+			position = { x= 254 y = 55 }
+			size = { x = 280 y = 64 }
+			format = left
+			spacing = 0
+		}
+
+		
+		### our prestige etc.
+		iconType = {
+			name ="icon_our_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 32 y = 89 }
+		}
+		iconType = {
+			name ="icon_army_tradition"
+			spriteType = "GFX_icon_army_tradition"
+			position = { x= 102 y = 90 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 172 y = 88 }
+		}
+		
+		instantTextBoxType = {
+				name = "our_prestige"
+				position = { x = 54 y =96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 48
+				maxHeight = 20
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_tradition"
+				position = { x = 126 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 48
+				maxHeight = 20
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "our_exhaustion"
+				position = { x = 198 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 48
+				maxHeight = 20
+				fixedsize = yes
+				format = left
+			}
+					
+		
+		### enemy prestige etc.
+		iconType = {
+			name ="icon_enemy_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 254 y = 89 }
+		}
+		iconType = {
+			name ="icon_army_tradition2"
+			spriteType = "GFX_icon_army_tradition"
+			position = { x= 324 y = 90 }
+		}
+		iconType = {
+			name ="icon_war_exhaustion2"
+			spriteType = "GFX_icon_war_exhaustion"
+			position = { x= 394 y = 88 }
+		}
+		
+		instantTextBoxType = {
+				name = "enemy_prestige"
+				position = { x = 276 y =96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 48
+				maxHeight = 20
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_tradition"
+				position = { x = 348 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 48
+				maxHeight = 20
+				fixedsize = yes
+				format = left
+			}
+		instantTextBoxType = {
+				name = "enemy_exhaustion"
+				position = { x = 420 y = 96 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "+1.20"	
+				maxWidth = 48
+				maxHeight = 20
+				fixedsize = yes
+				format = left
+			}
+		
+
+		### BUTTONS
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=59 y =144}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "z"			
+			extra_shortcut = "ESCAPE"
+		}		
+		guiButtonType = {
+			name = "CenterOK"
+			position = { x=194 y =144}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x = 285 y =144}
+			quadTextureSprite ="largefloaterbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "vic_18"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
+			clicksound = ok_click
+		}
+		
+
+		instantTextBoxType = {
+				name = "winORLose"
+				position = { x = 132 y = 120 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				text = "You Won"	
+				maxWidth = 220
+				maxHeight = 24	
+				fixedsize = yes
+				format = centre
+			}
+		
+		instantTextBoxType = {
+				name = "OurLost"
+				position = { x = 26 y = 122 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				text = ""	
+				maxWidth = 120
+				maxHeight = 24	
+				fixedsize = yes
+				format = left
+			}
+		
+		instantTextBoxType = {
+				name = "EnemyLost"
+				position = { x = 342 y = 122 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				text = ""	
+				maxWidth = 120
+				maxHeight = 24	
+				fixedsize = yes
+				format = right
+			}
+	}
+	
 #///////////////////////////////////////////////////////////////////////////////
 #/////////////////////////////// Naval COMAT//////////////////////////////////////
 
@@ -1553,7 +1810,7 @@ guiTypes = {
 			
 		instantTextBoxType = {
 				name = "captured_ships_label"
-				position = { x = 331 y = 296 }
+				position = { x = 331 y = 302 }
 				textureFile = ""
 				font = "vic_18_grey"
 				borderSize = {x = 0 y = 0}
@@ -1565,7 +1822,7 @@ guiTypes = {
 			}
 		instantTextBoxType = {
 				name = "captured_ships_amount"
-				position = { x = 447 y = 296 }
+				position = { x = 447 y = 302 }
 				textureFile = ""
 				font = "vic_18_grey"
 				borderSize = {x = 0 y = 0}

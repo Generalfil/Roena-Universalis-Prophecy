@@ -874,7 +874,6 @@ guiTypes = {
 					font = "vic_18"
 					borderSize = {x = 8 y = 4}	
 					size = { x=520 y=32}
-					text = " "	
 					instantTextBoxType = no
 					
 					orientation = "UPPER_LEFT"

@@ -1,3 +1,59 @@
+SLACKEN=
+{
+	msg_icontype="combat"
+	category="cat_military"
+	option=no
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+EXPLOITDEVELOPMENT=
+{
+	msg_icontype="gov"
+	category="cat_government"
+	option=no
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+LEGALISM=
+{
+	msg_icontype="gov"
+	category="cat_religion"
+	option=no
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+MYSTICISM=
+{
+	msg_icontype="gov"
+	category="cat_religion"
+	option=no
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
 GOLDENERA=
 {
 	msg_icontype="gov"
@@ -5550,7 +5606,35 @@ LEADERDIED=
 		icon=no
 	}
 }
-MISSSUCC=
+MISSSUCC_SELF=
+{
+	msg_icontype="event"
+	category="cat_event"
+	option=yes
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+MISSSUCC_OTHER_IN_US=
+{
+	msg_icontype="event"
+	category="cat_event"
+	option=yes
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+MISSSUCC_US_IN_OTHER=
 {
 	msg_icontype="event"
 	category="cat_event"
@@ -5578,7 +5662,36 @@ CENTEROFREFORMCONVERT=
 		icon=no
 	}
 }
+CENTEROFREFORMDONE=
+{
+	msg_icontype="event"
+	category="cat_event"
+	option=yes
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+
 CENTEROFREFORMREMOVE=
+{
+	msg_icontype="event"
+	category="cat_event"
+	option=yes
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+RELIGIOUSCENTERREMOVE=
 {
 	msg_icontype="event"
 	category="cat_event"
@@ -7642,6 +7755,21 @@ COUNTRYMODEXP=
 		icon=yes
 	}
 }
+RELIGIOUS_SCHOLAR_EXPIRY=
+{
+	msg_icontype="diplo"
+	category="cat_religion"
+	option=yes
+	go_to="religion"
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
 
 ICON_EXPIRY=
 {
@@ -8387,6 +8515,21 @@ EXPLORATION_FINISHED=
 		popup=yes
 		pausepopup=no
 		icon=yes
+	}
+}
+
+DRILL_SKILL_GAIN=
+{
+	msg_icontype="mil"
+	category="cat_military"
+	option=no
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
 	}
 }
 
@@ -9159,6 +9302,35 @@ PRESS_SAILORS_MESSAGE =
 	msg_icontype="diplo"
 	category="cat_diplomacy"
 	option=no
+	to_me=
+	{
+		log=yes
+		onmap=no
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+INVALID_TRADING_POLICY =
+{
+	msg_icontype="trade"
+	category="cat_trade"
+	option=no
+	to_me=
+	{
+		log=yes
+		onmap=yes
+		popup=yes
+		pausepopup=no
+		icon=no
+	}
+}
+NEW_ARMY_PROFESSIONALISM_ABILITY =
+{
+	msg_icontype="mil"
+	category="cat_military"
+	option=yes
+	go_to="military"
 	to_me=
 	{
 		log=yes

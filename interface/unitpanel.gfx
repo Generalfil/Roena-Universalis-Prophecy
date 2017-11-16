@@ -63,6 +63,18 @@ spriteTypes = {
 		play_on_show = yes
 		allwaystransparent = yes
 	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_unitpanel_button_large_glow_ctt"
+		texturefile = "gfx/interface/unitpanel_button_large_glow_ctt.dds"
+		noOfFrames = 40
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}	
+		
 	frameAnimatedSpriteType = {
 		name = "GFX_unitpanel_button_large_glow_negative"
 		texturefile = "gfx/interface/unitpanel_button_large_glow_negative.dds"
@@ -99,6 +111,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unitpanel_morale_frame"
 		texturefile = "gfx/interface/unitpanel_morale_frame.dds"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_unitpanel_drilling_frame"
+		texturefile = "gfx/interface/unitpanel_drilling_frame.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unitpanel_drilling_frame_s"
+		texturefile = "gfx/interface/unitpanel_drilling_frame_s.dds"
 		allwaystransparent = yes
 	}
 	
@@ -226,8 +250,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/unitpanel_button_seize_colony.dds"
 	}
 	
-	
 
+
+	spriteType = {
+		name = "GFX_button_show_siege_l"
+		texturefile = "gfx/interface/button_show_siege_l.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_button_go_home_at_war"
+		texturefile = "gfx/interface/button_go_home_at_war.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_unitpanel_button_allow_attach"
+		texturefile = "gfx/interface/unitpanel_button_allow_attach.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_unitpanel_button_attach"
 		texturefile = "gfx/interface/unitpanel_button_attach.dds"
@@ -274,9 +313,25 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_army_drill_button"
+		texturefile = "gfx/interface/army_drill_button.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_enable_land_explore_button"
 		texturefile = "gfx/interface/unitpanel_button_land_explore.dds"
 	}	
+	
+	spriteType = {
+		name = "GFX_unitpanel_button_supply_depot"
+		texturefile = "gfx/interface/unitpanel_button_supply_depot.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_unitpanel_button_refill_garrison"
+		texturefile = "gfx/interface/unitpanel_button_refill_garrison.dds"
+	}	
+	
 	
 	spriteType = {
 		name = "GFX_unitpanel_button_disable_rebels"
@@ -336,8 +391,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//regiment_bg.tga"
 		loadType = "INGAME"
 		transparencecheck = yes
-		
 	}
+	
+	spriteType = {
+		name = "GFX_conform_to_template_bg"
+		texturefile = "gfx//interface//conform_to_template_bg.tga"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_conform_to_template_button"
+		texturefile = "gfx//interface//conform_to_template_button.tga"
+	}	
+	
+	
 
 	spriteType = {
 		name = "GFX_remove_unit_button"
@@ -479,6 +547,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//band_regiment_cossacks.dds"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_band_regiment_janissary"
+		texturefile = "gfx//interface//band_regiment_janissary.dds"
+		loadType = "INGAME"
+	}
 	
 	spriteType = {
 		name = "GFX_band_regiment"
@@ -496,20 +569,27 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_band_reorg_regiment"
-		texturefile = "gfx//interface//band_reorg_blue.tga"
+		texturefile = "gfx//interface//band_reorg_blue.dds"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
 		name = "GFX_band_reorg_regiment_banner"
-		texturefile = "gfx//interface//band_reorg_purple.tga"
+		texturefile = "gfx//interface//band_reorg_purple.dds"
+		loadType = "INGAME"
+		
+	}
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment_janissary"
+		texturefile = "gfx//interface//band_reorg_red.dds"
 		loadType = "INGAME"
 		
 	}
 
 	spriteType = {
 		name = "GFX_band_reorg_regiment_mercenary"
-		texturefile = "gfx//interface//band_reorg_green.tga"
+		texturefile = "gfx//interface//band_reorg_green.dds"
 		loadType = "INGAME"
 		
 	}
@@ -572,5 +652,125 @@ spriteTypes = {
 		texturefile = "gfx//interface//may_explore.dds"
 		noOfFrames = 2
 		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_ap1_unitpanel_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap2_unitpanel_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap3_unitpanel_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap4_unitpanel_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap5_unitpanel_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap6_unitpanel_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap1_regiment_bg"
+		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap2_regiment_bg"
+		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap3_regiment_bg"
+		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap4_regiment_bg"
+		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap5_regiment_bg"
+		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap6_regiment_bg"
+		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap1_multiselection_bg"
+		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap2_multiselection_bg"
+		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap3_multiselection_bg"
+		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap4_multiselection_bg"
+		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap5_multiselection_bg"
+		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap1_unitpanel_assign_leader_bg"
+		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap1_unitpanel_assign_leader_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap2_unitpanel_assign_leader_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap3_unitpanel_assign_leader_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap4_unitpanel_assign_leader_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap5_unitpanel_assign_leader_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap6_unitpanel_assign_leader_bg"
+		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap6.dds"
 	}
 }

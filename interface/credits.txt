@@ -1,3 +1,175 @@
+
+§Europa Universalis IV: Cradle of Civilization
+
+
+§CREATIVE DIRECTOR
+
+Johan Andersson
+
+§PROJECT LEAD
+
+Linda Tiger
+
+§GAME DESIGN
+
+Jake Leiper-Ritchie
+Johan Andersson
+
+§TECH LEAD
+
+Rickard Lagerbäck
+
+§GAME PROGRAMMING
+
+Johan Andersson
+Martin Hesselborn
+Rickard Lagerbäck
+Henrik Hansson
+Michael Schießl
+Alexander Ivannikov
+
+§CONTENT DESIGN
+
+Henrik Lohmander
+
+§ARTISTS 2D
+
+Timor Khaganov
+
+§ARTISTS 3D
+
+Joacim Carlberg
+
+§EMBEDDED QA TESTERS
+
+Daniel Olsson
+Carmille Gidfors Netzler
+
+§AI PROGRAMMING
+
+Martin Hesselborn
+Michael Schießl
+
+§DLC MANAGER
+
+Pernilla Sparrhult
+
+§ASSOCIATE PRODUCER
+
+Sara Wendel-Örtqvist
+
+§ADDITIONAL ART
+
+Wastelands
+Alexander Thornborough
+Room 8
+Hugo Öringe
+
+§ADDITIONAL PROGRAMMING
+
+Hampus Liljekvist
+Fredrik Präntare
+James Persaud
+
+§ADDITIONAL CONTENT
+
+Gilles "gigau" Gaudray
+
+§ADDITIONAL RESEARCH
+
+Christopher Whitehead
+
+§LOCALIZATION
+
+Nicolas Fouqué (French)
+Kai Bagehorn (German)
+Jaime Ortega (Spanish)
+
+§SOUND
+
+Björn Iversen
+David Schlein-Andersen
+
+§ORIGINAL MUSIC
+
+Kairi Sawler
+
+§MANUAL
+
+Troy Goodfellow
+Jorunn / An Ordinary Day
+
+§USERMOD COORDINATOR
+
+Joel Hansson 
+
+§QA MANAGER
+
+Felix Gladitz
+
+§QA TEST LEAD
+
+Filippa Gannholm
+
+§ADDITIONAL TESTERS
+
+Markus Grebe
+
+§QA TESTERS
+
+Albin Wallin
+Daniel Sjöberg
+Eva Mayer
+Jesper Norberg
+Matt Frary
+Sebastian Borg
+Tegan Harris
+
+§PUBLISHING QA
+
+Loke Norman
+
+Niklas Ivarsson
+
+Roeland Weckx
+
+§COMMUNITY QA
+
+Carsten 't Mannetje
+
+§QLOC
+
+§QA TEAM LEADER
+
+Marcin Jankowski
+
+§QA TESTERS
+
+Bartosz Maciejewski
+Oskar Nowak
+Uroš Rudolf
+Jan Starosz
+Maksymilian Szczepanczyk
+Gabriel Urban
+
+§BETA TESTERS
+
+Jakub Mozgawa
+Gilles "gigau" Gaudray
+Djordje Zivanovic
+Thomas Perkins
+Cyril Achcar
+Dieter 't Mannetje
+Luis Arias
+Francesco Teruzzi
+Rajeev Majumdar
+Z. "Fryz" YE
+Jonathan Sanders
+Dara Mac Donnacha
+Christopher Whitehead
+Anton Panas
+
+
 §Europa Universalis IV: Third Rome
 
 §CREATIVE DIRECTOR
@@ -176,7 +348,7 @@ Yoshihiko Hayashi
 Z. Fryz Ye
 
 §BETA TESTERS
-Alexander Keul
+Alexander Keül
 Anton elmorteUA Panas 
 Cyril Achcar
 David Hazlett
@@ -292,7 +464,7 @@ Chamboozer
 Mef
 
 §BETA TESTERS
-Alexander Keul
+Alexander Keül
 Ali Alper Duman
 Anton Panas
 Bernd Wolters

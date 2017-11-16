@@ -69,6 +69,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//breach.tga"
 	}
 	spriteType = {
+		name = "GFX_breach_muslim"	
+		texturefile = "gfx//interface//breach_muslim.dds"
+	}	
+	spriteType = {
 		name = "GFX_breach_native_american"	
 		texturefile = "gfx//interface//breach_native_american.tga"
 	}	
@@ -80,6 +84,10 @@ spriteTypes = {
 		name = "GFX_assault"	
 		texturefile = "gfx//interface//assault.tga"
 	}
+	spriteType = {
+		name = "GFX_assault_muslim"	
+		texturefile = "gfx//interface//assault_muslim.dds"
+	}	
 	spriteType = {
 		name = "GFX_assault_native_american"	
 		texturefile = "gfx//interface//assault_native_american.tga"
@@ -99,6 +107,16 @@ spriteTypes = {
 		texturefile = "gfx//interface//siege_asian.dds"
 		noOfFrames = 4
 	}
+	spriteType = {
+		name = "gfx_siege_muslim"
+		texturefile = "gfx//interface//siege_muslim.dds"
+		noOfFrames = 4
+	}	
+	spriteType = {
+		name = "gfx_siege_muslim_no_walls"
+		texturefile = "gfx//interface//siege_muslim_no_walls.dds"
+		noOfFrames = 4
+	}	
 	spriteType = {
 		name = "gfx_siege_asian_no_walls"
 		texturefile = "gfx//interface//siege_asian_no_walls.dds"

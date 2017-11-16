@@ -101,5 +101,34 @@ spriteTypes = {
 		size = { x = 66 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
-
+	spriteType = {
+		name = "GFX_Trading_Policy_Max_Profit"
+		texturefile = "gfx/interface/trading_policy_max_profit.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Trading_Policy_Hostile_Trading"
+		texturefile = "gfx/interface/trading_policy_hostile_trading.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Trading_Policy_Improve_Routes"
+		texturefile = "gfx/interface/trading_policy_improve_routes.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Trading_Policy_Establish_Communities"
+		texturefile = "gfx/interface/trading_policy_establish_communities.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Trading_Policy_Propagate_Religion"
+		texturefile = "gfx/interface/trading_policy_propagate_religion.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
 }
