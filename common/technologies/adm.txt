@@ -7,7 +7,7 @@ ahead_of_time = {
 }
 
 # Pre-era techs
-technology = { #Tribal Government
+technology = {
 	# Tech 0
 	year = 1350
 	
@@ -26,7 +26,7 @@ technology = { #Tribal Government
 	native_ceremonial_fire_pit = yes
 }
 
-technology = { #Advanced Tribes
+technology = {
 	# Tech 1
 	year = 1390
 	
@@ -34,7 +34,7 @@ technology = { #Advanced Tribes
 	tribal_kingdom = yes
 }
 
-technology = { #Feudal Monarchy
+technology = {
 	# Tech 2
 	year = 1420
 	
@@ -47,15 +47,15 @@ technology = { #Feudal Monarchy
 
 # The 30 big techs from here on
 
-technology = { #Medieval Administration
+technology = {
 	# Tech 3
 	year = 1440
 
 	production_efficiency	=	0.05
 	may_support_rebels = yes
 }
- 
-technology = { #Temples
+
+technology = {
 	# Tech 4
 	year = 1453
 	# Temple
@@ -63,7 +63,7 @@ technology = { #Temples
 	
 }
 
-technology = { #National Ideas
+technology = {
 	# Tech 5
 	year = 1466
 
@@ -71,16 +71,15 @@ technology = { #National Ideas
 	production_efficiency	 =	0.05
 }
 
-technology = { #Workshop
+technology = {
 	# Tech 6
 	year = 1479
 	
 	#Workshop
-	farm_estate = yes
 	workshop = yes
 }
 
-technology = { #Renaissance Thought
+technology = {
 	# Tech 7
 	year = 1492
 	
@@ -88,7 +87,7 @@ technology = { #Renaissance Thought
 	allowed_idea_groups = 2	
 }
 
-technology = { #Courthouse
+technology = {
 	# Tech 8
 
 	year = 1505
@@ -97,7 +96,7 @@ technology = { #Courthouse
 
 }
 
-technology = { #The Scythe
+technology = {
 	# Tech 9
 	year = 1518
 	
@@ -107,7 +106,7 @@ technology = { #The Scythe
 
 }
 
-technology = { #Modern Theocracy
+technology = {
 	# Tech 10
 	year = 1531
 	
@@ -115,7 +114,7 @@ technology = { #Modern Theocracy
 	theocratic_government = yes
 }
 
-technology = { #Textile Manufactory
+technology = {
 	# Tech 11
 	year = 1544
 	
@@ -124,7 +123,7 @@ technology = { #Textile Manufactory
 
 }
 
-technology = { #Early Modern Administration
+technology = {
 	# Tech 12
 	year = 1557
 	
@@ -133,7 +132,7 @@ technology = { #Early Modern Administration
 	max_states = 3
 }
 
-technology = { #Improved Drainage
+technology = {
 	# Tech 13
 	year = 1570
 	
@@ -141,7 +140,7 @@ technology = { #Improved Drainage
 	production_efficiency 	=	0.05
 }
 
-technology = { #Scientific Experimentation
+technology = {
 	# Tech 14
 	year = 1583
 	
@@ -149,7 +148,7 @@ technology = { #Scientific Experimentation
 	allowed_idea_groups	= 4
 }
 
-technology = { #Military Administration
+technology = {
 	# Tech 15
 	year = 1596
 	
@@ -157,17 +156,17 @@ technology = { #Military Administration
 	
 }
 
-technology = { #Metallurgy
+technology = {
 	# Tech 16
 	year = 1609
 	
-	mills = yes
+	
 	production_efficiency 	=	0.05
 
 
 }
 
-technology = { #University
+technology = {
 	# Tech 17
 	year = 1622
 	
@@ -178,14 +177,14 @@ technology = { #University
 	development_efficiency = 0.1
 }
 
-technology = { #National Sovereignty
+technology = {
 	# Tech 18
 	year = 1635
 	
 	allowed_idea_groups	= 5
 }
 
-technology = { #Cathedral
+technology = {
 	# Tech 19
 	year = 1648	
 	
@@ -193,7 +192,7 @@ technology = { #Cathedral
 	cathedral = yes
 }
 
-technology = { #Absolute Rulership
+technology = {
 	# Tech 20
 	year = 1661
 	
@@ -201,7 +200,7 @@ technology = { #Absolute Rulership
 	max_states = 5
 }
 
-technology = { #Land Clearance
+technology = {
 	# Tech 21
 	year = 1674
 	
@@ -209,7 +208,7 @@ technology = { #Land Clearance
 	production_efficiency 	=	0.05
 }
 
-technology = { #The Constitution
+technology = {
 	# Tech 22
 	year = 1687
 	
@@ -220,7 +219,7 @@ technology = { #The Constitution
 	town_hall = yes
 }
 
-technology = { #Measuring the World
+technology = {
 	# Tech 23
 	year = 1700
 	
@@ -228,7 +227,7 @@ technology = { #Measuring the World
 	development_efficiency = 0.1
 }
 
-technology = { #Bonds and Tontines
+technology = {
 	# Tech 24
 	year = 1715
 	
@@ -236,7 +235,7 @@ technology = { #Bonds and Tontines
 	max_states = 5
 }
 
-technology = { #Improved Production
+technology = {
 	# Tech 25
 	year = 1730
 	
@@ -244,14 +243,14 @@ technology = { #Improved Production
 	production_efficiency 	=	0.05
 }
 
-technology = { #Separation of Powers
+technology = {
 	# Tech 26
 	year = 1745
 	
 	allowed_idea_groups 	= 	7
 }
 
-technology = { #Modern Bureaucracy
+technology = {
 	# Tech 27
 	year = 1760
 
@@ -260,7 +259,7 @@ technology = { #Modern Bureaucracy
 	max_states = 5
 }
 
-technology = { #Rotherham Plough
+technology = {
 	# Tech 28
 	year = 1775
 	
@@ -268,7 +267,7 @@ technology = { #Rotherham Plough
 	production_efficiency 	=	0.05
 }
 
-technology = { #Rights of Man
+technology = {
 	# Tech 29
 	year = 1790
 	
@@ -277,7 +276,7 @@ technology = { #Rights of Man
 	bureaucratic_despotism = yes
 }
 
-technology = { #Advanced Production
+technology = {
 	# Tech 30
 	year = 1805
 	
@@ -285,7 +284,7 @@ technology = { #Advanced Production
 	production_efficiency 	=	0.05
 }
 
-technology = { #Revolutionary Ideals
+technology = {
 	# Tech 31
 	year = 1820
 	
@@ -294,7 +293,7 @@ technology = { #Revolutionary Ideals
 	max_states = 5
 }
 
-technology = { #Four Field Rotation
+technology = {
 	# Tech 32
 	year = 1835
 	

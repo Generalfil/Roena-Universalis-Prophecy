@@ -61,7 +61,6 @@
 1096 = "Cabo Verde"
 1099 = "Socotorá"
 1097 = "Fernando Pó"
-1101 = "Diego Garcia"
 1111 = "Arguim"
 1126 = "Costa do Marfim"
 1147 = "Benim"

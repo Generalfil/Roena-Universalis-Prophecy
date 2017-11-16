@@ -25,14 +25,11 @@ estate_cossacks_disaster = {
 	}
 	
 	can_stop = {
-		OR = {
-			has_any_disaster = yes
-			NOT = {
-				estate_influence = {
-					estate = estate_cossacks
-					influence = 80
-				}		
-			}
+		NOT = {
+			estate_influence = {
+				estate = estate_cossacks
+				influence = 80
+			}		
 		}
 	}
 	

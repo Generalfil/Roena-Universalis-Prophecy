@@ -13,6 +13,7 @@
 #
 # Place peace offers in attacker and/or defender blocks
 # The peace options are:
+# po_annex
 # po_demand_provinces
 # po_revoke_cores
 # po_release_vassals
@@ -53,11 +54,9 @@ fallback_wargoal = {
 	prestige_factor = 1
 	peace_cost_factor = 0.75
 
-	peace_options = {
-		po_gold
-		po_concede_defeat
-		po_trade_power
-	}
+	po_gold = yes
+	po_concede_defeat = yes
+	po_trade_power = yes	
 }
 
 revoke_elector = {
@@ -67,10 +66,7 @@ revoke_elector = {
 	prestige_factor = 2
 	peace_cost_factor = 0.75
 	
-	peace_options = {
-		po_revoke_elector
-	}
-
+	po_revoke_elector = yes
 	elector_relation = "revoke_elector"
 	
 	war_name = REVOKE_ELECTOR_WAR_NAME
@@ -88,10 +84,8 @@ take_core_defection = {
 		previous_owner = ROOT
 	}
 
-	peace_options = {
-		po_demand_provinces
-	}
-
+	po_demand_provinces = yes
+	
 	war_name = CORE_WAR_NAME
 }
 
@@ -102,11 +96,10 @@ superiority_loan = {
 	prestige_factor = 2
 	peace_cost_factor = 0.75
 
-	peace_options = {
-		po_gold
-		po_concede_defeat
-		po_trade_power
-	}
+	po_gold = yes
+	po_concede_defeat = yes
+	po_trade_power = yes
+	
 	
 	war_name = FINANCIAL_WAR_NAME
 }
@@ -118,11 +111,9 @@ superiority_spy = {
 	prestige_factor = 2
 	peace_cost_factor = 0.75
 
-	peace_options = {
-		po_revoke_cores
-		po_gold
-		po_concede_defeat
-	}
+	po_revoke_cores = yes
+	po_gold = yes
+	po_concede_defeat = yes
 	
 	war_name = SPY_WAR_NAME
 }
@@ -134,17 +125,15 @@ superiority_revolution = {
 		badboy_factor = 0.5
 		prestige_factor = 1.5
 		peace_cost_factor = 0.5		
-		
-		peace_options = {
-			po_become_vassal
-			po_demand_provinces
-			po_revoke_cores
-			po_release_vassals
-			po_release_annexed
-			po_change_religion
-			po_gold
-			po_annul_treaties
-		}
+	
+		po_become_vassal = yes
+		po_demand_provinces = yes
+		po_revoke_cores = yes
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_change_religion = yes
+		po_gold = yes
+		po_annul_treaties = yes
 	}
 	
 	defender = {
@@ -152,17 +141,15 @@ superiority_revolution = {
 		prestige_factor = 1.5
 		peace_cost_factor = 0.5		
 	
-		peace_options = {
-			po_become_vassal
-			po_demand_provinces
-			po_revoke_cores
-			po_release_vassals
-			po_release_annexed
-			po_change_religion
-			po_gold
-			po_annul_treaties
-			po_dismantle_revolution
-		}
+		po_become_vassal = yes
+		po_demand_provinces = yes
+		po_revoke_cores = yes
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_change_religion = yes
+		po_gold = yes
+		po_annul_treaties = yes
+		po_dismantle_revolution = yes
 	}
 	
 	war_name = SPREAD_REVOLUTION_NAME
@@ -179,19 +166,17 @@ take_capital_revolution = {
 		badboy_factor = 0.5
 		prestige_factor = 1.5
 		peace_cost_factor = 0.5		
-		
-		peace_options = {
-			po_become_vassal
-			po_demand_provinces
-			po_revoke_cores
-			po_release_vassals
-			po_release_annexed
-			po_change_religion
-			po_gold
-			po_concede_defeat
-			po_annul_treaties
-			po_dismantle_revolution
-		}
+	
+		po_become_vassal = yes
+		po_demand_provinces = yes
+		po_revoke_cores = yes
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_change_religion = yes
+		po_gold = yes
+		po_concede_defeat = yes
+		po_annul_treaties = yes
+		po_dismantle_revolution = yes
 	}
 	
 	defender = {
@@ -199,17 +184,15 @@ take_capital_revolution = {
 		prestige_factor = 1.5
 		peace_cost_factor = 0.5		
 	
-		peace_options = {
-			po_become_vassal
-			po_demand_provinces
-			po_revoke_cores
-			po_release_vassals
-			po_release_annexed
-			po_change_religion
-			po_gold
-			po_concede_defeat
-			po_annul_treaties
-		}
+		po_become_vassal = yes
+		po_demand_provinces = yes
+		po_revoke_cores = yes
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_change_religion = yes
+		po_gold = yes
+		po_concede_defeat = yes
+		po_annul_treaties = yes
 	}
 }
 
@@ -220,9 +203,8 @@ take_capital_disloyal = {
 	prestige_factor = 2
 	peace_cost_factor = 0.5
 	
-	peace_options = {
-		po_become_vassal
-	}
+	po_become_vassal = yes
+	
 	
 	war_name = VASSAL_WAR_NAME
 }
@@ -234,9 +216,8 @@ take_capital_vassalize = {
 	prestige_factor = 2
 	peace_cost_factor = 0.5
 	
-	peace_options = {
-		po_become_vassal
-	}
+	po_become_vassal = yes
+	
 	
 	war_name = VASSAL_MISSION_WAR_NAME
 }
@@ -252,14 +233,13 @@ defend_country_faith = {
 	prestige_factor = 2
 	peace_cost_factor = 0.75
 
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_revoke_cores
-		po_gold
-		po_concede_defeat
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_revoke_cores = yes
+	po_gold = yes
+	po_concede_defeat = yes
+	
 	
 	war_name = DOF_WAR_NAME
 }
@@ -276,12 +256,11 @@ take_province_hre = {
 		has_province_modifier = unlawful_territory
 	}
 	
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_demand_provinces
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_demand_provinces = yes
+	
 	
 	war_name = HRE_DEFENSE_WAR_NAME
 }
@@ -293,14 +272,13 @@ defend_country = {
 	prestige_factor = 2
 	peace_cost_factor = 0.70
 	
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_revoke_cores
-		po_gold
-		po_concede_defeat
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_revoke_cores = yes
+	po_gold = yes
+	po_concede_defeat = yes
+	
 	
 	war_name = INTERVENTION_WAR_NAME
 }
@@ -312,12 +290,11 @@ superiority_insult = {
 	prestige_factor = 2
 	peace_cost_factor = 0.75
 
-	peace_options = {
-		po_revoke_cores
-		po_gold
-		po_concede_defeat
-		po_humiliate_rival
-	}
+	po_revoke_cores = yes
+	po_gold = yes
+	po_concede_defeat = yes
+	po_humiliate_rival = yes
+	
 	
 	war_name = INSULT_WAR_NAME
 }
@@ -330,12 +307,10 @@ superiority_insult_mutual = {
 		prestige_factor = 2
 		peace_cost_factor = 0.75
 
-		peace_options = {
-			po_revoke_cores
-			po_gold
-			po_concede_defeat
-			po_humiliate_rival
-		}
+		po_revoke_cores = yes
+		po_gold = yes
+		po_concede_defeat = yes
+		po_humiliate_rival = yes
 	}
 	
 	defender = 	{
@@ -343,12 +318,10 @@ superiority_insult_mutual = {
 		prestige_factor = 2
 		peace_cost_factor = 0.75
 
-		peace_options = {
-			po_revoke_cores
-			po_gold
-			po_concede_defeat	
-			po_humiliate_rival
-		}
+		po_revoke_cores = yes
+		po_gold = yes
+		po_concede_defeat = yes	
+		po_humiliate_rival = yes
 	}
 	
 	war_name = INSULT_WAR_NAME
@@ -361,9 +334,7 @@ take_capital_personal_union = {
 	prestige_factor = 1
 	peace_cost_factor = 1
 	
-	peace_options = {
-		po_form_personal_union
-	}
+	po_form_personal_union = yes
 	
 	war_name = UNION_WAR_NAME
 }
@@ -376,9 +347,7 @@ take_capital_fabricated_claims = {
 	prestige_factor = 1
 	peace_cost_factor = 1.5
 	
-	peace_options = {
-		po_form_personal_union
-	}
+	po_form_personal_union = yes
 	
 	war_name = UNION_WAR_NAME
 }
@@ -390,10 +359,8 @@ take_capital_conformance = {
 	prestige_factor = 2
 	peace_cost_factor = 0.75
 	
-	peace_options = {
-		po_change_religion
-	}
-
+	po_change_religion = yes
+	
 	war_name = CONFORMANCE_WAR_NAME
 }
 
@@ -411,10 +378,8 @@ take_border = {
 		}
 	}
 
-	peace_options = {
-		po_demand_provinces
-		po_concede_defeat
-	}
+	po_demand_provinces = yes
+	po_concede_defeat = yes
 	
 	war_name = BORDER_WAR_NAME	
 }
@@ -427,10 +392,8 @@ defend_capital_independence = {
 		prestige_factor = 1
 		peace_cost_factor = 0.75
 		
-		peace_options = {
-			po_concede_defeat
-			po_independence
-		}
+		po_concede_defeat = yes
+		po_independence = yes
 	}
 	
 	defender = {
@@ -442,9 +405,8 @@ defend_capital_independence = {
 			always = yes
 		}		
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
+		allow_annex = yes
 	}
 	
 	war_name = INDEPENDENCE_WAR_NAME
@@ -461,9 +423,8 @@ take_capital_conquest = {
 		is_claim = ROOT
 	}
 
-	peace_options = {
-		po_demand_provinces
-	}
+	#po_annex = yes
+	po_demand_provinces = yes
 	
 	war_name = PRIMITIVE_WAR_NAME
 }
@@ -480,10 +441,8 @@ take_core = {
 			is_core = ROOT
 		}
 		
-		peace_options = {
-			po_demand_provinces
-			po_return_cores
-		}
+		po_demand_provinces = yes
+		po_return_cores = yes
 		
 		prov_desc = ALL_CORES
 	}
@@ -497,10 +456,8 @@ take_core = {
 			is_core = FROM
 		}
 		
-		peace_options = {
-			po_demand_provinces
-			po_return_cores
-		}
+		po_demand_provinces = yes
+		po_return_cores = yes
 		
 		prov_desc = ALL_CORES	
 	}
@@ -519,9 +476,8 @@ take_capital_claim = {
 		is_claim = ROOT
 	}
 	
-	peace_options = {
-		po_demand_provinces
-	}
+	#po_annex = yes
+	po_demand_provinces = yes
 	
 	prov_desc = ALL_CLAIMS
 	war_name = CLAIM_WAR_NAME
@@ -538,9 +494,8 @@ take_claim = {
 		is_claim = ROOT
 	}
 	
-	peace_options = {
-		po_demand_provinces
-	}
+	#po_annex = yes
+	po_demand_provinces = yes
 	
 	prov_desc = ALL_CLAIMS
 	war_name = CLAIM_WAR_NAME
@@ -558,9 +513,7 @@ take_province_nationalist = {
 			culture_group = ROOT
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_CGROUP_COUNTRIES
 		prov_desc = ALL_CGROUP_PROVS
@@ -575,9 +528,7 @@ take_province_nationalist = {
 			culture_group = FROM
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_CGROUP_COUNTRIES
 		prov_desc = ALL_CGROUP_PROVS
@@ -599,9 +550,7 @@ take_capital_imperial = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_COUNTRIES
 		prov_desc = ALL_PROVS
@@ -617,9 +566,7 @@ take_capital_imperial = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_COUNTRIES
 		prov_desc = ALL_PROVS
@@ -641,9 +588,7 @@ take_capital_mayan = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_COUNTRIES
 		prov_desc = ALL_PROVS
@@ -659,10 +604,8 @@ take_capital_mayan = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
-
+		po_demand_provinces = yes
+		
 		country_desc = ALL_COUNTRIES
 		prov_desc = ALL_PROVS
 	}	
@@ -679,13 +622,12 @@ take_province_revolutionary = {
 		prestige_factor = 1
 		peace_cost_factor = 0.75
 		
+		
 		allowed_provinces = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_GOV_ENEMIES
 		prov_desc = ALL_PROVS
@@ -700,9 +642,7 @@ take_province_revolutionary = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_GOV_ENEMIES
 		prov_desc = ALL_PROVS
@@ -723,9 +663,7 @@ take_colony = {
 			colony_claim = ROOT
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		prov_desc = ALL_ADJ_COLONIES
 	}
@@ -739,9 +677,7 @@ take_colony = {
 			colony_claim = FROM
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		prov_desc = ALL_ADJ_COLONIES
 	}
@@ -756,11 +692,9 @@ take_capital_liberation = {
 	prestige_factor = 3
 	peace_cost_factor = 0.75	
 	
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
 	
 	country_desc = ALL_OPPRESSORS
 	war_name = LIBERATION_WAR_NAME	
@@ -773,11 +707,9 @@ superiority_liberation = {
 	prestige_factor = 1.5
 	peace_cost_factor = 0.75	
 	
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
 	
 	country_desc = ALL_OPPRESSORS
 	war_name = LIBERATION_WAR_NAME	
@@ -795,9 +727,7 @@ superiority_crusade = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_INFIDELS
 		prov_desc = ALL_PROVS
@@ -812,9 +742,7 @@ superiority_crusade = {
 			always = yes
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_INFIDELS
 		prov_desc = ALL_PROVS
@@ -835,9 +763,7 @@ take_province_religion = {
 			religion_group = ROOT
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		prov_desc = ALL_REL_GROUP_PROVS
 	}
@@ -851,9 +777,7 @@ take_province_religion = {
 			religion_group = FROM
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		prov_desc = ALL_REL_GROUP_PROVS
 	}	
@@ -872,10 +796,8 @@ superiority_heretic = {
 		always = yes
 	}
 	
-	peace_options = {
-		po_change_religion
-		po_demand_provinces
-	}
+	po_change_religion = yes
+	po_demand_provinces = yes
 	
 	country_desc = ALL_HERETICS
 	prov_desc = ALL_PROVS
@@ -903,16 +825,16 @@ take_province_excommunication = {
 		}
 	}
 
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_demand_provinces
-		po_revoke_cores
-		po_become_vassal
-		po_gold
-		po_concede_defeat
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	#po_annex = yes
+	po_demand_provinces = yes
+	po_revoke_cores = yes
+	po_become_vassal = yes
+	po_gold = yes
+	po_concede_defeat = yes
+	
 	
 	prov_desc = ALL_CGROUP_PROVS
 	war_name = EXCOM_WAR_NAME	
@@ -925,12 +847,11 @@ superiority_trade = {
 	prestige_factor = 2
 	peace_cost_factor = 0.75	
 	
-	peace_options = {
-		po_revoke_cores
-		po_gold
-		po_concede_defeat
-		po_trade_power
-	}
+	po_revoke_cores = yes
+	po_gold = yes
+	po_concede_defeat = yes
+	po_trade_power = yes
+	
 	
 	war_name = TRADE_WAR_NAME	
 }
@@ -943,12 +864,10 @@ superiority_trade_mutual = {
 		prestige_factor = 2
 		peace_cost_factor = 0.75	
 		
-		peace_options = {
-			po_revoke_cores
-			po_gold
-			po_concede_defeat
-			po_trade_power
-		}
+		po_revoke_cores = yes
+		po_gold = yes
+		po_concede_defeat = yes
+		po_trade_power = yes
 	}
 	
 	defender = {
@@ -956,12 +875,10 @@ superiority_trade_mutual = {
 		prestige_factor = 2
 		peace_cost_factor = 0.75	
 		
-		peace_options = {
-			po_revoke_cores
-			po_gold
-			po_concede_defeat
-			po_trade_power
-		}
+		po_revoke_cores = yes
+		po_gold = yes
+		po_concede_defeat = yes
+		po_trade_power = yes
 	}
 	
 	
@@ -983,13 +900,11 @@ take_province_ban = {
 	}
 	allowed_provinces_are_eligible = yes
 
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_return_cores
-		po_demand_provinces
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_return_cores = yes
+	po_demand_provinces = yes
 	
 	prov_desc = ALL_HRE_PROVS
 	war_name = BAN_WAR_NAME	
@@ -1007,15 +922,13 @@ superiority_punitive = {
 		is_core = ROOT
 	}
 	
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_demand_provinces
-		po_revoke_cores
-		po_gold
-		po_concede_defeat
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_demand_provinces = yes
+	po_revoke_cores = yes
+	po_gold = yes
+	po_concede_defeat = yes
 	
 	
 	prov_desc = ALL_CORES
@@ -1033,15 +946,13 @@ take_capital_punitive = {
 		is_core = ROOT
 	}
 	
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_demand_provinces
-		po_revoke_cores
-		po_gold
-		po_concede_defeat
-	}
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_demand_provinces = yes
+	po_revoke_cores = yes
+	po_gold = yes
+	po_concede_defeat = yes
 	
 	
 	prov_desc = ALL_CORES_AND_CLAIMS
@@ -1061,16 +972,16 @@ superiority_primitives = {
 		}
 	}
 	
-	peace_options = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_gold
-		#po_become_vassal
-		#po_change_religion
-	}
+	#po_annex = yes
+	po_demand_provinces = yes
+	po_revoke_cores = yes
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_gold = yes
+	#po_become_vassal = yes
+	#po_change_religion = yes
+	
 	
 	country_desc = ALL_PRIMITIVES
 	prov_desc = ALL_PRIMITIVES
@@ -1103,14 +1014,16 @@ superiority_overseas = {
 		}
 	}
 	
-	peace_options = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_gold
-	}
+	#po_annex = yes
+	po_demand_provinces = yes
+	po_revoke_cores = yes
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_gold = yes
+	#po_become_vassal = yes
+	#po_change_religion = yes
+	
 	
 	country_desc = ALL_PRIMITIVES
 	prov_desc = ALL_PRIMITIVES
@@ -1129,9 +1042,7 @@ take_capital_throne = {
 			always = yes
 		}
 
-		peace_options = {
-			po_form_personal_union
-		}
+		po_form_personal_union = yes
 	}
 	
 	defender = {
@@ -1143,9 +1054,7 @@ take_capital_throne = {
 			is_core = FROM
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 	}
 	
 	prov_desc = ALL_PROVS
@@ -1164,12 +1073,10 @@ superiority_horde = {
 			always = yes
 		}
 
-		peace_options = {
-			po_demand_provinces
-			po_become_vassal
-			po_become_tributary_state
-			po_gold
-		}
+		po_demand_provinces = yes
+		po_become_vassal = yes
+		po_become_tributary_state = yes
+		po_gold = yes
 		
 		prov_desc = ALL_PROVS
 	}
@@ -1183,12 +1090,10 @@ superiority_horde = {
 			always = yes
 		}
 
-		peace_options = {
-			po_demand_provinces
-			po_become_vassal
-			po_become_tributary_state
-			po_gold
-		}
+		po_demand_provinces = yes
+		po_become_vassal = yes
+		po_become_tributary_state = yes
+		po_gold = yes
 		
 		prov_desc = ALL_PROVS
 	}	
@@ -1209,12 +1114,10 @@ take_province_tribal_feud = {
 			always = yes
 		}
 
-		peace_options = {
-			po_demand_provinces
-			po_become_vassal
-			po_become_tributary_state
-			po_gold
-		}
+		po_demand_provinces = yes
+		po_become_vassal = yes
+		po_become_tributary_state = yes
+		po_gold = yes
 		
 		prov_desc = ALL_PROVS
 	}
@@ -1228,12 +1131,10 @@ take_province_tribal_feud = {
 			always = yes
 		}
 
-		peace_options = {
-			po_demand_provinces
-			po_become_vassal
-			po_become_tributary_state
-			po_gold
-		}
+		po_demand_provinces = yes
+		po_become_vassal = yes
+		po_become_tributary_state = yes
+		po_gold = yes
 		
 		prov_desc = ALL_PROVS
 	}	
@@ -1253,9 +1154,8 @@ annex_country = {
 		is_claim = ROOT
 	}
 
-	peace_options = {
-		po_demand_provinces
-	}
+	#po_annex = yes
+	po_demand_provinces = yes
 	
 	allow_annex = yes
 	
@@ -1279,10 +1179,8 @@ war_goal_change_government = {
 		}
 	}
 
-	peace_options = {
-		po_change_government
-		po_demand_provinces
-	}
+	po_change_government = yes
+	po_demand_provinces = yes
 	
 	war_name = CHANGE_GOVERNMENT_WAR_NAME
 }
@@ -1305,10 +1203,8 @@ war_goal_change_government_mutual = {
 			}
 		}
 
-		peace_options = {
-			po_change_government
-			po_demand_provinces
-		}
+		po_change_government = yes
+		po_demand_provinces = yes
 	}
 	
 	defender = {
@@ -1326,10 +1222,8 @@ war_goal_change_government_mutual = {
 			}
 		}
 
-		peace_options = {
-			po_change_government
-			po_demand_provinces
-		}
+		po_change_government = yes
+		po_demand_provinces = yes
 	}	
 	
 	war_name = CHANGE_GOVERNMENT_WAR_NAME
@@ -1346,10 +1240,22 @@ humiliate = {
 		always = yes
 	}
 	
-	peace_options = {
-		po_gold
-		po_humiliate
-	}
+	po_annex = no
+	po_demand_provinces = no
+	po_revoke_cores = no
+	po_release_vassals = no
+	po_release_annexed = no
+	po_return_cores = no
+	po_change_religion = no
+	po_form_personal_union = no
+	po_gold = yes
+	po_become_vassal = no
+	po_concede_defeat = no
+	po_annul_treaties = no
+	po_change_government = no
+	po_revoke_elector = no
+	po_trade_power = no
+	po_humiliate = yes
 	
 	deny_annex = yes
 	
@@ -1371,17 +1277,23 @@ humiliate_rotw = {
 	
 	allowed_provinces_are_eligible = yes
 	
-	peace_options = {
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_gold
-		po_annul_treaties
-		po_trade_power
-		po_humiliate
-		po_humiliate_rival
-	}
+	po_annex = no
+	po_demand_provinces = no
+	po_revoke_cores = yes
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_change_religion = no
+	po_form_personal_union = no
+	po_gold = yes
+	po_become_vassal = no
+	po_concede_defeat = no
+	po_annul_treaties = yes
+	po_change_government = no
+	po_revoke_elector = no
+	po_trade_power = yes
+	po_humiliate = yes
+	po_humiliate_rival = yes
 	
 	deny_annex = yes
 	
@@ -1393,11 +1305,9 @@ humiliate_rotw = {
 blockade_ports = {
 	type = blockade_ports
 	
-	peace_options = {
-		po_gold
-		po_concede_defeat
-		po_trade_power
-	}
+	po_gold = yes
+	po_concede_defeat = yes
+	po_trade_power = yes
 	
 	transfer_trade_cost_factor = 0.5	
 }
@@ -1406,9 +1316,10 @@ take_capital_support_rebels = {
 	type = take_capital
 	
 	attacker = {
-		peace_options = {
-			po_enforce_rebel_demands
-		}
+		po_enforce_rebel_demands = yes
+	}
+	defender = {
+		po_enforce_rebel_demands = no
 	}
 	
 	badboy_factor = 1
@@ -1426,17 +1337,15 @@ superiority_religious_league = {
 		prestige_factor = 1.5
 		peace_cost_factor = 0.5	
 	
-		peace_options = {
-			po_become_vassal
-			po_demand_provinces
-			po_revoke_cores
-			po_release_vassals
-			po_release_annexed
-			po_change_religion
-			po_gold
-			po_annul_treaties
-			po_change_hre_religion
-		}
+		po_become_vassal = yes
+		po_demand_provinces = yes
+		po_revoke_cores = yes
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_change_religion = yes
+		po_gold = yes
+		po_annul_treaties = yes
+		po_change_hre_religion = yes
 	}
 	
 	defender = {
@@ -1444,17 +1353,15 @@ superiority_religious_league = {
 		prestige_factor = 1.5
 		peace_cost_factor = 0.5		
 	
-		peace_options = {
-			po_become_vassal
-			po_demand_provinces
-			po_revoke_cores
-			po_release_vassals
-			po_release_annexed
-			po_change_religion
-			po_gold
-			po_annul_treaties
-			po_change_hre_religion
-		}
+		po_become_vassal = yes
+		po_demand_provinces = yes
+		po_revoke_cores = yes
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_change_religion = yes
+		po_gold = yes
+		po_annul_treaties = yes
+		po_change_hre_religion = yes
 	}
 	
 	war_name = RELIGIOUS_LEAGUE_WAR_NAME
@@ -1472,9 +1379,7 @@ superiority_chinese_unification = {
 			superregion = china_superregion
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_CGROUP_COUNTRIES
 		prov_desc = ALL_CHINESE_PROVS
@@ -1494,9 +1399,7 @@ superiority_chinese_unification = {
 			}
 		}
 		
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
 		
 		country_desc = ALL_CGROUP_COUNTRIES
 		prov_desc = ALL_CHINESE_PROVS
@@ -1513,10 +1416,8 @@ take_capital_take_mandate = {
 		prestige_factor = 1.0
 		peace_cost_factor = 0.5
 
-		peace_options = {
-			po_demand_provinces
-			po_take_mandate
-		}
+		po_demand_provinces = yes
+		po_take_mandate = yes
 
 		country_desc = CHINESE_EMPIRE_COUNTRY
 		prov_desc = ALL_PROVS
@@ -1527,9 +1428,8 @@ take_capital_take_mandate = {
 		prestige_factor = 1.0
 		peace_cost_factor = 0.5
 
-		peace_options = {
-			po_demand_provinces
-		}
+		po_demand_provinces = yes
+		po_take_mandate = no
 
 		country_desc = ALL_COUNTRIES
 		prov_desc = ALL_PROVS
@@ -1542,9 +1442,10 @@ force_migration = {
 	type = take_capital
 	
 	attacker = {
-		peace_options = {
-			po_force_migration
-		}
+		po_force_migration = yes
+	}
+	defender = {
+		po_force_migration = no
 	}
 	
 	badboy_factor = 1
@@ -1563,9 +1464,7 @@ take_capital_force_tributary = {
 	prestige_factor = 2
 	peace_cost_factor = 0.5
 	
-	peace_options = {
-		po_become_tributary_state
-	}
+	po_become_tributary_state = yes
 	
 	war_name = TRIBUTARY_MISSION_WAR_NAME
 }

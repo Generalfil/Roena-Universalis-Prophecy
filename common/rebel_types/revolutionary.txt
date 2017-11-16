@@ -144,9 +144,6 @@ revolutionary_rebels = {
 						government = colonial_government
 						government = native_council
 						government = revolutionary_republic
-						government = tribal_federation
-						government = feudal_theocracy
-						government = mamluk_government
 					}
 				}
 			}

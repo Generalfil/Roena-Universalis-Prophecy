@@ -161,10 +161,6 @@ age_of_discovery = {
 			}
 			ai_will_do = {
 				factor = 10
-				modifier = {
-					factor = 0
-					NOT = { num_of_colonists = 1 }
-				}
 			}
 		}
 		
@@ -300,7 +296,6 @@ age_of_reformation = {
 		}
 		
 		obj_unify_culture = {	
-			is_subject = no
 			has_unified_culture_group = yes
 		}
 	}	
@@ -314,7 +309,7 @@ age_of_reformation = {
 				set_country_flag = religion_enforced_edict
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 10
 			}
 		}
 	
@@ -521,7 +516,7 @@ age_of_absolutism = {
 				rival_change_cost = -0.5
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 10
 			}
 		}
 
@@ -669,7 +664,7 @@ age_of_revolutions = {
 				value = 0.25
 				extra_shortcut = yes
 			}
-		}
+		}	
 		obj_huge_capital = {
 			capital_scope = {
 				development = 50
