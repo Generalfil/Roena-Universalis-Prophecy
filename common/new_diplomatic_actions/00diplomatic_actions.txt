@@ -66,23 +66,23 @@ demand_dummy = {
 	}
 	is_allowed = {
 		variable_arithmetic_trigger = {
-			custom_tooltip = HAS_MORE_MANPOWER
-			export_to_variable = {
-				variable_name = my_manpower
-				value = manpower
+			custom_tooltip = HAS_OLDER_RULER_THAN_THEIR_HEIR
+			export_to_variable = { # All export to variable will happen first. Then the other effects and triggers will be executed/evaluated in order
+				variable_name = my_age
+				value = trigger_value:ruler_age
 			}
 			export_to_variable = {
-				variable_name = their_manpower
-				value = manpower
+				variable_name = their_age
+				value = trigger_value:heir_age
 				who = FROM
 			}
-			subtract_variable = {
-				which = my_manpower
-				which = their_manpower
+			ruler_age = 0 # This is a normal trigger.
+			FROM = {
+				heir_age = 0 # This is a normal trigger too.
 			}
-			check_variable = {
-				which = my_manpower
-				value = 0
+			check_variable = { # This trigger is only allowed inside a variable_arithmetic_trigger.
+				which = my_age
+				which = their_age
 			}
 		}
 		religion = catholic
@@ -107,17 +107,41 @@ demand_dummy = {
 		}
 	}
 	
-	ai_acceptance = {
+	ai_acceptance = { # This works similarly to variable_arithmetic_trigger, but does not support triggers generally. Instead, "limit" will be evaluated first and the rest ignored if it isn't passed.
 		add_entry = {
 			name = TRUST
+			limit = { religion = catholic }
 			export_to_variable = {
-				variable_name = ai_value
+				variable_name = ai_value # Each "add_entry" must create one variable called "ai_value", the value of which will be extracted after executing all effects
 				value = trust
 				who = FROM
 				with = THIS
 			}
 			subtract_variable = { which = ai_value value = 50 }
 			multiply_variable = { which = ai_value value = 2 }
+		}
+		add_entry = {
+			name = TRUST
+			limit = { NOT = { religion = catholic } }
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = THIS
+			}
+			export_to_variable = {
+				variable_name = is_defender
+				value = trigger_value:is_defender_of_faith # This sets is_defender to either 0.0 or 1.0
+			}
+			multiply_variable = {
+				which = is_defender
+				value = 10
+			}
+			change_variable = {
+				which = ai_value
+				which = is_defender # This adds 10 to ai_value if you are defender of faith
+			}
+			subtract_variable = { which = ai_value value = 50 }
 		}
 		add_entry = {
 			name = OPINION
@@ -130,6 +154,7 @@ demand_dummy = {
 			divide_variable = { which = ai_value value = 4 }
 		}
 	}
+
 	ai_will_do = { # this is a trigger
 		has_opinion_modifier = {
 			modifier = insulted
