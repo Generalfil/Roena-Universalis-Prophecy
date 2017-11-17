@@ -12,7 +12,7 @@ country_event{
 	trigger = {
 		culture_group = lothian	
 		is_year = 1464
-		NOT = { has_country_flag = tribal_started }
+		NOT = { has_country_flag = tribal_started_1 }
 	}	
 	
 	mean_time_to_happen = {
@@ -24,6 +24,7 @@ country_event{
 		ai_chance = { factor = 100 }
 		set_country_flag = tribal_3
 		set_country_flag = tribal_started
+		set_country_flag = tribal_started_1
 	}
 }
 
@@ -115,12 +116,14 @@ country_event{
 		name = "tribalism_event_2_up"
 		ai_chance = { factor = 50 }
 		clr_country_flag = tribal_3
+		clr_country_flag = tribal_started
 		set_country_flag = tribal_2
 	}
 	option = {
 		name = "tribalism_event_2_down"
 		ai_chance = { factor = 50 }
 		clr_country_flag = tribal_3
+		clr_country_flag = tribal_started
 		set_country_flag = tribal_4
 	}
 }
