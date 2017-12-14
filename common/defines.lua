@@ -312,7 +312,7 @@ NDiplomacy = {
 	CELESTIAL_EMPIRE_MODIFIER_THRESHOLD = 50,		-- Value of Mandate above which the positive Mandate Modifier is used instead of the negative one
 	CELESTIAL_EMPIRE_MANDATE_PER_STABILITY = 0.24,	-- Yearly change of Mandate for each point of positive stability
 	CELESTIAL_EMPIRE_MANDATE_PER_STATE_WITH_PROSPERITY = 0.06,	-- Yearly change of Mandate for each State with prosperity.
-	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_DEVASTATION = -2.0,	-- Yearly change of Mandate for each hundred devastated development (scaled to devastation).
+	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_DEVASTATION = -5.0,	-- Yearly change of Mandate for each hundred devastated development (scaled to devastation).
 	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_TRIBUTARY_DEV = 0.15,	-- Yearly change of Mandate for each hundred development tributary state.
 	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_NONTRIBUTARY_DEV = -0.3,	-- Yearly change of Mandate for each hundred development of neighbouring states that are not the Emperor's tributaries
 	CELESTIAL_EMPIRE_MANDATE_FROM_DEFENDING = 5,	-- How much Mandate is gained when successfully defending the Emperor title.
@@ -857,7 +857,7 @@ NEconomy = {
 	BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 5,	-- Bankruptcy will destroy building that have been build in the latest X amount of years. Set to zero to disable the destruction mechanic.
 	BANKRUPTCY_PROVINCE_DEVASTATION_GAIN = 10,		-- Devastation gained in country provinces after declaring bankrutcy.
 	WARTAXES_DURATION = 2,							-- _EDEF_WARTAXES_DURATION_
-	MINIMUM_INTERESTS = 0.25,						-- _EDEF_MINIMUM_INTERESTS_
+	MINIMUM_INTERESTS = 1.0,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 4.0,							-- Base interests
 	LAND_MAINTENANCE_FACTOR = 0.25,					-- _EDEF_LAND_MAINTENANCE_FACTOR
 	HEAVY_SHIP_MAINT_FACTOR = 0.10,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
@@ -962,7 +962,8 @@ NMilitary = {
 	GARRISON_SIZE = 1000, 							-- GARRISON_SIZE
 	SIEGE_FORCE_NEEDED_MULTIPLIER = 3,				-- x times garrison to be able to siege.
 	MAX_BREACH = 3,
-	ASSAULT_WIDTH_LIMIT = 5,					-- how many times the garrison size that can effectively assault at the same time.
+	SIEGE_GARRISON_SURRENDER = 100,					-- A siege ends when there is less than 100 defenders left.
+	ASSAULT_WIDTH_LIMIT = 5,						-- how many times the garrison size that can effectively assault at the same time.
 	ASSAULT_ATTACKER_LOSS = 1.0, 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
 	ASSAULT_DEFENDER_LOSS = 0.05, 					-- _MDEF_ASSAULT_DEFENDER_LOSS = 10,
 	ASSAULT_DICE_MODIFIER = 5, 						-- _MDEF_ASSAULT_DICE_MODIFIER_
@@ -979,9 +980,9 @@ NMilitary = {
 	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						-- 
 	SLAVE_RAIDS_DURATION = 3650,
-	INFANTRY_SPEED = 1.0, 							-- _MDEF_INFANTRY_SPEED = 10,
-	CAVALRY_SPEED = 1.0, 							-- _MDEF_CAVALRY_SPEED = 10,
-	ARTILLERY_SPEED = 1.0, 							-- _MDEF_ARTILLERY_SPEED = 10,
+	INFANTRY_SPEED = 0.7, 							-- _MDEF_INFANTRY_SPEED = 10,
+	CAVALRY_SPEED = 0.7, 							-- _MDEF_CAVALRY_SPEED = 10,
+	ARTILLERY_SPEED = 0.7, 							-- _MDEF_ARTILLERY_SPEED = 10,
 	HEAVY_SHIP_SPEED = 6.0, 						-- _MDEF_HEAVY_SHIP_SPEED = 10,
 	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
@@ -1098,15 +1099,17 @@ NMilitary = {
 	CAPTURED_SHIP_MORALE = 0.3,
 	NAVAL_MISSION_REGION_MIN_PROVINCES_IN_RANGE = 5,
 	LEADER_GAIN_PERSONALITY_BASE_CHANCE = 20.0,		-- Base chance in percent for leader to gain a trait after combat (modified by tradition gained)
-	SUPPLY_DEPOT_DURATION_MONTHS = 24,				-- Time until supply depot is removed.
+	SUPPLY_DEPOT_DURATION_MONTHS = 60,				-- Time until supply depot is removed.
 	SUPPLY_DEPOT_MIL_COST = 20,						-- Mil power cost to build a supply depot in an area.
-	RESERVE_TICK_DAMAGE = 0.015,
+	RESERVE_TICK_DAMAGE = 0.03,
 	CREATE_JANISSARIES_MIL_COST = 10,				-- Cost to create janissaries (per unit)
 	JANISSARIES_HEATHEN_DEVELOPMENT_DIVISOR = 10,	-- How much development needed to raise one unit of janissaries
 	JANISSARIES_COOLDOWN_DAYS = 1825,				-- How many days we cooldown on creating janissaries
 },
 
 NAI = {
+	ACCEPTABLE_BALANCE_DEFAULT = 1.7, --AI wants this advantage to enter battles typically. (There are some exceptions, e.g. offensives.)
+	ACCEPTABLE_BALANCE_FRIEND_IN_COMBAT = 0.75,
 	EDICT_VALUE_THRESHOLD = 100, -- The higher this value, the less the AI will use Edicts
 	PRESS_THEM_FURTHER = 0, -- This makes AI that has been promised land require that the enemy is pressed further if they think it is possible. Set to 1 to activate
 	CALL_ACCEPTANCE_COALITION_VS_SUBJECT = -60, -- Acceptance penalty when an AI's Tributary (or currently non-existing Subject type with similar mechanic) calls to war against someone who is in a coalition against them
@@ -1452,7 +1455,10 @@ NAI = {
 	DRILLING_ACCEPTABLE_THREAT_REDUCTION = 100,					-- Acceptable threat reduction for drilling
 	DANGEROUS_ESTATE_INFLUENCE_BUFFER = 5.0,					-- AI will assign estates up to ESTATE_DANGER_THRESHOLD minus this (See ai_territory_modifier)
 	ADVISOR_MIN_SKILL_RELUCTANT_FIRE = 3,						-- AI will be reuluctant to fire advisors with skill above this (due to prior investment)
-	ADVISOR_PROMOTION_AGE_CUTOFF = 40							-- AI will not promote advisors above this age
+	ADVISOR_PROMOTION_AGE_CUTOFF = 40,							-- AI will not promote advisors above this age
+	MIN_FORCE_LIMIT_SHARE_REGION_ASSIGN = 0.10,					-- AI will only assign armies larger that this to a region
+	MAX_ARMIES_NEW_REGION_ASSIGN_ALGORITHM = 0,					-- Max. amount of armies to use in new region assignment algorithm (fall back to old one)
+	MAX_TASKS_NEW_REGION_ASSIGN_ALGORITHM = 0					-- Max. amount of tasks to use in new region assignment algorithm (fall back to old one)
 },
 
 NGraphics = {
@@ -1487,7 +1493,7 @@ NGraphics = {
 	MILD_WINTER_VALUE = 90,
 	NORMAL_WINTER_VALUE = 145,
 	SEVERE_WINTER_VALUE = 255,
-	BORDER_WIDTH = 0.5,
+	BORDER_WIDTH = 1.0,
 	TRADE_GOODS_ROTATE_SPEED = 0.2,					-- Higher values gives a faster speed
 	TRADE_GOODS_SPEED = 0.02,						-- Higher values gives a faster speed
 	LAND_UNIT_MOVEMENT_SPEED = 12,
@@ -1868,6 +1874,7 @@ NGovernment = {
 	CONSCRIPT_FROM_TRIBES_AMOUNT = 6,
 	CONSCRIPT_FROM_TRIBES_TIME = 0.25,
 	TRIBAL_ALLEGIANCE_MAX = 100,
+	YEARLY_TRIBAL_ALLEGIANCE_MAX = -3.0,
 	TRIBAL_ALLEGIANCE_HUMILIATE = 30.0, -- TA gained from doing Humiliate or Show Strength in a war.
 	TRIBAL_FEDERATION_ABILITY_COST = 30,
 	ENLIST_GENERAL_TRADITION = 40,

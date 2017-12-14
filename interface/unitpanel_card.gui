@@ -496,7 +496,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
-			maxWidth = 100
+			maxWidth = 80
 			maxHeight = 16
 
 			fixedsize = yes	

@@ -48,6 +48,11 @@ spriteTypes = {
 		name = "GFX_frontend_custom_nation"
 		texturefile = "gfx/interface/frontend_custom_nation.dds"
 	}
+
+	spriteType = {
+		name = "GFX_frontend_create_team"
+		texturefile = "gfx/interface/ideas_EU4/years_of_nationalism.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_lobby_chat_bg"

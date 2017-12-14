@@ -87,7 +87,7 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "name"	
-			maxWidth = 300
+			maxWidth = 460
 			maxHeight = 32
 			fixedsize = yes
 			format = left			
@@ -99,7 +99,7 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "desc"	
-			maxWidth = 300
+			maxWidth = 470
 			maxHeight = 100
 			format = left			
 		}

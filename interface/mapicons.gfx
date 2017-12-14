@@ -357,7 +357,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fort_mapicon"
 		texturefile = "gfx//interface//fort_mapicon.dds"
-		noOfFrames = 8
+		noOfFrames = 9
 		
 		alwaystransparent = yes
 	}

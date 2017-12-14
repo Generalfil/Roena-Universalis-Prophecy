@@ -128,9 +128,7 @@ Tegan Harris
 §PUBLISHING QA
 
 Loke Norman
-
 Niklas Ivarsson
-
 Roeland Weckx
 
 §COMMUNITY QA

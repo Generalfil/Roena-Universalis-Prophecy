@@ -20,7 +20,7 @@
  TUT_BAS_CHAPTER03_PAGE05_TEXT: "You can build ships by selecting a coastal province and clicking the §MBuild Ship§! button. There are four different types of ships: Big Ships, Light Ships, Galleys and Transports.\n\n§YClick §MBack§Y to go back to the province view and then click the §MBuild Ship§Y button.§W"
  TUT_BAS_CHAPTER03_PAGE05_OBJECTIVE: "Click §MBuild Ship§! to continue."  
  TUT_BAS_CHAPTER03_PAGE10_TITLE: "§YProduction Interface (10/12)§!"
- TUT_BAS_CHAPTER03_PAGE10_TEXT: "As an empire grows larger it becomes more difficult to manage. The §MProduction Interface§! will help you make with constructing larger amounts of buildings or training troops. Selecting a building from the list will update the mapmode with information regarding where you would get the most benefit.\n\n§YCheck the top-left of the screen.§!"
+ TUT_BAS_CHAPTER03_PAGE10_TEXT: "As an empire grows larger it becomes more difficult to manage. The §MProduction Interface§! will help you with constructing larger amounts of buildings or training troops. Selecting a building from the list will update the mapmode with information regarding where you would get the most benefit.\n\n§YCheck the top-left of the screen.§!"
  TUT_BAS_CHAPTER03_PAGE10_OBJECTIVES: "Click the §MProduction Interface button§! to continue."
  TUT_BAS_CHAPTER03_PAGE11_TITLE: "§YProduction Interface (11/12)§!"
  TUT_BAS_CHAPTER03_PAGE11_TEXT: "Select a unit from the list and then click on the map to start production. You can either click directly on the map or click the '§M+§!' icons. Clicking a province more than once will queue the ship or unit.\n\n§YStart production in 5 different provinces and then remember to unpause the game.§!"

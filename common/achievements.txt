@@ -680,7 +680,11 @@ achievement_all_belongs_to_mother_russia = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		primary_culture = russian
+		OR = {
+			primary_culture = russian
+			primary_culture = novgorodian
+			primary_culture = ryazanian
+		}
 	}
 	
 	happened = {
@@ -1129,16 +1133,26 @@ achievement_one_night_in_paris = {
 achievement_definitely_the_sultan_of_rum = {
 	id = 45
 	
+	visible = {
+		OR = {
+			tag = TUR
+			tag = RUM
+		}
+	}
+	
 	possible = {
 		NOT = { num_of_custom_nations = 1 }
 		normal_or_historical_nations = yes
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
-		tag = TUR
 	}
 	
 	happened = {
+		OR = {
+			tag = TUR
+			tag = RUM
+		}
 		owns_core_province = 295 # Moskva
 		owns_core_province = 151 # Thrace/Istanbul
 		owns_core_province = 118 # Rome
@@ -1931,13 +1945,13 @@ achievement_venetian_sea = {
 		1320 = {		#Constantinople
 			trade_share = {
 				country = ROOT
-				share = 90
+				share = 75
 			}
 		}
 		358 = {		#Alexandria
 			trade_share = {
 				country = ROOT
-				share = 90
+				share = 75
 			}
 		}	
 	
@@ -3753,6 +3767,11 @@ achievement_rags_and_riches = {
 		normal_province_values = yes
 		ironman = yes
 		start_date = 1444.11.11
+		NOT = {
+			any_owned_province = {
+				development = 11
+			}
+		}
 	}
 
 	happened = {
@@ -6108,7 +6127,6 @@ achievement_protect_the_secret = {
 							continent = asia
 							continent = africa
 							continent = oceania
-							continent = asia
 						}
 					}
 				}
@@ -6134,6 +6152,10 @@ achievement_great_moravia = {
 		}
 	}
 	happened = {
+		OR = {
+			tag = SLO
+			tag = MVA
+		}
 		owns_core_province = 60 # Lausitz
 		owns_core_province = 134 # Wien 
 		owns_core_province = 135 # Sopron
@@ -6273,8 +6295,10 @@ achievement_around_the_world_in_eighty_years = {
 		start_date = 1444.11.11
 		is_random_new_world = no
 		NOT = { nation_designer_points = 402 }
-		capital_scope = {
-			region = british_isles_region
+		NOT = {
+			any_owned_province = {
+				NOT = { region = british_isles_region }
+			}
 		}
 	}
 	happened = {
