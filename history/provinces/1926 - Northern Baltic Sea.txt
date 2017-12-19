@@ -1,1 +1,1 @@
-replace_path = "history/provinces/1926.txt"
+replace_path = "history/provinces/1926 - Mittel Lakes.txt"

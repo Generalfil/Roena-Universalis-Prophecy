@@ -190,7 +190,7 @@ province;red;green;blue;x;x
 189;253;180;50;;x
 190;253;190;50;;x
 191;253;200;50;;x
-192;253;210;50;;x
+192;253;210;50;Removed from map could be assigned to new province;x
 193;253;220;50;;x
 194;252;0;0;;x
 195;252;10;0;;x
@@ -781,7 +781,11 @@ province;red;green;blue;x;x
 780;250;70;0;;x
 781;250;80;0;;x
 782;250;90;0;;x
-1929;62;210;252;Western Norwegian Sea;x
+1927;62;210;249;Mittel Lakes;x
+1927;62;210;250;Gryphna Lakes;x
+1928;62;210;251;Vinmaar Lakes;x
+1929;62;210;252;Western Norwegian Sea - USED AS WORLD WIDE SEA FOR NOW;x
+1930;62;210;253;Lothian Lakes;x
 2000;0;0;255;;x
 2001;0;10;255;;x
 2002;0;20;255;;x
