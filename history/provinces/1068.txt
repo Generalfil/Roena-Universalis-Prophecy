@@ -1,0 +1,15 @@
+culture = tempculture
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = TEMP (Replace)
+native_size = 50
+native_ferocity = 1
+native_hostileness = 1
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
