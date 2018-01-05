@@ -6,7 +6,65 @@
 
 ### Nation specific idea groups
 
-################################NEW
+################################Lothian groups
+#All Lothian Nation starts with this, remove tag here if you assign the tag another idea
+generic_lothian_tribal_ideas = {
+	start = {
+		land_maintenance_modifier = -0.1
+		merc_maintenance_modifier = -0.1
+	}
+	bonus = {
+		infantry_power = 0.1
+	}
+	trigger = {
+		or {
+			tag = AAM
+			tag = AGR
+			tag = CER
+			tag = EEG
+			tag = GAN
+			tag = HAA
+			tag = HII
+			tag = HRR
+			tag = NAS
+			tag = IIL
+			tag = ISS
+			tag = KIR
+			tag = LYE
+			tag = MAA
+			tag = MLN
+			tag = OSI
+			tag = SII
+			tag = SLM 
+			tag = VES
+			tag = VRS
+		}
+	}
+	free = yes
+	
+	glt_idea_1 = {
+		global_manpower_modifier = 0.15
+	}
+	glt_idea_2 = {
+		naval_forcelimit_modifier = 0.25
+		sailors_recovery_speed = 0.05
+	}
+	glt_idea_3 = {
+		fort_maintenance_modifier = -0.2
+	}
+	glt_idea_4 = {
+		technology_cost = -0.05
+	}
+	glt_idea_5 = {
+		merchants = 1
+	}
+	glt_idea_6 = {
+		prestige = 1
+	}
+	glt_idea_7 = {
+		global_unrest = -1
+	}
+}
 
 ARH_ideas = {
 	start = {

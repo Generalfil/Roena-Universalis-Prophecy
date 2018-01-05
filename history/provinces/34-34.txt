@@ -1,8 +1,8 @@
 #
 
-add_core = VKA
-owner = VKA
-controller = VKA
+add_core = KIR
+owner = KIR
+controller = KIR
 culture = virran
 religion = catholic
 hre = no

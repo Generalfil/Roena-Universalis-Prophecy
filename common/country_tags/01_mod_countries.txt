@@ -3,8 +3,7 @@ ISS = "countries/Isswyn.txt"
 SLM = "countries/Solemyr.txt" 
 NAS = "countries/Nasra.txt"
 VRS = "countries/VorRos.txt"
-VKA = "countries/VorKirsa.txt"
-#AHK = "countries/Arhkant.txt"
+KIR = "countries/Kiirsa.txt"
 ARH = "countries/Arhna.txt"
 HAA = "countries/Haanyr.txt"
 NLO = "countries/NewLothia.txt"
@@ -50,6 +49,6 @@ VUL = "countries/VulgeinNor.txt"
 
 #North Gryphna Majors
 GRY = "countries/Gryphna.txt"
-ALM = "countries/Arlem.txt"
+#ALM = "countries/Arlem.txt"
 GRN = "countries/Gerron.txt"
 
