@@ -130,3 +130,404 @@ themitteleast={
 		618 624 625 632 633 634 638 647 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 679 680 681 682 683 684 685 686 687 688 689 690 691 692 693 694 695 696 697 698 699 700 701 702 703 704 705 706 707 708 709 710 711 712 713 714 715 716 717 718 719 720 721 722 723 724 725 762 763 764 765 766 767 768 769 770 771 772 
 	}
 }
+greatsteppes={
+	location=801
+	color={
+		210 141 61
+	}
+	outgoing={
+		name="buhktacoast"
+		path={
+			2120 799
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="eastcolonial"
+		path={
+			797 789
+		}
+		control={
+			
+		}
+	}
+	members={
+		797
+	}
+}
+
+opalcoast={
+	location=804
+	color={
+		24 209 95 
+	}
+	outgoing={
+		name="westarctidia"
+		path={
+			2123 2125
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="greatsteppes"
+		path={
+			2123 808
+		}
+		control={
+			
+		}
+	}
+	members={
+		808
+	}
+}
+
+buhktacoast={
+	location=807
+	color={
+		10 121 201
+	}
+	outgoing={
+		name="southeastcolonial"
+		path={
+			802 2137
+		}
+		control={
+			
+		}
+	}
+	members={
+		799 809
+	}
+}
+
+eastarctidia={
+	location=786
+	color={
+		25 212 90 
+	}
+	outgoing={
+		name="northeastcolonial"
+		path={
+			784 790
+		}
+		control={
+			
+		}
+	}
+	members={
+		783 784
+	}
+}
+arctidia={
+	location=2129
+	color={
+		149 95 110 
+	}
+	outgoing={
+		name="eastarctidia"
+		path={
+			788 2131
+		}
+		control={
+			
+		}
+	}
+	members={
+		788 792 805
+	}
+}
+westarctidia={
+	location=798
+	color={
+		193 30 24 
+	}
+	outgoing={
+		name="arctidia"
+		path={
+			794 2128
+		}
+		control={
+			
+		}
+	}
+	members={
+		794 806
+	}
+}
+northeastcolonial={
+	location=785
+	color={
+		130 186 210 
+	}
+	outgoing={
+		name="vinmaar"
+		path={
+			2134 2113
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="eastcolonial"
+		path={
+			787 789
+		}
+		control={
+			
+		}
+	}
+	members={
+		787 790
+	}
+}
+eastcolonial={
+	location=791
+	color={
+		45 46 210 
+	}
+	outgoing={
+		name="westlothia"
+		path={
+			795 2033
+		}
+		control={
+			
+		}
+	}
+	members={
+		789 793 795
+	}
+}
+southeastcolonial={
+	location=800
+	color={
+		145 146 200 
+	}
+	outgoing={
+		name="westleaar"
+		path={
+			2145 2153
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="capcadion"
+		path={
+			2137 2140
+		}
+		control={
+			
+		}
+	}
+	members={
+		802 820
+	}
+}
+greatnirashrange={
+	location=811
+	color={
+		221 228 48 
+	}
+	outgoing={
+		name="bolshoychannel"
+		path={
+			2143 815
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="bayofwiccae"
+		path={
+			816 812
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="buhktacoast"
+		path={
+			2118 2119
+		}
+		control={
+			
+		}
+	}
+	members={
+		815 816
+	}
+}
+bolshoychannel={
+	location=2117
+	color={
+		50 21 145
+	}
+	members={
+		813 814 819
+	}
+	end=yes
+}
+capcadion={
+	location=810
+	color={
+		109 15 195
+	}
+	outgoing={
+		name="bolshoychannel"
+		path={
+			818 819
+		}
+		control={
+			
+		}
+	}
+	members={
+		818 908
+	}
+}
+bayofwiccae={
+	location=817
+	color={
+		9 238 29
+	}
+	outgoing={
+		name="capcadion"
+		path={
+			812 2140
+		}
+		control={
+			
+		}
+	}
+	members={
+		812
+	}
+}
+westleaar={
+	location=854
+	color={
+		45 146 100 
+	}
+	outgoing={
+		name="leaargoldencoast"
+		path={
+			857 858
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="southleaar"
+		path={
+			855 856
+		}
+		control={
+			
+		}
+	}
+	members={
+		855 857
+	}
+}
+southleaar={
+	location=861
+	color={
+		10 230 30 
+	}
+	outgoing={
+		name="capcadion"
+		path={
+			908 2144
+		}
+		control={
+			
+		}
+	}
+	members={
+		856 863
+	}
+}
+leaargoldencoast={
+	location=859
+	color={
+		100 10 15 
+	}
+	outgoing={
+		name="themiddle"
+		path={
+			2059 2060 597
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="westlothia"
+		path={
+			2002 2020
+		}
+		control={
+			
+		}
+	}
+	members={
+		858 860
+	}
+}
+eastleaar={
+	location=864
+	color={
+		220 230 54 
+	}
+	outgoing={
+		name="southleaar"
+		path={
+			865 863
+		}
+		control={
+			
+		}
+	}	
+	members={
+		862 865
+	}
+}
+tenger={
+	location=868
+	color={
+		110 20 194 
+	}
+	outgoing={
+		name="eastleaar"
+		path={
+			612 862
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="themitteleast"
+		path={
+			718 710
+		}
+		control={
+			
+		}
+	}
+	members={
+		866
+	}
+}
+
