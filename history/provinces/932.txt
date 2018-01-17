@@ -1,3 +1,6 @@
+add_core = MKR
+owner = MKR
+controller = MKR
 culture = tempculture
 religion = catholic
 hre = no

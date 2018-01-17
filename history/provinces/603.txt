@@ -1,3 +1,6 @@
+add_core = ERK
+owner = ERK
+controller = ERK
 culture = tempculture
 religion = catholic
 hre = no

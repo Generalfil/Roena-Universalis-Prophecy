@@ -1,8 +1,8 @@
 #
 
-add_core = ANM
-owner = ANM
-controller = ANM
+add_core = ARI
+owner = ARI
+controller = ARI
 culture = swedish
 religion = catholic
 hre = no

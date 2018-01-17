@@ -1,8 +1,8 @@
 #
 
-add_core = ARI
-owner = ARI
-controller = ARI
+add_core = TRB
+owner = TRB
+controller = TRB
 culture = swedish
 religion = catholic
 hre = no

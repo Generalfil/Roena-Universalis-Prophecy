@@ -1,3 +1,6 @@
+add_core = HBO
+owner = HBO
+controller = HBO
 culture = tempculture
 religion = catholic
 hre = no

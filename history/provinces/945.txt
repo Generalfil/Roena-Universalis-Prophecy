@@ -1,3 +1,6 @@
+add_core = ENH
+owner = ENH
+controller = ENH
 culture = tempculture
 religion = catholic
 hre = no

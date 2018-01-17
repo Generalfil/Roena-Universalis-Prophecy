@@ -1,8 +1,8 @@
 #
 
-add_core = TRG
-owner = TRG
-controller = TRG
+add_core = AVE
+owner = AVE
+controller = AVE
 culture = swedish
 religion = catholic
 hre = no

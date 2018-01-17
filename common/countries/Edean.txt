@@ -1,8 +1,7 @@
 #Country Name: Please see filename.
 
 graphical_culture = westerngfx
-
-color = { 200  90  110 }
+color = { 95  45  125 }
 
 preferred_religion = reformed
 

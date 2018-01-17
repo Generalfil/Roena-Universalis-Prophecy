@@ -1,3 +1,6 @@
+add_core = ANM
+owner = ANM
+controller = ANM
 culture = tempculture
 religion = catholic
 hre = no

@@ -1,3 +1,6 @@
+add_core = GAE
+owner = GAE
+controller = GAE
 culture = tempculture
 religion = catholic
 hre = no

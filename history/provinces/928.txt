@@ -1,3 +1,6 @@
+add_core = AVE
+owner = AVE
+controller = AVE
 culture = tempculture
 religion = catholic
 hre = no

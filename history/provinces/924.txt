@@ -1,3 +1,6 @@
+add_core = ARI
+owner = ARI
+controller = ARI
 culture = tempculture
 religion = catholic
 hre = no

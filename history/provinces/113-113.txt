@@ -1,8 +1,8 @@
 #
 
-add_core = MKR
-owner = MKR
-controller = MKR
+add_core = TRG
+owner = TRG
+controller = TRG
 culture = swedish
 religion = catholic
 hre = no

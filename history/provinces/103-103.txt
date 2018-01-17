@@ -1,8 +1,8 @@
 #
 
-add_core = GAE
-owner = GAE
-controller = GAE
+add_core = APH
+owner = APH
+controller = APH
 culture = swedish
 religion = catholic
 hre = no

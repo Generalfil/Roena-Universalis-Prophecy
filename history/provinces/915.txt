@@ -1,3 +1,6 @@
+add_core = ARU
+owner = ARU
+controller = ARU
 culture = tempculture
 religion = catholic
 hre = no

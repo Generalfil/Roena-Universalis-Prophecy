@@ -1,3 +1,6 @@
+add_core = TRB
+owner = TRB
+controller = TRB
 culture = tempculture
 religion = catholic
 hre = no

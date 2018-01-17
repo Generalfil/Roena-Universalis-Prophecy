@@ -1,3 +1,6 @@
+add_core = TRG
+owner = TRG
+controller = TRG
 culture = tempculture
 religion = catholic
 hre = no

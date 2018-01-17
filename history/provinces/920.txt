@@ -1,3 +1,6 @@
+add_core = ABL
+owner = ABL
+controller = ABL
 culture = tempculture
 religion = catholic
 hre = no

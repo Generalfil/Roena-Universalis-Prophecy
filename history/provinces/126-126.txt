@@ -1,8 +1,8 @@
 #
 
-add_core = TGR
-owner = TGR
-controller = TGR
+add_core = ARU
+owner = ARU
+controller = ARU
 culture = swedish
 religion = catholic
 hre = no

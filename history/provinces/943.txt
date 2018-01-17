@@ -1,3 +1,6 @@
+add_core = AVB
+owner = AVB
+controller = AVB
 culture = tempculture
 religion = catholic
 hre = no

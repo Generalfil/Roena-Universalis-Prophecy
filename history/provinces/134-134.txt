@@ -1,8 +1,8 @@
 #
 
-add_core = EDE
-owner = EDE
-controller = EDE
+add_core = SAB
+owner = SAB
+controller = SAB
 culture = swedish
 religion = catholic
 hre = no
