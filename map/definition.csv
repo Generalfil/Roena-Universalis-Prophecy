@@ -318,10 +318,10 @@ province;red;green;blue;x;x
 317;252;190;200;;x
 318;252;200;200;;x
 319;252;210;200;;x
-320;252;220;200;This isnt used;x
-321;252;230;200;This isnt used;x
-322;252;240;200;This isnt used;x
-323;252;250;200;This isnt used;x
+320;252;220;200;;x
+321;252;230;200;;x
+322;252;240;200;;x
+323;252;250;200;;x
 324;252;0;250;This isnt used;x
 325;252;10;250;This isnt used;x
 326;252;20;250;This isnt used;x
