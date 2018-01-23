@@ -184,7 +184,7 @@ guiTypes = {
 		size = { x=1024 y=100 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
-		upsound = tab_estates
+		upsound = tab_government
 		
 		iconType =
 		{

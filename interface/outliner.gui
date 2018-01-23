@@ -596,14 +596,7 @@ guiTypes = {
 				format = left
 				fixedsize = yes
 		}
-		iconType = {
-			name ="action"
-			spriteType = "GFX_outliner_action"
-			position = { x= 26 y = -14 }
-			Orientation = "LOWER_LEFT"
-			frame = 1
-			alwaystransparent = yes
-		}
+
 	}
 	
 	windowType = 

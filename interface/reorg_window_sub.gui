@@ -45,14 +45,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
-		iconType =
-		{
-			name ="band_reorg_regiment_janissaries"
-			spriteType = "GFX_band_reorg_regiment_janissary"
-			position = { x= -20 y = -2 }
-			Orientation = "UPPER_LEFT"
-		}
-
 
 		iconType =
 		{
@@ -66,36 +58,15 @@ guiTypes = {
 		{
 			name ="unit_type"
 			spriteType = "GFX_unit_types_strip"
-			position = { x= 2 y = 5 }
+			position = { x= -2 y = 5 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-		}
-
-#		iconType = {
-#			name ="unit_drill_bar_bg"
-#			spriteType = "GFX_vertical_bar_bg_s"
-#			position = { x = -13 y = 9 }
-#			Orientation = "UPPER_LEFT"
-#		}			
-		
-		iconType = {
-			name ="subunit_drill"
-			spriteType = "GFX_unitpanel_drill_progressbar_s"
-			position = { x = -11 y = 7 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="subunit_drill_frame"
-			spriteType = "GFX_unitpanel_drilling_frame_s"
-			position = { x = -16 y = -1 }
-			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
 		}
 
 
 		instantTextBoxType = {
 			name = "subunit_name"
-			position = { x = 24 y =5 }
+			position = { x = 21 y =5 }
 
 			textureFile = ""
 			font = "vic_18"
@@ -111,7 +82,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "subunit_type"
-			position = { x = 24 y =19 }
+			position = { x = 21 y =19 }
 			format = left
 
 			textureFile = ""
@@ -199,35 +170,13 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
-		iconType =
-		{
-			name ="band_reorg_regiment_janissaries"
-			spriteType = "GFX_band_reorg_regiment_janissary"
-			position = { x= -15 y = -2 }
-			Orientation = "UPPER_LEFT"
-		}
-
 
 		iconType =
 		{
 			name ="band_reorg_regiment"
 			spriteType = "GFX_band_reorg_regiment"
-			position = { x= -17 y = -2 }
+			position = { x= -15 y = -2 }
 			Orientation = "UPPER_LEFT"
-		}
-
-		iconType = {
-			name ="subunit_drill"
-			spriteType = "GFX_unitpanel_drill_progressbar_s"
-			position = { x = 18 y = 7 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="subunit_drill_frame"
-			spriteType = "GFX_unitpanel_drilling_frame_s"
-			position = { x = 14 y = -1 }
-			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
 		}
 
 
@@ -291,7 +240,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "transferbutton"
-				position = { x = -8 y = 7 }
+				position = { x = 0 y = 7 }
 				quadTextureSprite ="GFX_reorg_left"
 				tooltip = ""
 				tooltipText =""

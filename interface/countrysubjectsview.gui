@@ -313,7 +313,7 @@ guiTypes = {
 		size = { x=1024 y=100 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
-		upsound = tab_subjects
+		upsound = tab_government
 		
 		iconType =
 		{

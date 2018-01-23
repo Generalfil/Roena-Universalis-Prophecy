@@ -105,7 +105,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
-			text = "stability"	
+			text = "Stability"	
 			maxWidth = 130
 			maxHeight = 32
 			format = left
@@ -645,10 +645,10 @@ guiTypes = {
 
 			guiButtonType = {
 				name ="sort_overext_tax"
-				quadTextureSprite = "GFX_sort_62_dev"
+				quadTextureSprite = "GFX_sort_62"
 				position = { x = 114 y = 46 }
-#				buttonFont = "vic_18"
-#				buttonText = "LEDGER_DEVELOPMENT"
+				buttonFont = "vic_18"
+				buttonText = "LEDGER_DEVELOPMENT"
 				pdx_tooltip = "SORT_BY_DEVELOPMENT"
 				pdx_tooltip_delayed = ""
 			}
@@ -685,10 +685,10 @@ guiTypes = {
 			
 			guiButtonType = {
 				name ="sort_cores"
-				quadTextureSprite = "GFX_sort_79_core"
+				quadTextureSprite = "GFX_sort_79"
 				position = { x = 404 y = 46 }
-#				buttonFont = "vic_18"
-#				buttonText = "GIVE_UP_CORES"
+				buttonFont = "vic_18"
+				buttonText = "GIVE_UP_CORES"
 				pdx_tooltip = "GIVE_UP_CORES"
 				pdx_tooltip_delayed = ""
 			}
@@ -1554,7 +1554,7 @@ guiTypes = {
 	name = "demand_entry"
 	backGround=""
 	position = { x= 0 y=0 }	
-	size = { x=245 y= 75 }
+	size = { x=245 y= 20 }
 	moveable = 0
 	dontRender = ""
 	horizontalBorder= ""
@@ -1569,8 +1569,8 @@ guiTypes = {
 		font = "vic_18"
 		borderSize = {x = 0 y = 0}	
 		text = ""	
-		maxWidth = 200
-		maxHeight = 70
+		maxWidth = 245
+		maxHeight = 20
 		format = left
 		fixedsize = yes
 		allwaystransparent = yes

@@ -4,7 +4,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_alerticons"
 		texturefile = "gfx//interface//alerticons.dds"
-		noOfFrames = 86
+		noOfFrames = 80
 		loadType = "INGAME"
 		allwaystransparent = yes
 	}

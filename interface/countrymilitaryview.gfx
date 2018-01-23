@@ -41,29 +41,6 @@ spriteTypes = {
 		transparencecheck = yes	
 	}
 	
-	
-	
-	spriteType = {
-		name = "GFX_country_military_view_bg_ap"
-		texturefile = "gfx//interface//army_professionalism//country_military_view_bg_ap.dds"
-		loadType = "INGAME"
-		transparencecheck = yes	
-	}
-	spriteType = {
-		name = "GFX_country_military_view_bg_ap_large"
-		texturefile = "gfx//interface//army_professionalism//country_military_view_bg_ap_large.dds"
-		loadType = "INGAME"
-		transparencecheck = yes	
-	}
-	spriteType = {
-		name = "GFX_country_military_view_bg_ap_huge"
-		texturefile = "gfx//interface//army_professionalism//country_military_view_bg_ap_huge.dds"
-		loadType = "INGAME"
-		transparencecheck = yes	
-	}	
-	
-	
-	
 	spriteType = {
 		name = "GFX_cavalry_ratio_icon"
 		texturefile = "gfx//interface//cavalry_ratio_icon.dds"
@@ -72,11 +49,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_activate_all_forts_button"
 		texturefile = "gfx//interface//activate_all_forts_button.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_slacken_button"
-		texturefile = "gfx//interface//slacken_button.dds"
 	}
 	
 	spriteType = {
@@ -180,11 +152,6 @@ spriteTypes = {
 		name = "GFX_convert_heir_to_general"
 		texturefile = "gfx//interface//convert_heir_to_general.dds"
 	}
-
-	spriteType = {
-		name = "GFX_professionalism_marker"
-		texturefile = "gfx//interface//tmp_professionalism_marker.tga"
-	}
 		
 		
 	##############################
@@ -207,196 +174,4 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		transparencecheck = yes
 	}
-	
-	########################
-	# Army Professionalism #
-	########################
-	
-	spriteType = {
-		name = "GFX_army_professionalism_bar_frame"
-		texturefile = "gfx//interface//army_professionalism//pa_progress_frame.dds"
-		loadType = "INGAME"
-		transparencecheck = yes	
-	}
-	
-	progressbartype = {
-		name = "GFX_army_professionalism_bar"
-		color = { 1.0 0.0 0.0 }
-		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx\\interface\\army_professionalism\\pa_progress_bar.dds"
-		textureFile2 = "gfx\\interface\\institutions\\institution_progress_transparent.dds"
-		size = { x = 483 y = 12 }
-		effectFile = "gfx/FX/progress.lua"
-	}	
-	
-	spriteType = {
-		name = "GFX_army_professionalism_icon"
-		texturefile = "gfx//interface//army_professionalism//pa_icon_large.dds"
-	}	
-	
-	
-	
-	
-	spriteType = {
-		name = "GFX_multiselection_bg_ap1"
-		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap1.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_multiselection_bg_ap2"
-		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap2.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_multiselection_bg_ap3"
-		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap3.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_multiselection_bg_ap4"
-		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap4.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_multiselection_bg_ap5"
-		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap5.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_multiselection_bg_ap6"
-		texturefile = "gfx//interface//army_professionalism//multiselection_bg_ap6.dds"
-	}	
-	
-	
-	
-
-	spriteType = {
-		name = "GFX_regiment_bg_ap1"
-		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap1.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_regiment_bg_ap2"
-		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap2.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_regiment_bg_ap3"
-		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap3.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_regiment_bg_ap4"
-		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap4.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_regiment_bg_ap5"
-		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap5.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_regiment_bg_ap6"
-		texturefile = "gfx//interface//army_professionalism//regiment_bg_ap6.dds"
-	}	
-	
-	
-	
-
-	spriteType = {
-		name = "GFX_unitpanel_bg_ap1"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap1.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_bg_ap2"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap2.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_bg_ap3"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap3.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_bg_ap4"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap4.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_bg_ap5"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap5.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_bg_ap6"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_bg_ap6.dds"
-	}	
-
-
-
-
-	spriteType = {
-		name = "GFX_unitpanel_assign_leader_bg_ap1"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap1.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_assign_leader_bg_ap2"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap2.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_assign_leader_bg_ap3"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap3.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_assign_leader_bg_ap4"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap4.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_assign_leader_bg_ap5"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap5.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_unitpanel_assign_leader_bg_ap6"
-		texturefile = "gfx//interface//army_professionalism//unitpanel_assign_leader_bg_ap6.dds"
-	}	
-
-
-
-
-	spriteType = {
-		name = "GFX_pa_rank_0"
-		texturefile = "gfx//interface//army_professionalism//pa_rank_0.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_pa_rank_1"
-		texturefile = "gfx//interface//army_professionalism//pa_rank_1.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_pa_rank_2"
-		texturefile = "gfx//interface//army_professionalism//pa_rank_2.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_pa_rank_3"
-		texturefile = "gfx//interface//army_professionalism//pa_rank_3.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_pa_rank_4"
-		texturefile = "gfx//interface//army_professionalism//pa_rank_4.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_pa_rank_5"
-		texturefile = "gfx//interface//army_professionalism//pa_rank_5.dds"
-	}	
-
 }

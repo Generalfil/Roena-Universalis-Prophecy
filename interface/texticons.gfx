@@ -319,66 +319,6 @@ spriteTypes = {
 		name = "GFX_text_estate_territory"
 		texturefile = "gfx/interface/estates_territory_icon.dds"
 	}
-
-	spriteType = {
-		name = "GFX_text_DLC_cop"
-		texturefile = "gfx/interface/cop_icon_s.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_text_DLC_won"
-		texturefile = "gfx/interface/WealthofNations_icon_s.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_text_DLC_rp"
-		texturefile = "gfx/interface/Res_Republica_icon_s.dds"
-	}
-
-	spriteType = {
-		name = "GFX_text_DLC_aow"
-		texturefile = "gfx/interface/ArtOfWar_icon_s.dds"
-	}
-
-	spriteType = {
-		name = "GFX_text_DLC_ed"
-		texturefile = "gfx/interface/eldorado_icon_s.dds"
-	}
-
-	spriteType = {
-		name = "GFX_text_DLC_cs"
-		texturefile = "gfx/interface/common_sense_icon_s.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_text_DLC_coc"
-		texturefile = "gfx/interface/cradle_of_civilization_icon_s.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_text_DLC_tr"
-		texturefile = "gfx/interface/third_rome_icon_s.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_text_DLC_moh"
-		texturefile = "gfx/interface/mandate_of_heaven_icon_s.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_text_DLC_cos"
-		texturefile = "gfx/interface/the_cossacks_icon_s.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_text_DLC_mn"
-		texturefile = "gfx/interface/mare_nostrum_icon_s.dds"
-	}		
-	
-	spriteType = {
-		name = "GFX_text_DLC_rom"
-		texturefile = "gfx/interface/RightsOfMan_icon_s.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_trade_icon"

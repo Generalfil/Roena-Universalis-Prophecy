@@ -11,16 +11,9 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_religious_conversion_center_protestant"
-		texturefile = "gfx//interface//religious_conversion_center_protestant.tga"
-		noOfFrames = 2 # Frame 1: center, Frame 2: conversion in progress
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_religious_conversion_center_trading_policy"
-		texturefile = "gfx//interface//religious_conversion_center_trading_policy.tga"
-		noOfFrames = 2 # Frame 1: center, Frame 2: conversion in progress
-		loadType = "INGAME"
+		name = "GFX_center_of_reformation"
+		texturefile = "gfx\\interface\\center_of_reformation.tga"
+		noOfFrames = 2
 	}
 
 	spriteType = {
@@ -357,7 +350,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fort_mapicon"
 		texturefile = "gfx//interface//fort_mapicon.dds"
-		noOfFrames = 9
+		noOfFrames = 8
 		
 		alwaystransparent = yes
 	}
@@ -365,14 +358,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_objective_mapicon"
 		texturefile = "gfx//interface//objective_mapicon.dds"
-
-		alwaystransparent = yes
-	}
-
-	spriteType = {
-		name = "GFX_supply_depot_mapicon"
-		texturefile = "gfx//interface//supply_depot_mapicon.dds"
-		noOfFrames = 2
 
 		alwaystransparent = yes
 	}

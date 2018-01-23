@@ -289,12 +289,6 @@ objectTypes = {
 		scale = 1.0
 	}
 	pdxmesh = {
-		name = "westerngfx_manufactory_mills"
-		file = "gfx/models/Mapitems/manufactory_mill.mesh"
-		animation = { id = "idle"	type = "manufactory_mill_idle_animation" }
-		scale = 0.75
-	}	
-	pdxmesh = {
 		name = "westerngfx_manufactory_wharf"
 		file = "gfx/models/Mapitems/manufactory_wharf.mesh"
 		scale = 0.75

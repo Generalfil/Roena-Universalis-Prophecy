@@ -568,12 +568,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 2
 	}	
-	spriteType = {
-		name = "GFX_mapmode_pashas"
-		texturefile = "gfx//interface//mapmode_pashas.dds"
-		effectFile = "gfx/FX/buttonstate.lua"
-		noOfFrames = 2
-	}	
+	
 	spriteType = {
 		name = "GFX_mapmode_patriarchs"
 		texturefile = "gfx//interface//mapmode_patriarchs.dds"

@@ -48,11 +48,6 @@ spriteTypes = {
 		name = "GFX_frontend_custom_nation"
 		texturefile = "gfx/interface/frontend_custom_nation.dds"
 	}
-
-	spriteType = {
-		name = "GFX_frontend_create_team"
-		texturefile = "gfx/interface/ideas_EU4/years_of_nationalism.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_lobby_chat_bg"
@@ -144,12 +139,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_CradleofCivilization"
-		texturefile = "gfx/interface/cradle_of_civilization_icon.dds"
-		legacy_lazy_load = no
-	}	
-	
-	spriteType = {
 		name = "GFX_ThirdRome"
 		texturefile = "gfx/interface/third_rome_icon.dds"
 		legacy_lazy_load = no
@@ -162,7 +151,7 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_TheCossacks"
+		name = "GFX_Cossacks"
 		texturefile = "gfx/interface/the_cossacks_icon.dds"
 		legacy_lazy_load = no
 	}	

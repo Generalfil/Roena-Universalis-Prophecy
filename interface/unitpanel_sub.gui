@@ -20,7 +20,7 @@ guiTypes = {
 		{
 			name ="multiselect_bg"
 			spriteType = "GFX_multiselection_bg"
-			position = { x= -61 y = 0 }
+			position = { x= 64 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -142,65 +142,69 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no	
 
-		iconType = {
-			name ="band_regiment"
-			spriteType = "GFX_band_regiment"
-			position = { x= -33 y = -3 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="band_regiment_streltsy"
-			spriteType = "GFX_band_regiment_streltsy"
-			position = { x= -33 y = -3 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="band_regiment_cossacks"
-			spriteType = "GFX_band_regiment_cossacks"
-			position = { x= -33 y = -3 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="band_regiment_mercenary"
-			spriteType = "GFX_band_regiment_mercenary"
-			position = { x= -33 y = -3 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="band_regiment_janissaries"
-			spriteType = "GFX_band_regiment_janissary"
-			position = { x= -33 y = -3 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="band_regiment_banner"
-			spriteType = "GFX_band_regiment_banner"
-			position = { x= -33 y = -3 }
-			Orientation = "UPPER_LEFT"
-		}
+
+
+		iconType =
+			{
+				name ="band_regiment"
+				spriteType = "GFX_band_regiment"
+				position = { x= -33 y = -3 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		iconType =
+			{
+				name ="band_regiment_streltsy"
+				spriteType = "GFX_band_regiment_streltsy"
+				position = { x= -33 y = -3 }
+				Orientation = "UPPER_LEFT"
+			}
+		
+		iconType =
+			{
+				name ="band_regiment_cossacks"
+				spriteType = "GFX_band_regiment_cossacks"
+				position = { x= -33 y = -3 }
+				Orientation = "UPPER_LEFT"
+			}
+		iconType =
+			{
+				name ="band_regiment_mercenary"
+				spriteType = "GFX_band_regiment_mercenary"
+				position = { x= -33 y = -3 }
+				Orientation = "UPPER_LEFT"
+			}
+		iconType =
+			{
+				name ="band_regiment_banner"
+				spriteType = "GFX_band_regiment_banner"
+				position = { x= -33 y = -3 }
+				Orientation = "UPPER_LEFT"
+			}
 
 
 
-		iconType = {
-			name ="icon_type"
-			spriteType = "GFX_unit_types_strip"
-			position = { x= -18 y = 2 }
-			Orientation = "UPPER_LEFT"
-		}
+		iconType =
+			{
+				name ="icon_type"
+				spriteType = "GFX_unit_types_strip"
+				position = { x= -28 y = 2 }
+				Orientation = "UPPER_LEFT"
+			}
 
 
 		instantTextBoxType = {
-			name = "subunit_amount"
-			position = { x = 228 y = 4 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}
-			text = ""	
-			maxWidth = 50
-			maxHeight = 10
-			format = right	
-			Orientation = "UPPER_LEFT"
-		}
+				name = "subunit_amount"
+				position = { x = 228 y = 4 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				text = ""	
+				maxWidth = 50
+				maxHeight = 10
+				format = right	
+				Orientation = "UPPER_LEFT"
+			}
 
 		editBoxType = {
 			position = { x = 30 y = 6 }
@@ -211,6 +215,7 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 		}
 		
+
 		instantTextBoxType = {
 			name = "subunit_type"
 			position = { x = 29 y =27 }
@@ -223,27 +228,11 @@ guiTypes = {
 			maxWidth = 256
 			maxHeight = 24	
 			Orientation = "UPPER_LEFT"
+
+			
 		}
 
-#		iconType = {
-#			name ="subunit_drill_bar_bg"
-#			spriteType = "GFX_vertical_bar_bg"
-#			position = { x = -29 y = 6 }
-#			Orientation = "UPPER_LEFT"
-#		}		
-		
-		iconType = {
-			name ="subunit_drill"
-			spriteType = "GFX_unitpanel_drill_progressbar"
-			position = { x = -29 y = 5 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name ="subunit_drill_frame"
-			spriteType = "GFX_unitpanel_drilling_frame"
-			position = { x = -33 y = -2 }
-			Orientation = "UPPER_LEFT"
-		}
+
 	}
 
 	###
@@ -253,14 +242,7 @@ guiTypes = {
 	windowType = {
 		name = "leader_selection_panel"
 		backGround=""
-		if_resolution = {
-        	max_height = 749
-			position = { x=20 y=230 }
-        }
-		if_resolution = {
-        	min_height = 750
-			position = { x=20 y=260 }
-        }
+		position = { x=20 y=260 }	
 		size = { x=400 y=100 }
 		moveable = 0
 		dontRender = ""
@@ -272,8 +254,8 @@ guiTypes = {
 		iconType =
 		{
 			name ="regiment_bg"
-			spriteType = "GFX_ap4_unitpanel_assign_leader_bg"
-			position = { x= -12 y = 57 }
+			spriteType = "GFX_unitPanel_assign_leader_bg"
+			position = { x= 0 y = 57 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -329,7 +311,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "back_button"
-				position = { x=286 y=452 }
+				position = { x=286 y=386}
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -343,7 +325,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "noleader_button"
-				position = { x=57 y=452 }
+				position = { x=57 y=386}
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -439,7 +421,7 @@ guiTypes = {
 			name ="leaderlist"
 			position = { x = 80 y = 113 }
 			backGround=""
-			size = { x=265  y =340 }
+			size = { x=265  y =263}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
