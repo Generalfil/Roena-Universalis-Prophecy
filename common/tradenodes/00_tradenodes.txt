@@ -1,5 +1,6 @@
+##Roena
 westlothia={
-	location=2017
+	location=2006
 	color={
 		193 26 14 
 	}
@@ -12,17 +13,35 @@ westlothia={
 			1774.000000 1032.000000 1830.000000 1062.000000 1892.000000 1110.000000 1953.000000 1040.000000 
 		}
 	}
+	members={
+		1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 191 193
+	}
+}
+wyness={
+	location=2039
+	color={
+		153 97 105 
+	}
 	outgoing={
-		name="vinmaar"
+		name="westlothia"
 		path={
-			2018 2087 2090 
+			2013 2001 
 		}
 		control={
-			1769.000000 1203.000000 1709.000000 1411.000000 1835.000000 1513.000000 
+			
+		}
+	}
+	outgoing={
+		name="salancoast"
+		path={
+			2040 2026 2003 
+		}
+		control={
+			
 		}
 	}
 	members={
-		1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 191 193
+		145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179
 	}
 }
 eastlothia={
@@ -31,21 +50,20 @@ eastlothia={
 		220 138 57 
 	}
 	outgoing={
-		name="eirbna"
-		path={
-			92 98 600 
-		}
-		control={
-			2073.000000 1043.000000 2191.000000 1011.000000 
-		}
-	}
-	outgoing={
 		name="gryphnabay"
 		path={
 			2037 2038 
 		}
 		control={
 			2049.000000 1061.000000 2033.000000 1105.000000 2063.000000 1196.000000 2030.000000 1331.000000 
+		}
+	}
+	outgoing={
+		name="southgryphnacoast"
+		path={
+			2037 2051 
+		}
+		control={ 
 		}
 	}
 	members={
@@ -57,6 +75,22 @@ salancoast={
 	color={
 		41 43 211 
 	}
+	outgoing={
+		name="southgryphnacoast"
+		path={
+			67 95
+		}
+		control={ 
+		}
+	}
+	outgoing={
+		name="eirbnabay"
+		path={
+			68 79 
+		}
+		control={ 
+		}
+	}
 	members={
 		23 24 25 26 27 28 47 51 52 53 54 55 56 57 59 60 61 62 63 64 65 66 67 68 69 70 72 73 74 75 189 190
 	}
@@ -65,6 +99,22 @@ southgryphnacoast={
 	location=118
 	color={
 		218 241 52
+	}
+	outgoing={
+		name="eirbnabay"
+		path={
+			934 941 
+		}
+		control={ 
+		}
+	}
+	outgoing={
+		name="maroonsound"
+		path={
+			124 130
+		}
+		control={ 
+		}
 	}
 	members={
 		105 110 111 112 113 114 115 116 117 118 119 120 124 128 133 134 137 138 141 143 144 194 913 914 919 920 925 929 931 932 937 938 940 942 
@@ -75,6 +125,15 @@ eirbnabay={
 	color={
 		21 214 17
 	}
+	outgoing={
+		name="eirbna"
+		path={
+			98 600 
+		}
+		control={
+			2073.000000 1043.000000 2191.000000 1011.000000 
+		}
+	}
 	members={
 		79 80 81 82 83 84 85 86 87 88 89 92 94 98 99 100 101 102 103 104 106 108 598 599 600 601 602 603 917 921 927 930 934 936 939 941 943 945
 	}
@@ -83,6 +142,22 @@ maroonsound={
 	location=126
 	color={
 		141 147 201 
+	}
+	outgoing={
+		name="gerroncoast"
+		path={
+			135 299
+		}
+		control={
+		}
+	}
+	outgoing={
+		name="eirbna"
+		path={
+			923 499
+		}
+		control={
+		}
 	}
 	members={
 		107 109 121 122 123 125 126 127 129 130 131 132 135 136 139 140 142 915 916 922 923 924 933 935 944
@@ -103,14 +178,30 @@ maroonchannel={
 	color={
 		49 50 194
 	}
+	outgoing={
+		name="maroonsound"
+		path={
+			530 944
+		}
+		control={
+		}
+	}
 	members={
 		502 503 505 506 512 520 521 522 523 524 530 540 541 542 543 544 545 546 547 548 554 555 556 557 558 559 566 569 570 575 576 584 590 773 774 776 778 780
 	}
 }
-zumvoreir={
+zumeir={
 	location=528
 	color={
 		11 123 202
+	}
+	outgoing={
+		name="eirbna"
+		path={
+			527 480
+		}
+		control={
+		}
 	}
 	members={
 		525 526 527 529 531 532 567 533 534 535 549 550 551 552 553 565 568 571 572 573 574 577 578 579 580 581 582 583 585 586 587 588 589 591 592 604 605 606 607 608 609 610 611 612 613 614 615 616
@@ -132,6 +223,15 @@ magnagryphna={
 		197 21 11 
 	}
 	inland=yes
+	outgoing={
+		name="gryphnabay"
+		path={
+			286 216
+		}
+		control={
+			2312.000000 1341.000000 2137.000000 1357.000000 
+		}
+	}
 	members={
 		281 284 286 289 290 292 293 294 295 296 308 310 313 317 319 320 743 745 748 749 750 751 759 760 761
 	}
@@ -141,16 +241,15 @@ westophelion={
 	color={
 		150 230 204 
 	}
-	inland=yes
 	outgoing={
-		name="gryphnabay"
+		name="gerroncoast"
 		path={
-			319 294 212 
+			323 298
 		}
 		control={
-			2312.000000 1341.000000 2137.000000 1357.000000 
 		}
 	}
+	inland=yes
 	members={
 		305 311 312 314 315 321 322 323 560 561 562 563 564 617 619 620 621 622 623 626 627 738 739 740 741 742 744 746 747  
 	}
@@ -161,6 +260,15 @@ eastophelion={
 		225 137 54
 	}
 	inland=yes
+	outgoing={
+		name="thegreatlakes"
+		path={
+			640 634
+		}
+		control={
+			1920.000000 1447.000000 
+		}
+	}
 	members={
 		628 629 630 631 635 636 637 639 640 641 642 643 644 645 646 677 678 726 727 728 729 732 733 734 735 736 737
 	}
@@ -170,7 +278,14 @@ gerroncoast={
 	color={
 		44 49 28
 	}
-	inland=yes
+	outgoing={
+		name="magnagryphna"
+		path={
+			291 294
+		}
+		control={
+		}
+	}
 	members={
 		272 273 275 276 277 279 280 282 283 285 288 291 298 299 300 301 302 303 304 306 307 309 316 318 
 	}
@@ -181,22 +296,85 @@ vinmaar={
 		50 216 101 
 	}
 	outgoing={
+		name="vinland"
+		path={
+			425 454 
+		}
+		control={
+			1920.000000 1447.000000 
+		}
+	}
+	outgoing={
+		name="wyness"
+		path={
+			2089 2087 2018
+		}
+		control={
+			1835.000000 1513.000000 1709.000000 1411.000000 1769.000000 1203.000000
+		}
+	}
+	members={
+		354 355 356 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 425 427 428 429 430 432 433 434 436 441 442 443 446 456 464
+	}
+}
+vinland={
+	location=366
+	color={
+		159 47 193
+	}
+	outgoing={
 		name="gryphnabay"
 		path={
-			424 377 
+			350 182 
+		}
+		control={
+			1920.000000 1447.000000 
+		}
+	}
+	outgoing={
+		name="southagenmaar"
+		path={
+			365 260 
 		}
 		control={
 			1920.000000 1447.000000 
 		}
 	}
 	members={
-		324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 351 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 373 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 432 433 434 436 437 438 441 442 443 446 454 455 456 457 458 459 460 464
+		351 357 358 359 360 361 362 363 364 365 366 367 368 369 373 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 424 426 437 438 454 455 457 458 459 460
 	}
 }
 nordvin={
 	location=464
 	color={
 		104 11 21
+	}
+	outgoing={
+		name="vinmaar"
+		path={
+			444 427 
+		}
+		control={
+			1920.000000 1447.000000 
+		}
+	}
+	outgoing={
+		name="agenmaar"
+		path={
+			2100 2102
+		}
+		control={
+			1920.000000 1447.000000 
+		}
+	}
+	outgoing={
+		name="eastarctidia"
+		path={
+			2099 2098 2130
+		}
+		control={
+			
+		}
 	}
 	members={
 		370 371 372 374 375 431 434 435 439 440 444 445 446 447 448 449 450 451 452 453 461 462 463 465 466 467 468 469 470 
@@ -206,6 +384,24 @@ agenmaar={
 	location=907
 	color={
 		127 12 214
+	}
+	outgoing={
+		name="southagenmaar"
+		path={
+			756 266
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="vorhzancia"
+		path={
+			756 755
+		}
+		control={
+			
+		}
 	}
 	members={
 		
@@ -217,6 +413,15 @@ southagenmaar={
 		142 147 201 
 	}
 	inland=yes
+	outgoing={
+		name="magnagryphna"
+		path={
+			257 295
+		}
+		control={
+			
+		}
+	}
 	members={
 		240 243 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 752 753 754 755 756 757 758
 	}
@@ -225,6 +430,24 @@ vorhzancia={
 	location=906
 	color={
 		43 141 195
+	}
+	outgoing={
+		name="hzancia"
+		path={
+			905 738
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="westophelion"
+		path={
+			746 740
+		}
+		control={
+			
+		}
 	}
 	members={
 		902
@@ -235,14 +458,32 @@ hzancia={
 	color={
 		64 219 96
 	}
+	outgoing={
+		name="eastophelion"
+		path={
+			733 678
+		}
+		control={
+			
+		}
+	}
 	members={
 		901 905
 	}
 }
-easthzancia={
+skuldar={
 	location=896
 	color={
 		211 140 62
+	}
+	outgoing={
+		name="hzancia"
+		path={
+			900 901
+		}
+		control={
+			
+		}
 	}
 	members={
 		893 900
@@ -252,6 +493,15 @@ erricantundra={
 	location=892
 	color={
 		250 251 11 
+	}
+	outgoing={
+		name="skuldar"
+		path={
+			894 895
+		}
+		control={
+			
+		}
 	}
 	members={
 		894 895
@@ -266,6 +516,15 @@ capeinvernu={
 		name="northerricabay"
 		path={
 			891 889
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="erricantundra"
+		path={
+			891 890
 		}
 		control={
 			
@@ -302,10 +561,127 @@ avanta={
 		830
 	}
 }
+capgyllen={
+	location=883
+	color={
+		57 52 189
+	}
+	outgoing={
+		name="baezos"
+		path={
+			888 897
+		}
+		control={
+			
+		}
+	}
+	members={
+		888
+	}
+}
+northerricabay={
+	location=885
+	color={
+		57 152 79
+	}
+	outgoing={
+		name="southerricabay"
+		path={
+			890 886
+		}
+		control={
+			
+		}
+	}
+	members={
+		889 890
+	}
+}
+southerricabay={
+	location=884
+	color={
+		157 52 19
+	}
+	outgoing={
+		name="theforgottenislands"
+		path={
+			836 827
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="capgyllen"
+		path={
+			886 888
+		}
+		control={
+			
+		}
+	}
+	members={
+		886
+	}
+}
+adonez={
+	location=882
+	color={
+		94 10 51
+	}
+	outgoing={
+		name="ezna"
+		path={
+			871 765
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="capgyllen"
+		path={
+			888 883
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="esoposbay"
+		path={
+			878 879
+		}
+		control={
+			
+		}
+	}
+	members={
+		881
+	}
+}
 baezos={
 	location=897
 	color={
 		198 21 15
+	}
+	outgoing={
+		name="skuldar"
+		path={
+			895 896
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="esoposbay"
+		path={
+			899 903
+		}
+		control={
+			
+		}
 	}
 	members={
 		899
@@ -318,12 +694,21 @@ mittelezna={
 	}
 	inland=yes
 	outgoing={
-		name="eirbna"
+		name="zumeir"
 		path={
-			659 514 
+			680 577 581
 		}
 		control={
-			2524.000000 981.000000 2378.000000 989.000000 
+			
+		}
+	}
+	outgoing={
+		name="thegreatlakes"
+		path={
+			684 654
+		}
+		control={
+			
 		}
 	}
 	members={
@@ -336,6 +721,24 @@ thegreatlakes={
 		158 27 25
 	}
 	inland=yes
+	outgoing={
+		name="maroonchannel"
+		path={
+			624 558
+		}
+		control={
+			1920.000000 1447.000000 
+		}
+	}
+	outgoing={
+		name="esoposbay"
+		path={
+			675 674
+		}
+		control={
+			1920.000000 1447.000000 
+		}
+	}
 	members={
 		618 624 625 662 632 633 634 638 647 649 650 651 652 653 654 665 666 667 668 669 670 671 672 674 675 676 697 700 701 702 703 766 770
 	}
@@ -344,6 +747,15 @@ ezna={
 	location=873
 	color={
 		157 52 19
+	}
+	outgoing={
+		name="esoposflow"
+		path={
+			909 875
+		}
+		control={
+			
+		}
 	}
 	members={
 		692 693 710 716 724 762 763 764 765 871
@@ -354,10 +766,256 @@ mountainsofezna={
 	color={
 		94 11 52
 	}
+	outgoing={
+		name="mittelezna"
+		path={
+			718 710
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="southosuin"
+		path={
+			764 872
+		}
+		control={
+			
+		}
+	}
 	members={
 		704 705 706 707 708 709 711 712 713 714 715 717 718 719 720 721 722 723
 	}
 }
+westleaar={
+	location=854
+	color={
+		45 146 100 
+	}
+	outgoing={
+		name="leaargoldencoast"
+		path={
+			857 858
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="southleaar"
+		path={
+			855 856
+		}
+		control={
+			
+		}
+	}
+	members={
+		855 857
+	}
+}
+southleaar={
+	location=861
+	color={
+		10 230 30 
+	}
+	outgoing={
+		name="capcadion"
+		path={
+			908 2144
+		}
+		control={
+			
+		}
+	}
+	members={
+		856 863
+	}
+}
+leaargoldencoast={
+	location=859
+	color={
+		100 10 15 
+	}
+	outgoing={
+		name="westlothia"
+		path={
+			2002 2020
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="salancoast"
+		path={
+			2015 2036
+		}
+		control={
+			
+		}
+	}
+	members={
+		858 860
+	}
+}
+eastleaar={
+	location=864
+	color={
+		220 230 54 
+	}
+	outgoing={
+		name="southleaar"
+		path={
+			865 863
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="westosuin"
+		path={
+			866 869
+		}
+		control={
+			
+		}
+	}	
+	members={
+		862 865
+	}
+}
+tenger={
+	location=868
+	color={
+		110 20 194 
+	}
+	outgoing={
+		name="eastleaar"
+		path={
+			862 864
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="mountainsofezna"
+		path={
+			723 721
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="zumeir"
+		path={
+			611 573
+		}
+		control={
+			
+		}
+	}
+	members={
+		866
+	}
+}
+westosuin={
+	location=869
+	color={
+		56 52 188
+	}
+	outgoing={
+		name="southosuin"
+		path={
+			870 867
+		}
+		control={
+			
+		}
+	}
+	members={
+		870
+	}
+}
+southosuin={
+	location=192
+	color={
+		157 51 189
+	}
+	outgoing={
+		name="eastosuin"
+		path={
+			876 874
+		}
+		control={
+			
+		}
+	}
+	outgoing={
+		name="adonez"
+		path={
+			880 881
+		}
+		control={
+			
+		}
+	}
+	members={
+		867 880
+	}
+}
+eastosuin={
+	location=874
+	color={
+		57 52 89
+	}
+	outgoing={
+		name="ezna"
+		path={
+			871 765
+		}
+		control={
+			
+		}
+	}
+	members={
+		872 876
+	}
+}
+esoposflow={
+	location=875
+	color={
+		41 10 147 
+	}
+	outgoing={
+		name="esoposbay"
+		path={
+			877 878
+		}
+		control={
+			
+		}
+	}
+	members={
+		877 909
+	}
+}
+esoposbay={
+	location=879
+	color={
+		79 19 146
+	}
+	members={
+		730 731 767 768 769 878 903
+	}
+	end=yes
+}
+
+##Primidia
 greatsteppes={
 	location=801
 	color={
@@ -390,15 +1048,6 @@ opalcoast={
 	location=804
 	color={
 		24 209 95 
-	}
-	outgoing={
-		name="westarctidia"
-		path={
-			2123 2125
-		}
-		control={
-			
-		}
 	}
 	outgoing={
 		name="greatsteppes"
@@ -456,6 +1105,15 @@ eastarctidia={
 			
 		}
 	}
+	outgoing={
+		name="arctidia"
+		path={
+			2131 788
+		}
+		control={
+			
+		}
+	}
 	members={
 		783 784
 	}
@@ -466,14 +1124,15 @@ arctidia={
 		149 95 110 
 	}
 	outgoing={
-		name="eastarctidia"
+		name="westarctidia"
 		path={
-			788 2131
+			2128 794
 		}
 		control={
 			
 		}
 	}
+	
 	members={
 		788 792 805
 	}
@@ -484,9 +1143,9 @@ westarctidia={
 		193 30 24 
 	}
 	outgoing={
-		name="arctidia"
+		name="opalcoast"
 		path={
-			794 2128
+			2125 2123
 		}
 		control={
 			
@@ -529,9 +1188,9 @@ eastcolonial={
 		45 46 210 
 	}
 	outgoing={
-		name="westlothia"
+		name="wyness"
 		path={
-			795 2033
+			795 2044
 		}
 		control={
 			
@@ -650,223 +1309,8 @@ bayofwiccae={
 		812
 	}
 }
-westleaar={
-	location=854
-	color={
-		45 146 100 
-	}
-	outgoing={
-		name="leaargoldencoast"
-		path={
-			857 858
-		}
-		control={
-			
-		}
-	}
-	outgoing={
-		name="southleaar"
-		path={
-			855 856
-		}
-		control={
-			
-		}
-	}
-	members={
-		855 857
-	}
-}
-southleaar={
-	location=861
-	color={
-		10 230 30 
-	}
-	outgoing={
-		name="capcadion"
-		path={
-			908 2144
-		}
-		control={
-			
-		}
-	}
-	members={
-		856 863
-	}
-}
-leaargoldencoast={
-	location=859
-	color={
-		100 10 15 
-	}
-	outgoing={
-		name="eirbna"
-		path={
-			2059 2060 597
-		}
-		control={
-			
-		}
-	}
-	outgoing={
-		name="westlothia"
-		path={
-			2002 2020
-		}
-		control={
-			
-		}
-	}
-	members={
-		858 860
-	}
-}
-eastleaar={
-	location=864
-	color={
-		220 230 54 
-	}
-	outgoing={
-		name="southleaar"
-		path={
-			865 863
-		}
-		control={
-			
-		}
-	}	
-	members={
-		862 865
-	}
-}
-tenger={
-	location=868
-	color={
-		110 20 194 
-	}
-	outgoing={
-		name="eastleaar"
-		path={
-			612 862
-		}
-		control={
-			
-		}
-	}
-	outgoing={
-		name="mittelezna"
-		path={
-			718 710
-		}
-		control={
-			
-		}
-	}
-	members={
-		866
-	}
-}
-westosuin={
-	location=869
-	color={
-		56 52 188
-	}
-	members={
-		870
-	}
-}
-southosuin={
-	location=192
-	color={
-		157 51 189
-	}
-	members={
-		867 880
-	}
-}
-eastosuin={
-	location=874
-	color={
-		57 52 89
-	}
-	members={
-		872 876
-	}
-}
-esoposflow={
-	location=875
-	color={
-		41 10 147 
-	}
-	members={
-		877 909
-	}
-}
-esoposbay={
-	location=879
-	color={
-		79 19 146
-	}
-	members={
-		730 731 767 768 769 878 903
-	}
-}
-bayofgold={
-	location=883
-	color={
-		57 52 189
-	}
-	members={
-		888
-	}
-}
-northerricabay={
-	location=885
-	color={
-		57 152 79
-	}
-	outgoing={
-		name="southerricabay"
-		path={
-			890 886
-		}
-		control={
-			
-		}
-	}
-	members={
-		889 890
-	}
-}
-southerricabay={
-	location=884
-	color={
-		157 52 19
-	}
-	outgoing={
-		name="theforgottenislands"
-		path={
-			836 827
-		}
-		control={
-			
-		}
-	}
-	members={
-		886
-	}
-}
-adonez={
-	location=882
-	color={
-		94 10 51
-	}
-	members={
-		881
-	}
-}
 
+##Sarcassa
 opalislands={
 	location=831
 	color={
