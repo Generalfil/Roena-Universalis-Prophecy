@@ -8011,7 +8011,7 @@ lost_cultures_group = {
 	}
 }
 
-lothian = { #Nordic
+lothian = { #Lothian
 	graphical_culture = westerngfx
 
 	#country = { land_forcelimit_modifier = 0.25}
@@ -8280,7 +8280,7 @@ lothian = { #Nordic
 		}
 	}
 }
-tempculture = { #Nordic
+tempculture = { #This culuture is assinged to all provinces that aint colonized for now
 	graphical_culture = westerngfx
 
 	#country = { land_forcelimit_modifier = 0.25}

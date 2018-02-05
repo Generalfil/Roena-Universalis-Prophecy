@@ -1067,6 +1067,7 @@ province;red;green;blue;x;x
 1066;247;230;250;;x
 1067;247;240;250;;x
 1068;247;250;250;;x
+1927;62;210;248;North Great Lake;x
 1927;62;210;249;Mittel Lakes;x
 1927;62;210;250;Gryphna Lakes;x
 1928;62;210;251;Vinmaar Lakes;x
@@ -1226,8 +1227,8 @@ province;red;green;blue;x;x
 2150;6;140;255;;x
 2151;6;150;255;;x
 2152;6;160;255;;x
-2153;6;170;255;youre here;x
-2154;6;180;255;;x
+2153;6;170;255;Valhall: youre here;x
+2154;6;180;255;Roots non duplicate start;x
 2155;6;190;255;;x
 2156;6;200;255;;x
 2157;7;0;255;;x

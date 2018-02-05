@@ -10,7 +10,19 @@ country_decisions = {
 			adm_tech = 10
 			is_at_war = no
 			NOT = { exists = NLO }
-			owns_core_province = 1	# Isswyn
+			OR = {
+				AND = {
+					owns_core_province = 1	# Isswyn
+					owns_core_province = 49	# Vor Ros
+					owns_core_province = 44	# Solemyra
+				}
+				AND = {
+					owns_core_province = 49	# Vor Ros
+					owns_core_province = 61	# TseGor
+					owns_core_province = 25	# Vor Nasra
+				}
+			}
+			
 		}
 		effect = {
 			change_tag = NLO
@@ -59,7 +71,18 @@ country_decisions = {
 			adm_tech = 10
 			is_at_war = no
 			NOT = { exists = LOH }
-			owns_core_province = 1	# Isswyn
+			OR = {
+				AND = {
+					owns_core_province = 1	# Isswyn
+					owns_core_province = 49	# Vor Ros
+					owns_core_province = 44	# Solemyra
+				}
+				AND = {
+					owns_core_province = 49	# Vor Ros
+					owns_core_province = 61	# TseGor
+					owns_core_province = 25	# Vor Nasra
+				}
+			}
 		}
 		effect = {
 			change_tag = LOH
