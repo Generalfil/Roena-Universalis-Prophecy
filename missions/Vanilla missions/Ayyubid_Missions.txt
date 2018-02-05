@@ -1,0 +1,134 @@
+conquer_al_jazira_hsn = {
+	
+	type = country
+
+	category = MIL
+	
+	target_areas_list = {
+		al_jazira_area
+	}
+	
+	target_provinces = {
+		owner = {
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+			NOT = { alliance_with = ROOT }
+		}
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = HSN
+		dynasty = "Ayyubid"
+		any_province = {
+			area = al_jazira_area
+			owner = {
+				NOT = { is_subject_of = ROOT }
+				NOT = { overlord_of = ROOT }
+				NOT = { alliance_with = ROOT }
+			}
+		}
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_modifier = rise_of_the_ayyubids }
+		NOT = { has_country_flag = had_conquer_al_jazira }
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 5000
+		modifier = {
+			factor = 10
+			MIL = 4
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		set_country_flag = had_conquer_al_jazira
+		add_country_modifier = {
+			name = rise_of_the_ayyubids
+			duration = 3650
+		}
+	}
+}
+
+conquer_aleppo_hsn = {
+	
+	type = country
+
+	category = MIL
+	
+	target_areas_list = {
+		aleppo_area
+	}
+	
+	target_provinces = {
+		owner = {
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+			NOT = { alliance_with = ROOT }
+		}
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = HSN
+		dynasty = "Ayyubid"
+		owns = 407
+		any_province = {
+			area = aleppo_area
+			owner = {
+				NOT = { is_subject_of = ROOT }
+				NOT = { overlord_of = ROOT }
+				NOT = { alliance_with = ROOT }
+			}
+		}
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_flag = had_conquer_aleppo }
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 5000
+		modifier = {
+			factor = 10
+			has_country_modifier = rise_of_the_ayyubids
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		set_country_flag = had_conquer_aleppo
+		add_prestige = 15
+		add_adm_power = 50
+		add_mil_power = 50
+	}
+}
