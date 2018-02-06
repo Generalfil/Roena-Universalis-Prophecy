@@ -1,1 +1,0 @@
-replace_path = "history/provinces/1930 - Lothian Lakes.txt"

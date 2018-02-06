@@ -1,1 +1,0 @@
-replace_path = "history/provinces/2384.txt"
