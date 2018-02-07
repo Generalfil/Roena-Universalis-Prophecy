@@ -57,6 +57,6 @@ SAB = "countries/Saban.txt"
 
 #North Gryphna Majors
 GRY = "countries/Gryphna.txt"
-#ALM = "countries/Arlem.txt"
+ALM = "countries/Arlem.txt"
 GRN = "countries/Gerron.txt"
 
