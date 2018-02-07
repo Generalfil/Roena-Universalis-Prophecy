@@ -1,9 +1,5 @@
 #
-
-add_core = 
-owner = 
-controller = 
-culture = swedish
+culture = tempculture
 religion = catholic
 hre = no
 base_tax = 1 
