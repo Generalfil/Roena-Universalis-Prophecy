@@ -96,6 +96,7 @@ entity = {
 
 entity = { clone = "MCH_INFANTRY_1"		name = "QNG_INFANTRY_1" }
 entity = { clone = "JAP_INFANTRY_1"		name = "AMA_INFANTRY_1" }
+entity = { clone = "JAP_INFANTRY_1"		name = "KTB_INFANTRY_1" }
 entity = { clone = "JAP_INFANTRY_1"		name = "ASA_INFANTRY_1" }
 entity = { clone = "JAP_INFANTRY_1"		name = "CSK_INFANTRY_1" }
 entity = { clone = "JAP_INFANTRY_1"		name = "DTE_INFANTRY_1" }
@@ -229,6 +230,7 @@ entity = {
 
 entity = { clone = "MCH_INFANTRY_2"		name = "QNG_INFANTRY_2" }
 entity = { clone = "JAP_INFANTRY_2"		name = "AMA_INFANTRY_2" }
+entity = { clone = "JAP_INFANTRY_2"		name = "KTB_INFANTRY_2" }
 entity = { clone = "JAP_INFANTRY_2"		name = "ASA_INFANTRY_2" }
 entity = { clone = "JAP_INFANTRY_2"		name = "CSK_INFANTRY_2" }
 entity = { clone = "JAP_INFANTRY_2"		name = "DTE_INFANTRY_2" }
@@ -364,6 +366,7 @@ entity = {
 
 entity = { clone = "MCH_INFANTRY_3"		name = "QNG_INFANTRY_3" }
 entity = { clone = "JAP_INFANTRY_3"		name = "AMA_INFANTRY_3" }
+entity = { clone = "JAP_INFANTRY_3"		name = "KTB_INFANTRY_3" }
 entity = { clone = "JAP_INFANTRY_3"		name = "ASA_INFANTRY_3" }
 entity = { clone = "JAP_INFANTRY_3"		name = "CSK_INFANTRY_3" }
 entity = { clone = "JAP_INFANTRY_3"		name = "DTE_INFANTRY_3" }
@@ -497,6 +500,7 @@ entity = {
 
 entity = { clone = "MCH_INFANTRY_4"		name = "QNG_INFANTRY_4" }
 entity = { clone = "JAP_INFANTRY_4"		name = "AMA_INFANTRY_4" }
+entity = { clone = "JAP_INFANTRY_4"		name = "KTB_INFANTRY_4" }
 entity = { clone = "JAP_INFANTRY_4"		name = "ASA_INFANTRY_4" }
 entity = { clone = "JAP_INFANTRY_4"		name = "CSK_INFANTRY_4" }
 entity = { clone = "JAP_INFANTRY_4"		name = "DTE_INFANTRY_4" }
@@ -700,6 +704,15 @@ entity = {
 entity = { 
 	clone = "asiangfx_CAVALRY_1"
 	name = "AMA_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "JAP_CAVALRY_1_rider" 
+	}
+}
+
+entity = { 
+	clone = "asiangfx_CAVALRY_1"
+	name = "KTB_CAVALRY_1" 
 	attach = { 
 		name = "rider"
 		Saddle_Node = "JAP_CAVALRY_1_rider" 
@@ -1099,6 +1112,15 @@ entity = {
 
 entity = { 
 	clone = "asiangfx_CAVALRY_1"
+	name = "KTB_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "JAP_CAVALRY_2_rider" 
+	}
+}
+
+entity = { 
+	clone = "asiangfx_CAVALRY_1"
 	name = "ASA_CAVALRY_2" 
 	attach = { 
 		name = "rider"
@@ -1490,6 +1512,15 @@ entity = {
 
 entity = { 
 	clone = "asiangfx_CAVALRY_3"
+	name = "KTB_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "JAP_CAVALRY_3_rider" 
+	}
+}
+
+entity = { 
+	clone = "asiangfx_CAVALRY_3"
 	name = "ASA_CAVALRY_3" 
 	attach = { 
 		name = "rider"
@@ -1864,6 +1895,15 @@ entity = {
 entity = { 
 	clone = "asiangfx_CAVALRY_3"
 	name = "AMA_CAVALRY_4" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "JAP_CAVALRY_3_rider" 
+	}
+}
+
+entity = { 
+	clone = "asiangfx_CAVALRY_3"
+	name = "KTB_CAVALRY_4" 
 	attach = { 
 		name = "rider"
 		Saddle_Node = "JAP_CAVALRY_3_rider" 
@@ -2314,6 +2354,16 @@ entity = {
 
 entity = {
 	clone = "asiangfx_ARTILLERY_1"
+	name = "KTB_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KTB_INFANTRY_1" 
+		cannon_node = "asiangfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_1"
 	name = "ASA_ARTILLERY_1" 
 	attach = {
 		name = "gunman"
@@ -2731,6 +2781,16 @@ entity = {
 
 entity = {
 	clone = "asiangfx_ARTILLERY_2_generic"
+	name = "KTB_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KTB_INFANTRY_2" 
+		cannon_node = "asiangfx_ARTILLERY_2_cannon" 
+	}
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_2_generic"
 	name = "ASA_ARTILLERY_2" 
 	attach = {
 		name = "gunman"
@@ -3122,6 +3182,16 @@ entity = {
 	attach = {
 		name = "gunman"
 		infantry_node = "AMA_INFANTRY_3" 
+		cannon_node = "asiangfx_ARTILLERY_3_cannon" 
+	}
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_3_generic"
+	name = "KTB_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KTB_INFANTRY_3" 
 		cannon_node = "asiangfx_ARTILLERY_3_cannon" 
 	}
 }
@@ -3540,6 +3610,16 @@ entity = {
 	attach = {
 		name = "gunman"
 		infantry_node = "AMA_INFANTRY_4" 
+		cannon_node = "asiangfx_ARTILLERY_4_cannon" 
+	}
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_4_generic"
+	name = "KTB_ARTILLERY_4" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KTB_INFANTRY_4" 
 		cannon_node = "asiangfx_ARTILLERY_4_cannon" 
 	}
 }
