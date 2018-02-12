@@ -17,7 +17,7 @@ generic_lothian_tribal_ideas = {
 		infantry_power = 0.1
 	}
 	trigger = {
-		or {
+		or = {
 			tag = AAM
 			tag = AGR
 			tag = CER

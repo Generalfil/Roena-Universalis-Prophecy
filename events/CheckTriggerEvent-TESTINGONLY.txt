@@ -1,5 +1,5 @@
 namespace = testevent
-country_event{
+country_event={
 	
 	id = testevent.0
 	

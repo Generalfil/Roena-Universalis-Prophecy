@@ -1,7 +1,7 @@
 namespace = tribalism_event
 
 
-country_event{
+country_event={
 	
 	id = tribalism_event.99
 	
@@ -29,7 +29,7 @@ country_event{
 }
 
 #ToUrbanizedOr1
-country_event{
+country_event={
 	
 	id = tribalism_event.0
 	
@@ -62,7 +62,7 @@ country_event{
 }
 
 #ToTribal_1Or3
-country_event{
+country_event={
 	
 	id = tribalism_event.1
 	
@@ -94,7 +94,7 @@ country_event{
 	}
 }
 #ToTribal_2Or4
-country_event{
+country_event={
 	
 	id = tribalism_event.2
 	
@@ -129,7 +129,7 @@ country_event{
 }
 
 #ToTribal_3Or5
-country_event{
+country_event={
 	
 	id = tribalism_event.3
 	
@@ -162,7 +162,7 @@ country_event{
 }
 
 #ToTribal_4Or6
-country_event{
+country_event={
 	
 	id = tribalism_event.4
 	
@@ -195,7 +195,7 @@ country_event{
 }
 
 #ToTribal_5OrTribe
-country_event{
+country_event={
 	
 	id = tribalism_event.5
 	

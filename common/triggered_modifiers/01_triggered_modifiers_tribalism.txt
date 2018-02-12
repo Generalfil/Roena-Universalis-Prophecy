@@ -4,7 +4,7 @@
 tribalism_urbanized = {
 	potential = {
 		culture_group = lothian
-		OR {
+		OR = {
 			has_country_flag = tribal_1
 			has_country_flag = tribal_urban
 		}
@@ -24,7 +24,7 @@ tribalism_urbanized = {
 tribalism_1 = {
 	potential = {
 		culture_group = lothian
-		OR {
+		OR = {
 			has_country_flag = tribal_2
 			has_country_flag = tribal_1
 		}
@@ -44,7 +44,7 @@ tribalism_1 = {
 tribalism_2 = {
 	potential = {
 		culture_group = lothian
-		OR {
+		OR = {
 			has_country_flag = tribal_1
 			has_country_flag = tribal_2
 			has_country_flag = tribal_3
@@ -64,8 +64,8 @@ tribalism_2 = {
 #Level 3
 tribalism_3 = {
 	potential = {
-		OR {
-			AND {
+		OR = {
+			AND = {
 				culture_group = lothian
 				OR {
 					has_country_flag = tribal_2
@@ -92,7 +92,7 @@ tribalism_3 = {
 tribalism_4 = {
 	potential = {
 		culture_group = lothian
-		OR {
+		OR = {
 			has_country_flag = tribal_3
 			has_country_flag = tribal_4
 			has_country_flag = tribal_5
@@ -112,7 +112,7 @@ tribalism_4 = {
 tribalism_5 = {
 	potential = {
 		culture_group = lothian
-		OR {
+		OR = {
 			has_country_flag = tribal_4
 			has_country_flag = tribal_5
 			has_country_flag = tribal_6
@@ -133,7 +133,7 @@ tribalism_5 = {
 tribalism_6 = {
 	potential = {
 		culture_group = lothian
-		OR {
+		OR = {
 			has_country_flag = tribal_5
 			has_country_flag = tribal_6
 		}
@@ -155,7 +155,7 @@ tribalism_6 = {
 tribalism_tribenation = {
 	potential = {
 		culture_group = lothian
-		OR {
+		OR = {
 			has_country_flag = tribal_6
 			has_country_flag = tribal_tribe
 		}
