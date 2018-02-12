@@ -1,5 +1,5 @@
 # Arhna Start
-namespace = flavor_arh.1
+namespace = flavor_arh
 
 country_event = {
 	id = flavor_arh.1

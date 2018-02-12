@@ -8,50 +8,50 @@ country_decisions = {
 		allow = {	
 		}
 		effect = {
-			country_event = national_event.0
+			country_event = {id=mod_national_event.1}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}	
-}
 
-#Too continue national decision
-national_focus_desicison_continue = {
-	major = yes
-	potential = {
-		is_year = 1464
-		has_country_flag = focus_year_1		
-	}
-	allow = {
-		OR = {
-			had_country_flag = {
-				flag = national_focus_manpower
-				days = 1825
-			}
-			had_country_flag = {
-				flag = national_focus_discipline
-				days = 1825
+
+	#Too continue national decision
+	continue_national_focus_desicison = {
+		major = yes
+		potential = {
+			is_year = 1464
+			has_country_flag = focus_year_1		
+		}
+		allow = {
+			OR = {
+				had_country_flag = {
+					flag = national_focus_manpower
+					days = 1825
+				}
+				had_country_flag = {
+					flag = national_focus_discipline
+					days = 1825
+				}	
+				had_country_flag = {
+					flag = national_focus_money
+					days = 1825
+				}	
+				had_country_flag = {
+					flag = national_focus_forcelimit
+					days = 1825
+				}
+				had_country_flag = {
+					flag = national_focus_country
+					days = 1825
+				}
 			}	
-			had_country_flag = {
-				flag = national_focus_money
-				days = 1825
-			}	
-			had_country_flag = {
-				flag = national_focus_forcelimit
-				days = 1825
-			}
-			had_country_flag = {
-				flag = national_focus_country
-				days = 1825
-			}
-		}	
-	}
-	effect = {
-		country_event = national_event.0
-	}
-	ai_will_do = {
-		factor = 1
+		}
+		effect = {
+			country_event = {id= mod_national_event.1}
+		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
 }
-

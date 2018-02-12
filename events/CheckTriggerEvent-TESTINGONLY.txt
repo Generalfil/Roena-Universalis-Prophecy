@@ -3,8 +3,8 @@ country_event={
 	
 	id = testevent.0
 	
-	title = "test"
-	desc = "test"	
+	title = "test_event_title"
+	desc = "test_event_desc"	
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes

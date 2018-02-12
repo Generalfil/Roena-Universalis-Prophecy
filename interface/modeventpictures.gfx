@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "ARHNA_eventPicture"
+		texturefile = "gfx/event_pictures_EUROPEAN/ARHNA_eventPicture.dds"
+		allwaystransparent = yes
+	}	
+}

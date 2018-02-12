@@ -1,11 +1,11 @@
 #
 # National focus, fired every 5 year
 #
-##namespace = national_event
+namespace = mod_national_event
 
 country_event = {
 	
-	id = national_event.0
+	id = mod_national_event.1
 	
 	title = "national_focus_title"
 	desc = "national_focus_desc"	
