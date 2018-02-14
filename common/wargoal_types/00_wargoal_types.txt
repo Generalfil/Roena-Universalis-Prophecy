@@ -1479,12 +1479,12 @@ superiority_chinese_unification = {
 		peace_cost_factor = 0.5
 		
 		allowed_provinces = {
-			OR = {
+			#OR = {
 				#region = south_china_region
 				#region = xinan_region
 				#region = north_china_region
 				culture_group = FROM
-			}
+			#}
 		}
 		
 		peace_options = {
