@@ -987,7 +987,6 @@ take_province_ban = {
 		po_release_vassals
 		po_release_annexed
 		po_return_cores
-		po_return_cores
 		po_demand_provinces
 	}
 	
@@ -1085,13 +1084,7 @@ superiority_overseas = {
 	peace_cost_factor = 0.5	
 	
 	allowed_provinces = {
-		owner = {
-			capital_scope = {
-				OR = {
-					continent = asia
-					continent = africa
-				}
-			}
+		owner = {			
 			OR = {
 				technology_group = indian
 				technology_group = sub_saharan
@@ -1469,7 +1462,7 @@ superiority_chinese_unification = {
 		peace_cost_factor = 0.5
 		
 		allowed_provinces = {
-			superregion = china_superregion
+			#superregion = china_superregion
 		}
 		
 		peace_options = {
@@ -1487,9 +1480,9 @@ superiority_chinese_unification = {
 		
 		allowed_provinces = {
 			OR = {
-				region = south_china_region
-				region = xinan_region
-				region = north_china_region
+				#region = south_china_region
+				#region = xinan_region
+				#region = north_china_region
 				culture_group = FROM
 			}
 		}
