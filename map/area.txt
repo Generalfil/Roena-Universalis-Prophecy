@@ -7,7 +7,7 @@ norwegian_sea_area = { #Norwegian Sea
 	1929 1931
 }
 
-################################### Lothia
+################################### Lothia (LO)
 
 lower_issia_area = {
 	1 5 6 11
@@ -89,42 +89,66 @@ solemyr_area = {
 	38 39 42 43 44 45
 }
 
-############################################# SG
+############################################# South Gryphna (SG)
 
 western_onnmark_area = {
-	79 85 82 80 83 87
+	82 80 83 87 943
 }
 
 eastern_onnmark_area = {
-	88 81 84 86
+	88 81 84 86 921
 }
 
 ahnsenmark_area = {
-	89 92 94 95 97
+	89 92 95 85 79
 }
 
 avenmyr_area = {
-	90 93 91
+	90 93 918 926 928 91
 }
 
-taragas_area = {
-	110 96 115
+north_taragas_area = {
+	914 937 113
 }
 
-south_enhwer_area = {
-	98 99 102 101 103 104
+south_taragas_area = {
+	110 115 931 919
 }
 
-north_enhwer_area = {
-	106 105 107 108 109
+phalan_area = {
+	94 103 934 96 97
+}
+
+upper_enhwer_area = {
+	99 102 941
+}
+
+lower_enhwer_area = {
+	98 936 927 945
+}
+
+east_rothia_area = {
+	121 917 129
+}
+
+west_rothia_area = {
+	106 108 109 933 104 101
 }
 
 vulgein_plateau_area = {
-	124 127 128 129 138 144
+	124 127 128 138 144 130
+}
+
+buran_area = {
+	920 105 107
 }
 
 manar_riverland_area = {
-	111 113 118 116 119
+	118 116 119 940 929
+}
+
+manar_peninsula_area = {
+	942 111 913 938
 }
 
 salmark_area = {
@@ -132,18 +156,34 @@ salmark_area = {
 }
 
 annmark_area = {
-	133 137 140 141 143 136
+	133 137 140 141 935 925 932
 }
 
 greater_agrior_area = {
-	139 142 135 130 123
+	139 142 924 136 143
+}
+
+arulus_area = {
+	915 944 126
+}
+
+trebus_area = {
+	123 922 916 135
 }
 
 thagarn_area = {
-	121 125 131 122 132 126
+	125 131 122 132 923
 }
 
-##################################### NG
+kassac_area = {
+	939 603 930
+}
+
+erpis_area = {
+	600 599 598 602 601
+}
+
+##################################### North Gryphna (NG)
 
 ng1_area = {
 	194 201 198 196 203 208
@@ -222,9 +262,43 @@ ng19_area = {
 }
 
 ng20_area = {
-	
+	180 186 185 187 188
 }
 
 ng21_area = {
-	
+	181 183 182 184
+}
+
+##################################### Wyness (WY)
+
+wy1_area = {
+	173 175 177 179 176 172
+}
+
+wy2_area = {
+	174 171 165 178
+}
+
+wy3_area = {
+	168 170 167 164 160 169
+}
+
+wy4_area = {
+	166 163 159 161 162 158
+}
+
+wy5_area = {
+	157 151 147
+}
+
+wy6_area = {
+	153 155 149
+}
+
+wy7_area = {
+	152 154 156 150
+}
+
+wy8_area = {
+	148 146 145
 }
