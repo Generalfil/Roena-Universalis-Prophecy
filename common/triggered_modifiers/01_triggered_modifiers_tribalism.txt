@@ -67,7 +67,7 @@ tribalism_3 = {
 		OR = {
 			AND = {
 				culture_group = lothian
-				OR {
+				OR = {
 					has_country_flag = tribal_2
 					has_country_flag = tribal_3
 					has_country_flag = tribal_4

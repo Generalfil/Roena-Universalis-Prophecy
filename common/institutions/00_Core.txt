@@ -555,7 +555,7 @@ new_world_i = {
 		OR = {
 			AND = {
 				is_year = 1500
-				continent = europe
+				#continent = europe
 				OR = {
 					owner = { has_idea = quest_for_the_new_world }
 					owner = { colony = 1 }
@@ -569,7 +569,7 @@ new_world_i = {
 					NOT = { technology_group = south_american }
 					NOT = { technology_group = andean }
 				}
-				superregion = south_america_superregion
+				#superregion = south_america_superregion
 			}
 			AND = {
 				is_year = 1550
@@ -579,7 +579,7 @@ new_world_i = {
 					NOT = { technology_group = south_american }
 					NOT = { technology_group = andean }
 				}
-				superregion = north_america_superregion
+				#superregion = north_america_superregion
 			}
 			AND = {
 				is_year = 1550
@@ -589,38 +589,38 @@ new_world_i = {
 					NOT = { technology_group = south_american }
 					NOT = { technology_group = andean }
 				}
-				superregion = central_america_superregion
+				#superregion = central_america_superregion
 			}
 			AND = {
 				is_year = 1600
-				superregion = near_east_superregion
+				#superregion = near_east_superregion
 			}
 			AND = {
 				is_year = 1600
-				continent = europe
+				#continent = europe
 			}
 			AND = {
 				is_year = 1625
-				superregion = persia_superregion
+				#superregion = persia_superregion
 			}
 			AND = {
 				is_year = 1650
-				superregion = india_superregion
+				#superregion = india_superregion
 			}
 			
 			
 			AND = {
 				is_year = 1650
-				superregion = china_superregion
+				#superregion = china_superregion
 			}
 			
 			AND = {
 				is_year = 1650
-				superregion = east_indies_superregion
+				#superregion = east_indies_superregion
 			}
 			AND = {
 				is_year = 1700
-				superregion = africa_superregion
+				#superregion = africa_superregion
 			}
 			is_year = 1800
 		}
@@ -629,9 +629,9 @@ new_world_i = {
 	can_start = {
 		is_year = 1500
 		OR = {
-			continent = europe
-			continent = asia
-			continent = africa
+			#continent = europe
+			#continent = asia
+			#continent = africa
 		}
 		has_port = yes
 		is_island = no
@@ -644,11 +644,11 @@ new_world_i = {
 		is_in_capital_area = yes
 		owner = { 
 			has_idea = quest_for_the_new_world 
-			OR = {
-				north_america = { has_discovered = PREV }
-				south_america = { has_discovered = PREV }
-				new_world = { has_discovered = PREV }
-			}
+			#OR = {
+			#	north_america = { has_discovered = PREV }
+			#	south_america = { has_discovered = PREV }
+			#	new_world = { has_discovered = PREV }
+			#}
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
