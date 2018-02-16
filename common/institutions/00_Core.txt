@@ -26,10 +26,8 @@ feudalism = {
 		OR = {
 			AND = { #If this is changed costs for Nation Designer may also need to be changed.
 				OR = {
-					continent = new_world
-					continent = north_america
-					continent = south_america
-					continent = oceania
+					continent = roena
+					continent = primidia
 				}
 				owner = {
 					is_playing_custom_nation = yes
@@ -69,15 +67,8 @@ feudalism = {
 					culture_group = western_aryan
 					province_id = 383
 					province_id = 412
-					province_id = 2327
-					province_id = 2329
-					province_id = 2331
-					province_id = 2999
+					
 				}
-			}
-			AND = {
-				region = horn_of_africa_region
-				owner = { NOT = { government = tribal_federation } }
 			}
 			AND = {
 				culture = al_misr_arabic
@@ -816,14 +807,11 @@ printing_press = {
 
 
 	historical_start_date = 1550.1.1
-	historical_start_province = 1876 #Frankfurt
+	#historical_start_province = 1876 #Frankfurt
 
 	history = {
 		OR = {
-			AND = {
-				province_id = 1876
-				is_year = 1550
-			}
+		
 			AND = {
 				is_year = 1560
 				OR = {
@@ -835,63 +823,14 @@ printing_press = {
 			}
 			AND = {
 				is_year = 1575
-				continent = europe
+				continent = roena
 				development = 12
 			}
 			AND = {
 				is_year = 1600
-				continent = europe
+				continent = roena
 			}
-			AND = {
-				is_year = 1600
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1625
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1650
-				superregion = persia_superregion
-			}
-			AND = {
-				is_year = 1725
-				superregion = china_superregion
-			}
-			AND = {
-				is_year = 1725
-				superregion = india_superregion
-			}
-			AND = {
-				is_year = 1725
-				superregion = east_indies_superregion
-			}
+			
 		}
 	}
 	
@@ -916,7 +855,7 @@ printing_press = {
 	start_chance = 5		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.4
+	#on_start = institution_events.4
 	
 	
 	can_embrace = {

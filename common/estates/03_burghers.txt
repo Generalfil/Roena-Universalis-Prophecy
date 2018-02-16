@@ -137,15 +137,7 @@ estate_burghers =
 				capital = 274 #Pskov
 				capital = 275 #Polotsk
 				capital = 310 #Novgorod
-				capital = 1744 # Antwerp
-				capital = 1834 # Dorpat
-				capital = 1858 # Stettin
-				capital = 1859 # Torun
-				capital = 1860 # Bishop's Lynn
-				capital = 1874 # Bremen
-				capital = 1936 # Kaunas
-				capital = 2994 # Greifswald
-				capital = 2995 # Stolp
+				
 			}
 		}	
 		influence = 5

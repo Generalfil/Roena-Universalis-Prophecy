@@ -1503,7 +1503,7 @@ shogunate = {
 		culture_group = japanese_g
 		technology_group = chinese
 		capital_scope = { region = japan_region }
-		owns = 1020
+		##owns = 1020
 	}
 	
 	max_states = 2

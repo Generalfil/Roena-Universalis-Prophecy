@@ -13,8 +13,7 @@ arctic = {
 
 #Example: Most of Europe north of med.
 mild_winter = {
-23
-	2741 2745 4227 4228 #Korea
+
 }
 
 #Example: Inland Europe & Scandinavia
@@ -28,5 +27,5 @@ severe_winter = {
 }
 
 impassable = {
-	4155
+	999
 }
