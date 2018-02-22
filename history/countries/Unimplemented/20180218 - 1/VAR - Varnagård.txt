@@ -1,0 +1,17 @@
+government = feudal_monarchy
+primary_culture = scottish
+add_accepted_culture = highland_scottish
+religion = catholic
+technology_group = western
+capital = 248 # Edinburgh
+
+
+1464.1.1 = {
+	monarch = {
+		name = "Robert III"
+		dynasty = Wyness
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}

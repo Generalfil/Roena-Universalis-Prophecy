@@ -1,8 +1,8 @@
 #
 
-add_core = GRY
-owner = GRY
-controller = GRY
+add_core = GAD
+owner = GAD
+controller = GAD
 culture = swedish
 religion = catholic
 hre = no

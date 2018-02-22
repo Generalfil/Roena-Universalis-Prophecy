@@ -1,8 +1,8 @@
 #
 
-add_core = ISS
-owner = ISS
-controller = ISS
+add_core = LIF
+owner = LIF
+controller = LIF
 culture = swedish
 religion = catholic
 hre = no

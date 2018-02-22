@@ -1,8 +1,8 @@
 #
 
-add_core = ISS
-owner = ISS
-controller = ISS
+add_core = HIN
+owner = HIN
+controller = HIN
 culture = swedish
 religion = catholic
 hre = no
