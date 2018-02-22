@@ -1,8 +1,8 @@
 #
 
-add_core = ISS
-owner = ISS
-controller = ISS
+add_core = APL
+owner = APL
+controller = APL
 culture = swedish
 religion = catholic
 hre = no

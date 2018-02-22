@@ -1,8 +1,8 @@
 #
 
-add_core = ISS
-owner = ISS
-controller = ISS
+add_core = FYE
+owner = FYE
+controller = FYE
 culture = swedish
 religion = catholic
 hre = no

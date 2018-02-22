@@ -1,8 +1,8 @@
 #
 
-add_core = GRN
-owner = GRN
-controller = GRN
+add_core = LIN
+owner = LIN
+controller = LIN
 culture = swedish
 religion = catholic
 hre = no

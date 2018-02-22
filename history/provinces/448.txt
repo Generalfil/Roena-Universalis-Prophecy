@@ -1,9 +1,5 @@
 #
-
-add_core = ISS
-owner = ISS
-controller = ISS
-culture = swedish
+culture = tempculture
 religion = catholic
 hre = no
 base_tax = 1 

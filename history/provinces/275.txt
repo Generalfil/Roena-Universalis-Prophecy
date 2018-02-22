@@ -1,8 +1,8 @@
 #
 
-add_core = ALM
-owner = ALM
-controller = ALM
+add_core = ACR
+owner = ACR
+controller = ACR
 culture = swedish
 religion = catholic
 hre = no

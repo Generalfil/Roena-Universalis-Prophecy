@@ -1,8 +1,6 @@
 #
 
-add_core = ISS
-owner = ISS
-controller = ISS
+
 culture = swedish
 religion = catholic
 hre = no
