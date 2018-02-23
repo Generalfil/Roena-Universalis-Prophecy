@@ -57,15 +57,15 @@ pretender_rebels = {
 			factor = 0
 			is_overseas = yes
 		}
-		modifier = {
-			factor = 0.05
-			owner = {
-				OR = {
-					has_country_modifier = the_mandate_of_heaven_lost
-					has_country_modifier = lost_mandate_of_heaven
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0.05
+		#	owner = {
+		#		#OR = {
+		#		#has_country_modifier = the_mandate_of_heaven_lost
+		#			#has_country_modifier = lost_mandate_of_heaven
+		#		#}
+		#	}
+		#}
 		modifier = {
 			factor = 2
 			owner = {
@@ -73,38 +73,38 @@ pretender_rebels = {
 				aristocracy_ideas = 1
 			}
 		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = civil_war
-				#has_disaster = counts_feud
-			}
-		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = english_civil_war
-			}
-		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = counts_feud
-				has_country_flag = monarch_flag
-			}
-		}
-		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = castilian_civil_war
-			}
-		}
-		modifier = {
-			factor = 5
-			owner = {
-				has_disaster = time_of_troubles
-			}
-		}
+		#modifier = {
+		#	factor = 20
+		#	owner = {
+		#		has_disaster = civil_war
+		#		#has_disaster = counts_feud
+		#	}
+		#}
+		#modifier = {
+		#	factor = 20
+		#	owner = {
+		#		has_disaster = english_civil_war
+		#	}
+		#}
+		#modifier = {
+		#	factor = 20
+		#	owner = {
+		#		has_disaster = counts_feud
+		#		has_country_flag = monarch_flag
+		#	}
+		#}
+		#modifier = {
+		#	factor = 20
+		#	owner = {
+		#		has_disaster = castilian_civil_war
+		#	}
+		#}
+		#modifier = {
+		#	factor = 5
+		#	owner = {
+		#		has_disaster = time_of_troubles
+		#	}
+		#}
 		modifier = {
 			factor = 5.0
 			owner = {
@@ -112,10 +112,10 @@ pretender_rebels = {
 				NOT = { republican_tradition = 40 }
 			}
 		}	
-		modifier = {
-			factor = 50.0
-			owner = { has_disaster = war_of_the_roses }
-		}
+		#modifier = {
+		#	factor = 50.0
+		#	owner = { has_disaster = war_of_the_roses }
+		#}
 		modifier = {
 			factor = 2
 			owner = { religion = inti }
@@ -278,11 +278,11 @@ pretender_rebels = {
 			limit = { religion = inti }
 			remove_religious_reforms = 2
 		}
-		if = {
-			limit = { has_disaster = civil_war }
-			add_prestige = -200
-			add_legitimacy = 25
-		}
+		#if = {
+		#	limit = { has_disaster = civil_war }
+		#	add_prestige = -200
+		#	add_legitimacy = 25
+		#}
 		if = {
 			limit = {
 				NOT = {
@@ -292,7 +292,7 @@ pretender_rebels = {
 						government = celestial_empire
 						government = iqta
 						government = indep_daimyo
-						government = principality
+						#government = principality
 						government = daimyo
 						government = shogunate
 						government = colonial_government
@@ -302,8 +302,8 @@ pretender_rebels = {
 						government = english_monarchy
 						government = ottoman_government
 						government = tribal_federation
-						government = feudal_theocracy
-						government = mamluk_government
+						#government = feudal_theocracy
+						#government = mamluk_government
 					}
 				}
 			}
@@ -318,37 +318,37 @@ pretender_rebels = {
 			limit = { has_heir = yes }
 			kill_heir = yes
 		}
-		if = {
-			limit = { has_disaster = counts_feud }
-			end_disaster = counts_feud
-			clr_country_flag = pretender_flag
-			clr_country_flag = monarch_flag
-		}
-		if = {
-			limit = { has_disaster = civil_war }
-			end_disaster = civil_war
-			clr_country_flag = civilwar_on_capital
-		}
-		if = {
-			limit = { has_disaster = internal_conflicts }
-			country_event = { id = internal_conflicts.8 }
-			end_disaster = internal_conflicts
-		}
-		if = {
-			limit = { has_disaster = castilian_civil_war }
-			set_country_flag = cas_civil_war_rebels_won
-			country_event = { id = castilian_civil_war.100 }
-			end_disaster = castilian_civil_war
-		}
-		if = {
-			limit = { has_disaster = time_of_troubles }
-			country_event = { id = time_of_troubles.10 }
-			end_disaster = time_of_troubles
-		}
-		if = {
-			limit = { has_disaster = english_civil_war }
-			country_event = { id = english_civil_war.100 }
-			end_disaster = english_civil_war
-		}
+		#if = {
+		#	limit = { has_disaster = counts_feud }
+		#	end_disaster = counts_feud
+		#	clr_country_flag = pretender_flag
+		#	clr_country_flag = monarch_flag
+		#}
+		#if = {
+		#	limit = { has_disaster = civil_war }
+		#	end_disaster = civil_war
+		#	clr_country_flag = civilwar_on_capital
+		#}
+		#if = {
+		#	limit = { has_disaster = internal_conflicts }
+		#	country_event = { id = internal_conflicts.8 }
+		#	end_disaster = internal_conflicts
+		#}
+		#if = {
+		#	limit = { has_disaster = castilian_civil_war }
+		#	set_country_flag = cas_civil_war_rebels_won
+		#	country_event = { id = castilian_civil_war.100 }
+		#	end_disaster = castilian_civil_war
+		#}
+		#if = {
+		#	limit = { has_disaster = time_of_troubles }
+		#	country_event = { id = time_of_troubles.10 }
+		#	end_disaster = time_of_troubles
+		#}
+		#if = {
+		#	limit = { has_disaster = english_civil_war }
+		#	country_event = { id = english_civil_war.100 }
+		#	end_disaster = english_civil_war
+		#}
 	}
 }

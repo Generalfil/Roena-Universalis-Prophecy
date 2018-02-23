@@ -7,7 +7,7 @@ tribal_rebels = {
 	color = { 210 195 35 }
 	
 	area = nation 					# Stays within the nation
-	government = steppe_horde		# Don't care about gov type				
+	government = tribal_federation		# Don't care about gov type				
 	defection = none				# Will not defect
 	independence = none				# Does not strive for independence
 	gfx_type = culture_province
@@ -32,15 +32,7 @@ tribal_rebels = {
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 14
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { has_dlc = "The Cossacks" }
-				owner = { 
-					NOT = { government = steppe_horde }
-				}
-			}
-		}
+		
 		modifier = {
 			factor = 0.2
 			is_core = owner

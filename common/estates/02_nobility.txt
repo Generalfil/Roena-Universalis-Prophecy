@@ -28,7 +28,7 @@ estate_nobles =
 	# If true, country will get estate
 	trigger = {	
 		NOT = { government = merchant_republic }
-		NOT = { government = veche_republic }
+		#NOT = { government = veche_republic }
 		NOT = { government = native_council }
 		NOT = { government = trading_city }
 		NOT = { government = siberian_native_council }
@@ -118,13 +118,13 @@ estate_nobles =
 		}		
 		influence = -10
 	}
-	influence_modifier = {
-		desc = EST_VAL_MAMLUK_AMIRS
-		trigger = {
-			government = mamluk_government
-		}		
-		influence = 10
-	}
+	#influence_modifier = {
+	#	desc = EST_VAL_MAMLUK_AMIRS
+	#	trigger = {
+	#		government = mamluk_government
+	#	}		
+	#	influence = 10
+	#}
 	
 	# Influence modifiers from Events:
 	influence_modifier = {
@@ -225,37 +225,37 @@ estate_nobles =
 			technology_group = ottoman
 		}
 	}
-	custom_name = {
-		desc = estate_boyars
-		trigger = {
-			OR = {
-				culture_group = east_slavic
-				primary_culture = bulgarian
-				primary_culture = romanian
-			}
-		}
-	}
-	custom_name = {
-		desc = estate_szlachta
-		trigger = {
-			OR = {
-				primary_culture = polish
-				primary_culture = lithuanian
-			}
-		}
-	}
-	custom_name = {
-		desc = estate_nayaks
-		trigger = {
-			tag = VIJ
-		}
-	}
-	custom_name = {
-		desc = estate_samantas
-		trigger = {
-			tag = ORI
-		}
-	}
+	#custom_name = {
+	#	desc = estate_boyars
+	#	trigger = {
+	#		OR = {
+	#			culture_group = east_slavic
+	#			primary_culture = bulgarian
+	#			primary_culture = romanian
+	#		}
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_szlachta
+	#	trigger = {
+	#		OR = {
+	#			primary_culture = polish
+	#			primary_culture = lithuanian
+	#		}
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_nayaks
+	#	trigger = {
+	#		tag = VIJ
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_samantas
+	#	trigger = {
+	#		tag = ORI
+	#	}
+	#}
 	custom_name = {
 		desc = estate_kshatriyas
 		trigger = {
@@ -268,43 +268,43 @@ estate_nobles =
 			government = celestial_empire
 		}
 	}
-	custom_name = {
-		desc = estate_mansabdars
-		trigger = {
-			tag = MUG
-		}
-	}
-	custom_name = {
-		desc = estate_tetecuhtin
-		trigger = {
-			religion = nahuatl
-		}
-	}
-	custom_name = {
-		desc = estate_andriana
-		trigger = {
-			tag = MIR
-		}
-	}
-	custom_name = {
-		desc = estate_amirs
-		trigger = {
-			religion_group = muslim
-			NOT = { technology_group = ottoman } #Should possibly be more restricted
-		}
-	}
-	custom_name = {
-		desc = estate_planters
-		trigger = {
-			tag = USA
-		}
-	}
-	custom_name = {
-		desc = estate_bushi
-		trigger = {
-			culture_group = japanese_g
-		}
-	}
+	#custom_name = {
+	#	desc = estate_mansabdars
+	#	trigger = {
+	#		tag = MUG
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_tetecuhtin
+	#	trigger = {
+	#		religion = nahuatl
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_andriana
+	#	trigger = {
+	#		tag = MIR
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_amirs
+	#	trigger = {
+	#		religion_group = muslim
+	#		NOT = { technology_group = ottoman } #Should possibly be more restricted
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_planters
+	#	trigger = {
+	#		tag = USA
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_bushi
+	#	trigger = {
+	#		culture_group = japanese_g
+	#	}
+	#}
 
 	# Does the AI want to give any extra territory beyond the minimum?
 	ai_territory_modifier = {

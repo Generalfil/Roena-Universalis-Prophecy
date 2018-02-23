@@ -35,62 +35,62 @@ nationalist_rebels = {
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 10
-		modifier = {
-			factor = 0.01
-			NOT = { nationalism = 1 }
-			owner = {
-				OR = {
-					accepted_culture = ROOT
-					culture_group = ROOT
-					primary_culture = ROOT
-				}
-				OR = {
-					NOT = { government = celestial_empire }
-					has_country_modifier = the_mandate_of_heaven
-					AND = {
-						government = celestial_empire
-						has_dlc = "Mandate of Heaven"
-						imperial_mandate = 80
-					}
-				}
-			}
-			tolerance_to_this = 0			
-	 	}
-		modifier = {
-			factor = 0.01
-			region = france_region
-			has_owner_religion = no
-			owner = { has_disaster = french_wars_of_religion }			
-	 	}
-		modifier = {
-			factor = 0.01
-			owner = {
-				culture_group = ROOT
-				government = celestial_empire
-				OR = {
-					has_country_modifier = the_mandate_of_heaven
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						imperial_mandate = 80
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 100
-			owner = {
-				NOT = { primary_culture = ROOT }
-				government = celestial_empire
-				OR = {
-					has_country_modifier = the_mandate_of_heaven_lost
-					has_country_modifier = lost_mandate_of_heaven
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						NOT = { imperial_mandate = 50 } 
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0.01
+		#	NOT = { nationalism = 1 }
+		#	owner = {
+		#		OR = {
+		#			accepted_culture = ROOT
+		#			culture_group = ROOT
+		#			primary_culture = ROOT
+		#		}
+		#		OR = {
+		#			NOT = { government = celestial_empire }
+		#			has_country_modifier = the_mandate_of_heaven
+		#			AND = {
+		#				government = celestial_empire
+		#				has_dlc = "Mandate of Heaven"
+		#				imperial_mandate = 80
+		#			}
+		#		}
+		#	}
+		#	tolerance_to_this = 0			
+	 	#}
+		##modifier = {
+		##	factor = 0.01
+		##	region = france_region
+		##	has_owner_religion = no
+		##	owner = { has_disaster = french_wars_of_religion }			
+	 	##}
+		#modifier = {
+		#	factor = 0.01
+		#	owner = {
+		#		culture_group = ROOT
+		#		government = celestial_empire
+		#		OR = {
+		#			has_country_modifier = the_mandate_of_heaven
+		#			AND = {
+		#				has_dlc = "Mandate of Heaven"
+		#				imperial_mandate = 80
+		#			}
+		#		}
+		#	}
+		#}
+		#modifier = {
+		#	factor = 100
+		#	owner = {
+		#		NOT = { primary_culture = ROOT }
+		#		government = celestial_empire
+		#		OR = {
+		#			has_country_modifier = the_mandate_of_heaven_lost
+		#			has_country_modifier = lost_mandate_of_heaven
+		#			AND = {
+		#				has_dlc = "Mandate of Heaven"
+		#				NOT = { imperial_mandate = 50 } 
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 10
 			nationalism = 1
@@ -140,26 +140,26 @@ nationalist_rebels = {
 				NOT = { culture_group = ROOT }
 			}
 		}
-		modifier = {
-			factor = 0.4
-			owner = {
-				accepted_culture = ROOT
-				NOT = { has_country_modifier = the_mandate_of_heaven_lost }
-				OR = {
-					NOT = { has_dlc = "Mandate of Heaven" }
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						NOT = { has_country_modifier = lost_mandate_of_heaven }
-						NOT = { government = celestial_empire }
-					}
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						government = celestial_empire
-						imperial_mandate = 80
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0.4
+		#	owner = {
+		#		accepted_culture = ROOT
+		#		NOT = { has_country_modifier = the_mandate_of_heaven_lost }
+		#		OR = {
+		#			NOT = { has_dlc = "Mandate of Heaven" }
+		#			AND = {
+		#				has_dlc = "Mandate of Heaven"
+		#				NOT = { has_country_modifier = lost_mandate_of_heaven }
+		#				NOT = { government = celestial_empire }
+		#			}
+		#			AND = {
+		#				has_dlc = "Mandate of Heaven"
+		#				government = celestial_empire
+		#				imperial_mandate = 80
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 2
 			NOT = { tolerance_to_this = 1 }
@@ -264,7 +264,6 @@ nationalist_rebels = {
 					has_rebel_faction = REB
 					culture = REB
 					NOT = { is_core = REB }
-					culture = REB
 				}
 				add_core = REB
 			}

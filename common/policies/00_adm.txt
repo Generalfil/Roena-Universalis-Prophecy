@@ -880,7 +880,7 @@ record_keeping_act = {
 
 
 risk_assessment_policy = {
-	monarch_power = adm
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = offensive_ideas
@@ -907,7 +907,7 @@ risk_assessment_policy = {
 
 land_inheritance_act = {
 
-	monarch_power = adm
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = administrative_ideas

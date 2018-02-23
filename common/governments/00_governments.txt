@@ -984,13 +984,13 @@ native_council = {
 			technology_group = north_american
 			technology_group = south_american
 		}
-		capital_scope = { 
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = new_world
-			}
-		}
+		#capital_scope = { 
+		#	OR = {
+		#		continent = north_america
+		#		continent = south_america
+		#		continent = new_world
+		#	}
+		#}
 	}
 	
 	ai_will_do = {
@@ -1306,15 +1306,15 @@ celestial_empire = {
 	valid_for_new_country = no
 	allow_convert = no
 	nation_designer_trigger = {
-		culture_group = east_asian
+		#culture_group = east_asian
 		technology_group = chinese
-		capital_scope = {
-			OR = {
-				region = north_china_region
-				region = xinan_region
-				region = south_china_region
-			}
-		}
+		#capital_scope = {
+		#	OR = {
+		#		region = north_china_region
+		#		region = xinan_region
+		#		region = south_china_region
+		#	}
+		#}
 	}
 	
 	faction = temples
@@ -1467,9 +1467,9 @@ daimyo = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		culture_group = japanese_g
+		#culture_group = japanese_g
 		technology_group = chinese
-		capital_scope = { region = japan_region }
+		#capital_scope = { region = japan_region }
 	}	
 	
 	rank = {
@@ -1500,9 +1500,9 @@ shogunate = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
 	nation_designer_trigger = {
-		culture_group = japanese_g
+		#culture_group = japanese_g
 		technology_group = chinese
-		capital_scope = { region = japan_region }
+		#capital_scope = { region = japan_region }
 		##owns = 1020
 	}
 	
@@ -1533,9 +1533,9 @@ indep_daimyo = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		culture_group = japanese_g
+		#culture_group = japanese_g
 		technology_group = chinese
-		capital_scope = { region = japan_region }
+		#capital_scope = { region = japan_region }
 	}	
 	
 	rank = {
@@ -1655,9 +1655,9 @@ lothian_republic = {
 	can_use_trade_post = yes
 	can_form_trade_league = yes
 	
-	faction = mr_nobles
-	faction = mr_traders
-	faction = mr_guilds		
+	faction = lr_nobles
+	faction = lr_traders
+	faction = lr_guilds		
 
 	ai_will_do = {
 		factor = 0	

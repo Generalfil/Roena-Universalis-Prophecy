@@ -1598,10 +1598,10 @@ full_sovereignty_act = {
 		factor = 0.9
 		modifier = {
 			factor = 0
-			AND = {
-				NOT = { average_effective_unrest = 1 }
-				NOT = { vassal = 1 }
-			}
+			#AND = {
+			NOT = { average_effective_unrest = 1 }
+			NOT = { vassal = 1 }
+			#}
 		}
 		modifier = {
 			factor = 1.5

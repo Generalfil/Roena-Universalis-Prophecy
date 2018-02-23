@@ -1865,10 +1865,10 @@ on_revoke_estate_land = {
 				}
 			}
 		}
-		spawn_rebels = {
-			type = cossack_rebels
-			size = 1
-		}
+		#spawn_rebels = {
+		#	type = cossack_rebels
+		#	size = 1
+		#}
 		#province_event = { id = cossack_estate_events.15 }
 	}
 	if = {

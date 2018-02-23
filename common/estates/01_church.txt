@@ -23,7 +23,7 @@ estate_church =
 	wanted_territory_modifier = {
 		desc = EST_VAL_PAPAL_LANDS
 		trigger = {
-			tag = PAP
+			tag = ISS
 		}	
 		value = -10
 	}
@@ -31,7 +31,7 @@ estate_church =
 		desc = EST_VAL_CATHOLIC
 		trigger = {
 			religion = catholic
-			NOT = { tag = PAP }
+			NOT = { tag = ISS }
 		}	
 		value = 5
 	}
@@ -48,7 +48,7 @@ estate_church =
 		desc = EST_VAL_THEOCRACY
 		trigger = {
 			government = theocracy
-			NOT = { tag = PAP }
+			NOT = { tag = ISS }
 		}	
 		value = 5
 	}
@@ -56,7 +56,7 @@ estate_church =
 	# If true, country will get estate
 	trigger = {
 		NOT = { government = merchant_republic }
-		NOT = { government = veche_republic }
+		#NOT = { government = veche_republic }
 		NOT = { government = trading_city }
 		NOT = { government = siberian_native_council }
 		NOT = { government = native_council }
@@ -65,10 +65,10 @@ estate_church =
 			NOT = { government = celestial_empire }
 			has_dlc = "Mandate of Heaven"
 		}
-		OR = {
-			NOT = { tag = USA }
-			government = theocracy
-		}
+		#OR = {
+		#	NOT = { tag = USA }
+		#	government = theocracy
+		#}
 		is_nomad = no
 		is_colonial_nation = no
 	}
@@ -124,21 +124,21 @@ estate_church =
 		desc = EST_VAL_THEOCRACY
 		trigger = {
 			government = theocracy
-			NOT = { tag = PAP }
+			NOT = { tag = ISS }
 		}	
 		influence = 10
 	}
 	influence_modifier = {
 		desc = EST_VAL_PAPACY
 		trigger = {
-			tag = PAP
+			tag = ISS
 		}
 		influence = 30
 	}
 	influence_modifier = {
 		desc = EST_VAL_SHARIFS
 		trigger = {
-			tag = HED
+			#tag = HED
 			owns = 385 #Mecca
 		}	
 		influence = 20
@@ -260,13 +260,13 @@ estate_church =
 		}
 		loyalty = 5
 	}
-	loyalty_modifier = {
-		desc = EST_VAL_FEUDAL_THEOCRACY
-		trigger = {
-			government = feudal_theocracy
-		}
-		loyalty = 5
-	}
+	#loyalty_modifier = {
+	#	desc = EST_VAL_FEUDAL_THEOCRACY
+	#	trigger = {
+	#		government = feudal_theocracy
+	#	}
+	#	loyalty = 5
+	#}
 	loyalty_modifier = {
 		desc = EST_VAL_SHEIKH_UL_ISLAM
 		trigger = {
@@ -311,10 +311,10 @@ estate_church =
 	custom_name = {
 		desc = estate_gentry
 		trigger = {
-			OR = {
-				government = celestial_empire
-				culture_group = east_asian
-			}
+			#OR = {
+			government = celestial_empire
+				#culture_group = east_asian
+			#}
 		}
 	}
 	custom_name = {
@@ -780,7 +780,7 @@ estate_church =
 		
 		potential = {
 			religion = catholic
-			NOT = { tag = PAP }
+			NOT = { tag = ISS }
 			NOT = { has_disaster = estate_nobility_disaster }
 			NOT = { has_disaster = estate_burghers_disaster }
 		}

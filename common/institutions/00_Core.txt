@@ -45,40 +45,40 @@ feudalism = {
 			AND = {
 				owner = { is_playing_custom_nation = no }
 				OR = {
-					culture = persian
-					culture = azerbaijani
-					culture = kurdish
-					culture = armenian
-					culture = mazandarani
-					culture = turkish
-					culture = omani_culture
-					culture = yemeni_culture
-					culture = swahili
-					culture = manchu
-					culture_group = byzantine
-					culture_group = dravidian
-					culture_group = east_asian
-					culture_group = east_slavic
-					culture_group = eastern_aryan
-					culture_group = japanese_g
-					culture_group = korean_g
-					culture_group = scandinavian
-					culture_group = west_slavic
-					culture_group = western_aryan
+					#culture = persian
+					#culture = azerbaijani
+					#culture = kurdish
+					#culture = armenian
+					#culture = mazandarani
+					#culture = turkish
+					#culture = omani_culture
+					#culture = yemeni_culture
+					#culture = swahili
+					#culture = manchu
+					#culture_group = byzantine
+					#culture_group = dravidian
+					#culture_group = east_asian
+					#culture_group = east_slavic
+					#culture_group = eastern_aryan
+					#culture_group = japanese_g
+					#culture_group = korean_g
+					#culture_group = scandinavian
+					#culture_group = west_slavic
+					#culture_group = western_aryan
 					province_id = 383
 					province_id = 412
 					
 				}
 			}
-			AND = {
-				culture = al_misr_arabic
-				NOT = { area = libyan_desert_area }
-				NOT = { area = cyrenaica_area }
-			}
-			AND = {
-				culture_group = hindusthani
-				NOT = { owner = { government = tribal_kingdom } } #Ladakh
-			}
+			#AND = {
+			#	culture = al_misr_arabic
+			#	NOT = { area = libyan_desert_area }
+			#	NOT = { area = cyrenaica_area }
+			#}
+			#AND = {
+			#	culture_group = hindusthani
+			#	NOT = { owner = { government = tribal_kingdom } } #Ladakh
+			#}
 			owner = { technology_group = high_american }
 			owner = {
 				NOT = {
@@ -88,8 +88,8 @@ feudalism = {
 					government = tribal_despotism
 					government = tribal_federation
 					government = tribal_democracy
-					primary_culture = bedouin_arabic
-					primary_culture = uyghur
+					#primary_culture = bedouin_arabic
+					#primary_culture = uyghur
 					technology_group = andean
 					technology_group = mesoamerican
 					technology_group = north_american
@@ -194,30 +194,30 @@ feudalism = {
 				}
 			}
 		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			potential = {
-				owner = { is_colonial_nation = no }
-			}
-			custom_trigger_tooltip = {
-				tooltip = CAPITAL_IN_OLD_WORLD_FEUDAL
-			
-				is_capital = yes
-				NOT = { continent = north_america }
-				NOT = { continent = south_america }
-				NOT = { continent = new_world }
-				owner = {
-					NOT = { government = tribal_democracy }
-					NOT = { government = tribal_kingdom }
-					NOT = { government = tribal_despotism }
-					NOT = { government = tribal_federation }
-					NOT = { government = siberian_native_council }
-					NOT = { government = native_council }
-					NOT = { government = steppe_horde }
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0.1
+		#	scale = yes
+		#	potential = {
+		#		owner = { is_colonial_nation = no }
+		#	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = CAPITAL_IN_OLD_WORLD_FEUDAL
+		#	
+		#		is_capital = yes
+		#		NOT = { continent = north_america }
+		#		NOT = { continent = south_america }
+		#		NOT = { continent = new_world }
+		#		owner = {
+		#			NOT = { government = tribal_democracy }
+		#			NOT = { government = tribal_kingdom }
+		#			NOT = { government = tribal_despotism }
+		#			NOT = { government = tribal_federation }
+		#			NOT = { government = siberian_native_council }
+		#			NOT = { government = native_council }
+		#			NOT = { government = steppe_horde }
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 2
 			scale = yes
@@ -285,57 +285,57 @@ renaissance = {
 		OR = {
 			AND = {
 				is_year = 1450
-				region = italy_region
+				region = western_lothia_region
 			}
 			
 			AND = {
 				is_year = 1450
-				continent = europe
+				continent = roena
 			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1500
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				continent = asia
-				owner = {
-					NOT = { government = tribal }
-				}
-			}
+			#AND = {
+			#	is_year = 1500
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = south_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1500
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = north_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1500
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = central_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1600
+			#	continent = asia
+			#	owner = {
+			#		NOT = { government = tribal }
+			#	}
+			#}
 			is_year = 1780
 		}
 	}
 	
 	can_start = {
 		is_year = 1450
-		region = italy_region
+		region =  western_lothia_region
 		is_state = yes
 		NOT = { province_id = 126 }
 		is_island = no
@@ -390,76 +390,76 @@ renaissance = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1
-			potential = {
-				region = italy_region
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_italian_capital
-				is_capital = yes
-				region = italy_region
-				culture_group = latin
-			}
-			
-			
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_10
-				continent = europe
-				development = 10
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_20
-				development = 20
-				continent = europe
-			}
-		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_5_post_1500
-				continent = europe
-				is_year = 1500
-				development = 5
-			}
-		}
-		modifier = {
-			factor = 0.5
-			scale = yes
-			potential = {
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_flanders_tuscany_venetia
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 1
+		#	potential = {
+		#		region = italy_region
+		#	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = tooltip_italian_capital
+		#		is_capital = yes
+		#		region = italy_region
+		#		culture_group = latin
+		#	}
+		#	
+		#	
+		#}
+		#modifier = {
+		#	factor = 0.05
+		#	scale = yes
+		#	potential = {
+		#		continent = roena
+		#	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = tooltip_development_10
+		#		continent = roena
+		#		development = 10
+		#	}
+		#}
+		#modifier = {
+		#	factor = 0.05
+		#	scale = yes
+		#	potential = {
+		#		continent = roena
+		#	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = tooltip_development_20
+		#		development = 20
+		#		continent = roena
+		#	}
+		#}
+		#modifier = {
+		#	factor = 0.1
+		#	scale = yes
+		#	potential = {
+		#		continent = roena
+		#	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = tooltip_development_5_post_1500
+		#		continent = roena
+		#		is_year = 1500
+		#		development = 5
+		#	}
+		#}
+		#modifier = {
+		#	factor = 0.5
+		#	scale = yes
+		#	potential = {
+		#		OR = {
+		#			area = flanders_area
+		#			area = tuscany_area
+		#			area = venetia_area
+		#		}
+		#	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = tooltip_flanders_tuscany_venetia
+		#		OR = {
+		#			area = flanders_area
+		#			area = tuscany_area
+		#			area = venetia_area
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 5
 			scale = yes
@@ -546,73 +546,73 @@ new_world_i = {
 		OR = {
 			AND = {
 				is_year = 1500
-				#continent = europe
+				continent = roena
 				OR = {
 					owner = { has_idea = quest_for_the_new_world }
 					owner = { colony = 1 }
 				}
 			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				#superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				#superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1550
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				#superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1600
-				#superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1600
-				#continent = europe
-			}
-			AND = {
-				is_year = 1625
-				#superregion = persia_superregion
-			}
-			AND = {
-				is_year = 1650
-				#superregion = india_superregion
-			}
-			
-			
-			AND = {
-				is_year = 1650
-				#superregion = china_superregion
-			}
-			
-			AND = {
-				is_year = 1650
-				#superregion = east_indies_superregion
-			}
-			AND = {
-				is_year = 1700
-				#superregion = africa_superregion
-			}
+			#AND = {
+			#	is_year = 1550
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	#superregion = south_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1550
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	#superregion = north_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1550
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	#superregion = central_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1600
+			#	#superregion = near_east_superregion
+			#}
+			#AND = {
+			#	is_year = 1600
+			#	#continent = roena
+			#}
+			#AND = {
+			#	is_year = 1625
+			#	#superregion = persia_superregion
+			#}
+			#AND = {
+			#	is_year = 1650
+			#	#superregion = india_superregion
+			#}
+			#
+			#
+			#AND = {
+			#	is_year = 1650
+			#	#superregion = china_superregion
+			#}
+			#
+			#AND = {
+			#	is_year = 1650
+			#	#superregion = east_indies_superregion
+			#}
+			#AND = {
+			#	is_year = 1700
+			#	#superregion = africa_superregion
+			#}
 			is_year = 1800
 		}
 	}
@@ -620,9 +620,9 @@ new_world_i = {
 	can_start = {
 		is_year = 1500
 		OR = {
-			#continent = europe
-			#continent = asia
-			#continent = africa
+			continent = roena
+			continent = primidia
+			
 		}
 		has_port = yes
 		is_island = no
@@ -635,11 +635,11 @@ new_world_i = {
 		is_in_capital_area = yes
 		owner = { 
 			has_idea = quest_for_the_new_world 
-			#OR = {
-			#	north_america = { has_discovered = PREV }
-			#	south_america = { has_discovered = PREV }
+			OR = {
+				primidia = { has_discovered = PREV }
+				sarcassa = { has_discovered = PREV }
 			#	new_world = { has_discovered = PREV }
-			#}
+			}
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
@@ -702,9 +702,7 @@ new_world_i = {
 				}
 				owner = {
 					capital_scope = {
-						NOT = { continent = north_america }
-						NOT = { continent = south_america }
-						NOT = { continent = new_world }
+						NOT = { continent = primidia }
 					}
 				}
 			}
@@ -718,11 +716,9 @@ new_world_i = {
 					colony = 1
 					any_subject_country = {
 						is_colonial_nation = yes
-						OR = {
-							capital_scope = { continent = north_america }
-							capital_scope = { continent = south_america }
-							capital_scope = { continent = new_world }
-						}
+						
+						capital_scope = { continent = primidia }
+						
 					}
 				}
 			}
@@ -817,8 +813,7 @@ printing_press = {
 				OR = {
 					religion = protestant
 					religion = reformed
-					region = italy_region
-					region = france_region
+					region = eastern_lothia_region
 				}
 			}
 			AND = {
@@ -847,8 +842,8 @@ printing_press = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			region = north_german_region
-			region = south_german_region
+			#region = north_german_region
+			#region = south_german_region
 		}
 
 	}
@@ -931,13 +926,13 @@ printing_press = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				continent = europe
+				continent = roena
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_20_capital
 				development = 20
 				is_capital = yes
-				continent = europe
+				continent = roena
 			}
 		}
 		modifier = {
@@ -1054,70 +1049,70 @@ global_trade = {
 		OR = {
 			AND = {
 				is_year = 1620
-				continent = europe
+				continent = roena
 				owner = { technology_group = western }
 			}
 			
 			AND = {
 				is_year = 1660
-				continent = europe
+				continent = roena
 			}	
-			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1700
-				is_capital = no
-				OR = {
-					region = maghreb_region
-					region = egypt_region
-					superregion = near_east_superregion
-				}
-			}
-			
-			AND = {
-				is_year = 1720
-				has_port = yes
-				is_capital = no
-				OR = {
-					superregion = india_superregion
-					superregion = persia_superregion
-					superregion = east_indies_superregion
-				}
-			}
-			AND = {
-				is_year = 1750
-				has_port = yes
-				is_capital = no
-				superregion = africa_superregion
-			}
+			#AND = {
+			#	is_year = 1660
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = south_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1660
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = north_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1660
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = central_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1700
+			#	is_capital = no
+			#	OR = {
+			#		region = maghreb_region
+			#		region = egypt_region
+			#		superregion = near_east_superregion
+			#	}
+			#}
+			#
+			#AND = {
+			#	is_year = 1720
+			#	has_port = yes
+			#	is_capital = no
+			#	OR = {
+			#		superregion = india_superregion
+			#		superregion = persia_superregion
+			#		superregion = east_indies_superregion
+			#	}
+			#}
+			#AND = {
+			#	is_year = 1750
+			#	has_port = yes
+			#	is_capital = no
+			#	superregion = africa_superregion
+			#}
 		}
 	}
 	
@@ -1343,69 +1338,69 @@ manufactories = {
 		OR = {
 			AND = {
 				is_year = 1680
-				continent = europe
+				continent = roena
 				owner = { technology_group = western }
 			}
 			
 			AND = {
 				is_year = 1720
-				continent = europe
+				continent = roena
 			}	
-			AND = {
-				is_year = 1750
-				superregion = china_superregion
-			}
-			AND = {
-				is_year = 1750
-				superregion = india_superregion
-			}
-			AND = {
-				is_year = 1750
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1750
-				region = maghreb_region
-			}
-			AND = {
-				is_year = 1750
-				region = egypt_region
-			}
-			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			
-			AND = {
-				is_year = 1780
-				superregion = persia_superregion
-			}
+			#AND = {
+			#	is_year = 1750
+			#	superregion = china_superregion
+			#}
+			#AND = {
+			#	is_year = 1750
+			#	superregion = india_superregion
+			#}
+			#AND = {
+			#	is_year = 1750
+			#	superregion = near_east_superregion
+			#}
+			#AND = {
+			#	is_year = 1750
+			#	region = maghreb_region
+			#}
+			#AND = {
+			#	is_year = 1750
+			#	region = egypt_region
+			#}
+			#AND = {
+			#	is_year = 1760
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = south_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1760
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = north_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1760
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = central_america_superregion
+			#}
+			#
+			#AND = {
+			#	is_year = 1780
+			#	superregion = persia_superregion
+			#}
 			
 		}
 	}
@@ -1641,49 +1636,49 @@ enlightenment = {
 		OR = {
 			AND = {
 				is_year = 1700
-				continent = europe
+				continent = roena
 				owner = { technology_group = western }
 			}
 			
 			AND = {
 				is_year = 1730
-				continent = europe
+				continent = roena
 			}	
 
-			AND = {
-				is_year = 1800
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
-			}
-			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
-			}
-			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
+			#AND = {
+			#	is_year = 1800
+			#	superregion = near_east_superregion
+			#}
+			#AND = {
+			#	is_year = 1770
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = south_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1770
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = north_america_superregion
+			#}
+			#AND = {
+			#	is_year = 1770
+			#	owner = {
+			#		NOT = { technology_group = north_american }
+			#		NOT = { technology_group = mesoamerican }
+			#		NOT = { technology_group = south_american }
+			#		NOT = { technology_group = andean }
+			#	}
+			#	superregion = central_america_superregion
+			#}
 		}
 	}
 	
@@ -1699,7 +1694,7 @@ enlightenment = {
 			}
 			has_building = university
 			AND = {
-				continent = europe
+				continent = roena
 				development = 20
 				owner = {
 					ADM = 5

@@ -25,7 +25,7 @@ estate_cossacks =
 		NOT = { government = revolutionary_republic }
 		NOT = { government = native_council }
 		NOT = { government = siberian_native_council }
-		NOT = { government = veche_republic }
+		#NOT = { government = veche_republic }
 		is_nomad = no
 		is_colonial_nation = no
 		NOT = { government = celestial_empire }
@@ -366,12 +366,12 @@ estate_cossacks =
 			NOT = { has_disaster = estate_nobility_disaster }
 		}
 		
-		potential = {
-			OR = {
-				has_idea_group = exploration_ideas
-				has_idea = siberian_frontier
-			}
-		}
+		#potential = {
+		#	OR = {
+		#		has_idea_group = exploration_ideas
+		#		has_idea = siberian_frontier
+		#	}
+		#}
 		
 		trigger = {
 			estate_loyalty = {

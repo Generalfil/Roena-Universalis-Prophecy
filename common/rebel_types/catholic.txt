@@ -57,10 +57,10 @@ catholic_rebels = {
 			factor = 0.5
 			tolerance_to_this = 2
 		}
-		modifier = {
-			factor = 5.0
-			owner = { has_disaster = religious_turmoil }
-		}		
+		#modifier = {
+		#	factor = 5.0
+		#	owner = { has_disaster = religious_turmoil }
+		#}		
 		modifier = {
 			factor = 2000
 			has_missionary = yes
@@ -126,7 +126,7 @@ catholic_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				owned_by = PAP
+				owned_by = ISS
 				is_capital = yes
 			}
 		}
@@ -194,7 +194,7 @@ catholic_rebels = {
 		}
 		if = {
 			limit = {
-				tag = PAP
+				tag = ISS
 			}
 			add_stability = -1
 		}
@@ -229,7 +229,7 @@ catholic_rebels = {
 			limit = {
 				NOT = { religion = catholic }
 				dominant_religion = catholic
-				NOT = { tag = PAP }
+				NOT = { tag = ISS }
 			}
 			change_religion = catholic
 			force_converted = yes
@@ -238,7 +238,7 @@ catholic_rebels = {
 			limit = {
 				NOT = { religion = catholic }
 				NOT = { dominant_religion = catholic }
-				NOT = { tag = PAP }
+				NOT = { tag = ISS }
 				religion_group = christian
 			}
 			add_country_modifier = {
@@ -246,17 +246,17 @@ catholic_rebels = {
 				duration = 3650
 			}
 		}
-		if = {
-			limit = { has_disaster = french_wars_of_religion }
-			end_disaster = french_wars_of_religion
-			remove_country_modifier = french_catholics
-			remove_country_modifier = french_protestants
-			remove_country_modifier = support_heretics
-			set_country_flag = FRA_had_event_3199
-			set_country_flag = FRA_wars_of_religion_ended
-			capital_scope = {
-				remove_province_modifier = religious_fanatics
-			}
-		}
+		#if = {
+		#	limit = { has_disaster = french_wars_of_religion }
+		#	end_disaster = french_wars_of_religion
+		#	remove_country_modifier = french_catholics
+		#	remove_country_modifier = french_protestants
+		#	remove_country_modifier = support_heretics
+		#	set_country_flag = FRA_had_event_3199
+		#	set_country_flag = FRA_wars_of_religion_ended
+		#	capital_scope = {
+		#		remove_province_modifier = religious_fanatics
+		#	}
+		#}
 	}
 }

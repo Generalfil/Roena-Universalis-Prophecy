@@ -10,87 +10,29 @@ groups = {
 	western = {
 		start_level = 3
 		start_cost_modifier = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		
 	}
 	eastern = {
 		start_level = 3
 		start_cost_modifier = 0.20
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		
 	}
 	ottoman = {
 		start_level = 3
 		start_cost_modifier = 0.25
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
 			value = 75
 		}
 	}
 	muslim = {
 		start_level = 3
 		start_cost_modifier = 0.40
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		
 	}
 	indian = {
 		start_level = 3
 		start_cost_modifier = 0.5
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		
 	}
 	east_african = {
 		start_level = 3
@@ -105,19 +47,6 @@ groups = {
 	chinese = {
 		start_level = 3
 		start_cost_modifier = 0.6
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
 	}
 	nomad_group = {
 		start_level = 3
@@ -156,20 +85,7 @@ groups = {
 	high_american = {
 		start_level = 3
 		start_cost_modifier = 0
-		nation_designer_unit_type = high_american
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+
 	}
 }
 

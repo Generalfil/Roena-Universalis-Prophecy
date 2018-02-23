@@ -20,7 +20,7 @@ estate_burghers =
 	# If true, country will get estate
 	trigger = {	
 		NOT = { government = merchant_republic }
-		NOT = { government = veche_republic }
+		#NOT = { government = veche_republic }
 		NOT = { government = trading_city }
 		NOT = { government = revolutionary_republic }
 		NOT = { government = native_council }
@@ -142,21 +142,21 @@ estate_burghers =
 		}	
 		influence = 5
 	}
-	influence_modifier = {
-		desc = EST_VAL_EAST_AFRICAN_TRADE_CITIES
-		trigger = {
-			capital_scope = {
-				OR = {
-					area = central_swahili_coast_area
-					area = mombasa_area
-					area = mozambique_area
-					area = northern_swahili_coast_area
-					area = mogadishu_area
-				}
-			}
-		}
-		influence = 5
-	}
+	#influence_modifier = {
+	#	desc = EST_VAL_EAST_AFRICAN_TRADE_CITIES
+	#	trigger = {
+	#		capital_scope = {
+	#			OR = {
+	#				area = central_swahili_coast_area
+	#				area = mombasa_area
+	#				area = mozambique_area
+	#				area = northern_swahili_coast_area
+	#				area = mogadishu_area
+	#			}
+	#		}
+	#	}
+	#	influence = 5
+	#}
 	influence_modifier = {
 		desc = EST_VAL_NAHUATL
 		trigger = {
@@ -223,18 +223,18 @@ estate_burghers =
 	}
 	
 	#Custom Names
-	custom_name = {
-		desc = estate_bourgeoisie
-		trigger = {
-			culture_group = french
-		}
-	}
-	custom_name = {
-		desc = estate_shangbang
-		trigger = {
-			culture_group = east_asian
-		}
-	}
+	#custom_name = {
+	#	desc = estate_bourgeoisie
+	#	trigger = {
+	#		culture_group = french
+	#	}
+	#}
+	#custom_name = {
+	#	desc = estate_shangbang
+	#	trigger = {
+	#		culture_group = east_asian
+	#	}
+	#}
 	custom_name = {
 		desc = estate_merchant_guilds
 		trigger = {

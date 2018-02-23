@@ -90,7 +90,7 @@ berber_ideas = {
 	}
 	
 	trigger = {
-		culture_group = maghrebi
+		#culture_group = maghrebi
 	}
 	free = yes
 	
@@ -132,11 +132,11 @@ rajput_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = rajput
-			primary_culture = malvi
-		}
-		NOT = { religion_group = muslim }
+		#OR = {
+		#	primary_culture = rajput
+		#	primary_culture = malvi
+		#}
+		#NOT = { religion_group = muslim }
 	}
 	free = yes
 
@@ -176,8 +176,8 @@ dravidian_ideas = {
 	}
 	
 	trigger = {
-		culture_group = dravidian
-		religion = hinduism
+		#culture_group = dravidian
+		#religion = hinduism
 	}
 	free = yes
 	
@@ -216,11 +216,11 @@ bengali_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = bengali
-			TAG = KMT
-			TAG = KAC
-		}
+		#OR = {
+		#	primary_culture = bengali
+		#	TAG = KMT
+		#	TAG = KAC
+		#}
 	}
     free = yes       #will be added at load.
     
@@ -259,7 +259,7 @@ gujarati_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = gujarati
+		#primary_culture = gujarati
 	}
 	free = yes #will be added at load.
 	
@@ -298,13 +298,13 @@ indian_muslim_ideas = {
 	}
 	
 	trigger = {
-		religion_group = muslim
-		OR = {
-			culture_group = hindusthani
-			culture_group = dravidian
-			culture_group = eastern_aryan
-			culture_group = western_aryan
-		}
+		#religion_group = muslim
+		#OR = {
+		#	culture_group = hindusthani
+		#	culture_group = dravidian
+		#	culture_group = eastern_aryan
+		#	culture_group = western_aryan
+		#}
 	}
 	free = yes
 	
@@ -344,7 +344,7 @@ horde_ideas = {
 	}
 	
 	trigger = {
-		government = steppe_horde
+		#government = steppe_horde
 	}
 	free = yes
 	
@@ -383,8 +383,8 @@ theocracy_ideas = {
 	}
 	
 	trigger = {
-		government = theocracy
-		religion_group = christian
+		#government = theocracy
+		#religion_group = christian
 	}
 	free = yes
 	
@@ -425,7 +425,7 @@ anatolian_beyliks_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = turkish
+		#primary_culture = turkish
 	}
 	free = yes
 	
@@ -508,7 +508,7 @@ german_ideas = {
 	}
 	
 	trigger = {
-		culture_group = germanic
+		#culture_group = germanic
 	}
 	free = yes        #will be added at load.
 	
@@ -548,7 +548,7 @@ irish_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = irish
+		#primary_culture = irish
 	}
 	free = yes
 	
@@ -587,8 +587,8 @@ malayan_ideas = {
 	}
 	
 	trigger = {
-		religion_group = muslim
-		culture_group = malay
+		#religion_group = muslim
+		#culture_group = malay
 	}
 	free = yes
 	
@@ -628,8 +628,8 @@ arabian_ideas = {
 	}
 	
 	trigger = {
-		culture_group = turko_semitic
-		NOT = { primary_culture = turkish }
+		#culture_group = turko_semitic
+		#NOT = { primary_culture = turkish }
 	}
 	free = yes
 	
@@ -670,8 +670,8 @@ latin_ideas = {
 	}
 	
 	trigger = {
-		culture_group = latin
-		capital_scope = { region = italy_region }
+		#culture_group = latin
+		#capital_scope = { region = italy_region }
 	}
 	free = yes
 	
@@ -712,12 +712,12 @@ native_ideas = {
 	}
 	
 	trigger = {
-		government = native_council
-		NOT = { primary_culture = tupinamba }
-		NOT = { primary_culture = guajiro }
-		NOT = { TAG = SAL }
-		NOT = { TAG = HDA }
-		NOT = { TAG = CNK }
+		#government = native_council
+		#NOT = { primary_culture = tupinamba }
+		#NOT = { primary_culture = guajiro }
+		#NOT = { TAG = SAL }
+		#NOT = { TAG = HDA }
+		#NOT = { TAG = CNK }
 	}
 	free = yes
 	
@@ -757,7 +757,7 @@ central_indic_ideas = {
 	}
 	
 	trigger = {
-		culture_group = central_indic
+		#culture_group = central_indic
 	}
 	free = yes
 	
@@ -796,7 +796,7 @@ swahili_ideas = {
 	}
 
 	trigger = {
-		primary_culture = swahili
+		#primary_culture = swahili
 	}
 	free = yes
 
@@ -836,8 +836,8 @@ sumatran_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = sumatran
-		religion_group = muslim
+		#primary_culture = sumatran
+		#religion_group = muslim
 	}
 	free = yes
 
@@ -876,7 +876,7 @@ siberian_ideas = {
 	}
 	
 	trigger = {
-		government = siberian_native_council
+		#government = siberian_native_council
 	}
 
 	free = yes
@@ -917,8 +917,8 @@ mesoamerican_ideas = {
 	
 	trigger = {
 		OR = {
-			culture_group = otomanguean
-			culture_group = central_american
+			#culture_group = otomanguean
+			#culture_group = central_american
 		}
 	}
 	
@@ -965,8 +965,8 @@ TIB_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = tibetan
-		religion = vajrayana 
+		#primary_culture = tibetan
+		#religion = vajrayana 
 	}
 	free = yes       #will be added at load.
 	
@@ -1005,11 +1005,11 @@ west_african_ideas = {
 	}
 	
 	trigger = {
-		technology_group = sub_saharan
-		NOT = {
-			tag = LOA
-			tag = NDO
-		}
+		#technology_group = sub_saharan
+		#NOT = {
+		#	tag = LOA
+		#	tag = NDO
+		#}
 	}
 	free = yes
 	
@@ -1048,8 +1048,8 @@ andean_ideas = {
 	}
 	
 	trigger = {
-		technology_group = andean
-		NOT = { primary_culture = aimara }
+		#technology_group = andean
+		#NOT = { primary_culture = aimara }
 	}
 	free = yes
 	
@@ -1087,7 +1087,7 @@ aymaran_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = aimara
+		#primary_culture = aimara
 	}
 	free = yes
 	
@@ -1125,7 +1125,7 @@ tupi_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = tupinamba
+		#primary_culture = tupinamba
 	}
 	free = yes
 	
@@ -1163,10 +1163,10 @@ caucasus_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			culture_group = caucasian
-			primary_culture = azerbaijani
-		}
+		#OR = {
+		#	culture_group = caucasian
+		#	primary_culture = azerbaijani
+		#}
 	}
 	free = yes
 	
@@ -1205,10 +1205,10 @@ ruthenian_ideas = {
 	}
  
 	trigger = {
-		OR = {
-			primary_culture = ruthenian
-			primary_culture = byelorussian
-		}
+		#OR = {
+		#	primary_culture = ruthenian
+		#	primary_culture = byelorussian
+		#}
 	}
 	free = yes
  
@@ -1247,11 +1247,11 @@ pacific_northwest_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			TAG = SAL
-			TAG = HDA
-			TAG = CNK
-		}
+		#OR = {
+		#	TAG = SAL
+		#	TAG = HDA
+		#	TAG = CNK
+		#}
 	}
 	
 	free = yes		#will be added at load.
@@ -1297,7 +1297,7 @@ guajiro_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = guajiro #Lokono
+		#primary_culture = guajiro #Lokono
 	}
 	free = yes
 	
@@ -1336,7 +1336,7 @@ shan_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = shan
+		#primary_culture = shan
 	}
 	free = yes
 	
@@ -1375,10 +1375,10 @@ chinese_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			culture_group = east_asian #Chinese
-			tag = CGS #Changsheng
-		}
+		#OR = {
+		#	culture_group = east_asian #Chinese
+		#	tag = CGS #Changsheng
+		#}
 	}
 	free = yes
 	
@@ -1416,14 +1416,14 @@ vindhyan_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = BND
-			tag = BGL
-			AND = {
-				tag = GWA
-				NOT = { primary_culture = marathi }
-			}
-		}
+		#OR = {
+		#	tag = BND
+		#	tag = BGL
+		#	AND = {
+		#		tag = GWA
+		#		NOT = { primary_culture = marathi }
+		#	}
+		#}
 	}
 	free = yes
 	
@@ -1461,7 +1461,7 @@ kurdish_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = kurdish
+		#primary_culture = kurdish
 	}
 	free = yes
 	
@@ -1499,7 +1499,7 @@ laotian_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = lao
+		#primary_culture = lao
 	}
 	free = yes
 	
@@ -1537,11 +1537,11 @@ somali_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = somali
-			primary_culture = harari
-			primary_culture = afar
-		}
+		#OR = {
+		#	primary_culture = somali
+		#	primary_culture = harari
+		#	primary_culture = afar
+		#}
 	}
 	free = yes
 	
@@ -1579,11 +1579,11 @@ sulawesi_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = MKS
-			tag = BTN
-			tag = LUW
-		}
+		#OR = {
+		#	tag = MKS
+		#	tag = BTN
+		#	tag = LUW
+		#}
 	}
 	free = yes
 	
@@ -1621,10 +1621,10 @@ mayan_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = yucatec
-			primary_culture = putun
-		}
+		#OR = {
+		#	primary_culture = yucatec
+		#	primary_culture = putun
+		#}
 	}
 	free = yes
 	
@@ -1662,7 +1662,7 @@ moluccan_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = moluccan
+		#primary_culture = moluccan
 	}
 	free = yes
 	
@@ -1700,7 +1700,7 @@ greek_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = greek
+		#primary_culture = greek
 	}
 	free = yes
 	
@@ -1739,10 +1739,10 @@ nubian_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = nubian
-			primary_culture = beja
-		}
+		#OR = {
+		#	primary_culture = nubian
+		#	primary_culture = beja
+		#}
 	}
 	free = yes
 	
@@ -1780,7 +1780,7 @@ french_culture_ideas = {
 	}
 	
 	trigger = {
-		culture_group = french
+		#culture_group = french
 	}
 	free = yes
 	
@@ -1819,7 +1819,7 @@ african_great_lakes_ideas = {
 	
 	
 	trigger = {
-		culture_group = great_lakes_group
+		#culture_group = great_lakes_group
 	}
 	free = yes
 	
@@ -1858,7 +1858,7 @@ malagasy_ideas = {
 	
 	
 	trigger = {
-		primary_culture = madagasque
+		#primary_culture = madagasque
 	}
 	free = yes
 	
@@ -1899,10 +1899,10 @@ zambezi_ideas = { #Above all based on the Bororo/Lundu.
 	
 	
 	trigger = {
-		OR = {
-			primary_culture = nyasa
-			primary_culture = makua
-		}
+		#OR = {
+		#	primary_culture = nyasa
+		#	primary_culture = makua
+		#}
 	}
 	free = yes
 	
@@ -1942,7 +1942,7 @@ congolese_minor_ideas = {
 	
 	
 	trigger = {
-		culture_group = kongo_group
+		#culture_group = kongo_group
 	}
 	free = yes
 	
@@ -1980,7 +1980,7 @@ caspian_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = mazandarani
+		#primary_culture = mazandarani
 	}
 	free = yes
 	

@@ -29,12 +29,12 @@ colonial_nevain = {
 	}
 	
 	# Specific
-	names = {
+	#names = {
 		#trigger = {
 		#	primary_culture = russian
 		#}
 		#name = "COLONIAL_ALASKA_Alyeska"
-	}
+	#}
 	# Generic
 	names = {
 		name = "COLONIAL_NEVAIN_nevain"

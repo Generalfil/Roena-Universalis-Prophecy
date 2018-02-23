@@ -145,8 +145,8 @@ revolutionary_rebels = {
 						government = native_council
 						government = revolutionary_republic
 						government = tribal_federation
-						government = feudal_theocracy
-						government = mamluk_government
+						#government = feudal_theocracy
+						#government = mamluk_government
 					}
 				}
 			}

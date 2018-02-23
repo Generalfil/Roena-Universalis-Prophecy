@@ -153,7 +153,7 @@ rr_girondists =
 ########################################
 # Lothian Republic Factions
 ########################################
-mr_nobles =
+lr_nobles =
 {
 	monarch_power = MIL
 	always = yes
@@ -167,7 +167,7 @@ mr_nobles =
 }
 
 
-mr_traders =
+lr_traders =
 {
 	monarch_power = DIP
 	always = yes
@@ -181,7 +181,7 @@ mr_traders =
 	}
 }
 
-mr_guilds =
+lr_guilds =
 {
 	monarch_power = ADM
 	always = yes

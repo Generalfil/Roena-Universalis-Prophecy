@@ -12,30 +12,21 @@ age_of_discovery = {
 		obj_discover_america = {
 			allow = {
 				capital_scope = {
-					OR = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
+					continent = roena
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = obj_discover_america_tooltip
 					OR = {
-						north_america = { has_discovered = ROOT }
-						south_america = { has_discovered = ROOT }
-						new_world = { has_discovered = ROOT }
+						primidia = { has_discovered = ROOT }
+						sarcassa = { has_discovered = ROOT }
 					}
 				}
 		}
 		obj_100_development = {
 			allow = {
 				capital_scope = {
-					NOT = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
+					continent = roena
 				}
 			}
 			total_development = 100
@@ -179,7 +170,7 @@ age_of_discovery = {
 		
 		ab_ottoman_siege_ability = {
 			allow = {
-				tag = TUR
+				#tag = TUR
 			}
 			modifier = {
 				siege_ability = 0.33
@@ -192,7 +183,7 @@ age_of_discovery = {
 		ab_portugal_colonial_growth = {
 		
 			allow = {
-				tag = POR
+				#tag = POR
 			}
 			modifier = {
 				global_colonial_growth = 50
@@ -204,7 +195,7 @@ age_of_discovery = {
 		ab_denmark_reduced_lib_desire = {
 		
 			allow = {
-				tag = DAN
+				#tag = DAN
 			}
 			modifier = {
 				reduced_liberty_desire = 30
@@ -224,7 +215,7 @@ age_of_discovery = {
 		ab_venice_ship_trade = {
 		
 			allow = {
-				tag = VEN
+				#tag = VEN
 			}
 			modifier = {
 				global_ship_trade_power = 0.5
@@ -384,7 +375,7 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
+				#tag = SPA
 			}
 			modifier = {
 				shock_damage_received = -0.3
@@ -395,7 +386,7 @@ age_of_reformation = {
 		}
 		ab_mughal_artillery = {
 			allow = {
-				tag = MUG
+				#tag = MUG
 			}
 			modifier = {
 				artillery_cost = -0.5
@@ -407,10 +398,10 @@ age_of_reformation = {
 		
 		ab_polish_legitimacy = {
 			allow = {
-				OR = {
-					tag = PLC
-					tag = POL
-				}
+				#OR = {
+				#	tag = PLC
+				#	tag = POL
+				#}
 			}
 			modifier = {
 				global_trade_goods_size_modifier = 0.33
@@ -422,7 +413,7 @@ age_of_reformation = {
 		
 		ab_persia_reinforce = {
 			allow = {
-				tag = PER
+				#tag = PER
 			}
 			modifier = {
 				reinforce_cost_modifier = -0.3
@@ -576,7 +567,7 @@ age_of_absolutism = {
 	
 		ab_france_fire_damage = {
 			allow = {
-				tag = FRA
+				#tag = FRA
 			}
 			modifier = {
 				fire_damage = 0.2
@@ -587,7 +578,7 @@ age_of_absolutism = {
 		}
 		ab_dutch_anti_corruption = {
 			allow = {
-				tag = NED
+				#tag = NED
 			}
 			modifier = {
 				yearly_corruption = -0.2
@@ -598,7 +589,7 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
-				tag = SWE
+				#tag = SWE
 			}
 			modifier = {
 				manpower_recovery_speed = 0.35
@@ -610,10 +601,10 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
-				OR = {
-					tag = MCH
-					tag = QNG
-				}
+				#OR = {
+				#	tag = MCH
+				#	tag = QNG
+				#}
 			}
 			modifier = {
 				amount_of_banners = 0.5
@@ -766,7 +757,7 @@ age_of_revolutions = {
 		}
 		ab_pru_military = {
 			allow = {
-				tag = PRU
+				#tag = PRU
 			}
 			modifier = {
 				fire_damage_received = -0.2
@@ -777,7 +768,7 @@ age_of_revolutions = {
 		}
 		ab_gbr_fleet = {
 			allow = {
-				tag = GBR
+				#tag = GBR
 			}
 			modifier = {
 				naval_maintenance_modifier = -0.33
@@ -788,7 +779,7 @@ age_of_revolutions = {
 		}
 		ab_russia_boost = {
 			allow = {
-				tag = RUS
+				#tag = RUS
 			}
 			modifier = {
 				max_states = 20
@@ -799,7 +790,7 @@ age_of_revolutions = {
 		}
 		ab_austria_rep = {
 			allow = {
-				tag = HAB
+				#tag = HAB
 			}
 			modifier = {
 				diplomatic_reputation = 5
