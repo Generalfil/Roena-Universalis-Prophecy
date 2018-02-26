@@ -1,6 +1,6 @@
 namespace = tribalism_event
 
-
+#Initial Event
 country_event={
 	
 	id = tribalism_event.99

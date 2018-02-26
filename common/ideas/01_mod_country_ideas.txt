@@ -65,6 +65,7 @@ generic_lothian_tribal_ideas = {
 	}
 }
 
+#Arhna
 ARH_ideas = {
 	start = {
 		sailor_maintenance_modifer = -0.1
@@ -99,5 +100,125 @@ ARH_ideas = {
 	}
 	arh_7 = {
 		global_unrest = -1
+	}
+}
+
+
+#All Wyness Nations starts with this, remove tag here if you assign the tag another idea
+generic_wyness_ideas = {
+	start = {
+		trade_range_modifier = 0.30
+		global_trade_power = 0.10
+	}
+	bonus = {
+		trade_efficiency = 0.2
+	}
+	trigger = {
+		or = {
+			tag = HAV
+			tag = HOR
+			tag = HNY
+			tag = HKR
+			tag = HIN
+			tag = HAD
+			tag = HVI
+			tag = HIM
+			tag = HNO
+			tag = HTI
+			tag = HSE
+			tag = HLL
+			tag = HSA
+		}
+	}
+	free = yes
+	
+	gwy_idea_1 = {
+		improve_relation_modifier = 0.3
+	}
+	gwy_idea_2 = {
+		stability_cost_modifier = -0.10
+	}
+	gwy_idea_3 = {
+		prestige_decay = -0.01
+	}
+	gwy_idea_4 = {
+		administrative_efficiency = 0.1
+	}
+	gwy_idea_5 = {
+		light_ship_power = 0.2
+	}
+	gwy_idea_6 = {
+		inflation_reduction = 0.1
+	}
+	gwy_idea_7 = {
+		legitimacy = 1
+	}
+}
+
+#All Vinmaar Nations starts with this, remove tag here if you assign the tag another idea
+generic_vinmaar_ideas = {
+	start = {
+		trade_steering = 0.1
+		global_ship_trade_power = 0.15
+	}
+	bonus = {
+		colonists = 1
+	}
+	trigger = {
+		or = {
+			tag = NJA
+			tag = GRI
+			tag = SED
+			tag = EJR
+			tag = JER
+			tag = LTH
+			tag = SDA
+			tag = TRN
+			tag = HRY
+			tag = VRL
+			tag = HRD
+			tag = ORN
+			tag = VAR
+			tag = STR
+			tag = EJS
+			tag = SLA
+			tag = VLK
+			tag = HYM
+			tag = RYT
+			tag = OCK
+			tag = STI
+			tag = VRN
+			tag = BRN
+			tag = LIF
+			tag = SIN
+			tag = OSE
+			tag = MYL
+			tag = SJI
+			tag = MLL
+			tag = RAK
+		}
+	}
+	free = yes
+	
+	gvi_idea_1 = {
+		naval_attrition = -0.2
+	}
+	gvi_idea_2 = {
+		ae_impact = -0.2
+	}
+	gvi_idea_3 = {
+		recover_army_morale_speed = 0.1
+	}
+	gvi_idea_4 = {
+		loot_amount = 0.25
+	}
+	gvi_idea_5 = {
+		harsh_treatment_cost = -0.1
+	}
+	gvi_idea_6 = {
+		blockade_efficiency = 0.15
+	}
+	gvi_idea_7 = {
+		navy_tradition = 1
 	}
 }
