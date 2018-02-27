@@ -222,3 +222,139 @@ generic_vinmaar_ideas = {
 		navy_tradition = 1
 	}
 }
+
+
+#All North Gryphna Nations starts with this, remove tag here if you assign the tag another idea
+generic_ng_ideas = {
+	start = {
+		global_institution_spread = 0.1
+		development_cost = -0.1
+	}
+	bonus = {
+		core_creation = -0.2
+	}
+	trigger = {
+		or = {
+			tag = GRN
+			tag = GRY
+			tag = ASK
+			tag = GAD
+			tag = ALR
+			tag = ERD
+			tag = APL
+			tag = HEC
+			tag = STA
+			tag = HNN
+			tag = ETR
+			tag = PLE
+			tag = BRE
+			tag = VLL
+			tag = ERG
+			tag = NIO
+			tag = BAR
+			tag = JEG
+			tag = TAQ
+			tag = AVA
+			tag = EGR
+			tag = BRI
+			tag = YBB
+			tag = HRG
+			tag = GOT
+			tag = LIN
+			tag = EFE
+			tag = ADL
+			tag = TOK
+			tag = ACR
+			tag = VID
+			tag = FYE
+			tag = KAR
+			tag = BYL
+
+		}
+	}
+	free = yes
+	
+	gng_idea_1 = {
+		diplomatic_reputation = 1
+	}
+	gng_idea_2 = {
+		prestige = 1
+	}
+	gng_idea_3 = {
+		diplomatic_upkeep = 1
+	}
+	gng_idea_4 = {
+		global_tax_modifier = 0.10
+	}
+	gng_idea_5 = {
+		diplomats = 1
+	}
+	gng_idea_6 = {
+		land_morale = 0.1
+	}
+	gng_idea_7 = {
+		technology_cost = -0.05
+	}
+}
+
+#All South Gryphna Nations starts with this, remove tag here if you assign the tag another idea
+generic_sg_ideas = {
+	start = {
+		leader_land_shock = 1
+		shock_damage_received = -0.1
+	}
+	bonus = {
+		global_manpower_modifier = 0.2
+	}
+	trigger = {
+		or = {
+			tag = AVB
+			tag = ANM
+			tag = AVE
+			tag = ENH
+			tag = MKR
+			tag = TGR
+			tag = ROT
+			tag = ERK
+			tag = SOC
+			tag = ARI
+			tag = EDE
+			tag = GAE
+			tag = OHN
+			tag = TRG
+			tag = TRB
+			tag = URA
+			tag = VAH
+			tag = VUL
+			tag = ABL
+			tag = APH
+			tag = ARU
+			tag = BRK
+			tag = HBO
+			tag = SAB
+		}
+	}
+	free = yes
+	
+	gsg_idea_1 = {
+		privateer_efficiency = 0.15
+	}
+	gsg_idea_2 = {
+		spy_offence = 0.10
+	}
+	gsg_idea_3 = {
+		hostile_attrition = 1
+	}
+	gsg_idea_4 = {
+		global_own_trade_power = 0.25
+	}
+	gsg_idea_5 = {
+		land_forcelimit_modifier = 0.15
+	}
+	gsg_idea_6 = {
+		enemy_core_creation = 0.25
+	}
+	gsg_idea_7 = {
+		defensiveness = 0.15
+	}
+}
