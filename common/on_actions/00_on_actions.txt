@@ -912,10 +912,10 @@ on_bi_yearly_pulse = {
 		#
 		## Institution Events
 		##Feudalism Spread Events:
-		#100 = institution_events.8
-		#100 = institution_events.9
-		#100 = institution_events.10
-		#100 = institution_events.11
+		100 = institution_events.8
+		100 = institution_events.9
+		100 = institution_events.10
+		100 = institution_events.11
 		#
 		#
 		##Personality Events
