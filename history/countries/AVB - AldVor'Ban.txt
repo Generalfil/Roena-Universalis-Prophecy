@@ -1,6 +1,6 @@
 government = lothian_republic
 primary_culture = tempculture
-religion = catholic
+religion = angelic
 technology_group = western
 capital = 83
 

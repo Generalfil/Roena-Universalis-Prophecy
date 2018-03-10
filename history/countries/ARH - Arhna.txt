@@ -1,7 +1,7 @@
 government = feudal_monarchy
 primary_culture = arhnan
 add_accepted_culture = haanyran
-religion = catholic
+religion = angelic
 technology_group = western
 capital = 61
 

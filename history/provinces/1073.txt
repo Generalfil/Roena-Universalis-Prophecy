@@ -1,5 +1,5 @@
 culture = tempculture
-religion = catholic
+religion = angelic
 hre = no
 base_tax = 3
 base_production = 3

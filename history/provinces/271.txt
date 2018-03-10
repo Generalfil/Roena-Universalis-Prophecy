@@ -1,7 +1,7 @@
 #
 
 culture = swedish
-religion = catholic
+religion = angelic
 hre = no
 base_tax = 1 
 base_production = 1

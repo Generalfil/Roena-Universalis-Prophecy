@@ -2,7 +2,7 @@
 
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
-christian = {
+angelican = {
 	defender_of_faith = yes
 	can_form_personal_unions = yes
 	
@@ -16,7 +16,7 @@ christian = {
 
 	
 	
-	catholic = {
+	angelic = {
 		color = { 204 204 0 }
 		icon = 1
 		allowed_conversion = {
@@ -36,7 +36,7 @@ christian = {
 		hre_religion = yes
 		
 		on_convert = {
-			change_religion = catholic
+			change_religion = angelic
 			add_prestige = -100
 			
 			remove_country_modifier = the_test_act
@@ -232,10 +232,10 @@ christian = {
 
 		allowed_conversion = {
 			reformed
-			catholic
+			angelic
 		}
 		allowed_center_conversion = {
-			catholic
+			angelic
 		}
 		country = {
 			global_tax_modifier = 0.1
@@ -268,7 +268,7 @@ christian = {
 			any_owned_province = {
 				OR = {
 					religion = protestant
-					religion = catholic
+					religion = angelic
 					religion = reformed
 				}
 				not = { province_id = 118 }
@@ -331,7 +331,7 @@ christian = {
 						limit = {
 							OR = {
 								religion = protestant
-								religion = catholic
+								religion = angelic
 								religion = reformed
 							}
 							is_in_capital_area = yes
@@ -385,7 +385,7 @@ christian = {
 						limit = {
 							OR = {
 								religion = protestant
-								religion = catholic
+								religion = angelic
 								religion = reformed
 							}
 							is_in_capital_area = yes
@@ -450,10 +450,10 @@ christian = {
 		icon = 3
 		allowed_conversion = {
 			protestant
-			catholic
+			angelic
 		}
 		allowed_center_conversion = {
-			catholic
+			angelic
 		}
 		country = {
 			tolerance_heretic = 2
@@ -469,7 +469,7 @@ christian = {
 			any_owned_province = {
 				OR = {
 					religion = protestant
-					religion = catholic
+					religion = angelic
 					religion = reformed
 				}
 				not = { province_id = 118 }
@@ -532,7 +532,7 @@ christian = {
 						limit = {
 							OR = {
 								religion = protestant
-								religion = catholic
+								religion = angelic
 								religion = reformed
 							}
 							not = { province_id = 118 }
@@ -586,7 +586,7 @@ christian = {
 						limit = {
 							OR = {
 								religion = protestant
-								religion = catholic
+								religion = angelic
 								religion = reformed
 							}
 							is_in_capital_area = yes
@@ -666,7 +666,7 @@ christian = {
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 		
 		has_patriarchs = yes		# Uses patriarch authority
-		misguided_heretic = yes		# Other christians hate them less
+		misguided_heretic = yes		# Other angelicans hate them less
 		
 		orthodox_icons = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -815,7 +815,7 @@ christian = {
 		}
 	}
 	
-	harmonized_modifier = harmonized_christian
+	harmonized_modifier = harmonized_angelican
 	
 	crusade_name = CRUSADE
 }
